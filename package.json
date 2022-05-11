@@ -8,7 +8,10 @@
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "eslint": "eslint",
+    "stylelint": "stylelint **/**.css",
+    "lint": "npm run eslint && npm run stylelint"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,15 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.2",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-prettier": "^2.0.0"
+  }
 }
