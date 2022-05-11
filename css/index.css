@@ -55,16 +55,36 @@ select {
   border-radius: var(--border-radius);
 }
 
+footer {
+  padding: 2rem 0.5rem;
+  box-sizing: content-box;
+  margin-inline: auto;
+  text-align: center;
+  max-inline-size: calc(100%-2rem);
+}
+
 .shirt {
-  height: 60rem;
-  width: auto;
+  width: 40rem;
+  max-width: calc(100% - 2rem);
+  height: auto;
 }
 
 .color-picker-wrapper {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.color-picker-wrapper > * {
+  flex-grow: 1;
+  flex-basis: calc(( 30rem - 100%) * 999);
+}
+
+.color-picker-wrapper > :nth-last-child(n+ 3),
+.color-picker-wrapper > :nth-last-child(n+ 3) ~ * {
+  flex-basis: 100%;
 }
 
 .colors-form {
