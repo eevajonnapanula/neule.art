@@ -3,21 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title or metadata.title }}</title>
-    <meta
-      name="description"
-      content="{{ description or metadata.description }}"
-    />
-    <meta name="generator" content="{{ eleventy.generator }}" />
+    <title>{{ siteTitle }}</title>
+    <meta name="description" content="{{ metaDescription }}" />
 
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
   </head>
   <body>
-    <header><h1>Riddari Color Picker</h1></header>
+    {% include "partials/header.njk" %}
     <main>
       {{ content | safe }}
     </main>
-
-    <footer>Made with 🧶 by <a href="https://eevis.codes">Eevis</a>.</footer>
+    {% include "partials/footer.njk" %}
   </body>
 </html>

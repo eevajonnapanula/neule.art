@@ -1,0 +1,4 @@
+<footer>
+  {% if locale === 'en' %}{{ translations[locale].footer.text }} <a href="https://eevis.codes">Eevis</a>.{% else %}
+  <a href="https://eevis.codes">Eevis</a> {{ translations[locale].footer.text }} {%endif%}
+</footer>
