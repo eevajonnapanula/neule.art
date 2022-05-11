@@ -1,9 +1,9 @@
 :root {
   --c-primary: #0e4958;
-  --c-secondary: #6E0D25;
-  --c-tertiary: #FF5376;
-  --c-background: #EFE9F4;
-  --c-text: #171D1C;
+  --c-secondary: #6e0d25;
+  --c-tertiary: #ff5376;
+  --c-background: #efe9f4;
+  --c-text: #171d1c;
   --border-radius: 0.5rem;
 }
 
@@ -16,7 +16,7 @@ body {
   background-color: var(--c-background);
   color: var(--c-text);
   font-size: 1.3rem;
-  font-family: 'Verdana';
+  font-family: Verdana, sans-serif;
 }
 
 button {
@@ -60,7 +60,7 @@ footer {
   box-sizing: content-box;
   margin-inline: auto;
   text-align: center;
-  max-inline-size: calc(100%-2rem);
+  max-inline-size: calc(100% - 2rem);
 }
 
 .shirt {
@@ -79,11 +79,11 @@ footer {
 
 .color-picker-wrapper > * {
   flex-grow: 1;
-  flex-basis: calc(( 30rem - 100%) * 999);
+  flex-basis: calc((30rem - 100%) * 999);
 }
 
-.color-picker-wrapper > :nth-last-child(n+ 3),
-.color-picker-wrapper > :nth-last-child(n+ 3) ~ * {
+.color-picker-wrapper > :nth-last-child(n + 3),
+.color-picker-wrapper > :nth-last-child(n + 3) ~ * {
   flex-basis: 100%;
 }
 
