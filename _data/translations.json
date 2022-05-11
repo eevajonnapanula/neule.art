@@ -2,11 +2,13 @@
   "fi": {
     "footer": {
       "text": " on tehnyt tämän."
-    }
+    },
+    "header": { "siteTitle": "Värivalitsin Riddarille" }
   },
   "en": {
     "footer": {
       "text": "Made with 🧶 by "
-    }
+    },
+    "header": { "siteTitle": "Riddari Color Picker" }
   }
 }

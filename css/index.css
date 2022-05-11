@@ -51,6 +51,8 @@ button {
   font-size: 1.3rem;
   padding: 1rem;
   border-radius: var(--border-radius);
+  width: 60%;
+  margin-top: 0.5rem;
 }
 
 button:active {
