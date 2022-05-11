@@ -1,0 +1,73 @@
+:root {
+  --c-primary: #0e4958;
+  --c-secondary: #6E0D25;
+  --c-tertiary: #FF5376;
+  --c-background: #EFE9F4;
+  --c-text: #171D1C;
+  --border-radius: 0.5rem;
+}
+
+*:focus-visible {
+  outline: 0.2rem solid var(--c-tertiary);
+  outline-offset: 0.3rem;
+}
+
+body {
+  background-color: var(--c-background);
+  color: var(--c-text);
+  font-size: 1.3rem;
+  font-family: 'Verdana';
+}
+
+button {
+  border: 0.15rem solid var(--c-background);
+  color: var(--c-background);
+  background-color: var(--c-primary);
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+button:active {
+  border: 0.15rem solid var(--c-primary);
+  color: var(--c-primary);
+  background-color: var(--c-background);
+}
+
+button:hover {
+  background-color: var(--c-secondary);
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+select {
+  padding: 0.5rem;
+  background-color: var(--c-background);
+  color: var(--c-text);
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  border: 0.15rem solid var(--c-text);
+  border-radius: var(--border-radius);
+}
+
+.shirt {
+  height: 60rem;
+  width: auto;
+}
+
+.color-picker-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.colors-form {
+  display: flex;
+  flex-direction: column;
+}

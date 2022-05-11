@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+permalink:
+  build: "/"
+  colors: "/colors/"
+---
+
+<section>
+  <h2>Pick your colors</h2>
+  <div class="color-picker-wrapper">
+    <div>
+      {% if eleventy.serverless.query %} {% shirtWithObject
+      eleventy.serverless.query %} {% else %} {% shirt 'black', 'blue',
+      'orange', 'white' %} {% endif %}
+    </div>
+    <div>
+      <form method="get" action="/colors/" class="colors-form">
+        {% colorSelect "main", "main-color", "Main",
+        eleventy.serverless.query.main %} {% colorSelect "secondary",
+        "secondary-color", "Secondary", eleventy.serverless.query.secondary %}
+        {% colorSelect "highlight1", "highlight1-color", "Highlight 1",
+        eleventy.serverless.query.highlight1 %} {% colorSelect "highlight2",
+        "highlight2-color", "Highlight 2", eleventy.serverless.query.highlight2
+        %}
+
+        <button type="submit">Generate</button>
+      </form>
+    </div>
+  </div>
+</section>
