@@ -2,8 +2,9 @@
   <h1>{{ siteTitle }}</h1>
   <nav>
     <ul>
-      <li><a href="/en/" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
-      <li><a href="/fi/" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
+      <li><a href="/en/{%if eleventy.serverless.query %}colors/?main={{eleventy.serverless.query.main}}&secondary={{eleventy.serverless.query.secondary}}&highlight1={{eleventy.serverless.query.highlight1}}&highlight2={{eleventy.serverless.query.highlight2}}{%endif%}" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
+      <li><a href="/fi/{%if eleventy.serverless.query %}colors/?main={{eleventy.serverless.query.main}}&secondary={{eleventy.serverless.query.secondary}}&highlight1={{eleventy.serverless.query.highlight1}}&highlight2={{eleventy.serverless.query.highlight2}}{%endif%}" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
     </ul>
   </nav>
 </header>
+

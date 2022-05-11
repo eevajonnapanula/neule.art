@@ -14,15 +14,15 @@ metaImage = metadata[locale].metaImage %}
   <a href="https://istex.is/en/vorur/lettlopi/">Linkki Lettlopin värikarttaan.</a>
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt 'black',
-      'blue', 'orange', 'white' %} {% endif %}
+      {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt '000000',
+      '037C79', 'DC7633', 'AED6F1' %} {% endif %}
     </div>
     <div>
       <form method="get" action="/fi/colors/" class="colors-form">
-        {% colorSelect "main", "main-color", "Pääväri", eleventy.serverless.query.main, 'black' %} {% colorSelect
-        "secondary", "secondary-color", "Toinen väri", eleventy.serverless.query.secondary, '#037C79' %} {% colorSelect
-        "highlight1", "highlight1-color", "Kolmas väri", eleventy.serverless.query.highlight1, '#DC7633' %} {%
-        colorSelect "highlight2", "highlight2-color", "Neljäs väri", eleventy.serverless.query.highlight2, '#AED6F1' %}
+        {% colorSelect "main", "main-color", "Pääväri", eleventy.serverless.query.main, '000000' %} {% colorSelect
+        "secondary", "secondary-color", "Toinen väri", eleventy.serverless.query.secondary, '037C79' %} {% colorSelect
+        "highlight1", "highlight1-color", "Kolmas väri", eleventy.serverless.query.highlight1, 'DC7633' %} {%
+        colorSelect "highlight2", "highlight2-color", "Neljäs väri", eleventy.serverless.query.highlight2, 'AED6F1' %}
 
         <button type="submit">Katso tulos</button>
       </form>
