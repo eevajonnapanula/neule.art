@@ -12,13 +12,13 @@ module.exports = function (eleventyConfig) {
     copy: ['getShirt.js']
   })
 
-  eleventyConfig.addShortcode('shirt', function (main, secondary, highlight1, highlight2) {
-    return getShirt(main, secondary, highlight1, highlight2)
+  eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
+    return getShirt(a, b, c, d)
   })
 
   eleventyConfig.addShortcode('shirtWithObject', function (query) {
-    const { main, secondary, highlight1, highlight2 } = query
-    return getShirt(main, secondary, highlight1, highlight2)
+    const { a, b, c, d } = query
+    return getShirt(a, b, c, d)
   })
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
@@ -40,9 +40,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('urlBuilder', function (query, page, locale) {
     const path = page.slice(4)
-    const queryString = query
-      ? `?main=${query.main}&secondary=${query.secondary}&highlight1=${query.highlight1}&highlight2=${query.highlight2}`
-      : ''
+    const queryString = query ? `?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
     const restOfTheUrl = query ? `colors/${queryString}` : path
     return `/${locale}/${restOfTheUrl}`
   })

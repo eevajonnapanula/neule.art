@@ -19,10 +19,10 @@ metaImage = metadata[locale].metaImage %}
     </div>
     <div>
       <form method="get" action="/fi/colors/" class="colors-form">
-        {% colorSelect "main", "main-color", "Pääväri", eleventy.serverless.query.main, '000000' %} {% colorSelect
-        "secondary", "secondary-color", "Toinen väri", eleventy.serverless.query.secondary, '037C79' %} {% colorSelect
-        "highlight1", "highlight1-color", "Kolmas väri", eleventy.serverless.query.highlight1, 'DC7633' %} {%
-        colorSelect "highlight2", "highlight2-color", "Neljäs väri", eleventy.serverless.query.highlight2, 'AED6F1' %}
+        {% colorSelect "a", "main-color", "A (Pääväri)", eleventy.serverless.query.a, '000000' %} {% colorSelect "b",
+        "secondary-color", "B", eleventy.serverless.query.b, '037C79' %} {% colorSelect "c", "highlight1-color", "C",
+        eleventy.serverless.query.c, 'DC7633' %} {% colorSelect "d", "highlight2-color", "D",
+        eleventy.serverless.query.d, 'AED6F1' %}
 
         <button type="submit">Katso tulos</button>
       </form>

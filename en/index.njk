@@ -24,10 +24,10 @@ metaImage = metadata[locale].metaImage %}
     </div>
     <div>
       <form method="get" action="/en/colors/" class="colors-form">
-        {% colorSelect "main", "main-color", "Main", eleventy.serverless.query.main, '000000' %} {% colorSelect
-        "secondary", "secondary-color", "Secondary", eleventy.serverless.query.secondary, '037C79' %} {% colorSelect
-        "highlight1", "highlight1-color", "Highlight 1", eleventy.serverless.query.highlight1, 'DC7633' %} {%
-        colorSelect "highlight2", "highlight2-color", "Highlight 2", eleventy.serverless.query.highlight2, 'AED6F1' %}
+        {% colorSelect "a", "main-color", "A (Main color)", eleventy.serverless.query.a, '000000' %} {% colorSelect "b",
+        "secondary-color", "B", eleventy.serverless.query.b, '037C79' %} {% colorSelect "c", "highlight1-color", "C",
+        eleventy.serverless.query.c, 'DC7633' %} {% colorSelect "d", "highlight2-color", "D",
+        eleventy.serverless.query.d, 'AED6F1' %}
 
         <button type="submit">Generate</button>
       </form>
