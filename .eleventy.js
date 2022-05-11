@@ -25,23 +25,26 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode(
     "colorSelect",
-    function (name, id, label, selectedValue) {
+    function (name, id, label, selectedValue, defaultValue) {
+      const valueToUse = selectedValue ?? defaultValue;
+
       return ` 
       <fieldset>
       <label for="${id}">${label}:</label>
     <select id="${id}" name="${name}">
-      <option value="red" ${
-        selectedValue === "red" ? "selected" : ""
-      }>Red</option>
+      <option value="red" ${valueToUse === "red" ? "selected" : ""}>Red</option>
       <option value="green" ${
-        selectedValue === "green" ? "selected" : ""
+        valueToUse === "green" ? "selected" : ""
       }>green</option>
       <option value="orange" ${
-        selectedValue === "orange" ? "selected" : ""
+        valueToUse === "orange" ? "selected" : ""
       }>orange</option>
       <option value="blue" ${
-        selectedValue === "blue" ? "selected" : ""
+        valueToUse === "blue" ? "selected" : ""
       }>blue</option>
+      <option value="white" ${
+        valueToUse === "white" ? "selected" : ""
+      }>white</option>
     </select>
     </fieldset>`;
     }

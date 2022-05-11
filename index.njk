@@ -16,12 +16,12 @@ permalink:
     <div>
       <form method="get" action="/colors/" class="colors-form">
         {% colorSelect "main", "main-color", "Main",
-        eleventy.serverless.query.main %} {% colorSelect "secondary",
-        "secondary-color", "Secondary", eleventy.serverless.query.secondary %}
-        {% colorSelect "highlight1", "highlight1-color", "Highlight 1",
-        eleventy.serverless.query.highlight1 %} {% colorSelect "highlight2",
-        "highlight2-color", "Highlight 2", eleventy.serverless.query.highlight2
-        %}
+        eleventy.serverless.query.main, 'black' %} {% colorSelect "secondary",
+        "secondary-color", "Secondary", eleventy.serverless.query.secondary,
+        'blue' %} {% colorSelect "highlight1", "highlight1-color", "Highlight
+        1", eleventy.serverless.query.highlight1, 'orange' %} {% colorSelect
+        "highlight2", "highlight2-color", "Highlight 2",
+        eleventy.serverless.query.highlight2, 'white' %}
 
         <button type="submit">Generate</button>
       </form>
