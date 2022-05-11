@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
-    const valueToUse = selectedValue ?? defaultValue
+    const valueToUse = selectedValue ? selectedValue : defaultValue
 
     return ` 
       <fieldset>
