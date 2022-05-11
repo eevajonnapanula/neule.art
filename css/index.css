@@ -5,6 +5,7 @@
   --c-background: #efe9f4;
   --c-text: #171d1c;
   --border-radius: 0.5rem;
+  --switcher-val: 45rem;
 }
 
 *:focus-visible {
@@ -12,11 +13,35 @@
   outline-offset: 0.3rem;
 }
 
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--switcher-val) - 100%) * 999);
+}
+
+.switcher > :nth-last-child(n + 3),
+.switcher > :nth-last-child(n + 3) ~ * {
+  flex-basis: 100%;
+}
+
 body {
   background-color: var(--c-background);
   color: var(--c-text);
   font-size: 1.3rem;
   font-family: Verdana, sans-serif;
+}
+
+a {
+  color: var(--c-primary);
+}
+
+a[aria-current] {
+  font-weight: bold;
 }
 
 button {
@@ -55,6 +80,35 @@ select {
   border-radius: var(--border-radius);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+header li {
+  margin: 1rem;
+}
+
+header li:first-child {
+  margin-left: 0;
+}
+
 footer {
   padding: 2rem 0.5rem;
   box-sizing: content-box;
@@ -72,19 +126,6 @@ footer {
 .color-picker-wrapper {
   justify-content: center;
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.color-picker-wrapper > * {
-  flex-grow: 1;
-  flex-basis: calc((30rem - 100%) * 999);
-}
-
-.color-picker-wrapper > :nth-last-child(n + 3),
-.color-picker-wrapper > :nth-last-child(n + 3) ~ * {
-  flex-basis: 100%;
 }
 
 .colors-form {

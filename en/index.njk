@@ -12,7 +12,7 @@ metaImage = metadata[locale].metaImage %}
 <section>
   <h2>Pick your colors</h2>
   <a href="https://istex.is/en/vorur/lettlopi/">Link to Lettlopi's color chart.</a>
-  <div class="color-picker-wrapper">
+  <div class="color-picker-wrapper switcher">
     <div>
       {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt 'black',
       'blue', 'orange', 'white' %} {% endif %}

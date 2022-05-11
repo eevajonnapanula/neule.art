@@ -1,5 +1,9 @@
 <header>
   <h1>{{ siteTitle }}</h1>
-
-  <a href="/en/">EN</a> <a href="/fi/">FI</a>
+  <nav>
+    <ul>
+      <li><a href="/en/" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
+      <li><a href="/fi/" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
+    </ul>
+  </nav>
 </header>
