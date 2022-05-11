@@ -7,6 +7,9 @@ permalink:
 
 <section>
   <h2>Pick your colors</h2>
+  <a href="https://istex.is/en/vorur/lettlopi/"
+    >Link to Lettlopi's color chart.</a
+  >
   <div class="color-picker-wrapper">
     <div>
       {% if eleventy.serverless.query %} {% shirtWithObject
@@ -18,10 +21,10 @@ permalink:
         {% colorSelect "main", "main-color", "Main",
         eleventy.serverless.query.main, 'black' %} {% colorSelect "secondary",
         "secondary-color", "Secondary", eleventy.serverless.query.secondary,
-        'blue' %} {% colorSelect "highlight1", "highlight1-color", "Highlight
-        1", eleventy.serverless.query.highlight1, 'orange' %} {% colorSelect
+        '#037C79' %} {% colorSelect "highlight1", "highlight1-color", "Highlight
+        1", eleventy.serverless.query.highlight1, '#DC7633' %} {% colorSelect
         "highlight2", "highlight2-color", "Highlight 2",
-        eleventy.serverless.query.highlight2, 'white' %}
+        eleventy.serverless.query.highlight2, '#AED6F1' %}
 
         <button type="submit">Generate</button>
       </form>

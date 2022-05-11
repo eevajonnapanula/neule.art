@@ -1,5 +1,6 @@
 const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 const { getShirt } = require("./getShirt");
+const yarnColors = require("./_data/yarnColors.json");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
@@ -32,19 +33,12 @@ module.exports = function (eleventyConfig) {
       <fieldset>
       <label for="${id}">${label}:</label>
     <select id="${id}" name="${name}">
-      <option value="red" ${valueToUse === "red" ? "selected" : ""}>Red</option>
-      <option value="green" ${
-        valueToUse === "green" ? "selected" : ""
-      }>green</option>
-      <option value="orange" ${
-        valueToUse === "orange" ? "selected" : ""
-      }>orange</option>
-      <option value="blue" ${
-        valueToUse === "blue" ? "selected" : ""
-      }>blue</option>
-      <option value="white" ${
-        valueToUse === "white" ? "selected" : ""
-      }>white</option>
+      ${yarnColors.map(
+        (item) =>
+          `<option value="${item.colorValue}" ${
+            valueToUse === item.colorValue ? "selected" : ""
+          }>${item.value} (${item.code})</option>`
+      )}
     </select>
     </fieldset>`;
     }
