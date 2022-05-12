@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ translations[locale].header.siteTitle }}</title>
+    <title>{{ metadata[locale].metaTitle }}</title>
 
     <meta name="title" content="{{ metadata[locale].metaTitle }}" />
     <meta name="description" content="{{ metadata[locale].metaDescription }}" />
@@ -19,7 +19,7 @@
     <meta property="og:site_name" content="{{ metadata[locale].metaTitle }}" />
 
     <meta property="og:image" content="{{ metadata.baseURL }}{{ metadata[locale].imagePath }}" />
-    <meta property="og:image:alt" content="{{ translations[locale].altText }}" />
+    <meta property="og:image:alt" content="{{ metadata[locale].altText }}" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
