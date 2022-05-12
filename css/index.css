@@ -82,6 +82,10 @@ select {
   border-radius: var(--border-radius);
 }
 
+p {
+  max-width: 60ch;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -135,4 +139,12 @@ footer {
 .colors-form {
   display: flex;
   flex-direction: column;
+}
+
+.center {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: 60rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
 }
