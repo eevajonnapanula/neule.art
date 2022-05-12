@@ -123,6 +123,8 @@ footer {
   margin-inline: auto;
   text-align: center;
   max-inline-size: calc(100% - 2rem);
+  border-top: 0.15rem dashed var(--c-primary);
+  margin-top: 4rem;
 }
 
 .shirt {
