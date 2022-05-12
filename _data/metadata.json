@@ -6,12 +6,17 @@
     "email": "hello@eevis.codes",
     "url": "https://eevis.codes"
   },
+  "baseURL": "https://main--amazing-elf-860a09.netlify.app",
   "en": {
-    "metadataTitle": "Riddari Color Picker",
-    "metadataDescription": "A color picker for testing different color combinations for Riddari icelandic sweater."
+    "metaTitle": "Riddari Color Picker",
+    "metaDescription": "A color picker for testing different color combinations for Riddari icelandic sweater.",
+    "imagePath": "/img/en-image.png",
+    "altText": "Color picker for Riddari-sweater"
   },
   "fi": {
-    "metadataTitle": "Värivalitsin Riddarille",
-    "metadataDescription": "Värivalitsin erilaisten väriydistelmien testaamiseen Riddari-neuleelle."
+    "metaTitle": "Värivalitsin Riddarille",
+    "metaDescription": "Värivalitsin erilaisten väriydistelmien testaamiseen Riddari-neuleelle.",
+    "imagePath": "/img/fi-image.png",
+    "altText": "Värivalitsin Riddari-neuleelle"
   }
 }
