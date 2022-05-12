@@ -1,12 +1,12 @@
 {
-  "url": "https://main--amazing-elf-860a09.netlify.app",
+  "url": "https://neule.art",
   "description": "Helper for choosing colors for Riddari sweater",
   "author": {
     "name": "Eeva-Jonna Panula",
     "email": "hello@eevis.codes",
     "url": "https://eevis.codes"
   },
-  "baseURL": "https://main--amazing-elf-860a09.netlify.app",
+  "baseURL": "https://neule.art",
   "en": {
     "metaTitle": "Riddari Color Picker",
     "metaDescription": "A color picker for testing different color combinations for Riddari icelandic sweater.",

@@ -3,12 +3,14 @@
     "footer": {
       "text": "Tämän sivun taustalla häärää (ja neuloo) "
     },
-    "header": { "siteTitle": "Etusivulle" }
+    "header": { "siteTitle": "Etusivulle" },
+    "visuallyHiddenText": "Kuva Riddari-neuleesta seuraavilla lankaväreillä (ensimmäisenä pääväri)"
   },
   "en": {
     "footer": {
       "text": "Made with 🧶 by "
     },
-    "header": { "siteTitle": "Home" }
+    "header": { "siteTitle": "Home" },
+    "visuallyHiddenText": "Image of Riddari-sweater with the following colors (first main color)"
   }
 }

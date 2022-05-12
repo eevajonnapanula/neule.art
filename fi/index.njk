@@ -14,7 +14,8 @@ metaImage = metadata[locale].metaImage %}
   <div class="color-picker-wrapper switcher">
     <div>
       {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt '000000',
-      '037C79', 'DC7633', 'AED6F1' %} {% endif %}
+      '037C79', 'DC7633', 'AED6F1' %} {% endif %} {% visuallyHiddenText translations[locale].visuallyHiddenText,
+      eleventy.serverless.query %}
     </div>
     <div>
       <form method="get" action="/fi/colors/" class="colors-form">

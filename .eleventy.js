@@ -45,6 +45,16 @@ module.exports = function (eleventyConfig) {
     return `/${locale}/${restOfTheUrl}`
   })
 
+  eleventyConfig.addShortcode('visuallyHiddenText', function (text, query) {
+    const colors = query ? [query.a, query.b, query.c, query.d] : ['000000', '037C79', 'DC7633', 'AED6F1']
+
+    const colorNames = colors
+      .map(color => yarnColors.find(yarnColor => yarnColor.colorValue === color))
+      .map(item => item.value)
+
+    return `<div class="visually-hidden">${text}: ${colorNames.join(', ')}</div>`
+  })
+
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
     markdownTemplateEngine: 'njk',
