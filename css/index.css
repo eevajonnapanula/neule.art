@@ -85,6 +85,7 @@ select {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   flex-flow: row wrap;
   gap: 1rem;
 }
@@ -93,6 +94,7 @@ header nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 header ul {

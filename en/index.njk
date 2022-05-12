@@ -9,14 +9,8 @@ permalink:
 metaImage = metadata[locale].metaImage %}
 
 <section>
-  <h2>Pick your colors</h2>
-  <p>
-    Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that
-    screen's color settings change how the colors are displayed.
-  </p>
-  <p>
-    <a href="https://istex.is/en/vorur/lettlopi/">Link to Léttlopi's color chart.</a>
-  </p>
+  <h1>Pick your colors for Riddari</h1>
+
   <div class="color-picker-wrapper switcher">
     <div>
       {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt '000000',
@@ -33,5 +27,12 @@ metaImage = metadata[locale].metaImage %}
       </form>
     </div>
   </div>
+  <p>
+    Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that
+    screen's color settings change how the colors are displayed.
+  </p>
+  <p>
+    <a href="https://istex.is/en/vorur/lettlopi/">Link to Léttlopi's color chart.</a>
+  </p>
   <p><a href="/en/about">Read more about this site</a></p>
 </section>

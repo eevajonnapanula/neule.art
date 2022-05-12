@@ -9,9 +9,8 @@ permalink:
 metaImage = metadata[locale].metaImage %}
 
 <section>
-  <h2>Valitse värit</h2>
-  <p>Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.</p>
-  <a href="https://istex.is/en/vorur/lettlopi/">Linkki Léttlopin värikarttaan.</a>
+  <h1>Valitse värit Riddariin</h1>
+
   <div class="color-picker-wrapper switcher">
     <div>
       {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt '000000',
@@ -28,6 +27,7 @@ metaImage = metadata[locale].metaImage %}
       </form>
     </div>
   </div>
-
+  <p>Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.</p>
+  <a href="https://istex.is/en/vorur/lettlopi/">Linkki Léttlopin värikarttaan.</a>
   <p><a href="/fi/about">Lue lisää tästä sivusta</a></p>
 </section>

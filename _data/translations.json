@@ -3,12 +3,12 @@
     "footer": {
       "text": " on tehnyt tämän."
     },
-    "header": { "siteTitle": "Värivalitsin Riddarille" }
+    "header": { "siteTitle": "Etusivulle" }
   },
   "en": {
     "footer": {
       "text": "Made with 🧶 by "
     },
-    "header": { "siteTitle": "Riddari Color Picker" }
+    "header": { "siteTitle": "Home" }
   }
 }
