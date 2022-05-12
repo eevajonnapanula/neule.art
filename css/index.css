@@ -61,7 +61,7 @@ button:active {
   background-color: var(--c-background);
 }
 
-button:hover {
+button:hover:not(:active) {
   background-color: var(--c-secondary);
 }
 
