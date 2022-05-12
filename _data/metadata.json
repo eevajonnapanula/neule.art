@@ -1,5 +1,5 @@
 {
-  "url": "",
+  "url": "https://main--amazing-elf-860a09.netlify.app",
   "description": "Helper for choosing colors for Riddari sweater",
   "author": {
     "name": "Eeva-Jonna Panula",
@@ -15,7 +15,7 @@
   },
   "fi": {
     "metaTitle": "Värivalitsin Riddarille",
-    "metaDescription": "Värivalitsin erilaisten väriydistelmien testaamiseen Riddari-neuleelle.",
+    "metaDescription": "Värivalitsin erilaisten väriyhdistelmien testaamiseen Riddari-neuleelle.",
     "imagePath": "/img/fi-image.png",
     "altText": "Värivalitsin Riddari-neuleelle"
   }
