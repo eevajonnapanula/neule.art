@@ -161,3 +161,26 @@ footer {
   white-space: nowrap;
   width: 1px;
 }
+
+.color-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.5rem 1rem;
+  padding: 0;
+}
+
+.color-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.color-swatch {
+  border: 0.15rem solid var(--c-text);
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: var(--border-radius);
+  margin-right: 0.5rem;
+}

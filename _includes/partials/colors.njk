@@ -1,0 +1,12 @@
+<section>
+  <h2>{{ translations[locale].colors }}</h2>
+  <p>{{ translations[locale].colorText }}</p>
+  <ul class="color-list">
+    {%- for color in yarnColors -%}
+    <li class="color-list-item">
+      <div style="background-color: #{{ color.colorValue }};" class="color-swatch"></div>
+      <div>{{ color.value }}</div>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>

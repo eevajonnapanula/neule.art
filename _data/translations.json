@@ -4,13 +4,17 @@
       "text": "Tämän sivun taustalla häärää (ja neuloo) "
     },
     "header": { "siteTitle": "Etusivulle" },
-    "visuallyHiddenText": "Kuva Riddari-neuleesta seuraavilla lankaväreillä (ensimmäisenä pääväri)"
+    "visuallyHiddenText": "Kuva Riddari-neuleesta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
+    "colors": "Värit",
+    "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan."
   },
   "en": {
     "footer": {
       "text": "Made with 🧶 by "
     },
     "header": { "siteTitle": "Home" },
-    "visuallyHiddenText": "Image of Riddari-sweater with the following colors (first main color)"
+    "visuallyHiddenText": "Image of Riddari-sweater with the following colors (first main color)",
+    "colors": "Colors",
+    "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed."
   }
 }
