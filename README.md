@@ -48,7 +48,5 @@ Here are couple of ideas, how I might improve the site:
 - [ ] Add possibility to share the colors in cleaner format (png?)
 - [ ] Show stock from some yarn stores
 
-
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
