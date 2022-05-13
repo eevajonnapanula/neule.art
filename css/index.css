@@ -166,7 +166,7 @@ footer {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  gap: 0.5rem 1rem;
+  gap: 1.5rem 1rem;
   padding: 0;
 }
 
@@ -175,7 +175,6 @@ footer {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding: 0.5rem;
 }
 
 .color-swatch {
