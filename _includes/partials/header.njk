@@ -1,6 +1,11 @@
 <header>
-  <a href="/{{locale}}/">{{ translations[locale].header.siteTitle }}</a>
-  <nav>
+  <nav aria-label="{{translations[locale].header.main}}">
+    <ul>
+  <li><a href="/{{locale}}/" {% if page.url === '/en/' or page.url === '/fi/' %} aria-current="page" {%endif%}>{{ translations[locale].header.siteTitle }}</a></li>
+      <li><a href="/{{locale}}/about" {% if page.url === '/en/about/' or page.url === '/fi/about/' %} aria-current="page" {%endif%}>{{translations[locale].header.about}}</a></li>
+    </ul>
+  </nav>
+  <nav aria-label="{{translations[locale].header.languages}}">
     <ul>
       <li><a href="{% urlBuilder eleventy.serverless.query, page.url, 'en' %}" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
       <li><a href="{% urlBuilder eleventy.serverless.query, page.url, 'fi' %}" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>

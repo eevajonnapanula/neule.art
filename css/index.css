@@ -1,7 +1,7 @@
 :root {
   --c-primary: #0e4958;
-  --c-secondary: #6e0d25;
-  --c-tertiary: #ff5376;
+  --c-secondary: #85c4ff;
+  --c-tertiary: #ec5418;
   --c-background: #efe9f4;
   --c-text: #171d1c;
   --border-radius: 0.5rem;
@@ -11,6 +11,7 @@
 *:focus-visible {
   outline: 0.2rem solid var(--c-tertiary);
   outline-offset: 0.3rem;
+  transition: outline 0.5s;
 }
 
 .switcher {
@@ -34,14 +35,46 @@ body {
   color: var(--c-text);
   font-size: 1.3rem;
   font-family: Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 a {
   color: var(--c-primary);
+  position: relative;
+  transition: border ease-in 1s;
+  text-decoration: none;
+  border-bottom: 0.15rem solid var(--c-primary);
 }
 
 a[aria-current] {
   font-weight: bold;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 0;
+}
+
+a::before {
+  transform: scale(0, 0);
+  transform-origin: bottom right;
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: var(--c-tertiary);
+  z-index: -1;
+  transition: transform 0.75s ease;
+}
+
+a:hover::before,
+a:focus::before {
+  transform: scale(1, 0.25);
+  transform-origin: bottom left;
 }
 
 button {
@@ -53,6 +86,7 @@ button {
   border-radius: var(--border-radius);
   width: 60%;
   margin-top: 0.5rem;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 button:active {
@@ -61,8 +95,33 @@ button:active {
   background-color: var(--c-background);
 }
 
+form[name^='contact'] {
+  display: flex;
+  flex-direction: column;
+}
+
+form[name^='contact'] > button {
+  max-width: 30rem;
+  width: calc(100% - 2rem);
+  margin-bottom: 2rem;
+}
+
 button:hover:not(:active) {
   background-color: var(--c-secondary);
+  color: var(--c-primary);
+  border-color: var(--c-primary);
+}
+
+input,
+textarea {
+  border: 0.15rem solid var(--c-primary);
+  background-color: var(--c-background);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  font-size: 1.2rem;
+  max-width: 30rem;
+  width: calc(100% - 2rem);
+  margin-top: 0.5rem;
 }
 
 fieldset {
@@ -125,6 +184,10 @@ footer {
   max-inline-size: calc(100% - 2rem);
   border-top: 0.15rem dashed var(--c-primary);
   margin-top: 4rem;
+}
+
+.buy-me-a-coffee {
+  margin-top: 1rem;
 }
 
 .shirt {

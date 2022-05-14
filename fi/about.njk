@@ -23,7 +23,37 @@ layout: layouts/base.njk
 
 <p>
   Voit ottaa yhteyttä minuun sähköpostitse: <a href="mailto:hello@eevis.codes">hello[a]eevis.codes</a> jos haluat antaa
-  palautetta, tai huomaat sivulla jotain hassua.
+  palautetta, tai huomaat sivulla jotain hassua. Voit myös jättää palautetta alla olevan lomakkeen kautta.
 </p>
 
-<p>Voit tehdä myös bugiraportin Githubiin, lisään linkin myöhemmin.</p>
+{% include "partials/contactForm.njk" %}
+
+<p>
+  Voit tehdä myös bugiraportin
+  <a
+    href="https://github.com/eevajonnapanula/neule.art/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D+"
+    >Githubiin</a
+  >.
+</p>
+
+<h2>Muutokset sivulla</h2>
+
+<h3><time datetime="2022-05-14">14.5.2022</time> - Palautelomake</h3>
+
+<ul>
+  <li>Sivulle on lisätty palautelomake.</li>
+</ul>
+
+<h3><time datetime="2022-05-13">13.5.2022</time> - Värilista ja hieman parannuksia</h3>
+<ul>
+  <li>
+    Sivulle on lisätty värilista värivalitsimen alle, jotta värejä ei tarvitsisi arvata lankojen värien nimien
+    perusteella.
+  </li>
+  <li>Lisäksi muita pieniä parannuksia esimerkiksi tyyleihin.</li>
+</ul>
+
+<h3><time datetime="2022-05-12">12.5.2022</time> - Sivu on julkaistu 🎉</h3>
+<ul>
+  <li>Sivu on julkaistu!</li>
+</ul>
