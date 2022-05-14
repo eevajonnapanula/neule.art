@@ -23,7 +23,52 @@ layout: layouts/base.njk
 
 <p>
   You can contact me via email (<a href="mailto:hello@eevis.codes">hello[a]eevis.codes</a>) if you want to give any
-  feedback, or notice something funny happening on the site.
+  feedback, or notice something funny happening on the site. You can also reach me through the contact form in this
+  section.
 </p>
 
-<p>You can also file a bug report in Github - I will add a link later.</p>
+<p>
+  Another option is to file a bug report in
+  <a
+    href="https://github.com/eevajonnapanula/neule.art/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D+"
+    >Github</a
+  >.
+</p>
+
+<form name="contact-en" action="/en/success" method="POST" data-netlify="true">
+  <fieldset>
+    <label for="contact-form-name">Name: (required)</label>
+    <input id="contact-form-name" name="Nimi" autocomplete="name" required />
+  </fieldset>
+  <fieldset>
+    <label for="contact-form-email">Email: (required)</label>
+    <input id="contact-form-email" name="Email" autocomplete="email" required />
+  </fieldset>
+  <fieldset>
+    <label for="contact-form-text">Message: (required)</label>
+    <textarea id="contact-form-text" rows="4" required></textarea>
+  </fieldset>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>Changelog</h2>
+
+<h3><time datetime="2022-05-14">14.5.2022</time> - Contact form</h3>
+
+<ul>
+  <li>A contact form has been added.</li>
+</ul>
+
+<h3><time datetime="2022-05-13">13.5.2022</time> - List of colors and other improvements</h3>
+<ul>
+  <li>
+    A list of colors has been added under the color picker. Now you don't have to guess the colors based on the yarn
+    color names.
+  </li>
+  <li>Also some misc improvements to styles etc.</li>
+</ul>
+
+<h3><time datetime="2022-05-12">12.5.2022</time> - The site is online 🎉</h3>
+<ul>
+  <li>The site is online!</li>
+</ul>

@@ -34,6 +34,7 @@ body {
   color: var(--c-text);
   font-size: 1.3rem;
   font-family: Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 a {
@@ -61,8 +62,31 @@ button:active {
   background-color: var(--c-background);
 }
 
+form[name^='contact'] {
+  display: flex;
+  flex-direction: column;
+}
+
+form[name^='contact'] > button {
+  max-width: 30rem;
+  width: calc(100% - 2rem);
+  margin-bottom: 2rem;
+}
+
 button:hover:not(:active) {
   background-color: var(--c-secondary);
+}
+
+input,
+textarea {
+  border: 0.15rem solid var(--c-primary);
+  background-color: var(--c-background);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  font-size: 1.2rem;
+  max-width: 30rem;
+  width: calc(100% - 2rem);
+  margin-top: 0.5rem;
 }
 
 fieldset {
@@ -134,7 +158,6 @@ footer {
 .buy-me-a-coffee:hover > a {
   border-bottom: 0.2rem solid var(--c-primary);
 }
-
 
 .shirt {
   width: 40rem;
