@@ -1,7 +1,7 @@
 :root {
   --c-primary: #0e4958;
-  --c-secondary: #6e0d25;
-  --c-tertiary: #ff5376;
+  --c-secondary: #85c4ff;
+  --c-tertiary: #ec5418;
   --c-background: #efe9f4;
   --c-text: #171d1c;
   --border-radius: 0.5rem;
@@ -11,6 +11,7 @@
 *:focus-visible {
   outline: 0.2rem solid var(--c-tertiary);
   outline-offset: 0.3rem;
+  transition: outline 0.5s;
 }
 
 .switcher {
@@ -85,6 +86,7 @@ button {
   border-radius: var(--border-radius);
   width: 60%;
   margin-top: 0.5rem;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 button:active {
@@ -106,6 +108,8 @@ form[name^='contact'] > button {
 
 button:hover:not(:active) {
   background-color: var(--c-secondary);
+  color: var(--c-primary);
+  border-color: var(--c-primary);
 }
 
 input,
