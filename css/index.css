@@ -229,11 +229,7 @@ footer {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-<<<<<<< HEAD
-  gap: 0.5rem 1rem;
-=======
   gap: 1.5rem 1rem;
->>>>>>> a740f596fac11b2c4ab15efcb2af99e38b04b8cf
   padding: 0;
 }
 
@@ -242,10 +238,6 @@ footer {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-<<<<<<< HEAD
-  padding: 0.5rem;
-=======
->>>>>>> a740f596fac11b2c4ab15efcb2af99e38b04b8cf
 }
 
 .color-swatch {
@@ -254,4 +246,18 @@ footer {
   width: 1.5rem;
   border-radius: var(--border-radius);
   margin-right: 0.5rem;
+}
+
+.cta-link {
+  margin-top: 2rem;
+}
+
+.cta-link > a::after {
+  content: '»';
+  color: var(--c-tertiary);
+  transition: margin 0.5s ease;
+}
+
+.cta-link:hover > a::after {
+  margin-left: 0.5rem;
 }
