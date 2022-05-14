@@ -12,7 +12,8 @@
       "email": "Email: (pakollinen kenttä)",
       "message": "Viesti: (pakollinen kenttä)",
       "submit": "Lähetä"
-    }
+    },
+    "randomColors": "Näytä satunnaiset värit"
   },
   "en": {
     "footer": {
@@ -27,6 +28,7 @@
       "email": "Email: (required)",
       "message": "Message: (required)",
       "submit": "Submit"
-    }
+    },
+    "randomColors": "Show random colors"
   }
 }

@@ -1,6 +1,8 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const { getShirt } = require('./getShirt')
+const { getRandomColors } = require('./helpers/getRandomColors')
 const yarnColors = require('./_data/yarnColors.json')
+const translations = require('./_data/translations.json')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
@@ -9,7 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
-    copy: ['getShirt.js']
+    copy: ['getShirt.js', 'helpers/getRandomColors.js']
   })
 
   eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
@@ -26,16 +28,16 @@ module.exports = function (eleventyConfig) {
 
     return ` 
       <fieldset>
-      <label for="${id}">${label}:</label>
-    <select id="${id}" name="${name}">
-      ${yarnColors.map(
-        item =>
-          `<option value="${item.colorValue}" ${valueToUse === item.colorValue ? 'selected' : ''}>${item.value} (${
-            item.code
-          })</option>`
-      )}
-    </select>
-    </fieldset>`
+        <label for="${id}">${label}:</label>
+        <select id="${id}" name="${name}">
+          ${yarnColors.map(
+            item =>
+              `<option value="${item.colorValue}" ${valueToUse === item.colorValue ? 'selected' : ''}>${item.value} (${
+                item.code
+              })</option>`
+          )}
+        </select>
+      </fieldset>`
   })
 
   eleventyConfig.addShortcode('urlBuilder', function (query, page, locale) {
@@ -53,6 +55,12 @@ module.exports = function (eleventyConfig) {
       .map(item => item.value)
 
     return `<div class="visually-hidden">${text}: ${colorNames.join(', ')}</div>`
+  })
+
+  eleventyConfig.addShortcode('randomColorsLink', function (locale) {
+    const colorsArr = getRandomColors(yarnColors, [])
+    const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
+    return `<div class="cta-link"><a href="/${locale}/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
   return {

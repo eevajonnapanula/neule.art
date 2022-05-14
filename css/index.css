@@ -247,3 +247,17 @@ footer {
   border-radius: var(--border-radius);
   margin-right: 0.5rem;
 }
+
+.cta-link {
+  margin-top: 2rem;
+}
+
+.cta-link > a::after {
+  content: '»';
+  color: var(--c-tertiary);
+  transition: margin 0.5s ease;
+}
+
+.cta-link:hover > a::after {
+  margin-left: 0.5rem;
+}
