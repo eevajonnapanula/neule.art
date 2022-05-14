@@ -186,10 +186,6 @@ footer {
   margin-top: 1rem;
 }
 
-.buy-me-a-coffee:hover > a {
-  border-bottom: 0.2rem solid var(--c-primary);
-}
-
 .shirt {
   width: 40rem;
   max-width: calc(100% - 2rem);
