@@ -41,7 +41,8 @@ body {
 a {
   color: var(--c-primary);
   position: relative;
-  transition: border ease-in 1s;
+  transition: border ease-in 0.1s;
+  transition-delay: 0.75s;
   text-decoration: none;
   border-bottom: 0.15rem solid var(--c-primary);
 }
