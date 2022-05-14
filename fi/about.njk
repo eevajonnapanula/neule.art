@@ -26,15 +26,7 @@ layout: layouts/base.njk
   palautetta, tai huomaat sivulla jotain hassua. Voit myös jättää palautetta alla olevan lomakkeen kautta.
 </p>
 
-<form name="contact-fi" action="/fi/success" method="POST" data-netlify="true">
-  <label for="contact-form-name">Nimi: (pakollinen kenttä)</label>
-  <input id="contact-form-name" name="Nimi" autocomplete="name" required />
-  <label for="contact-form-email">Email: (pakollinen kenttä)</label>
-  <input id="contact-form-email" name="Email" autocomplete="email" required />
-  <label for="contact-form-text">Viesti: (pakollinen kenttä)</label>
-  <textarea id="contact-form-text" rows="4" required></textarea>
-  <button type="submit">Lähetä</button>
-</form>
+{% include "partials/contactForm.njk" %}
 
 <p>
   Voit tehdä myös bugiraportin

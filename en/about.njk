@@ -35,21 +35,7 @@ layout: layouts/base.njk
   >.
 </p>
 
-<form name="contact-en" action="/en/success" method="POST" data-netlify="true">
-  <fieldset>
-    <label for="contact-form-name">Name: (required)</label>
-    <input id="contact-form-name" name="Nimi" autocomplete="name" required />
-  </fieldset>
-  <fieldset>
-    <label for="contact-form-email">Email: (required)</label>
-    <input id="contact-form-email" name="Email" autocomplete="email" required />
-  </fieldset>
-  <fieldset>
-    <label for="contact-form-text">Message: (required)</label>
-    <textarea id="contact-form-text" rows="4" required></textarea>
-  </fieldset>
-  <button type="submit">Submit</button>
-</form>
+{% include "partials/contactForm.njk" %}
 
 <h2>Changelog</h2>
 

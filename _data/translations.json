@@ -6,7 +6,13 @@
     "header": { "siteTitle": "Etusivulle", "languages": "kielet", "main": "päävalikko", "about": "Tietoja" },
     "visuallyHiddenText": "Kuva Riddari-neuleesta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
     "colors": "Värit",
-    "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan."
+    "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.",
+    "contactForm": {
+      "name": "Nimi: (pakollinen kenttä)",
+      "email": "Email: (pakollinen kenttä)",
+      "message": "Viesti: (pakollinen kenttä)",
+      "submit": "Lähetä"
+    }
   },
   "en": {
     "footer": {
@@ -15,6 +21,12 @@
     "header": { "siteTitle": "Home", "languages": "languages", "main": "main navigation", "about": "About" },
     "visuallyHiddenText": "Image of Riddari-sweater with the following colors (first main color)",
     "colors": "Colors",
-    "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed."
+    "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed.",
+    "contactForm": {
+      "name": "Name: (required)",
+      "email": "Email: (required)",
+      "message": "Message: (required)",
+      "submit": "Submit"
+    }
   }
 }
