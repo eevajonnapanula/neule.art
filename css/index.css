@@ -112,6 +112,11 @@ button:hover:not(:active) {
   border-color: var(--c-primary);
 }
 
+form[name^='contact'] select {
+  width: 15rem;
+  border-color: var(--c-primary);
+}
+
 input,
 textarea {
   border: 0.15rem solid var(--c-primary);
