@@ -39,10 +39,41 @@ body {
 
 a {
   color: var(--c-primary);
+  position: relative;
+  transition: border ease-in 1s;
+  text-decoration: none;
+  border-bottom: 0.15rem solid var(--c-primary);
 }
 
 a[aria-current] {
   font-weight: bold;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 0;
+}
+
+a::before {
+  transform: scale(0, 0);
+  transform-origin: bottom right;
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: var(--c-tertiary);
+  z-index: -1;
+  transition: transform 0.75s ease;
+}
+
+a:hover::before,
+a:focus::before {
+  transform: scale(1, 0.25);
+  transform-origin: bottom left;
 }
 
 button {
