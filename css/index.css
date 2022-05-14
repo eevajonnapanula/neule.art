@@ -127,6 +127,15 @@ footer {
   margin-top: 4rem;
 }
 
+.buy-me-a-coffee {
+  margin-top: 1rem;
+}
+
+.buy-me-a-coffee:hover > a {
+  border-bottom: 0.2rem solid var(--c-primary);
+}
+
+
 .shirt {
   width: 40rem;
   max-width: calc(100% - 2rem);
@@ -166,11 +175,7 @@ footer {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-<<<<<<< HEAD
-  gap: 0.5rem 1rem;
-=======
   gap: 1.5rem 1rem;
->>>>>>> a740f596fac11b2c4ab15efcb2af99e38b04b8cf
   padding: 0;
 }
 
@@ -179,10 +184,6 @@ footer {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-<<<<<<< HEAD
-  padding: 0.5rem;
-=======
->>>>>>> a740f596fac11b2c4ab15efcb2af99e38b04b8cf
 }
 
 .color-swatch {
