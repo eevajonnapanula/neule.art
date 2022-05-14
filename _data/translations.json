@@ -15,7 +15,8 @@
       "themes": ["Palaute", "Idea sivulle", "Jotain on rikki", "Muu"],
       "submit": "Lähetä"
     },
-    "randomColors": "Näytä satunnaiset värit"
+    "randomColors": "Näytä satunnaiset värit",
+    "undefinedColor": "tunnistamaton väri"
   },
   "en": {
     "footer": {
@@ -33,6 +34,7 @@
       "themes": ["Feedback", "Feature idea", "Something's broken", "Other"],
       "submit": "Submit"
     },
-    "randomColors": "Show random colors"
+    "randomColors": "Show random colors",
+    "undefinedColor": "unknown color"
   }
 }
