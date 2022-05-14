@@ -41,7 +41,8 @@ body {
 a {
   color: var(--c-primary);
   position: relative;
-  transition: border ease-in 1s;
+  transition: border ease-in 0.1s;
+  transition-delay: 0.75s;
   text-decoration: none;
   border-bottom: 0.15rem solid var(--c-primary);
 }
@@ -56,7 +57,7 @@ a:focus {
 }
 
 a::before {
-  transform: scale(0, 0);
+  transform: scale(0, 0.25);
   transform-origin: bottom right;
   content: ' ';
   display: block;
@@ -112,6 +113,21 @@ button:hover:not(:active) {
   border-color: var(--c-primary);
 }
 
+select {
+  padding: 0.5rem;
+  background-color: var(--c-background);
+  color: var(--c-text);
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  border: 0.15rem solid var(--c-text);
+  border-radius: var(--border-radius);
+}
+
+form[name^='contact'] select {
+  width: 15rem;
+  border-color: var(--c-primary);
+}
+
 input,
 textarea {
   border: 0.15rem solid var(--c-primary);
@@ -129,16 +145,6 @@ fieldset {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-}
-
-select {
-  padding: 0.5rem;
-  background-color: var(--c-background);
-  color: var(--c-text);
-  font-size: 1.3rem;
-  margin-top: 0.5rem;
-  border: 0.15rem solid var(--c-text);
-  border-radius: var(--border-radius);
 }
 
 p {

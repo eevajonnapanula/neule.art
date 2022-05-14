@@ -11,9 +11,12 @@
       "name": "Nimi: (pakollinen kenttä)",
       "email": "Email: (pakollinen kenttä)",
       "message": "Viesti: (pakollinen kenttä)",
+      "theme": "Aihe: (pakollinen kenttä)",
+      "themes": ["Palaute", "Idea sivulle", "Jotain on rikki", "Muu"],
       "submit": "Lähetä"
     },
-    "randomColors": "Näytä satunnaiset värit"
+    "randomColors": "Näytä satunnaiset värit",
+    "undefinedColor": "tunnistamaton väri"
   },
   "en": {
     "footer": {
@@ -27,8 +30,11 @@
       "name": "Name: (required)",
       "email": "Email: (required)",
       "message": "Message: (required)",
+      "theme": "Subject: (required)",
+      "themes": ["Feedback", "Feature idea", "Something's broken", "Other"],
       "submit": "Submit"
     },
-    "randomColors": "Show random colors"
+    "randomColors": "Show random colors",
+    "undefinedColor": "unknown color"
   }
 }
