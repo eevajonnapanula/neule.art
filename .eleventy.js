@@ -25,12 +25,20 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
     const valueToUse = selectedValue ? selectedValue : defaultValue
+    const sortedColors = yarnColors.sort((a, b) => {
+      const aValue = a.value.toUpperCase()
+      const bValue = b.value.toUpperCase()
+      if (aValue === bValue) {
+        return 0
+      }
 
+      return aValue < bValue ? -1 : 1
+    })
     return ` 
       <fieldset>
         <label for="${id}">${label}:</label>
         <select id="${id}" name="${name}">
-          ${yarnColors.map(
+          ${sortedColors.map(
             item =>
               `<option value="${item.colorValue}" ${valueToUse === item.colorValue ? 'selected' : ''}>${item.value} (${
                 item.code
@@ -54,7 +62,6 @@ module.exports = function (eleventyConfig) {
       color =>
         yarnColors.find(yarnColor => yarnColor.colorValue === color) || { value: translations[locale].undefinedColor }
     )
-    console.log(colorNames)
 
     return `<div class="visually-hidden">${text}: ${colorNames.map(item => item.value).join(', ')}</div>`
   })
