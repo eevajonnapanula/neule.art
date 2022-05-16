@@ -41,9 +41,11 @@ I'm not actively looking for contributors right now, so even if you create a pul
 ## Planned features
 
 Here are couple of ideas, how I might improve the site:
-- [ ] Show random colors
+- [x] Show random colors
 - [ ] Add possibility to share the colors in cleaner format (png?)
 - [ ] Show stock from some yarn stores
+- [ ] Add possibility to choose color for every motif
+- [ ] Progressive enhancement: Change color dynamically
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
