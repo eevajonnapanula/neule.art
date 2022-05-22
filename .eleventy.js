@@ -4,9 +4,11 @@ const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
-
+/* const { writeStockFile } = require('./helpers/getColors')
+ */
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('img')
+  /*   writeStockFile()
+   */ eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('css')
 
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {

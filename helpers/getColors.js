@@ -59,31 +59,62 @@ const getColorsTitityy = () => {
   })
 }
 
+const getColorsLankapuutarha = () => {
+  return axios.get('https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = JSON.parse(
+      $('#back-in-stock-helper')
+        .text()
+        .split('\n')
+        .find(item => item.includes('_BISConfig.product'))
+        .trim()
+        .slice(21, -1)
+    )
+
+    return json.variants.map(variant => {
+      return {
+        code: variant.title.slice(-5, -1),
+        title: variant.title.slice(0, -7),
+        available: variant.available
+      }
+    })
+  })
+}
+
 const writeStockFile = async () => {
   const titityy = await getColorsTitityy()
   const snurre = await getColorsSnurre()
   const menita = await getColorsMenita()
+  const lankapuutarha = await getColorsLankapuutarha()
 
-  const codes = Array.from(new Set([...titityy, ...snurre, ...menita].map(item => item.code)))
+  const codes = Array.from(new Set([...titityy, ...snurre, ...menita, ...lankapuutarha].map(item => item.code)))
 
   const stock = codes.map(code => {
-    const snurreStock = snurre.find(item => item.code === code)
-    const menitaStock = menita.find(item => item.code === code)
+    const snurreStock = snurre.find(item => item.code === code) || { title: '', available: false, code }
+    const menitaStock = menita.find(item => item.code === code) || { title: '', available: false, code }
     const titityyStock = titityy.find(item => item.code === code) || { title: '', available: false, code }
+    const lankapuutarhaStock = lankapuutarha.find(item => item.code === code) || { title: '', available: false, code }
 
     return {
       code,
       availability: {
         snurre: snurreStock.available || false,
         menita: menitaStock.available || false,
-        titityy: titityyStock.available || false
+        titityy: titityyStock.available || false,
+        lankapuutarha: lankapuutarhaStock.available || false
       },
-      titles: { snurre: snurreStock.title || '', menita: menitaStock.title || '', titityy: titityyStock.title || '' }
+      titles: {
+        snurre: snurreStock.title || '',
+        menita: menitaStock.title || '',
+        titityy: titityyStock.title || '',
+        lankapuutarha: lankapuutarhaStock.title || ''
+      }
     }
   })
 
-  const stringified = JSON.stringify(stock, null, 2)
-  fs.writeFile('/_data/stock.json', stringified, err => {
+  const stringified = JSON.stringify({ stock, updated: new Date() }, null, 2)
+  fs.writeFile('./_data/stock.json', stringified, err => {
     if (err) throw err
     console.log('Data written to file')
   })

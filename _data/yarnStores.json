@@ -13,5 +13,10 @@
     "name": "Menita",
     "key": "menita",
     "linkToStock": "https://www.menita.fi/product/185/istex-lettlopi"
+  },
+  "lankapuutarha": {
+    "name": "Lankapuutarha",
+    "key": "lankapuutarha",
+    "linkToStock": "https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi"
   }
 }

@@ -1,4 +1,4 @@
-const stock = require('../_data/stock.json')
+const data = require('../_data/stock.json')
 const shops = require('../_data/yarnStores.json')
 const translations = require('../_data/translations.json')
 
@@ -8,10 +8,10 @@ const parseColors = (a, b, c, d, allColors, locale) => {
   const colorC = allColors.find(item => item.colorValue === c)
   const colorD = allColors.find(item => item.colorValue === d)
 
-  const stockA = stock.find(item => item.code === colorA.code)
-  const stockB = stock.find(item => item.code === colorB.code)
-  const stockC = stock.find(item => item.code === colorC.code)
-  const stockD = stock.find(item => item.code === colorD.code)
+  const stockA = data.stock.find(item => item.code === colorA.code)
+  const stockB = data.stock.find(item => item.code === colorB.code)
+  const stockC = data.stock.find(item => item.code === colorC.code)
+  const stockD = data.stock.find(item => item.code === colorD.code)
 
   const colors = [
     Object.assign(colorA, stockA),
