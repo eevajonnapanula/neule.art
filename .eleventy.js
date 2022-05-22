@@ -1,14 +1,14 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
+const format = require('date-fns/format')
+
 const { getShirt } = require('./getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
-/* const { writeStockFile } = require('./helpers/getColors')
- */
+
 module.exports = function (eleventyConfig) {
-  /*   writeStockFile()
-   */ eleventyConfig.addPassthroughCopy('img')
+  eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('css')
 
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
@@ -72,6 +72,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {
     return parseColors(a, b, c, d, yarnColors, locale)
+  })
+
+  eleventyConfig.addShortcode('time', function (time) {
+    const datetime = new Date(time)
+
+    return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:MM')}</time>`
   })
 
   return {

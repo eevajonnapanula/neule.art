@@ -18,5 +18,6 @@
     "name": "Lankapuutarha",
     "key": "lankapuutarha",
     "linkToStock": "https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi"
-  }
+  },
+  "stores": ["snurre", "titityy", "lankapuutarha", "menita"]
 }

@@ -17,6 +17,7 @@ metaImage = metadata[locale].metaImage %}
   <div class="cta-link"><a href="/fi/colors/?a={{colorA}}&b={{colorB}}&c={{colorC}}&d={{colorD}}">Takaisin etusivulle </a></div>
   <h1>Värien saatavuus</h1>
 
+
   <div class="color-picker-wrapper switcher">
     <div>{% colorAvailability colorA, colorB, colorC, colorD, locale %}</div>
     <div>
@@ -25,6 +26,11 @@ metaImage = metadata[locale].metaImage %}
     </div>
   </div>
   <div>
+    <div>Viimeisin päivitys: {% time stock.updated %}</div>
+    {% set comma = joiner() %}
+    <p>Tällä hetkellä saatavilla olevat kaupat: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
+    <p>Jos haluat jonkin muun kaupan mukaan, laita viestiä. Yhteystiedot löytyvät <a href="/fi/about/">Tietoja-sivulta.</a></p>
+    
 
     <h2>Linkkejä</h2>
     <ul>
