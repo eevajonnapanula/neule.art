@@ -11,7 +11,8 @@
     "debug": "DEBUG=* npx @11ty/eleventy",
     "eslint": "eslint",
     "stylelint": "stylelint **/**.css",
-    "lint": "npm run eslint && npm run stylelint"
+    "lint": "npm run eslint && npm run stylelint",
+    "updateStock": "node ./helpers/getColors.js"
   },
   "repository": {
     "type": "git",
