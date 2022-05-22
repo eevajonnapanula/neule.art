@@ -14,9 +14,11 @@ metaImage = metadata[locale].metaImage %}
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %} {% shirtWithObject eleventy.serverless.query %} {% else %} {% shirt '000000',
-      '037C79', 'DC7633', 'AED6F1' %} {% endif %} {% visuallyHiddenText translations[locale].visuallyHiddenText,
-      eleventy.serverless.query, locale %}
+      {% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
+      eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
+      eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
+      'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% shirt colorA, colorB, colorC, colorD %} {%
+      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
       <form method="get" action="/fi/colors/" class="colors-form">
@@ -29,6 +31,9 @@ metaImage = metadata[locale].metaImage %}
       </form>
 
       {% randomColorsLink locale %}
+      <div class="cta-link">
+        <a href="{% urlBuilder eleventy.serverless.query, '/fi/availability/', locale %}">Katso värien saatavuus </a>
+      </div>
     </div>
   </div>
 

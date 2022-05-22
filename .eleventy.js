@@ -1,6 +1,7 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const { getShirt } = require('./getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
+const { parseColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
 
@@ -11,15 +12,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
-    copy: ['getShirt.js', 'helpers/getRandomColors.js']
+    copy: ['getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js', 'helpers/stock.json']
   })
 
   eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
-    return getShirt(a, b, c, d)
-  })
-
-  eleventyConfig.addShortcode('shirtWithObject', function (query) {
-    const { a, b, c, d } = query
     return getShirt(a, b, c, d)
   })
 
@@ -51,7 +47,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('urlBuilder', function (query, page, locale) {
     const path = page.slice(4)
     const queryString = query ? `?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
-    const restOfTheUrl = query ? `colors/${queryString}` : path
+    const restOfTheUrl = query ? `colors/${path}${queryString}` : path
     return `/${locale}/${restOfTheUrl}`
   })
 
@@ -70,6 +66,10 @@ module.exports = function (eleventyConfig) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
     return `<div class="cta-link"><a href="/${locale}/colors/${colors}">${translations[locale].randomColors} </a></div>`
+  })
+
+  eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {
+    return parseColors(a, b, c, d, yarnColors, locale)
   })
 
   return {

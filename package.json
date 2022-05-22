@@ -28,6 +28,8 @@
     "@11ty/eleventy": "^1.0.1"
   },
   "devDependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",

@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+permalink:
+  build: '/en/availability/'
+  colors: '/en/colors/availability'
+---
+
+{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
+metaImage = metadata[locale].metaImage %}
+{% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
+  eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
+  eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
+  'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %}
+
+
+<section>
+  <div class="cta-link"><a href="/en/colors/?a={{colorA}}&b={{colorB}}&c={{colorC}}&d={{colorD}}">Back to color picker </a></div>
+  <h1>Color Availability</h1>
+
+  <div class="color-picker-wrapper switcher">
+    <div>{% colorAvailability colorA, colorB, colorC, colorD, locale %}</div>
+    <div>
+ {% shirt colorA, colorB, colorC, colorD %} {%
+      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
+    </div>
+  </div>
+  <div>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopi color chart</a></li>
+    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddari's knitting pattern</a></li>
+  </ul>
+</section>
