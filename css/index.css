@@ -284,6 +284,7 @@ footer {
     'color title'
     'color shops'
     'color .';
+  justify-content: start;
 }
 
 .yarn-available-swatch {
@@ -297,7 +298,6 @@ footer {
 .yarn-availability > h2 {
   grid-area: title;
   margin: 0;
-  width: calc(20rem);
 }
 
 .yarn-availability > .yarn-availability-shops {
