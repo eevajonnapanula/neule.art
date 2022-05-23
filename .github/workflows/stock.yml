@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: feat/show-where-to-get-yarns
+          ref: main
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
@@ -28,4 +28,4 @@ jobs:
           git config --global user.name "updater-bot"
           git add .
           git commit -a -m "Update stock"
-          git push origin feat/show-where-to-get-yarns
+          git push origin main
