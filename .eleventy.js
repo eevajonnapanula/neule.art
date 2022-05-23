@@ -77,7 +77,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('time', function (time) {
     const datetime = new Date(time)
 
-    return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:MM')}</time>`
+    return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:mm')}</time>`
   })
 
   return {

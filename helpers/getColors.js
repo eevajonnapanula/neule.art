@@ -82,19 +82,43 @@ const getColorsLankapuutarha = () => {
   })
 }
 
+const getColorsLankaidea = () => {
+  return axios.get('https://www.lankaidea.fi/product/731/istex-lettlopi').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = $('.Checks')
+      .find('label')
+      .toArray()
+      .map(val => {
+        const text = $(val).text()
+        return {
+          title: text,
+          code: text.slice(0, 4),
+          available: !$($(val).find('input')).attr().disabled
+        }
+      })
+
+    return json
+  })
+}
+
 const writeStockFile = async () => {
   const titityy = await getColorsTitityy()
   const snurre = await getColorsSnurre()
   const menita = await getColorsMenita()
   const lankapuutarha = await getColorsLankapuutarha()
+  const lankaidea = await getColorsLankaidea()
 
-  const codes = Array.from(new Set([...titityy, ...snurre, ...menita, ...lankapuutarha].map(item => item.code)))
+  const codes = Array.from(
+    new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea].map(item => item.code))
+  )
 
   const stock = codes.map(code => {
     const snurreStock = snurre.find(item => item.code === code) || { title: '', available: false, code }
     const menitaStock = menita.find(item => item.code === code) || { title: '', available: false, code }
     const titityyStock = titityy.find(item => item.code === code) || { title: '', available: false, code }
     const lankapuutarhaStock = lankapuutarha.find(item => item.code === code) || { title: '', available: false, code }
+    const lankaideaStock = lankaidea.find(item => item.code === code) || { title: '', available: false, code }
 
     return {
       code,
@@ -102,13 +126,15 @@ const writeStockFile = async () => {
         snurre: snurreStock.available || false,
         menita: menitaStock.available || false,
         titityy: titityyStock.available || false,
-        lankapuutarha: lankapuutarhaStock.available || false
+        lankapuutarha: lankapuutarhaStock.available || false,
+        lankaidea: lankaideaStock.available || false
       },
       titles: {
         snurre: snurreStock.title || '',
         menita: menitaStock.title || '',
         titityy: titityyStock.title || '',
-        lankapuutarha: lankapuutarhaStock.title || ''
+        lankapuutarha: lankapuutarhaStock.title || '',
+        lankaidea: lankaideaStock.title || ''
       }
     }
   })
@@ -119,6 +145,8 @@ const writeStockFile = async () => {
     console.log('Data written to file')
   })
 }
+
+writeStockFile()
 
 module.exports = {
   getColorsSnurre,
