@@ -1,5 +1,5 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
-const format = require('date-fns/format')
+const format = require('date-fns-tz/format')
 
 const { getShirt } = require('./getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
