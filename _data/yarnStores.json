@@ -1,0 +1,28 @@
+{
+  "snurre": {
+    "name": "Snurre",
+    "key": "snurre",
+    "linkToStock": "https://www.snurre.fi/collections/neulelangat/products/istex-lettlopi"
+  },
+  "titityy": {
+    "name": "Titityy",
+    "key": "titityy",
+    "linkToStock": "https://titityy.fi/fi/product/istex-lettlopi/10037"
+  },
+  "menita": {
+    "name": "Menita",
+    "key": "menita",
+    "linkToStock": "https://www.menita.fi/product/185/istex-lettlopi"
+  },
+  "lankapuutarha": {
+    "name": "Lankapuutarha",
+    "key": "lankapuutarha",
+    "linkToStock": "https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi"
+  },
+  "lankaidea": {
+    "name": "Lankaidea",
+    "key": "lankaidea",
+    "linkToStock": "https://www.lankaidea.fi/product/731/istex-lettlopi"
+  },
+  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea"]
+}

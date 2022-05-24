@@ -1,5 +1,19 @@
 [[redirects]]
+from = "/fi/colors/availability"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
 from = "/fi/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
+from = "/en/colors/availability"
 to = "/.netlify/functions/colors"
 status = 200
 force = true

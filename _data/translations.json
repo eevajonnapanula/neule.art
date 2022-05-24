@@ -16,7 +16,11 @@
       "submit": "Lähetä"
     },
     "randomColors": "Näytä satunnaiset värit",
-    "undefinedColor": "tunnistamaton väri"
+    "undefinedColor": "tunnistamaton väri",
+    "yarnAvailability": {
+      "availableIn": "Saatavilla",
+      "notAvailable": "Ei saatavilla kaupoissa "
+    }
   },
   "en": {
     "footer": {
@@ -35,6 +39,10 @@
       "submit": "Submit"
     },
     "randomColors": "Show random colors",
-    "undefinedColor": "unknown color"
+    "undefinedColor": "unknown color",
+    "yarnAvailability": {
+      "availableIn": "Available in",
+      "notAvailable": "Not available in "
+    }
   }
 }

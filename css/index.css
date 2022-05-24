@@ -267,3 +267,39 @@ footer {
 .cta-link:hover > a::after {
   margin-left: 0.5rem;
 }
+
+.yarn-availability-list {
+  padding: 0;
+  margin: 0;
+}
+
+.yarn-availability {
+  display: grid;
+  font-size: 1rem;
+  border: 0.15rem solid var(--c-text);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1rem 0;
+  grid-template-areas:
+    'color title'
+    'color shops'
+    'color .';
+  justify-content: start;
+}
+
+.yarn-available-swatch {
+  grid-area: color;
+  width: 6rem;
+  height: 6rem;
+  justify-self: self-start;
+  margin-right: 1rem;
+}
+
+.yarn-availability > h2 {
+  grid-area: title;
+  margin: 0;
+}
+
+.yarn-availability > .yarn-availability-shops {
+  grid-area: shops;
+}

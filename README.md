@@ -42,9 +42,9 @@ I'm not actively looking for contributors right now, so even if you create a pul
 
 Here are couple of ideas, how I might improve the site:
 - [x] Show random colors
-- [ ] Add possibility to share the colors in cleaner format (png?)
-- [ ] Show stock from some yarn stores
+- [x] Show stock from some yarn stores
 - [ ] Add possibility to choose color for every motif
+- [ ] Add possibility to share the colors in cleaner format (png?)
 - [ ] Progressive enhancement: Change color dynamically
 
 ## License
