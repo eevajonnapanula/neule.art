@@ -1,7 +1,7 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns-tz/format')
 
-const { getShirt } = require('./getShirt')
+const { getShirt } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
-    copy: ['getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js', 'helpers/stock.json']
+    copy: ['helpers/getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js']
   })
 
   eleventyConfig.addShortcode('shirt', function (a, b, c, d) {

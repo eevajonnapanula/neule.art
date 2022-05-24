@@ -3,22 +3,12 @@ const shops = require('../_data/yarnStores.json')
 const translations = require('../_data/translations.json')
 
 const parseColors = (a, b, c, d, allColors, locale) => {
-  const colorA = allColors.find(item => item.colorValue === a)
-  const colorB = allColors.find(item => item.colorValue === b)
-  const colorC = allColors.find(item => item.colorValue === c)
-  const colorD = allColors.find(item => item.colorValue === d)
+  const colors = [a, b, c, d].map(item => {
+    const color = allColors.find(colorObj => colorObj.colorValue === item)
+    const stock = data.stock.find(stockObj => stockObj.code === color.code)
 
-  const stockA = data.stock.find(item => item.code === colorA.code)
-  const stockB = data.stock.find(item => item.code === colorB.code)
-  const stockC = data.stock.find(item => item.code === colorC.code)
-  const stockD = data.stock.find(item => item.code === colorD.code)
-
-  const colors = [
-    Object.assign(colorA, stockA),
-    Object.assign(colorB, stockB),
-    Object.assign(colorC, stockC),
-    Object.assign(colorD, stockD)
-  ]
+    return Object.assign(color, stock)
+  })
 
   return `
     <ul class="yarn-availability-list">
