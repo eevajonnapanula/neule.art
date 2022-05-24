@@ -1,5 +1,5 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
-const format = require('date-fns-tz/format')
+const format = require('date-fns/format')
 
 const { getShirt } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
@@ -77,7 +77,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('time', function (time) {
     const datetime = new Date(time)
 
-    return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:mm')}</time>`
+    return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:mm (OOOO)')}</time>`
   })
 
   return {
