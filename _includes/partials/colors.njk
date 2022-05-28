@@ -1,6 +1,11 @@
 <section>
   <h2>{{ translations[locale].colors }}</h2>
   <p>{{ translations[locale].colorText }}</p>
+  <div class="cta-link">
+    <a href="{% urlBuilder eleventy.serverless.query, '/fi/availability/', locale %}">{{
+      translations[locale].stockAvailability
+    }}</a>
+  </div>
   <ul class="color-list">
     {%- for color in yarnColors -%}
     <li class="color-list-item">
