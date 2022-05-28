@@ -1,6 +1,7 @@
 const { default: axios } = require('axios')
 const cheerio = require('cheerio')
 const fs = require('fs')
+const prevStock = require('../_data/stock.json')
 
 const getColorsSnurre = () => {
   return axios
@@ -74,8 +75,8 @@ const getColorsLankapuutarha = () => {
 
     return json.variants.map(variant => {
       return {
-        code: variant.title.slice(-5, -1),
-        title: variant.title.slice(0, -7),
+        code: variant.title.match(/\d+/)[0],
+        title: variant.title.match(/\D+/)[0].trim().replace('(', ''),
         available: variant.available
       }
     })
@@ -91,15 +92,32 @@ const getColorsLankaidea = () => {
       .toArray()
       .map(val => {
         const text = $(val).text()
+        const code = text.match(/\d+/)[0]
+
         return {
           title: text,
-          code: text.slice(0, 4),
+          code: code.length === 4 ? code : `0${code}`,
           available: !$($(val).find('input')).attr().disabled
         }
       })
 
     return json
   })
+}
+
+const compareChanges = (prev, curr) => {
+  const changes = []
+  Object.keys(prev.availability).forEach(key => {
+    if (prev.availability[key] !== curr.availability[key]) {
+      changes.push({
+        code: prev.code,
+        store: key,
+        date: new Date(),
+        change: curr.availability[key] ? 'added' : 'deleted'
+      })
+    }
+  })
+  return changes.length ? changes : undefined
 }
 
 const writeStockFile = async () => {
@@ -139,10 +157,33 @@ const writeStockFile = async () => {
     }
   })
 
-  const stringified = JSON.stringify({ stock, updated: new Date() }, null, 2)
-  fs.writeFile('./_data/stock.json', stringified, err => {
+  const changes = stock
+    .flatMap(item => {
+      const prev = prevStock.stock.find(prevStockItem => item.code === prevStockItem.code)
+      const change = compareChanges(prev, item)
+      return change
+    })
+    .filter(Boolean)
+
+  fs.readFile('./_data/stockChanges.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    const prevData = JSON.parse(data)
+    const combinedData = [...prevData, ...changes]
+
+    const stringifiedChanges = JSON.stringify(combinedData, null, 2)
+    fs.writeFile('./_data/stockChanges.json', stringifiedChanges, err => {
+      if (err) throw err
+      console.log('Stock changes written to file')
+    })
+  })
+
+  const stringifiedStock = JSON.stringify({ stock, updated: new Date() }, null, 2)
+  fs.writeFile('./_data/stock.json', stringifiedStock, err => {
     if (err) throw err
-    console.log('Data written to file')
+    console.log('Stock update written to file')
   })
 }
 
