@@ -21,7 +21,7 @@ const listItem = (yarnName, yarnCode, color, availability, locale) => {
     .filter(([, available]) => available)
     .map(([shop]) => shop)
 
-  return `<li class="yarn-availability">
+  return `<li class="yarn-availability ${shopAvailability.length > 0 ? 'available' : 'not-available'}">
             <div class="color-swatch yarn-available-swatch" style="background-color: #${color}"></div>
             <h2>${yarnName} (${yarnCode})</h2>
             <div class="yarn-availability-shops">
@@ -39,6 +39,36 @@ const listItem = (yarnName, yarnCode, color, availability, locale) => {
           </li>`
 }
 
+const parseAllColors = (yarnColors, locale) => {
+  const colors = yarnColors
+    .map(color => {
+      const stock = data.stock.find(stockObj => stockObj.code === color.code)
+
+      return Object.assign(color, stock)
+    })
+    .sort((a, b) => {
+      const aValue = a.value.toUpperCase()
+      const bValue = b.value.toUpperCase()
+      if (aValue === bValue) {
+        return 0
+      }
+
+      return aValue < bValue ? -1 : 1
+    })
+
+  return `<section>
+            <h2>${translations[locale].colorAvailability.title}</h2>
+            <input type="checkbox" name="Show available" id="show-available" /> 
+            <label for="show-available">${translations[locale].colorAvailability.showOnlyAvailable}</label>
+            <ul class="yarn-availability-list all-yarn">
+              ${colors
+                .map(item => listItem(item.value, item.code, item.colorValue, item.availability, locale))
+                .join('')}
+            </ul>
+          </section>`
+}
+
 module.exports = {
-  parseColors
+  parseColors,
+  parseAllColors
 }

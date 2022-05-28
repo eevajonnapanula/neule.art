@@ -3,7 +3,7 @@ const format = require('date-fns/format')
 
 const { getShirt } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
-const { parseColors } = require('./helpers/getAvailableColors')
+const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
 
@@ -72,6 +72,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {
     return parseColors(a, b, c, d, yarnColors, locale)
+  })
+
+  eleventyConfig.addShortcode('allColorAvailability', function (locale) {
+    return parseAllColors(yarnColors, locale)
   })
 
   eleventyConfig.addShortcode('time', function (time) {
