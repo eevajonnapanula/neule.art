@@ -74,8 +74,8 @@ const getColorsLankapuutarha = () => {
 
     return json.variants.map(variant => {
       return {
-        code: variant.title.slice(-5, -1),
-        title: variant.title.slice(0, -7),
+        code: variant.title.match(/\d+/)[0],
+        title: variant.title.match(/\D+/)[0].trim().replace('(', ''),
         available: variant.available
       }
     })
@@ -91,9 +91,11 @@ const getColorsLankaidea = () => {
       .toArray()
       .map(val => {
         const text = $(val).text()
+        const code = text.match(/\d+/)[0]
+
         return {
           title: text,
-          code: text.slice(0, 4),
+          code: code.length === 4 ? code : `0${code}`,
           available: !$($(val).find('input')).attr().disabled
         }
       })

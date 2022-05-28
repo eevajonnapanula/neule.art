@@ -13,7 +13,7 @@
         "snurre": "0005 Black heather",
         "menita": "0005 meleerattu musta",
         "titityy": "0005 Black heather",
-        "lankapuutarha": "Maleerattu musta",
+        "lankapuutarha": "Maleerattu musta ",
         "lankaidea": "0005 Black Heather"
       }
     },
@@ -30,7 +30,7 @@
         "snurre": "0051 White",
         "menita": "0051 valkoinen",
         "titityy": "0051 White",
-        "lankapuutarha": "Valkoinen",
+        "lankapuutarha": "Valkoinen ",
         "lankaidea": "0051 White"
       }
     },
@@ -47,7 +47,7 @@
         "snurre": "0052 Black sheep heather",
         "menita": "0052 mustanruskea",
         "titityy": "0052 Black sheep heather",
-        "lankapuutarha": "Mustalammas",
+        "lankapuutarha": "Mustalammas ",
         "lankaidea": "0052  Black Sheep Heather"
       }
     },
@@ -57,14 +57,14 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
         "menita": "0053 ruskea",
         "titityy": "0053 Acorn heather",
-        "lankapuutarha": "",
+        "lankapuutarha": "Ruskea",
         "lankaidea": "0053 Acorn Heather"
       }
     },
@@ -81,7 +81,7 @@
         "snurre": "0054 Ash heather",
         "menita": "0054 vaalea tuhkanharmaa",
         "titityy": "0054 Light ash heather",
-        "lankapuutarha": "Vaalea tuhkanharmaa",
+        "lankapuutarha": "Vaalea tuhkanharmaa ",
         "lankaidea": "0054 Ash Heather"
       }
     },
@@ -98,7 +98,7 @@
         "snurre": "0056 Light Grey Heather",
         "menita": "0056 tuhkanharmaa",
         "titityy": "0056 Ash heather",
-        "lankapuutarha": "Tuhkanharmaa",
+        "lankapuutarha": "Tuhkanharmaa ",
         "lankaidea": "0056 Light Grey Heather"
       }
     },
@@ -115,7 +115,7 @@
         "snurre": "0057 Grey heather",
         "menita": "0057 harmaa",
         "titityy": "0057 Grey heather",
-        "lankapuutarha": "Harmaa",
+        "lankapuutarha": "Harmaa ",
         "lankaidea": "0057 Grey Heather"
       }
     },
@@ -132,7 +132,7 @@
         "snurre": "0058 dark grey heather",
         "menita": "0058 tummanharmaa",
         "titityy": "0058 Dark grey heather",
-        "lankapuutarha": "Tummanharmaa",
+        "lankapuutarha": "Tummanharmaa ",
         "lankaidea": "0058 Dark Grey Heather"
       }
     },
@@ -149,7 +149,7 @@
         "snurre": "0059 Black",
         "menita": "0059 musta",
         "titityy": "0059 Black",
-        "lankapuutarha": "Musta",
+        "lankapuutarha": "Musta ",
         "lankaidea": "0059 Black"
       }
     },
@@ -166,7 +166,7 @@
         "snurre": "0085 Oatmeal Heather",
         "menita": "0085 vaalea luonnonruskea",
         "titityy": "0085 Oatmeal heather",
-        "lankapuutarha": "Vaalea luonnonruskea",
+        "lankapuutarha": "Vaalea luonnonruskea ",
         "lankaidea": "0085 Oatmeal Heather"
       }
     },
@@ -183,7 +183,7 @@
         "snurre": "0086 light beige heather",
         "menita": "0086 vaalea beige",
         "titityy": "0086 Light beige heather",
-        "lankapuutarha": "Vaalea luonnonbeige",
+        "lankapuutarha": "Vaalea luonnonbeige ",
         "lankaidea": "0086 Light Beige Heather"
       }
     },
@@ -200,8 +200,8 @@
         "snurre": "0867 Chocolate heather",
         "menita": "0867 tummanruskea",
         "titityy": "0867 Chocolate heather",
-        "lankapuutarha": "Suklaanruskea",
-        "lankaidea": ""
+        "lankapuutarha": "Suklaanruskea ",
+        "lankaidea": "867 Chocolate"
       }
     },
     {
@@ -217,7 +217,7 @@
         "snurre": "1402 Heaven Blue heather",
         "menita": "1402 taivaansininen",
         "titityy": "1402 Heaven blue",
-        "lankapuutarha": "Taivaansininen",
+        "lankapuutarha": "Taivaansininen ",
         "lankaidea": "1402 Heaven Blue Heather"
       }
     },
@@ -234,7 +234,7 @@
         "snurre": "1403 Lapis Blue Heather",
         "menita": "1403 tummansininen",
         "titityy": "1403 Lapis blue heather",
-        "lankapuutarha": "Tummansininen",
+        "lankapuutarha": "Tummansininen ",
         "lankaidea": "1403 Lapis Blue Heather"
       }
     },
@@ -251,7 +251,7 @@
         "snurre": "1404 Glacier Blue heather",
         "menita": "1404 vedenvihreä",
         "titityy": "1404 Glacier blue heather",
-        "lankapuutarha": "Vaalea sinivihreä",
+        "lankapuutarha": "Vaalea sinivihreä ",
         "lankaidea": "1404 Glacier Blue Heather"
       }
     },
@@ -268,7 +268,7 @@
         "snurre": "1405 botlte green heather",
         "menita": "1405 meleerattu tummanvihreä",
         "titityy": "1405 Bottle green heather",
-        "lankapuutarha": "Pullonvihreä",
+        "lankapuutarha": "Pullonvihreä ",
         "lankaidea": "1405 Bottle Green Heather"
       }
     },
@@ -285,7 +285,7 @@
         "snurre": "1406 Spring Green Heather",
         "menita": "1406 lime",
         "titityy": "1406 Spring green heather",
-        "lankapuutarha": "Keväänvihreä",
+        "lankapuutarha": "Keväänvihreä ",
         "lankaidea": "1406 Spring Green Heather"
       }
     },
@@ -302,7 +302,7 @@
         "snurre": "1407 Pine green heather",
         "menita": "1407 metsänvihreä",
         "titityy": "1407 Pine green heather",
-        "lankapuutarha": "Männynvihreä",
+        "lankapuutarha": "Männynvihreä ",
         "lankaidea": "1407 Pine Green Heather"
       }
     },
@@ -319,7 +319,7 @@
         "snurre": "1409 Garnet Red Heather",
         "menita": "1409 viininpunainen",
         "titityy": "1409 Garnet heather",
-        "lankapuutarha": "Granaattiomena",
+        "lankapuutarha": "Granaattiomena ",
         "lankaidea": "1409 Garnet Red Heather"
       }
     },
@@ -336,7 +336,7 @@
         "snurre": "1412 pink heather",
         "menita": "1412 roosa",
         "titityy": "1412 Pink heather",
-        "lankapuutarha": "Roosa",
+        "lankapuutarha": "Roosa ",
         "lankaidea": "1412 Pink Heather"
       }
     },
@@ -353,7 +353,7 @@
         "snurre": "1414 Viol heather",
         "menita": "1414 violetti",
         "titityy": "1414 Violet heather",
-        "lankapuutarha": "Violetti",
+        "lankapuutarha": "Violetti ",
         "lankaidea": "1414 Viol Heather"
       }
     },
@@ -370,7 +370,7 @@
         "snurre": "1415 Rough sea",
         "menita": "1415 tumma vihertävänharmaa",
         "titityy": "1415 Rough sea",
-        "lankapuutarha": "Tumma vihertävänharmaa",
+        "lankapuutarha": "Tumma vihertävänharmaa ",
         "lankaidea": "1415 Rough Sea"
       }
     },
@@ -387,7 +387,7 @@
         "snurre": "1416 Moor",
         "menita": "1416 sammaleenvihreä",
         "titityy": "1416 Moor",
-        "lankapuutarha": "Sammalenvihreä",
+        "lankapuutarha": "Sammalenvihreä ",
         "lankaidea": "1416 Moor"
       }
     },
@@ -404,7 +404,7 @@
         "snurre": "1417 Frost bite",
         "menita": "1417 oliivinvihreä",
         "titityy": "1417 Frostbite",
-        "lankapuutarha": "Harmaanvihreä",
+        "lankapuutarha": "Harmaanvihreä ",
         "lankaidea": "1417 Frostbite"
       }
     },
@@ -421,7 +421,7 @@
         "snurre": "1418 Straw",
         "menita": "1418 meleerattu beige",
         "titityy": "1418 Straw",
-        "lankapuutarha": "Vaalea beige",
+        "lankapuutarha": "Vaalea beige ",
         "lankaidea": "1418 Straw"
       }
     },
@@ -438,7 +438,7 @@
         "snurre": "1419 Barley",
         "menita": "1419 vaaleanruskea",
         "titityy": "1419 Barley",
-        "lankapuutarha": "Vaalea Ohranruskea",
+        "lankapuutarha": "Vaalea Ohranruskea ",
         "lankaidea": "1419 Barley"
       }
     },
@@ -455,7 +455,7 @@
         "snurre": "1420 Murky",
         "menita": "1420 meleerattu ruskea",
         "titityy": "1420 Bark",
-        "lankapuutarha": "Harmaanruskea",
+        "lankapuutarha": "Harmaanruskea ",
         "lankaidea": "1420 Murky"
       }
     },
@@ -472,7 +472,7 @@
         "snurre": "1700 Air blue",
         "menita": "1700 vaalea taivaansininen",
         "titityy": "1700 Air blue",
-        "lankapuutarha": "Harmaansininen",
+        "lankapuutarha": "Harmaansininen ",
         "lankaidea": "1700 Air Blue"
       }
     },
@@ -489,7 +489,7 @@
         "snurre": "1701 Fjord Blue",
         "menita": "1701 vuononsininen",
         "titityy": "1701 Fjord blue",
-        "lankapuutarha": "Vuononsininen",
+        "lankapuutarha": "Vuononsininen ",
         "lankaidea": "1701 Fjord Blue Heather"
       }
     },
@@ -506,7 +506,7 @@
         "snurre": "1702 Mílkyway",
         "menita": "1702 linnunrata",
         "titityy": "1702 Milkyway",
-        "lankapuutarha": "Milkyway",
+        "lankapuutarha": "Milkyway ",
         "lankaidea": "1702 Milkyway"
       }
     },
@@ -523,7 +523,7 @@
         "snurre": "1703 Mimosa",
         "menita": "1703 mimosa",
         "titityy": "1703 Mimosa",
-        "lankapuutarha": "Mimosa",
+        "lankapuutarha": "Mimosa ",
         "lankaidea": "1703 Mimosa"
       }
     },
@@ -540,7 +540,7 @@
         "snurre": "1704 Apricot",
         "menita": "1704 aprikoosi",
         "titityy": "1704 Apricot",
-        "lankapuutarha": "Aprikoosi",
+        "lankapuutarha": "Aprikoosi ",
         "lankaidea": "1704 Apricot Heather"
       }
     },
@@ -557,7 +557,7 @@
         "snurre": "1705 Royal fuchsia",
         "menita": "1705 kirkas fuksia",
         "titityy": "1705 Royal fuchia",
-        "lankapuutarha": "Fuksia",
+        "lankapuutarha": "Fuksia ",
         "lankaidea": "1705 Royal Fuchsia"
       }
     },
@@ -574,7 +574,7 @@
         "snurre": "1706 Lyme Grass",
         "menita": "1706 sitruunaruoho",
         "titityy": "1706 Lyme grass",
-        "lankapuutarha": "Merivehnä",
+        "lankapuutarha": "Merivehnä ",
         "lankaidea": "1706 Lyme Grass Heather"
       }
     },
@@ -591,7 +591,7 @@
         "snurre": "1707 Galaxy",
         "menita": "1707 galaksi",
         "titityy": "1707 Galaxy",
-        "lankapuutarha": "Galaksi",
+        "lankapuutarha": "Galaksi ",
         "lankaidea": "1707 Galaxy"
       }
     },
@@ -608,7 +608,7 @@
         "snurre": "9418 Stoneblue heather",
         "menita": "9418 harmaansininen",
         "titityy": "9418 Stone blue heather",
-        "lankapuutarha": "Tumma harmaansininen",
+        "lankapuutarha": "Tumma harmaansininen ",
         "lankaidea": "9418 Stone Blue Heather"
       }
     },
@@ -625,7 +625,7 @@
         "snurre": "9419 Ocaen blue",
         "menita": "9419 sininen",
         "titityy": "9419 Ocean blue",
-        "lankapuutarha": "Merensinen",
+        "lankapuutarha": "Merensinen ",
         "lankaidea": "9419 Ocean Blue"
       }
     },
@@ -642,7 +642,7 @@
         "snurre": "9420 Navy blue",
         "menita": "9420 laivastonsininen",
         "titityy": "9420 Navy blue",
-        "lankapuutarha": "Laivastonsininen",
+        "lankapuutarha": "Laivastonsininen ",
         "lankaidea": "9420 Navy Blue"
       }
     },
@@ -659,7 +659,7 @@
         "snurre": "9421 Celery Green heather",
         "menita": "9421 sellerinvihreä",
         "titityy": "9421 Celery green heather",
-        "lankapuutarha": "Sellerinvihreä",
+        "lankapuutarha": "Sellerinvihreä ",
         "lankaidea": "9421 Celery Green Heather"
       }
     },
@@ -676,7 +676,7 @@
         "snurre": "9423 Lagoon heather",
         "menita": "9423 tumma sinivihreä",
         "titityy": "9423 Lagoon heather",
-        "lankapuutarha": "Tumma Sinivihreä",
+        "lankapuutarha": "Tumma Sinivihreä ",
         "lankaidea": "9423 Lagoon Heather"
       }
     },
@@ -693,7 +693,7 @@
         "snurre": "9426 Gold",
         "menita": "9426 kullanruskea",
         "titityy": "9426 Golden heather",
-        "lankapuutarha": "Kellanvihreä",
+        "lankapuutarha": "Kellanvihreä ",
         "lankaidea": "9426 Golden Heather"
       }
     },
@@ -710,7 +710,7 @@
         "snurre": "9427 Rust heather",
         "menita": "9427 ruosteenruskea",
         "titityy": "9427 Rust heather",
-        "lankapuutarha": "Ruosteenruskea",
+        "lankapuutarha": "Ruosteenruskea ",
         "lankaidea": "9427  Rust Heather"
       }
     },
@@ -727,7 +727,7 @@
         "snurre": "9431 Brick Heather",
         "menita": "9431 ruosteenpunainen",
         "titityy": "9431 Brick heather",
-        "lankapuutarha": "Tiili",
+        "lankapuutarha": "Tiili ",
         "lankaidea": "9431 Brick Heather"
       }
     },
@@ -744,7 +744,7 @@
         "snurre": "9432 Grape Heather",
         "menita": "9432 violetinsininen",
         "titityy": "9432 Grape heather",
-        "lankapuutarha": "Violetin sininen",
+        "lankapuutarha": "Violetin sininen ",
         "lankaidea": "9432 Grape Heather"
       }
     },
@@ -761,44 +761,10 @@
         "snurre": "9434 Crimson red",
         "menita": "9434 punainen",
         "titityy": "9434 Crimson red",
-        "lankapuutarha": "Punainen",
+        "lankapuutarha": "Punainen ",
         "lankaidea": "9434 Crimson Red"
-      }
-    },
-    {
-      "code": " 005",
-      "availability": {
-        "snurre": false,
-        "menita": false,
-        "titityy": false,
-        "lankapuutarha": true,
-        "lankaidea": false
-      },
-      "titles": {
-        "snurre": "",
-        "menita": "",
-        "titityy": "",
-        "lankapuutarha": "Rusk",
-        "lankaidea": ""
-      }
-    },
-    {
-      "code": "867 ",
-      "availability": {
-        "snurre": false,
-        "menita": false,
-        "titityy": false,
-        "lankapuutarha": false,
-        "lankaidea": false
-      },
-      "titles": {
-        "snurre": "",
-        "menita": "",
-        "titityy": "",
-        "lankapuutarha": "",
-        "lankaidea": "867 Chocolate"
       }
     }
   ],
-  "updated": "2022-05-28T00:56:13.603Z"
+  "updated": "2022-05-28T05:58:41.022Z"
 }
