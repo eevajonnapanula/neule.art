@@ -56,7 +56,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true
       },
@@ -766,5 +766,5 @@
       }
     }
   ],
-  "updated": "2022-05-28T05:58:41.022Z"
+  "updated": "2022-05-29T00:59:58.091Z"
 }
