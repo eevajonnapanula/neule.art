@@ -360,7 +360,7 @@
     {
       "code": "1415",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -464,7 +464,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true
       },
@@ -766,5 +766,5 @@
       }
     }
   ],
-  "updated": "2022-05-29T00:59:58.091Z"
+  "updated": "2022-05-30T01:04:51.899Z"
 }
