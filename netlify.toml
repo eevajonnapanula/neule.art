@@ -1,26 +1,26 @@
 [[redirects]]
-from = "/fi/colors/"
+from = "/fi/riddari/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/fi/availability/colors/"
+from = "/fi/lettlopi/colors/availability"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/en/colors/"
+from = "/en/riddari/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/en/availability/colors/"
+from = "/en/lettlopi/colors/availability"
 to = "/.netlify/functions/colors"
 status = 200
 force = true

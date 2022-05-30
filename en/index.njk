@@ -4,30 +4,18 @@ changeFreq: daily
 tags: 'sitemap'
 permalink:
   build: '/en/'
-  colors: '/en/colors/'
 ---
 
-{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
-metaImage = metadata[locale].metaImage %}
+<h1>Neule.art</h1>
 
-<section>
-  <h1>Pick your colors for Riddari</h1>
+<h2>Patterns</h2>
 
-  <div class="color-picker-wrapper switcher">
-    <div>
-      {% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
-      eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
-      eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
-      'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% shirt colorA, colorB, colorC, colorD %} {%
-      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
-    </div>
-    <div>
-      <form method="get" action="/en/colors/" class="colors-form">
-        {% colorSelect "a", "main-color", "A (Main color)", eleventy.serverless.query.a, '000000' %} {% colorSelect "b",
-        "secondary-color", "B", eleventy.serverless.query.b, '037C79' %} {% colorSelect "c", "highlight1-color", "C",
-        eleventy.serverless.query.c, 'DC7633' %} {% colorSelect "d", "highlight2-color", "D",
-        eleventy.serverless.query.d, 'AED6F1' %}
+<ul>
+  <li><a href="/en/riddari/">Riddari (simple, 4 colors)</a></li>
+  <li><a href="#">Riddari (multiple colors)</a></li>
+</ul>
 
+<<<<<<< HEAD
         <button type="submit">Check the result</button>
       </form>
       {% randomColorsLink locale %}
@@ -45,3 +33,10 @@ metaImage = metadata[locale].metaImage %}
     <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddari's knitting pattern</a></li>
   </ul>
 </section>
+=======
+<h2>Yarn Color Availability</h2>
+
+<ul>
+  <li><a href="/en/lettlopi/store-availability">Istex Léttlopi</a></li>
+</ul>
+>>>>>>> 3bf9b80 (Change the page's architechture so that multiple patterns and yarns can be added)
