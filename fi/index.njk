@@ -4,47 +4,19 @@ changeFreq: daily
 tags: 'sitemap'
 permalink:
   build: '/fi/'
-  colors: '/fi/colors/'
 ---
 
-{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
-metaImage = metadata[locale].metaImage %}
+<h1>Neule.art</h1>
 
-<section>
-  <h1>Valitse värit Riddariin</h1>
+<h2>Patterns</h2>
 
-  <div class="color-picker-wrapper switcher">
-    <div>
-      {% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
-      eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
-      eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
-      'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% shirt colorA, colorB, colorC, colorD %} {%
-      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
-    </div>
-    <div>
-      <form method="get" action="/fi/colors/" class="colors-form">
-        {% colorSelect "a", "main-color", "A (Pääväri)", eleventy.serverless.query.a, '000000' %} {% colorSelect "b",
-        "secondary-color", "B", eleventy.serverless.query.b, '037C79' %} {% colorSelect "c", "highlight1-color", "C",
-        eleventy.serverless.query.c, 'DC7633' %} {% colorSelect "d", "highlight2-color", "D",
-        eleventy.serverless.query.d, 'AED6F1' %}
+<ul>
+  <li><a href="/fi/riddari/">Riddari (yksinkertainen, 4 väriä)</a></li>
+  <li><a href="#">Riddari (useita värejä)</a></li>
+</ul>
 
-        <button type="submit">Katso tulos</button>
-      </form>
+<h2>Langan värien saatavuus</h2>
 
-      {% randomColorsLink locale %}
-      <div class="cta-link">
-        <a href="{% urlBuilder eleventy.serverless.query, '/fi/availability/','fi/availability/colors', locale %}"
-          >Katso värien saatavuus
-        </a>
-      </div>
-    </div>
-  </div>
-
-  {% include "partials/colors.njk" %}
-
-  <h2>Linkkejä</h2>
-  <ul>
-    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>
-    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddarin ohje</a></li>
-  </ul>
-</section>
+<ul>
+  <li><a href="/fi/lettlopi/store-availability">Istex Léttlopi</a></li>
+</ul>

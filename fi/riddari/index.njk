@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+changeFreq: daily
+permalink:
+  build: '/fi/riddari/'
+  colors: '/fi/riddari/colors/'
+---
+
+{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
+metaImage = metadata[locale].metaImage %}
+
+<section>
+  <h1>Valitse värit Riddariin</h1>
+
+  <div class="color-picker-wrapper switcher">
+    <div>
+      {% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
+      eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
+      eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
+      'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% shirt colorA, colorB, colorC, colorD %} {%
+      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
+    </div>
+    <div>
+      <form method="get" action="/fi/riddari/colors/" class="colors-form">
+        <div id="four-colors-form">
+          {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
+          translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
+          color.defaultColor %} {% endfor -%}
+        </div>
+        <button type="submit">Katso tulos</button>
+      </form>
+
+      {% randomColorsLink locale %}
+      <div class="cta-link">
+        <a
+          href="{% urlBuilder eleventy.serverless.query, 'lettlopi/availability/', 'lettlopi/colors/availability', locale %}"
+          >Katso värien saatavuus
+        </a>
+      </div>
+    </div>
+  </div>
+
+  {% include "partials/colors.njk" %}
+
+  <h2>Linkkejä</h2>
+  <ul>
+    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>
+    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddarin ohje</a></li>
+  </ul>
+</section>
