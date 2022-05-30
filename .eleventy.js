@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
-    return `<div class="cta-link"><a href="/${locale}/riddari/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a href="/${locale}/patterns/riddari/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
   eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {

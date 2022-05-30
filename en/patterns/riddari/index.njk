@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 changeFreq: daily
 permalink:
-  build: '/fi/riddari/'
-  colors: '/fi/riddari/colors/'
+  build: '/en/patterns/riddari/'
+  colors: '/en/patterns/riddari/colors/'
 ---
 
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
 metaImage = metadata[locale].metaImage %}
 
 <section>
-  <h1>Valitse värit Riddariin</h1>
+  <h1>Pick your colors for Riddari</h1>
 
   <div class="color-picker-wrapper switcher">
     <div>
@@ -21,30 +21,26 @@ metaImage = metadata[locale].metaImage %}
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
-      <form method="get" action="/fi/riddari/colors/" class="colors-form">
-        <div id="four-colors-form">
-          {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
-          translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
-          color.defaultColor %} {% endfor -%}
-        </div>
-        <button type="submit">Katso tulos</button>
-      </form>
+      <form method="get" action="/en/patterns/riddari/colors/" class="colors-form">
+        {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
+        translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
+        color.defaultColor %} {% endfor -%}
 
+        <button type="submit">Check the result</button>
+      </form>
       {% randomColorsLink locale %}
       <div class="cta-link">
         <a
-          href="{% urlBuilder eleventy.serverless.query, 'lettlopi/availability/', 'lettlopi/colors/availability', locale %}"
-          >Katso värien saatavuus
+          href="{% urlBuilder eleventy.serverless.query, 'yarns/lettlopi/availability/', 'yarns/lettlopi/colors/availability/', locale %}"
+          >Color availability in selected stores
         </a>
       </div>
     </div>
   </div>
-
   {% include "partials/colors.njk" %}
-
-  <h2>Linkkejä</h2>
+  <h2>Links</h2>
   <ul>
-    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>
-    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddarin ohje</a></li>
+    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopi color chart</a></li>
+    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddari's knitting pattern</a></li>
   </ul>
 </section>
