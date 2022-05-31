@@ -1,6 +1,6 @@
 {
   "url": "https://neule.art",
-  "description": "Helper for choosing colors for Riddari sweater",
+  "description": "Helper for choosing colors for knitting patterns",
   "author": {
     "name": "Eeva-Jonna Panula",
     "email": "hello@eevis.codes",
@@ -8,15 +8,15 @@
   },
   "baseURL": "https://neule.art",
   "en": {
-    "metaTitle": "Riddari Color Picker",
-    "metaDescription": "A color picker for testing different color combinations for Riddari icelandic sweater.",
+    "metaTitle": "",
+    "metaDescription": "A color picker for testing different color combinations for different knitting patterns.",
     "imagePath": "/img/en-image.png",
-    "altText": "Color picker for Riddari-sweater"
+    "altText": "Neule.art - Color picker for knitting patterns"
   },
   "fi": {
-    "metaTitle": "Värivalitsin Riddarille",
-    "metaDescription": "Värivalitsin erilaisten väriyhdistelmien testaamiseen Riddari-neuleelle.",
+    "metaTitle": "",
+    "metaDescription": "Värivalitsin erilaisten väriyhdistelmien testaamiseen eri neuleille.",
     "imagePath": "/img/fi-image.png",
-    "altText": "Värivalitsin Riddari-neuleelle"
+    "altText": "Neule.art - Värivalitsin neuleille"
   }
 }
