@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/fi/yarns/lettlopi/colors/availability"
+from = "/fi/yarns/lettlopi/availability/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
@@ -13,7 +13,7 @@ force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/en/yarns/lettlopi/colors/availability"
+from = "/en/yarns/lettlopi/availability/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true

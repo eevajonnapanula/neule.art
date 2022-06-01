@@ -4,7 +4,13 @@ tags: 'sitemap'
 title: 'Yarn Color Availability - '
 permalink:
   build: '/en/yarns/lettlopi/store-availability/'
+breadcrumbs:
+  - title: Home
+    url: '/en/'
+  - title: 'All color availability'
+    url: '/en/yarns/lettlopi/store-availability'
+    current: true
 ---
 
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
-metaImage = metadata[locale].metaImage %} {% allColorAvailability locale %}
+metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale %} {% allColorAvailability locale %}

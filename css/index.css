@@ -318,3 +318,23 @@ footer {
 #show-available:checked ~ .yarn-availability-list .not-available {
   display: none;
 }
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs > li {
+  padding-right: 1rem;
+}
+
+.breadcrumbs > li:not(:last-child)::after {
+  content: '>';
+  padding-left: 1rem;
+}
+
+.breadcrumbs > li > a[aria-current='page'] {
+  border-bottom: none;
+}
