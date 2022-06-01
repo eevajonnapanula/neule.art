@@ -18,6 +18,13 @@
     "colorAvailability": {
       "title": "Värien saatavuus",
       "showOnlyAvailable": "Näytä vain saatavilla olevat"
+    },
+    "breadcrumbs": "Murupolku",
+    "fourColorTexts": {
+      "a": "A (pääväri)",
+      "b": "B",
+      "c": "C",
+      "d": "D"
     }
   },
   "en": {
@@ -39,6 +46,13 @@
     "colorAvailability": {
       "title": "Color availability",
       "showOnlyAvailable": "Show only available colors"
+    },
+    "breadcrumbs": "Breadcrumbs",
+    "fourColorTexts": {
+      "a": "A (main color)",
+      "b": "B",
+      "c": "C",
+      "d": "D"
     }
   }
 }

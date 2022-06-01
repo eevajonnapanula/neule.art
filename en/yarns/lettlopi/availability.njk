@@ -3,7 +3,17 @@ layout: layouts/base.njk
 title: 'Yarn Color Availability -'
 permalink:
   build: '/en/yarns/lettlopi/availability/'
-  colors: '/en/yarns/lettlopi/colors/availability'
+  colors: '/en/yarns/lettlopi/availability/colors/'
+breadcrumbs: 
+  - title: Home
+    url: '/en/'
+  - title: 'Riddari (four colors)'
+    url: '/en/patterns/riddari/'
+    serverless: true
+  - title: 'Color availability'
+    url: '/en/yarns/lettlopi/availability/'
+    serverless: true
+    current: true
 ---
 
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
@@ -12,10 +22,8 @@ metaImage = metadata[locale].metaImage %}
   eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
   eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
   'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %}
-
-
+  {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
 <section>
-  <div class="cta-link"><a href="/en/patterns/riddari/colors/?a={{colorA}}&b={{colorB}}&c={{colorC}}&d={{colorD}}">Back to color picker </a></div>
   <h1>Color Availability</h1>
   
 

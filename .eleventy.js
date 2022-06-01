@@ -83,6 +83,25 @@ module.exports = function (eleventyConfig) {
     return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:mm (OOOO)')}</time>`
   })
 
+  eleventyConfig.addShortcode('breadcrumbs', function (breadcrumbsObj, locale, query) {
+    const queryString = query ? `colors/?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
+
+    return `
+    <nav aria-label="${translations[locale].breadcrumbs}">
+      <ol class="breadcrumbs">
+        ${breadcrumbsObj
+          ?.map(
+            obj =>
+              `<li><a href="${obj.url}${obj.serverless ? queryString : ''}" ${
+                obj.current ? 'aria-current="page"' : ''
+              }>${obj.title}</a></li>`
+          )
+          .join('')}
+      </ol>
+    </nav>
+    `
+  })
+
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
     markdownTemplateEngine: 'njk',
