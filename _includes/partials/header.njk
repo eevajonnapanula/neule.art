@@ -5,11 +5,13 @@
       <li><a href="/{{locale}}/about" {% if page.url === '/en/about/' or page.url === '/fi/about/' %} aria-current="page" {%endif%}>{{translations[locale].header.about}}</a></li>
     </ul>
   </nav>
-  <nav aria-label="{{translations[locale].header.languages}}">
-
+{% if page.url !== '/404.html' %}  
+<nav aria-label="{{translations[locale].header.languages}}">
+    {% set serverlessPath = page.url.slice(4) + 'colors/' %}
     <ul>
-      <li><a href="{% urlBuilder eleventy.serverless.query, page.url, 'en' %}" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
-      <li><a href="{% urlBuilder eleventy.serverless.query, page.url, 'fi' %}" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
+      <li><a href="{% urlBuilder eleventy.serverless.query, page.url.slice(4), serverlessPath, 'en' %}" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
+      <li><a href="{% urlBuilder eleventy.serverless.query, page.url.slice(4), serverlessPath, 'fi' %}" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
     </ul>
   </nav>
+{% endif %}
 </header>
