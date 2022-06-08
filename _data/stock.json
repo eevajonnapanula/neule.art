@@ -37,9 +37,9 @@
     {
       "code": "0052",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false
       },
@@ -139,9 +139,9 @@
     {
       "code": "0059",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true
       },
@@ -224,9 +224,9 @@
     {
       "code": "1403",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false
       },
@@ -292,7 +292,7 @@
     {
       "code": "1407",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": false,
@@ -377,9 +377,9 @@
     {
       "code": "1416",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true
       },
@@ -503,7 +503,7 @@
         "lankaidea": true
       },
       "titles": {
-        "snurre": "1702 Mílkyway",
+        "snurre": "1702 Milkyway",
         "menita": "1702 linnunrata",
         "titityy": "1702 Milkyway",
         "lankapuutarha": "Milkyway ",
@@ -717,9 +717,9 @@
     {
       "code": "9431",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true
       },
@@ -766,5 +766,5 @@
       }
     }
   ],
-  "updated": "2022-06-07T00:49:47.830Z"
+  "updated": "2022-06-08T00:56:30.122Z"
 }
