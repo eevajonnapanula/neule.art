@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 changeFreq: daily
+tags: 'sitemap'
 permalink:
   build: '/fi/'
   colors: '/fi/colors/'
@@ -32,7 +33,9 @@ metaImage = metadata[locale].metaImage %}
 
       {% randomColorsLink locale %}
       <div class="cta-link">
-        <a href="{% urlBuilder eleventy.serverless.query, '/fi/availability/', locale %}">Katso värien saatavuus </a>
+        <a href="{% urlBuilder eleventy.serverless.query, '/fi/availability/','fi/availability/colors', locale %}"
+          >Katso värien saatavuus
+        </a>
       </div>
     </div>
   </div>

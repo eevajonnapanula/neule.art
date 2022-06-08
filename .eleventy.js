@@ -46,10 +46,9 @@ module.exports = function (eleventyConfig) {
       </fieldset>`
   })
 
-  eleventyConfig.addShortcode('urlBuilder', function (query, page, locale) {
-    const path = page.slice(4)
+  eleventyConfig.addShortcode('urlBuilder', function (query, path, pathToServerless, locale) {
     const queryString = query ? `?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
-    const restOfTheUrl = query ? `colors/${path}${queryString}` : path
+    const restOfTheUrl = query ? `${pathToServerless}${queryString}` : path
     return `/${locale}/${restOfTheUrl}`
   })
 
