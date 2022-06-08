@@ -24,5 +24,10 @@
     "key": "lankaidea",
     "linkToStock": "https://www.lankaidea.fi/product/731/istex-lettlopi"
   },
+  "lankakaisa": {
+    "name": "Lanka-Kaisa",
+    "key": "lankakaisa",
+    "linkToStock": "https://www.lanka-kaisa.fi/product/31/lettlopi-50g"
+  },
   "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea"]
 }

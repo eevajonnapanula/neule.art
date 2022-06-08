@@ -30,8 +30,8 @@ const listItem = (yarnName, yarnCode, color, availability, locale) => {
                  ? `${translations[locale].yarnAvailability.availableIn} <ul>${shopAvailability
                      .map(item => `<li><a href="${shops[item].linkToStock}">${shops[item].name}</a></li>`)
                      .join('')}</ul>`
-                 : `${translations[locale].yarnAvailability.notAvailable} ${Object.values(shops)
-                     .map(shop => shop.name)
+                 : `${translations[locale].yarnAvailability.notAvailable} ${shops.stores
+                     .map(shop => shops[shop].name)
                      .join(', ')}`
              }
               

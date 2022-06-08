@@ -105,6 +105,29 @@ const getColorsLankaidea = () => {
   })
 }
 
+const getColorsLankakaisa = () => {
+  return axios.get('https://www.lanka-kaisa.fi/product/31/lettlopi-50g').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = $('#variationscont')
+      .children()
+      .toArray()
+      .map(val => {
+        const splitted = $(val).text().split('\n')
+        const [title, code] = splitted[5].trim().split(', ')
+        const availableCount = parseInt(splitted[7].trim().match(/\d+/)[0])
+
+        return {
+          title,
+          code: code && code.slice(1),
+          available: availableCount > 0
+        }
+      })
+      .filter(item => item.code)
+    return json
+  })
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -126,6 +149,7 @@ const writeStockFile = async () => {
   const menita = await getColorsMenita()
   const lankapuutarha = await getColorsLankapuutarha()
   const lankaidea = await getColorsLankaidea()
+  const lankakaisa = await getColorsLankakaisa()
 
   const codes = Array.from(
     new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea].map(item => item.code))
@@ -137,6 +161,7 @@ const writeStockFile = async () => {
     const titityyStock = titityy.find(item => item.code === code) || { title: '', available: false, code }
     const lankapuutarhaStock = lankapuutarha.find(item => item.code === code) || { title: '', available: false, code }
     const lankaideaStock = lankaidea.find(item => item.code === code) || { title: '', available: false, code }
+    const lankakaisaStock = lankakaisa.find(item => item.code === code) || { title: '', available: false, code }
 
     return {
       code,
@@ -145,14 +170,16 @@ const writeStockFile = async () => {
         menita: menitaStock.available || false,
         titityy: titityyStock.available || false,
         lankapuutarha: lankapuutarhaStock.available || false,
-        lankaidea: lankaideaStock.available || false
+        lankaidea: lankaideaStock.available || false,
+        lankakaisa: lankakaisaStock.available || false
       },
       titles: {
         snurre: snurreStock.title || '',
         menita: menitaStock.title || '',
         titityy: titityyStock.title || '',
         lankapuutarha: lankapuutarhaStock.title || '',
-        lankaidea: lankaideaStock.title || ''
+        lankaidea: lankaideaStock.title || '',
+        lankakaisa: lankakaisaStock.title
       }
     }
   })

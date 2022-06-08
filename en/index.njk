@@ -32,7 +32,7 @@ metaImage = metadata[locale].metaImage %}
       </form>
       {% randomColorsLink locale %}
       <div class="cta-link">
-        <a href="{% urlBuilder eleventy.serverless.query, '/en/availability/', '/en/availability/colors', locale %}"
+        <a href="{% urlBuilder eleventy.serverless.query, 'availability/', 'availability/colors/', locale %}"
           >Color availability in selected stores
         </a>
       </div>
