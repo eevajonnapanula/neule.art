@@ -1,11 +1,4 @@
 [[redirects]]
-from = "/fi/colors/availability"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
 from = "/fi/colors/"
 to = "/.netlify/functions/colors"
 status = 200
@@ -13,7 +6,7 @@ force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/en/colors/availability"
+from = "/fi/availability/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
@@ -21,6 +14,13 @@ _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
 from = "/en/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
+from = "/en/availability/colors/"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
