@@ -8,14 +8,7 @@
     "colors": "Värit",
     "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.",
     "stockAvailability": "Katso saatavilla olevat värit",
-    "contactForm": {
-      "name": "Nimi: (pakollinen kenttä)",
-      "email": "Email: (pakollinen kenttä)",
-      "message": "Viesti: (pakollinen kenttä)",
-      "theme": "Aihe: (pakollinen kenttä)",
-      "themes": ["Palaute", "Idea sivulle", "Jotain on rikki", "Muu"],
-      "submit": "Lähetä"
-    },
+
     "randomColors": "Näytä satunnaiset värit",
     "undefinedColor": "tunnistamaton väri",
     "yarnAvailability": {
@@ -36,14 +29,7 @@
     "colors": "Colors",
     "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed.",
     "stockAvailability": "Check all colors' availability",
-    "contactForm": {
-      "name": "Name: (required)",
-      "email": "Email: (required)",
-      "message": "Message: (required)",
-      "theme": "Subject: (required)",
-      "themes": ["Feedback", "Feature idea", "Something's broken", "Other"],
-      "submit": "Submit"
-    },
+
     "randomColors": "Show random colors",
     "undefinedColor": "unknown color",
     "yarnAvailability": {
