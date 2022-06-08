@@ -1,7 +1,7 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
 
-const { getShirt } = require('./helpers/getShirt')
+const { getShirt, getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
@@ -18,8 +18,53 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
-    return getShirt(a, b, c, d)
+    // a = 12
+    // b = 1, 2, 4, 6, 8, 10
+    // c = 3, 7, 10
+    // d = 5, 9
+    //  return getShirt(a, b, c, d)
+
+    return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
+
+  eleventyConfig.addShortcode(
+    'riddariMultiple',
+    function (
+      main,
+      sleevePrimary,
+      sleeveSecondary,
+      yoke1,
+      yoke2,
+      yoke3,
+      yoke4,
+      yoke5,
+      yoke6,
+      yoke7,
+      yoke8,
+      yoke9,
+      yoke10,
+      yoke11,
+      yoke12
+    ) {
+      return getRiddari(
+        main,
+        sleevePrimary,
+        sleeveSecondary,
+        yoke1,
+        yoke2,
+        yoke3,
+        yoke4,
+        yoke5,
+        yoke6,
+        yoke7,
+        yoke8,
+        yoke9,
+        yoke10,
+        yoke11,
+        yoke12
+      )
+    }
+  )
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
     const valueToUse = selectedValue ? selectedValue : defaultValue
@@ -32,6 +77,7 @@ module.exports = function (eleventyConfig) {
 
       return aValue < bValue ? -1 : 1
     })
+
     return ` 
       <fieldset>
         <label for="${id}">${label}:</label>
@@ -67,6 +113,29 @@ module.exports = function (eleventyConfig) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
     return `<div class="cta-link"><a href="/${locale}/patterns/riddari/colors/${colors}">${translations[locale].randomColors} </a></div>`
+  })
+
+  eleventyConfig.addShortcode('randomColorsLinkRiddariMultiple', function (locale) {
+    const colorsArr = getRandomColors(yarnColors, [], 15)
+    const keys = [
+      'main',
+      'sleevePrimary',
+      'sleeveSecondary',
+      'yoke1',
+      'yoke2',
+      'yoke3',
+      'yoke4',
+      'yoke5',
+      'yoke6',
+      'yoke7',
+      'yoke8',
+      'yoke9',
+      'yoke10',
+      'yoke11',
+      'yoke12'
+    ]
+    const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index].colorValue}`).join('&')}`
+    return `<div class="cta-link"><a href="/${locale}/patterns/riddari-multiple/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
   eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {

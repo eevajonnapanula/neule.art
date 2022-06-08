@@ -49,3 +49,8 @@ Here are couple of ideas, how I might improve the site:
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# todo
+
+- [ ] Redirects 
+- [ ] Add breadcrumbs
