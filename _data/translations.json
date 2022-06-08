@@ -25,6 +25,23 @@
       "b": "B",
       "c": "C",
       "d": "D"
+    },
+    "multipleColorTexts": {
+      "main": "Pääväri",
+      "sleevePrimary": "Helma/hiha pohjaväri",
+      "sleeveSecondary": "Helma/hiha kuvioväri",
+      "yoke1": "Kaarroke 1 (alhaalta)",
+      "yoke2": "Kaarroke 2",
+      "yoke3": "Kaarroke 3",
+      "yoke4": "Kaarroke 4",
+      "yoke5": "Kaarroke 5",
+      "yoke6": "Kaarroke 6",
+      "yoke7": "Kaarroke 7",
+      "yoke8": "Kaarroke 8",
+      "yoke9": "Kaarroke 9",
+      "yoke10": "Kaarroke 10",
+      "yoke11": "Kaarroke 11",
+      "yoke12": "Kaarroke 12"
     }
   },
   "en": {
@@ -53,6 +70,23 @@
       "b": "B",
       "c": "C",
       "d": "D"
+    },
+    "multipleColorTexts": {
+      "main": "Main color",
+      "sleevePrimary": "Sleeve primary",
+      "sleeveSecondary": "Sleeve secondary",
+      "yoke1": "Yoke 1 (from the bottom)",
+      "yoke2": "Yoke 2",
+      "yoke3": "Yoke 3",
+      "yoke4": "Yoke 4",
+      "yoke5": "Yoke 5",
+      "yoke6": "Yoke 6",
+      "yoke7": "Yoke 7",
+      "yoke8": "Yoke 8",
+      "yoke9": "Yoke 9",
+      "yoke10": "Yoke 10",
+      "yoke11": "Yoke 11",
+      "yoke12": "Yoke 12"
     }
   }
 }
