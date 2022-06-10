@@ -87,17 +87,20 @@ const getColorsLankaidea = () => {
   return axios.get('https://www.lankaidea.fi/product/731/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
-    const json = $('.Checks')
-      .find('label')
+    const json = $('.ProductColors')
+      .children()
       .toArray()
       .map(val => {
-        const text = $(val).text()
+        const text = $(val).find('.VariationName').text()
+        const title = text.split('\n')[0].slice(4).trim()
+        const available = val.attribs.class.includes('Available')
+
         const code = text.match(/\d+/)[0]
 
         return {
-          title: text,
+          title,
           code: code.length === 4 ? code : `0${code}`,
-          available: !$($(val).find('input')).attr().disabled
+          available
         }
       })
 
