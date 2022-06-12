@@ -269,7 +269,7 @@
     {
       "code": "1404",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": false,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-06-11T00:55:22.150Z"
+  "updated": "2022-06-12T01:00:46.150Z"
 }
