@@ -19,12 +19,6 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
-    // a = 12
-    // b = 1, 2, 4, 6, 8, 10
-    // c = 3, 7, 10
-    // d = 5, 9
-    //  return getShirt(a, b, c, d)
-
     return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
 
@@ -159,14 +153,18 @@ module.exports = function (eleventyConfig) {
     return `
     <nav aria-label="${translations[locale].breadcrumbs}">
       <ol class="breadcrumbs">
-        ${breadcrumbsObj
-          ?.map(
-            obj =>
-              `<li><a href="${obj.url}${obj.serverless ? queryString : ''}" ${
-                obj.current ? 'aria-current="page"' : ''
-              }>${obj.title}</a></li>`
-          )
-          .join('')}
+        ${
+          breadcrumbsObj
+            ? breadcrumbsObj
+                .map(
+                  obj =>
+                    `<li><a href="${obj.url}${obj.serverless ? queryString : ''}" ${
+                      obj.current ? 'aria-current="page"' : ''
+                    }>${obj.title}</a></li>`
+                )
+                .join('')
+            : ''
+        }
       </ol>
     </nav>
     `
