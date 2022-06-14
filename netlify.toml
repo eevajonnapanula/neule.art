@@ -38,3 +38,15 @@ from = "/"
 to = "/fi/"
 status = 200
 force = true
+
+[[redirects]]
+from = "/fi/colors/"
+to = "/fi/patterns/riddari/colors/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/en/colors/"
+to = "/en/patterns/riddari/colors/"
+status = 200
+force = true
