@@ -12,7 +12,7 @@ async function handler(event) {
     query = Object.fromEntries(url.searchParams.entries())
   }
 
-  console.log('called with following: ', event)
+  console.log('called with following: ', event.rawUrl, event.path)
 
   let elev = new EleventyServerless('colors', {
     path: new URL(event.rawUrl).pathname,
