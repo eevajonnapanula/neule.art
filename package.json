@@ -26,8 +26,7 @@
   "license": "MIT",
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@netlify/functions": "^1.0.0"
+    "@11ty/eleventy": "^1.0.1"
   },
   "devDependencies": {
     "axios": "^0.27.2",
