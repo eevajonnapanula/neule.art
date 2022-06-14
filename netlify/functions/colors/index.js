@@ -6,12 +6,20 @@ const { builder } = require('@netlify/functions')
 require('./eleventy-bundler-modules.js')
 
 async function handler(event) {
+  const url = new URL(event.rawUrl)
+  let query = {}
+  if (Array.from(url.searchParams).length > 0) {
+    query = Object.fromEntries(url.searchParams.entries())
+  }
+
+  console.log('called with following: ', event)
+
   let elev = new EleventyServerless('colors', {
     path: new URL(event.rawUrl).pathname,
-    query: event.queryStringParameters,
+    query,
     functionsDir: './netlify/functions/'
   })
-  console.log('called with the following query string parameters: ', event.queryStringParameters)
+
   try {
     let [page] = await elev.getOutput()
 
