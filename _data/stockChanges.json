@@ -178,5 +178,35 @@
     "store": "snurre",
     "date": "2022-06-12T01:00:46.150Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "menita",
+    "date": "2022-06-15T01:01:20.771Z",
+    "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "menita",
+    "date": "2022-06-15T01:01:20.771Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "menita",
+    "date": "2022-06-15T01:01:20.771Z",
+    "change": "added"
+  },
+  {
+    "code": "1416",
+    "store": "menita",
+    "date": "2022-06-15T01:01:20.771Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "titityy",
+    "date": "2022-06-15T01:01:20.771Z",
+    "change": "added"
   }
 ]
