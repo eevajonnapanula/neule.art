@@ -1,0 +1,95 @@
+{
+  "fourColors": [
+    { "labelKey": "a", "identifier": "colorA", "queryKey": "a", "defaultColor": "000000" },
+    { "labelKey": "b", "identifier": "colorB", "queryKey": "b", "defaultColor": "037C79" },
+    { "labelKey": "c", "identifier": "colorC", "queryKey": "c", "defaultColor": "DC7633" },
+    { "labelKey": "d", "identifier": "colorD", "queryKey": "d", "defaultColor": "AED6F1" }
+  ],
+  "multipleColors": [
+    { "labelKey": "main", "identifier": "main-color", "queryKey": "main", "defaultColor": "000000" },
+    {
+      "labelKey": "sleevePrimary",
+      "identifier": "sleeve-primary",
+      "queryKey": "sleevePrimary",
+      "defaultColor": "037C79"
+    },
+    {
+      "labelKey": "sleeveSecondary",
+      "identifier": "sleeve-secondary",
+      "queryKey": "sleeveSecondary",
+      "defaultColor": "DC7633"
+    },
+    {
+      "labelKey": "yoke1",
+      "identifier": "yoke1",
+      "queryKey": "yoke1",
+      "defaultColor": "AED6F1"
+    },
+    {
+      "labelKey": "yoke2",
+      "identifier": "yoke2",
+      "queryKey": "yoke2",
+      "defaultColor": "961060"
+    },
+    {
+      "labelKey": "yoke3",
+      "identifier": "yoke3",
+      "queryKey": "yoke3",
+      "defaultColor": "604978"
+    },
+    {
+      "labelKey": "yoke4",
+      "identifier": "yoke4",
+      "queryKey": "yoke4",
+      "defaultColor": "F1C40F"
+    },
+    {
+      "labelKey": "yoke5",
+      "identifier": "yoke5",
+      "queryKey": "yoke5",
+      "defaultColor": "9DDB13"
+    },
+    {
+      "labelKey": "yoke6",
+      "identifier": "yoke6",
+      "queryKey": "yoke6",
+      "defaultColor": "943126"
+    },
+    {
+      "labelKey": "yoke7",
+      "identifier": "yoke7",
+      "queryKey": "yoke7",
+      "defaultColor": "2E6592"
+    },
+    {
+      "labelKey": "yoke8",
+      "identifier": "yoke8",
+      "queryKey": "yoke8",
+      "defaultColor": "0E6655"
+    },
+    {
+      "labelKey": "yoke9",
+      "identifier": "yoke9",
+      "queryKey": "yoke9",
+      "defaultColor": "EE1313"
+    },
+    {
+      "labelKey": "yoke10",
+      "identifier": "yoke10",
+      "queryKey": "yoke10",
+      "defaultColor": "873600"
+    },
+    {
+      "labelKey": "yoke11",
+      "identifier": "yoke11",
+      "queryKey": "yoke11",
+      "defaultColor": "094D6D"
+    },
+    {
+      "labelKey": "yoke12",
+      "identifier": "yoke12",
+      "queryKey": "yoke12",
+      "defaultColor": "4A235A"
+    }
+  ]
+}

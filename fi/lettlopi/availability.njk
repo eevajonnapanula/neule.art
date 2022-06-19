@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.njk
 permalink:
-  build: '/fi/availability/'
-  colors: '/fi/availability/colors/'
+  build: '/fi/lettlopi/availability/'
+  colors: '/fi/lettlopi/colors/availability'
 ---
 
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
@@ -19,9 +19,9 @@ metaImage = metadata[locale].metaImage %}
 
 
   <div class="color-picker-wrapper switcher">
-    <div>{% colorAvailability colorA, colorB, colorC, colorD, locale %}</div>
+    <div>{% colorAvailability locale, colorA, colorB, colorC, colorD %}</div>
     <div>
-      {% shirt colorA, colorB, colorC, colorD %} {%
+      {% riddari colorA, colorB, colorC, colorD %} {%
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
   </div>

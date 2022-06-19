@@ -1,7 +1,7 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
 
-const { getShirt } = require('./helpers/getShirt')
+const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
@@ -17,9 +17,48 @@ module.exports = function (eleventyConfig) {
     copy: ['helpers/getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js']
   })
 
-  eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
-    return getShirt(a, b, c, d)
+  eleventyConfig.addShortcode('riddari', function (a, b, c, d) {
+    return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
+
+  eleventyConfig.addShortcode(
+    'riddariMultiple',
+    function (
+      main,
+      sleevePrimary,
+      sleeveSecondary,
+      yoke1,
+      yoke2,
+      yoke3,
+      yoke4,
+      yoke5,
+      yoke6,
+      yoke7,
+      yoke8,
+      yoke9,
+      yoke10,
+      yoke11,
+      yoke12
+    ) {
+      return getRiddari(
+        main,
+        sleevePrimary,
+        sleeveSecondary,
+        yoke1,
+        yoke2,
+        yoke3,
+        yoke4,
+        yoke5,
+        yoke6,
+        yoke7,
+        yoke8,
+        yoke9,
+        yoke10,
+        yoke11,
+        yoke12
+      )
+    }
+  )
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
     const valueToUse = selectedValue ? selectedValue : defaultValue
@@ -32,6 +71,7 @@ module.exports = function (eleventyConfig) {
 
       return aValue < bValue ? -1 : 1
     })
+
     return ` 
       <fieldset>
         <label for="${id}">${label}:</label>
@@ -66,11 +106,34 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
-    return `<div class="cta-link"><a href="/${locale}/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a href="/${locale}/patterns/riddari/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
-  eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {
-    return parseColors(a, b, c, d, yarnColors, locale)
+  eleventyConfig.addShortcode('randomColorsLinkRiddariMultiple', function (locale) {
+    const colorsArr = getRandomColors(yarnColors, [], 15)
+    const keys = [
+      'main',
+      'sleevePrimary',
+      'sleeveSecondary',
+      'yoke1',
+      'yoke2',
+      'yoke3',
+      'yoke4',
+      'yoke5',
+      'yoke6',
+      'yoke7',
+      'yoke8',
+      'yoke9',
+      'yoke10',
+      'yoke11',
+      'yoke12'
+    ]
+    const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index].colorValue}`).join('&')}`
+    return `<div class="cta-link"><a href="/${locale}/patterns/riddari-multiple/colors/${colors}">${translations[locale].randomColors} </a></div>`
+  })
+
+  eleventyConfig.addShortcode('colorAvailability', function (locale, ...colors) {
+    return parseColors(colors, yarnColors, locale)
   })
 
   eleventyConfig.addShortcode('allColorAvailability', function (locale) {
@@ -81,6 +144,29 @@ module.exports = function (eleventyConfig) {
     const datetime = new Date(time)
 
     return `<time datetime="${time}">${format(datetime, 'dd.MM.yyyy HH:mm (OOOO)')}</time>`
+  })
+
+  eleventyConfig.addShortcode('breadcrumbs', function (breadcrumbsObj, locale, query) {
+    const queryString = query ? `colors/?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
+
+    return `
+    <nav aria-label="${translations[locale].breadcrumbs}">
+      <ol class="breadcrumbs">
+        ${
+          breadcrumbsObj
+            ? breadcrumbsObj
+                .map(
+                  obj =>
+                    `<li><a href="${obj.url}${obj.serverless ? queryString : ''}" ${
+                      obj.current ? 'aria-current="page"' : ''
+                    }>${obj.title}</a></li>`
+                )
+                .join('')
+            : ''
+        }
+      </ol>
+    </nav>
+    `
   })
 
   return {

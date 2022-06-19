@@ -43,9 +43,9 @@ I'm not actively looking for contributors right now, so even if you create a pul
 Here are couple of ideas, how I might improve the site:
 - [x] Show random colors
 - [x] Show stock from some yarn stores
-- [ ] Add possibility to choose color for every motif
-- [ ] Add possibility to share the colors in cleaner format (png?)
+- [x] Add possibility to choose color for every motif for Riddari
 - [ ] Progressive enhancement: Change color dynamically
+- [ ] New patterns and yarns
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

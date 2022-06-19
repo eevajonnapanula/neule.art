@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+tags: 'sitemap'
+title: 'Lankojen saatavuus: Lettlopi -'
+permalink:
+  build: '/fi/yarns/lettlopi/store-availability/'
+breadcrumbs:
+  - title: Etusivu
+    url: '/fi/'
+  - title: 'Léttlopin värit'
+    url: '/fi/yarns/lettlopi/store-availability'
+    current: true
+---
+
+{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
+metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale %} {% allColorAvailability locale %}

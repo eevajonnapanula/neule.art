@@ -192,6 +192,10 @@ footer {
   margin-top: 4rem;
 }
 
+section {
+  margin-bottom: 5rem;
+}
+
 .buy-me-a-coffee {
   margin-top: 1rem;
 }
@@ -256,7 +260,7 @@ footer {
 }
 
 .cta-link {
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 
 .cta-link > a::after {
@@ -272,6 +276,9 @@ footer {
 .yarn-availability-list {
   padding: 0;
   margin: 0;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .all-yarn {
@@ -286,7 +293,7 @@ footer {
   border: 0.15rem solid var(--c-text);
   border-radius: var(--border-radius);
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 0;
   grid-template-areas:
     'color title'
     'color shops'
@@ -317,4 +324,24 @@ footer {
 
 #show-available:checked ~ .yarn-availability-list .not-available {
   display: none;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs > li {
+  padding-right: 1rem;
+}
+
+.breadcrumbs > li:not(:last-child)::after {
+  content: '>';
+  padding-left: 1rem;
+}
+
+.breadcrumbs > li > a[aria-current='page'] {
+  border-bottom: none;
 }
