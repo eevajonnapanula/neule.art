@@ -24,3 +24,9 @@ Cypress.Commands.add('selectsMatchParams', key => {
     cy.selectsHaveCorrectValues(key, params)
   })
 })
+
+Cypress.Commands.add('checkAccessibility', (url) => {
+  cy.visit(url)
+  cy.injectAxe()
+  cy.checkA11y()
+})
