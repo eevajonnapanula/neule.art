@@ -57,6 +57,8 @@ CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
 # set TERM variable for terminal output
 TERM = "xterm"
 
-
 [[plugins]]
   package = "netlify-plugin-cypress"
+  [plugins.inputs.preBuild]
+    start = 'npx netlify dev'
+    wait-on = 'http://localhost:8888'
