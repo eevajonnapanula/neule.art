@@ -1,19 +1,8 @@
 ---
 layout: layouts/base.njk
-title: 'Lankojen saatavuus -'
 permalink:
-  build: '/fi/yarns/lettlopi/availability/'
-  colors: '/fi/yarns/lettlopi/availability/colors/'
-breadcrumbs: 
-  - title: Etusivu
-    url: '/fi/'
-  - title: 'Riddari (neljä väriä)'
-    url: '/fi/patterns/riddari/'
-    serverless: true
-  - title: 'Värien saatavuus'
-    url: '/fi/yarns/lettlopi/availability/'
-    serverless: true
-    current: true
+  build: '/fi/lettlopi/availability/'
+  colors: '/fi/lettlopi/colors/availability'
 ---
 
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
@@ -23,13 +12,16 @@ metaImage = metadata[locale].metaImage %}
   eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
   eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
   'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} 
-{% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
+
 <section>
+  <div class="cta-link"><a href="/fi/colors/?a={{colorA}}&b={{colorB}}&c={{colorC}}&d={{colorD}}">Takaisin etusivulle </a></div>
   <h1>Värien saatavuus</h1>
+
+
   <div class="color-picker-wrapper switcher">
-    <div>{% colorAvailability colorA, colorB, colorC, colorD, locale %}</div>
+    <div>{% colorAvailability locale, colorA, colorB, colorC, colorD %}</div>
     <div>
-      {% shirt colorA, colorB, colorC, colorD %} {%
+      {% riddari colorA, colorB, colorC, colorD %} {%
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
   </div>

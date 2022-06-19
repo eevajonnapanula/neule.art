@@ -26,18 +26,24 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
       {% set yoke1 = eleventy.serverless.query.yoke1 %} {% set yoke1 = eleventy.serverless.query.yoke1 %} {% set yoke2 =
       eleventy.serverless.query.yoke2 %} {% set yoke3 = eleventy.serverless.query.yoke3 %} {% set yoke4 =
       eleventy.serverless.query.yoke4 %} {% set yoke5 = eleventy.serverless.query.yoke5 %} {% set yoke6 =
-      eleventy.serverless.query.yoke6 %} {% set yoke7 = eleventy.serverless.query.yoke7 %} {% set yoke8 =
-      eleventy.serverless.query.yoke8 %} {% set yoke9 = eleventy.serverless.query.yoke9 %} {% set yoke10 =
-      eleventy.serverless.query.yoke10 %} {% set yoke11 = eleventy.serverless.query.yoke11 %} {% set yoke12 =
-      eleventy.serverless.query.yoke12 %} {% else %} {% set main = '000000' %} {% set sleevePrimary = '037C79' %} {% set
-      sleeveSecondary = 'DC7633' %} {% set yoke1 = 'AED6F1' %} {% set yoke2 = "961060" %} {% set yoke3 = "604978" %} {%
+      eleventy.serverless.query.yoke6 %} {% set yoke7 = eleventy.serverless.query.yoke7 %} {% set yoke8 = eleventy.serverless.query.yoke8 %} {% set yoke9 = eleventy.serverless.query.yoke9 %} 
+      {% set yoke10 = eleventy.serverless.query.yoke10 %} 
+      {% set yoke11 = eleventy.serverless.query.yoke11 %} {% set yoke12 = eleventy.serverless.query.yoke12 %} 
+      {% else %} {% set main = '000000' %} {% set sleevePrimary = '037C79' %} 
+      {% set sleeveSecondary = 'DC7633' %} {% set yoke1 = 'AED6F1' %} {% set yoke2 = "961060" %} {% set yoke3 = "604978" %} {%
       set yoke4 = "F1C40F" %} {% set yoke5 = "9DDB13" %} {% set yoke6 = "943126" %} {% set yoke7 = "2E6592" %} {% set
       yoke8 = "0E6655" %} {% set yoke9 = "EE1313" %} {% set yoke10 = "873600" %} {% set yoke11 = "094D6D" %} {% set
-      yoke11 = "094D6D" %} {% endif %} {% riddariMultiple main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
+      yoke11 = "094D6D" %} {% set yoke12 = "4A235A" %} {% endif %} {% riddariMultiple main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
       yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %} {% visuallyHiddenText
       translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
+      <div class="cta-link">
+        <a
+          href="/fi/yarns/lettlopi/store-availability/"
+          >Kaikki värit
+        </a>
+      </div>
       <form method="get" action="/fi/patterns/riddari-multiple/colors/" class="colors-form">
         <div id="multiple-colors-form">
           {%- for color in colorOptions.multipleColors %} {% colorSelect color.labelKey, color.identifier,
@@ -49,16 +55,20 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
       {% randomColorsLinkRiddariMultiple locale %}
 
-      <div class="cta-link">
-        <a
-          href="{% urlBuilder eleventy.serverless.query, 'yarns/lettlopi/availability/', 'yarns/lettlopi/availability/colors', locale %}"
-          >Katso värien saatavuus
-        </a>
-      </div>
     </div>
   </div>
 
-  {% include "partials/colors.njk" %}
+ <section> <h2>Värien saatavuus</h2>
+  <div class="color-picker-wrapper">
+    {% colorAvailability locale, main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
+      yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %}</div>
+    
+  <div>
+    <div>Viimeisin päivitys: {% time stock.updated %}</div>
+    {% set comma = joiner() %}
+    <p>Tällä hetkellä tiedot haetaan seuraavista kaupoista: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
+    <p>Jos haluat jonkin muun kaupan mukaan, laita viestiä. Yhteystiedot löytyvät <a href="/fi/about/">Tietoja-sivulta.</a></p>
+  </section>
 
   <h2>Linkkejä</h2>
   <ul>

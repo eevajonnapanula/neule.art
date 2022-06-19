@@ -16,8 +16,8 @@
       "notAvailable": "Ei saatavilla kaupoissa "
     },
     "colorAvailability": {
-      "title": "Värien saatavuus",
-      "showOnlyAvailable": "Näytä vain saatavilla olevat"
+      "title": "Léttlopin värit",
+      "showOnlyAvailable": "Näytä vain valituissa lankakaupoissa saatavilla olevat"
     },
     "breadcrumbs": "Murupolku",
     "fourColorTexts": {
@@ -61,8 +61,8 @@
       "notAvailable": "Not available in "
     },
     "colorAvailability": {
-      "title": "Color availability",
-      "showOnlyAvailable": "Show only available colors"
+      "title": "Léttlopi Colors",
+      "showOnlyAvailable": "Show only available colors in selected stores"
     },
     "breadcrumbs": "Breadcrumbs",
     "fourColorTexts": {

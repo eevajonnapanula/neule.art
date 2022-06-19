@@ -1,7 +1,7 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
 
-const { getShirt, getRiddari } = require('./helpers/getShirt')
+const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
 const yarnColors = require('./_data/yarnColors.json')
@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
     copy: ['helpers/getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js']
   })
 
-  eleventyConfig.addShortcode('shirt', function (a, b, c, d) {
+  eleventyConfig.addShortcode('riddari', function (a, b, c, d) {
     return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
 
@@ -132,8 +132,8 @@ module.exports = function (eleventyConfig) {
     return `<div class="cta-link"><a href="/${locale}/patterns/riddari-multiple/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
-  eleventyConfig.addShortcode('colorAvailability', function (a, b, c, d, locale) {
-    return parseColors(a, b, c, d, yarnColors, locale)
+  eleventyConfig.addShortcode('colorAvailability', function (locale, ...colors) {
+    return parseColors(colors, yarnColors, locale)
   })
 
   eleventyConfig.addShortcode('allColorAvailability', function (locale) {

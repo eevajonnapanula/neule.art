@@ -272,6 +272,9 @@ footer {
 .yarn-availability-list {
   padding: 0;
   margin: 0;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .all-yarn {
@@ -286,7 +289,7 @@ footer {
   border: 0.15rem solid var(--c-text);
   border-radius: var(--border-radius);
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 0;
   grid-template-areas:
     'color title'
     'color shops'
