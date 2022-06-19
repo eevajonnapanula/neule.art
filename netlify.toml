@@ -43,3 +43,20 @@ from = "/en/colors/"
 to = "/en/patterns/riddari/colors/"
 status = 200
 force = true
+
+# explicit commands for building the site
+# and the folder to publish
+[build]
+command = "npm run build"
+publish = "_site"
+
+[build.environment]
+# cache Cypress binary in local "node_modules" folder
+# so Netlify caches it
+CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+# set TERM variable for terminal output
+TERM = "xterm"
+
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
