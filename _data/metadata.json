@@ -8,15 +8,15 @@
   },
   "baseURL": "https://neule.art",
   "en": {
-    "metaTitle": "",
+    "metaTitle": "Neule.art - Color Picker for Knitting Patterns",
     "metaDescription": "A color picker for testing different color combinations for different knitting patterns.",
-    "imagePath": "/img/en-image.png",
+    "imagePath": "/img/image-en.png",
     "altText": "Neule.art - Color picker for knitting patterns"
   },
   "fi": {
-    "metaTitle": "",
+    "metaTitle": "Neule.art - Värivalitsin neuleille",
     "metaDescription": "Värivalitsin erilaisten väriyhdistelmien testaamiseen eri neuleille.",
-    "imagePath": "/img/fi-image.png",
+    "imagePath": "/img/image-fi.png",
     "altText": "Neule.art - Värivalitsin neuleille"
   }
 }
