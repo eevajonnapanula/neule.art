@@ -44,16 +44,11 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
       </form>
 
       {% randomColorsLink locale %}
-      <div class="cta-link">
-        <a
-          href="{% urlBuilder eleventy.serverless.query, 'yarns/lettlopi/availability/', 'yarns/lettlopi/availability/colors', locale %}"
-          >Katso värien saatavuus
-        </a>
-      </div>
+
     </div>
   </div>
-
-  <section> <h2>Värien saatavuus</h2>
+</section>
+  <section class="color-availability"> <h2>Värien saatavuus</h2>
     <div class="color-picker-wrapper">
       {% colorAvailability locale, colorA, colorB, colorC, colorD %}</div>
       
@@ -62,7 +57,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
       {% set comma = joiner() %}
       <p>Tällä hetkellä tiedot haetaan seuraavista kaupoista: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
       <p>Jos haluat jonkin muun kaupan mukaan, laita viestiä. Yhteystiedot löytyvät <a href="/fi/about/">Tietoja-sivulta.</a></p></section>
-
+<section>
   <h2>Linkkejä</h2>
   <ul>
     <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>

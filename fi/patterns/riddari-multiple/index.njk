@@ -57,7 +57,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
     </div>
   </div>
-
+</section>
  <section> <h2>Värien saatavuus</h2>
   <div class="color-picker-wrapper">
     {% colorAvailability locale, main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
@@ -69,7 +69,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
     <p>Tällä hetkellä tiedot haetaan seuraavista kaupoista: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
     <p>Jos haluat jonkin muun kaupan mukaan, laita viestiä. Yhteystiedot löytyvät <a href="/fi/about/">Tietoja-sivulta.</a></p>
   </section>
-
+<section>
   <h2>Linkkejä</h2>
   <ul>
     <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>

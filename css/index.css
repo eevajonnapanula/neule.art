@@ -192,6 +192,10 @@ footer {
   margin-top: 4rem;
 }
 
+section {
+  margin-bottom: 5rem;
+}
+
 .buy-me-a-coffee {
   margin-top: 1rem;
 }
@@ -256,7 +260,7 @@ footer {
 }
 
 .cta-link {
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 
 .cta-link > a::after {
