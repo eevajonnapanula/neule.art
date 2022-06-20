@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 changeFreq: daily
+tags: 'sitemap'
 title: 'Värivalitsin Riddarille -'
 permalink:
   build: '/fi/patterns/riddari/'
@@ -28,13 +29,13 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
-      <form method="get" action="/fi/patterns/riddari/colors/" class="colors-form">
-        <div class="cta-link">
+      <div class="cta-link">
         <a
           href="/fi/yarns/lettlopi/"
           >Kaikki värit
         </a>
       </div>
+      <form method="get" action="/fi/patterns/riddari/colors/" class="colors-form">
         <div id="four-colors-form">
           {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
           translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
