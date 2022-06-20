@@ -1,5 +1,4 @@
 _site/
 node_modules/
-package-lock.json
 netlify/functions/colors/**
 !netlify/functions/colors/index.js

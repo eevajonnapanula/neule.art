@@ -6,6 +6,7 @@ const parseColors = (colorsArr, allColors, locale) => {
   const colors = colorsArr.map(item => {
     const color = allColors.find(colorObj => colorObj.colorValue === item)
     const stock = data.stock.find(stockObj => stockObj.code === color.code)
+
     return Object.assign(color, stock)
   })
 
@@ -56,7 +57,7 @@ const parseAllColors = (yarnColors, locale) => {
     })
 
   return `<section>
-            <h2>${translations[locale].colorAvailability.title}</h2>
+            <h1>${translations[locale].colorAvailability.title}</h1>
             <input type="checkbox" name="Show available" id="show-available" /> 
             <label for="show-available">${translations[locale].colorAvailability.showOnlyAvailable}</label>
             <ul class="yarn-availability-list all-yarn">

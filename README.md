@@ -44,6 +44,7 @@ Here are couple of ideas, how I might improve the site:
 - [x] Show random colors
 - [x] Show stock from some yarn stores
 - [x] Add possibility to choose color for every motif for Riddari
+- [x] Add tests
 - [ ] Progressive enhancement: Change color dynamically
 - [ ] New patterns and yarns
 

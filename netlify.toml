@@ -13,13 +13,6 @@ force = true
 _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
-from = "/fi/lettlopi/colors/availability"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
 from = "/en/patterns/riddari/colors/"
 to = "/.netlify/functions/colors"
 status = 200
@@ -28,13 +21,6 @@ _generated_by_eleventy_serverless = "colors"
 
 [[redirects]]
 from = "/en/patterns/riddari-multiple/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/en/lettlopi/colors/availability"
 to = "/.netlify/functions/colors"
 status = 200
 force = true
