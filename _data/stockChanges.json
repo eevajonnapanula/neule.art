@@ -226,5 +226,35 @@
     "store": "menita",
     "date": "2022-06-17T00:54:56.844Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankapuutarha",
+    "date": "2022-06-20T01:01:58.855Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2022-06-20T01:01:58.855Z",
+    "change": "added"
+  },
+  {
+    "code": "1702",
+    "store": "snurre",
+    "date": "2022-06-20T01:01:58.855Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "lankapuutarha",
+    "date": "2022-06-20T01:01:58.855Z",
+    "change": "added"
+  },
+  {
+    "code": "9434",
+    "store": "lankapuutarha",
+    "date": "2022-06-20T01:01:58.855Z",
+    "change": "added"
   }
 ]
