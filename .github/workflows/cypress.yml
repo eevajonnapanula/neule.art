@@ -13,3 +13,6 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          browser: chrome
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
