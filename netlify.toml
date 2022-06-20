@@ -33,13 +33,25 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/fi/colors/"
-to = "/fi/patterns/riddari/colors/"
-status = 200
+from = "/fi/colors/*"
+to = "/fi/patterns/riddari/colors/:splat"
+status = 301
 force = true
 
 [[redirects]]
-from = "/en/colors/"
-to = "/en/patterns/riddari/colors/"
-status = 200
+from = "/en/colors/*"
+to = "/en/patterns/riddari/colors/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/colors/availability/*"
+to = "/fi/patterns/riddari/colors/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/colors/availability/*"
+to = "/en/patterns/riddari/colors/:splat"
+status = 301
 force = true
