@@ -256,5 +256,11 @@
     "store": "lankapuutarha",
     "date": "2022-06-20T01:01:58.855Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2022-06-22T01:05:56.486Z",
+    "change": "deleted"
   }
 ]
