@@ -3,4 +3,19 @@ permalink: '/robots.txt'
 eleventyExcludeFromCollections: true
 ---
 
-User-agent: * Allow: / Sitemap: {{ metadata.url }}/sitemap.xml
+User-agent: *
+Disallow: /fi/patterns/riddari/colors/
+
+User-agent: *
+Disallow: /en/patterns/riddari/colors/
+
+User-agent: *
+Disallow: /fi/patterns/riddari-multiple/colors/
+
+User-agent: *
+Disallow: /en/patterns/riddari-multiple/colors/
+
+User-agent: * 
+Allow: / 
+
+Sitemap: {{ metadata.url }}/sitemap.xml
