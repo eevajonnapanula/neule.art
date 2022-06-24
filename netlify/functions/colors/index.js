@@ -13,8 +13,10 @@ async function handler(event, context) {
   })
   console.log('called with the following query string parameters: ', event.queryStringParameters)
   console.log('called with the following path: ', pathName)
-  console.log('user agent:', event.headers['user-agent'])
-  console.log('x-country:', event.headers['x-country'])
+  if (event.headers) {
+    console.log('user agent:', event.headers['user-agent'])
+    console.log('x-country:', event.headers['x-country'])
+  }
   try {
     let [page] = await elev.getOutput()
 
