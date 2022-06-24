@@ -331,7 +331,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -426,7 +426,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1416 Moor",
@@ -445,7 +445,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1417 Frost bite",
@@ -559,7 +559,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1702 Milkyway",
@@ -567,7 +567,7 @@
         "titityy": "1702 Milkyway",
         "lankapuutarha": "Milkyway ",
         "lankaidea": "Milkyway",
-        "lankakaisa": ""
+        "lankakaisa": "Milkyway"
       }
     },
     {
@@ -730,7 +730,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "9421 Celery Green heather",
@@ -749,7 +749,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "9423 Lagoon heather",
@@ -806,7 +806,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "9431 Brick Heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-06-23T00:54:51.984Z"
+  "updated": "2022-06-24T00:59:36.174Z"
 }
