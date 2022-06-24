@@ -55,4 +55,3 @@ from = "/en/colors/*"
 to = "/en/patterns/riddari/colors/:splat"
 status = 301
 force = true
-
