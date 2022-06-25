@@ -316,5 +316,29 @@
     "store": "lankakaisa",
     "date": "2022-06-24T00:59:36.174Z",
     "change": "deleted"
+  },
+  {
+    "code": "1417",
+    "store": "lankapuutarha",
+    "date": "2022-06-25T00:59:57.952Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "lankapuutarha",
+    "date": "2022-06-25T00:59:57.952Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "lankapuutarha",
+    "date": "2022-06-25T00:59:57.952Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "lankapuutarha",
+    "date": "2022-06-25T00:59:57.952Z",
+    "change": "added"
   }
 ]
