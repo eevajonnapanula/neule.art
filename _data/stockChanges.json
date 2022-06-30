@@ -340,5 +340,11 @@
     "store": "lankapuutarha",
     "date": "2022-06-25T00:59:57.952Z",
     "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "lankakaisa",
+    "date": "2022-06-30T00:58:22.624Z",
+    "change": "added"
   }
 ]
