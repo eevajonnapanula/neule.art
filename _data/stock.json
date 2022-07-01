@@ -695,7 +695,7 @@
         "lankakaisa": true
       },
       "titles": {
-        "snurre": "9419 Ocaen blue",
+        "snurre": "9419 Ocean blue",
         "menita": "9419 sininen",
         "titityy": "9419 Ocean blue",
         "lankapuutarha": "Merensinen ",
@@ -787,7 +787,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-06-30T00:58:22.624Z"
+  "updated": "2022-07-01T01:08:17.572Z"
 }
