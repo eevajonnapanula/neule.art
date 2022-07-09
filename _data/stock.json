@@ -160,7 +160,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0059 Black",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-07-08T01:06:06.454Z"
+  "updated": "2022-07-09T00:55:04.142Z"
 }

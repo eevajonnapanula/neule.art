@@ -364,5 +364,11 @@
     "store": "lankakaisa",
     "date": "2022-07-07T01:05:23.031Z",
     "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "lankakaisa",
+    "date": "2022-07-09T00:55:04.141Z",
+    "change": "deleted"
   }
 ]
