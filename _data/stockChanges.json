@@ -406,5 +406,17 @@
     "store": "lankapuutarha",
     "date": "2022-07-13T01:01:23.319Z",
     "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "lankapuutarha",
+    "date": "2022-07-14T01:07:10.602Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "lankakaisa",
+    "date": "2022-07-14T01:07:10.602Z",
+    "change": "deleted"
   }
 ]
