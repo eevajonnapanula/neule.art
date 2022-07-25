@@ -598,5 +598,17 @@
     "store": "lankapuutarha",
     "date": "2022-07-23T01:03:16.943Z",
     "change": "added"
+  },
+  {
+    "code": "1704",
+    "store": "lankapuutarha",
+    "date": "2022-07-25T01:04:41.432Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "snurre",
+    "date": "2022-07-25T01:04:41.432Z",
+    "change": "deleted"
   }
 ]

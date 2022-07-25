@@ -595,7 +595,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false
       },
@@ -611,7 +611,7 @@
     {
       "code": "1705",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-07-24T01:08:48.732Z"
+  "updated": "2022-07-25T01:04:41.433Z"
 }
