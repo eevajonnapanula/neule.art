@@ -62,7 +62,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true
@@ -461,7 +461,7 @@
       "availability": {
         "snurre": false,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true
@@ -480,7 +480,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true
@@ -518,7 +518,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true
@@ -746,7 +746,7 @@
       "availability": {
         "snurre": false,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true
@@ -803,7 +803,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-02T01:10:05.752Z"
+  "updated": "2022-08-03T01:09:21.933Z"
 }

@@ -640,5 +640,41 @@
     "store": "titityy",
     "date": "2022-08-01T01:12:57.073Z",
     "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9431",
+    "store": "titityy",
+    "date": "2022-08-03T01:09:21.933Z",
+    "change": "deleted"
   }
 ]
