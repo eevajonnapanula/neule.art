@@ -724,5 +724,17 @@
     "store": "snurre",
     "date": "2022-08-09T01:10:37.206Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankaidea",
+    "date": "2022-08-10T01:04:34.774Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "lankaidea",
+    "date": "2022-08-10T01:04:34.774Z",
+    "change": "deleted"
   }
 ]
