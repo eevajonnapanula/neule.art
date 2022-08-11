@@ -736,5 +736,29 @@
     "store": "lankaidea",
     "date": "2022-08-10T01:04:34.774Z",
     "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "titityy",
+    "date": "2022-08-11T01:00:30.388Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1412",
+    "store": "titityy",
+    "date": "2022-08-11T01:00:30.388Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "lankapuutarha",
+    "date": "2022-08-11T01:00:30.388Z",
+    "change": "added"
+  },
+  {
+    "code": "1420",
+    "store": "titityy",
+    "date": "2022-08-11T01:00:30.388Z",
+    "change": "added"
   }
 ]
