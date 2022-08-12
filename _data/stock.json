@@ -26,7 +26,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true
       },
       "titles": {
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-11T01:00:30.388Z"
+  "updated": "2022-08-12T01:00:32.773Z"
 }
