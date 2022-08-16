@@ -367,7 +367,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false
       },
@@ -787,7 +787,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-15T01:06:07.905Z"
+  "updated": "2022-08-16T01:11:30.448Z"
 }
