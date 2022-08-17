@@ -862,5 +862,29 @@
     "store": "lankakaisa",
     "date": "2022-08-16T01:11:30.447Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankaidea",
+    "date": "2022-08-17T01:09:08.838Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "lankapuutarha",
+    "date": "2022-08-17T01:09:08.838Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "lankaidea",
+    "date": "2022-08-17T01:09:08.838Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "lankapuutarha",
+    "date": "2022-08-17T01:09:08.838Z",
+    "change": "added"
   }
 ]

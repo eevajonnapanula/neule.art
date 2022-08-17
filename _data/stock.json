@@ -7,7 +7,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -310,7 +310,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true
       },
@@ -330,7 +330,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -367,7 +367,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false
       },
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-16T01:11:30.448Z"
+  "updated": "2022-08-17T01:09:08.839Z"
 }
