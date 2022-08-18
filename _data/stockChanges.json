@@ -886,5 +886,11 @@
     "store": "lankapuutarha",
     "date": "2022-08-17T01:09:08.838Z",
     "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "lankakaisa",
+    "date": "2022-08-18T01:11:40.515Z",
+    "change": "deleted"
   }
 ]
