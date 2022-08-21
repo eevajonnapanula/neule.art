@@ -478,7 +478,7 @@
     {
       "code": "1419",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-20T01:01:16.600Z"
+  "updated": "2022-08-21T01:03:06.530Z"
 }
