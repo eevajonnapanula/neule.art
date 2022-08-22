@@ -46,7 +46,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-08-21T01:03:06.530Z"
+  "updated": "2022-08-22T01:04:30.418Z"
 }
