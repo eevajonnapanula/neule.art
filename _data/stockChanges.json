@@ -952,5 +952,23 @@
     "store": "titityy",
     "date": "2022-08-27T01:02:50.758Z",
     "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "titityy",
+    "date": "2022-08-28T01:07:08.904Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "snurre",
+    "date": "2022-08-28T01:07:08.904Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1416",
+    "store": "titityy",
+    "date": "2022-08-28T01:07:08.904Z",
+    "change": "deleted"
   }
 ]
