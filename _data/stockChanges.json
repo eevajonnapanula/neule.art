@@ -1036,5 +1036,17 @@
     "store": "lankakaisa",
     "date": "2022-09-09T01:13:53.938Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2022-09-10T01:13:17.626Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "titityy",
+    "date": "2022-09-10T01:13:17.626Z",
+    "change": "added"
   }
 ]
