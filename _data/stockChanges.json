@@ -1048,5 +1048,17 @@
     "store": "titityy",
     "date": "2022-09-10T01:13:17.626Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankakaisa",
+    "date": "2022-09-11T01:13:13.494Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1412",
+    "store": "lankapuutarha",
+    "date": "2022-09-11T01:13:13.494Z",
+    "change": "deleted"
   }
 ]

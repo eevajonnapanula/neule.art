@@ -8,7 +8,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -367,7 +367,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false
       },
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-10T01:13:17.627Z"
+  "updated": "2022-09-11T01:13:13.496Z"
 }
