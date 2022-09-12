@@ -27,7 +27,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0051 White",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-11T01:13:13.496Z"
+  "updated": "2022-09-12T01:13:32.321Z"
 }
