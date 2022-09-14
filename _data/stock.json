@@ -198,7 +198,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-13T01:14:00.865Z"
+  "updated": "2022-09-14T01:08:41.198Z"
 }
