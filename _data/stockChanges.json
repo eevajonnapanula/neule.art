@@ -1084,5 +1084,29 @@
     "store": "lankakaisa",
     "date": "2022-09-14T01:08:41.197Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-09-15T01:16:20.696Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "lankaidea",
+    "date": "2022-09-15T01:16:20.696Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0059",
+    "store": "snurre",
+    "date": "2022-09-15T01:16:20.696Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1414",
+    "store": "lankapuutarha",
+    "date": "2022-09-15T01:16:20.696Z",
+    "change": "deleted"
   }
 ]
