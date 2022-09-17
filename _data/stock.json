@@ -62,7 +62,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true
@@ -198,7 +198,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -611,7 +611,7 @@
     {
       "code": "1705",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-16T01:18:29.554Z"
+  "updated": "2022-09-17T01:09:21.034Z"
 }
