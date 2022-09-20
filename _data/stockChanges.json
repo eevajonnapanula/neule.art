@@ -1138,5 +1138,23 @@
     "store": "menita",
     "date": "2022-09-18T01:16:15.121Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "menita",
+    "date": "2022-09-20T01:13:59.359Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "menita",
+    "date": "2022-09-20T01:13:59.359Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "titityy",
+    "date": "2022-09-20T01:13:59.359Z",
+    "change": "deleted"
   }
 ]
