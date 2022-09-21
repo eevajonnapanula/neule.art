@@ -539,7 +539,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -595,7 +595,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false
       },
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-20T01:13:59.359Z"
+  "updated": "2022-09-21T01:16:25.701Z"
 }
