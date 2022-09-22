@@ -7,7 +7,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false
       },
       "titles": {
@@ -79,7 +79,7 @@
     {
       "code": "0054",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-21T01:16:25.701Z"
+  "updated": "2022-09-22T01:11:12.192Z"
 }

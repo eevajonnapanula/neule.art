@@ -1168,5 +1168,17 @@
     "store": "lankapuutarha",
     "date": "2022-09-21T01:16:25.700Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "lankaidea",
+    "date": "2022-09-22T01:11:12.192Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-09-22T01:11:12.192Z",
+    "change": "deleted"
   }
 ]
