@@ -79,7 +79,7 @@
     {
       "code": "0054",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -122,7 +122,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0057 Grey heather",
@@ -309,7 +309,7 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-23T01:17:12.285Z"
+  "updated": "2022-09-24T01:16:52.518Z"
 }
