@@ -3,10 +3,10 @@
     {
       "code": "0005",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false
       },
@@ -27,7 +27,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "0051 White",
@@ -84,7 +84,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -103,7 +103,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-28T01:15:03.568Z"
+  "updated": "2022-09-29T01:19:30.417Z"
 }
