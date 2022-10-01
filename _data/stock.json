@@ -41,7 +41,7 @@
     {
       "code": "0052",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -65,7 +65,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -102,7 +102,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -273,7 +273,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -311,7 +311,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -501,7 +501,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true
       },
       "titles": {
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-09-30T01:48:04.763Z"
+  "updated": "2022-10-01T01:27:50.259Z"
 }

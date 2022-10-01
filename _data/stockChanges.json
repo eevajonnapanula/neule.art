@@ -1282,5 +1282,41 @@
     "store": "titityy",
     "date": "2022-09-30T01:48:04.762Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "snurre",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "lankakaisa",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "lankaidea",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "added"
+  },
+  {
+    "code": "1404",
+    "store": "lankaidea",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "lankaidea",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "added"
+  },
+  {
+    "code": "1420",
+    "store": "lankaidea",
+    "date": "2022-10-01T01:27:50.259Z",
+    "change": "added"
   }
 ]
