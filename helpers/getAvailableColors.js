@@ -1,10 +1,12 @@
 const data = require('../_data/stock.json')
 const shops = require('../_data/yarnStores.json')
 const translations = require('../_data/translations.json')
+const { adjustColor } = require('./adjustColor')
 
 const parseColors = (colorsArr, allColors, locale) => {
   const colors = colorsArr.map(item => {
-    const color = allColors.find(colorObj => colorObj.colorValue === item)
+    const adjustedColor = adjustColor(item)
+    const color = allColors.find(colorObj => colorObj.colorValue === adjustedColor)
     const stock = data.stock.find(stockObj => stockObj.code === color.code)
 
     return Object.assign(color, stock)

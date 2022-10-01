@@ -7,12 +7,12 @@
   {
     "value": "white",
     "code": "0051",
-    "colorValue": "E3DEC9"
+    "colorValue": "FEFEFE"
   },
   {
     "value": "ash",
     "code": "0054",
-    "colorValue": "FFFFFF"
+    "colorValue": "E6E9EF"
   },
   {
     "value": "light grey",
@@ -77,7 +77,7 @@
   {
     "value": "light beige",
     "code": "0086",
-    "colorValue": "FAE5D3"
+    "colorValue": "E0DEE3"
   },
   {
     "value": "stone blue",
