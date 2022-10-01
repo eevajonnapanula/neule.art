@@ -64,6 +64,21 @@ describe('Riddari Simple', () => {
     cy.get('a').contains('EN').click()
     cy.url().should('include', '/en/patterns/riddari/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
   })
+
+  it('adjusts colors correctly if link contains old color code', () => {
+    cy.visit('/fi/patterns/riddari/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
+    cy.get(`select[id="colorA"]`)
+      .then($select => {
+        $select.children().find('[selected]')
+      })
+      .should('have.value', 'E6E9EF')
+
+    cy.get(`select[id="colorB"]`)
+      .then($select => {
+        $select.children().find('[selected]')
+      })
+      .should('have.value', 'B3752E')
+  })
 })
 
 describe('Riddari Multicolor', () => {
@@ -89,5 +104,22 @@ describe('Riddari Multicolor', () => {
     cy.url().should('include', '/colors/')
 
     cy.selectsMatchParams('multipleColors')
+  })
+
+  it('adjusts colors correctly if link contains old color code', () => {
+    cy.visit(
+      '/fi/patterns/riddari-multiple/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+    )
+    cy.get(`select[id="main-color"]`)
+      .then($select => {
+        $select.children().find('[selected]')
+      })
+      .should('have.value', 'E6E9EF')
+
+    cy.get(`select[id="sleeve-primary"]`)
+      .then($select => {
+        $select.children().find('[selected]')
+      })
+      .should('have.value', '56595F')
   })
 })
