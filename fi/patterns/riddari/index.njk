@@ -22,9 +22,12 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %} {% set colorA = eleventy.serverless.query.a %} {% set colorB =
-      eleventy.serverless.query.b %} {% set colorC = eleventy.serverless.query.c %} {% set colorD =
-      eleventy.serverless.query.d %} {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
+      {% if eleventy.serverless.query %} 
+        {% set colorA %}{% adjustColor eleventy.serverless.query.a %}{% endset %}
+        {% set colorB %}{% adjustColor eleventy.serverless.query.b %}{% endset %} 
+        {% set colorC %}{% adjustColor eleventy.serverless.query.c %}{% endset %} 
+        {% set colorD %}{% adjustColor eleventy.serverless.query.d %}{% endset %} 
+      {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
       'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% riddari colorA, colorB, colorC, colorD %} {%
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>

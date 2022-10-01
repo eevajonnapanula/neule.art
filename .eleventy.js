@@ -4,6 +4,7 @@ const format = require('date-fns/format')
 const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
 const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
+const { adjustColor } = require('./helpers/adjustColor')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
 
@@ -14,7 +15,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
-    copy: ['helpers/getShirt.js', 'helpers/getRandomColors.js', 'helpers/getAvailableColors.js']
+    copy: [
+      'helpers/getShirt.js',
+      'helpers/getRandomColors.js',
+      'helpers/getAvailableColors.js',
+      'helpers/adjustColor.js'
+    ]
+  })
+
+  eleventyConfig.addShortcode('adjustColor', function (colorCode) {
+    return adjustColor(colorCode)
   })
 
   eleventyConfig.addShortcode('riddari', function (a, b, c, d) {
@@ -61,7 +71,7 @@ module.exports = function (eleventyConfig) {
   )
 
   eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
-    const valueToUse = selectedValue ? selectedValue : defaultValue
+    const adjustedValue = adjustColor(selectedValue ? selectedValue : defaultValue)
     const sortedColors = yarnColors.sort((a, b) => {
       const aValue = a.value.toUpperCase()
       const bValue = b.value.toUpperCase()
@@ -78,9 +88,9 @@ module.exports = function (eleventyConfig) {
         <select id="${id}" name="${name}">
           ${sortedColors.map(
             item =>
-              `<option value="${item.colorValue}" ${valueToUse === item.colorValue ? 'selected' : ''}>${item.value} (${
-                item.code
-              })</option>`
+              `<option value="${item.colorValue}" ${adjustedValue === item.colorValue ? 'selected' : ''}>${
+                item.value
+              } (${item.code})</option>`
           )}
         </select>
       </fieldset>`
