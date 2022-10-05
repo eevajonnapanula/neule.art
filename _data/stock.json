@@ -307,12 +307,12 @@
     {
       "code": "1406",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1406 Spring Green Heather",
@@ -331,7 +331,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -421,7 +421,7 @@
     {
       "code": "1416",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": true,
         "titityy": false,
         "lankapuutarha": false,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-04T01:20:16.212Z"
+  "updated": "2022-10-05T01:18:27.079Z"
 }

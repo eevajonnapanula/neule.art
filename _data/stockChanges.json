@@ -1336,5 +1336,29 @@
     "store": "lankapuutarha",
     "date": "2022-10-04T01:20:16.212Z",
     "change": "deleted"
+  },
+  {
+    "code": "1406",
+    "store": "snurre",
+    "date": "2022-10-05T01:18:27.078Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "lankakaisa",
+    "date": "2022-10-05T01:18:27.078Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "lankakaisa",
+    "date": "2022-10-05T01:18:27.078Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1416",
+    "store": "snurre",
+    "date": "2022-10-05T01:18:27.078Z",
+    "change": "added"
   }
 ]
