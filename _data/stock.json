@@ -331,7 +331,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -421,8 +421,8 @@
     {
       "code": "1416",
       "availability": {
-        "snurre": true,
-        "menita": true,
+        "snurre": false,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-06T01:12:56.856Z"
+  "updated": "2022-10-07T01:23:03.052Z"
 }
