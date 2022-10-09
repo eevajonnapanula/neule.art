@@ -502,7 +502,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1420 Murky",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-08T01:07:29.947Z"
+  "updated": "2022-10-09T01:13:43.540Z"
 }
