@@ -1414,5 +1414,17 @@
     "store": "lankakaisa",
     "date": "2022-10-09T01:13:43.539Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "lankapuutarha",
+    "date": "2022-10-13T01:16:25.395Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9426",
+    "store": "lankapuutarha",
+    "date": "2022-10-13T01:16:25.395Z",
+    "change": "added"
   }
 ]
