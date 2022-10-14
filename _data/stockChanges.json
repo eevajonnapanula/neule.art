@@ -1426,5 +1426,23 @@
     "store": "lankapuutarha",
     "date": "2022-10-13T01:16:25.395Z",
     "change": "added"
+  },
+  {
+    "code": "1409",
+    "store": "lankapuutarha",
+    "date": "2022-10-14T01:26:40.303Z",
+    "change": "added"
+  },
+  {
+    "code": "1409",
+    "store": "lankakaisa",
+    "date": "2022-10-14T01:26:40.303Z",
+    "change": "added"
+  },
+  {
+    "code": "9426",
+    "store": "lankakaisa",
+    "date": "2022-10-14T01:26:40.303Z",
+    "change": "added"
   }
 ]

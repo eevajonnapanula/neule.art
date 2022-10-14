@@ -348,9 +348,9 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
@@ -768,7 +768,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": true
       },
       "titles": {
         "snurre": "9426 Gold",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-13T01:16:25.395Z"
+  "updated": "2022-10-14T01:26:40.303Z"
 }
