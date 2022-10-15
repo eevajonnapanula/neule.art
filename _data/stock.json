@@ -329,9 +329,9 @@
         "snurre": true,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -407,7 +407,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1415 Rough sea",
@@ -425,7 +425,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true
       },
       "titles": {
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-14T01:26:40.303Z"
+  "updated": "2022-10-15T01:18:23.440Z"
 }
