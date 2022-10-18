@@ -1474,5 +1474,17 @@
     "store": "lankaidea",
     "date": "2022-10-16T01:23:11.524Z",
     "change": "deleted"
+  },
+  {
+    "code": "1702",
+    "store": "menita",
+    "date": "2022-10-18T01:18:59.264Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "menita",
+    "date": "2022-10-18T01:18:59.264Z",
+    "change": "deleted"
   }
 ]
