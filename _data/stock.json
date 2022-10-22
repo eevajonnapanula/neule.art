@@ -573,7 +573,7 @@
     {
       "code": "1703",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-21T01:12:29.309Z"
+  "updated": "2022-10-22T01:19:22.406Z"
 }
