@@ -1540,5 +1540,23 @@
     "store": "snurre",
     "date": "2022-10-22T01:19:22.406Z",
     "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "titityy",
+    "date": "2022-10-25T01:25:23.295Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankakaisa",
+    "date": "2022-10-25T01:25:23.295Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1419",
+    "store": "lankakaisa",
+    "date": "2022-10-25T01:25:23.295Z",
+    "change": "added"
   }
 ]
