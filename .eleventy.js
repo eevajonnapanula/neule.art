@@ -179,6 +179,17 @@ module.exports = function (eleventyConfig) {
     `
   })
 
+  eleventyConfig.addShortcode('update', function (update) {
+    const [year, month, day] = update.datetime.split('-')
+
+    return `<h3><time datetime="${update.datetime}">${day}.${month}.${year}</time> - ${update.title}</h3>
+
+    <ul>
+      ${update.items.map(item => `<li>${item}</li>`).join('')}
+    </ul>
+    `
+  })
+
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
     markdownTemplateEngine: 'njk',

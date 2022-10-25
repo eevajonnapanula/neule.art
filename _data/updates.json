@@ -1,0 +1,142 @@
+{
+  "en": [
+    {
+      "title": "Some colors got new color codes to resemble real colors better",
+      "datetime": "2022-10-01",
+      "items": [
+        "Some colors (Ash, Light beige ja White) got new, closer-to-reality color codes.",
+        "Also, this change required some changes to code. Those are invisible to users."
+      ]
+    },
+    {
+      "title": "Add multicolor Riddari and refactor site structure",
+      "datetime": "2022-06-19",
+      "items": [
+        "Added \"new\" pattern - multicolor Riddari, so, every individual color can be now selected.",
+        "Also, refactored the site structure to support adding new patterns."
+      ]
+    },
+    {
+      "title": "Remove contact form and add Lanka-Kaisa",
+      "datetime": "2022-06-08",
+      "items": [
+        "Removed the contact form, as it was causing more problems compared to it's usefulness.",
+        "Fixed a bug with routing.",
+        "Added Lanka-Kaisa to the list of stores where the Lettlopi-color availability is checked from."
+      ]
+    },
+    {
+      "title": "Show all yarn color amounts in one page",
+      "datetime": "2022-05-28",
+      "items": [
+        "Added a link to the front page to display the amount of all colors in selected stores",
+        "Again, if you have a store in mind, which should be included, send me a message."
+      ]
+    },
+    {
+      "title": "Show yarn color amounts in different stores",
+      "datetime": "2022-05-24",
+      "items": [
+        "Added a link to the front page to display the amount of selected colors in selected shops",
+        "If you have a store in mind, which should be included, send me a message."
+      ]
+    },
+    {
+      "title": "Sort colors alphabetically",
+      "datetime": "2022-05-16",
+      "items": ["Colors are now sorted alphabetically"]
+    },
+    {
+      "title": "Contact form and other improvements",
+      "datetime": "2022-05-14",
+      "items": [
+        "A contact form has been added.",
+        "Added a link to generate random colors",
+        "Some smaller and nonvisible improvements, such as adding sitemap."
+      ]
+    },
+    {
+      "title": "List of colors and other improvements",
+      "datetime": "2022-05-13",
+      "items": [
+        "A list of colors has been added under the color picker. Now you don't have to guess the colors based on the yarn color names.",
+        "Also some misc improvements to styles etc."
+      ]
+    },
+    {
+      "title": "The site is online 🎉",
+      "datetime": "2022-05-12",
+      "items": ["The site is online!"]
+    }
+  ],
+  "fi": [
+    {
+      "title": "Muutamien värien muuttaminen lähemmäs oikeaa langan väriä",
+      "datetime": "2022-10-01",
+      "items": [
+        "Muutamat värit (Ash, Light beige ja White) saivat uudet värikoodit, jotta ne olisivat lähempänä oikeita lankojen värejä.",
+        "Tämä vaati lisäksi myös hieman enemmän (käyttäjälle näkymättömiä) muutoksia koodissa, jottei mikään hajoa."
+      ]
+    },
+    {
+      "title": "Monivärisen Riddarin lisäys sekä muutoksia sivun rakenteeseen",
+      "datetime": "2022-06-19",
+      "items": [
+        "Sivulta löytyy nyt myös mahdollisuus monivärisen Riddarin värien katseluun.",
+        "Edellämainitun syyn vuoksi sivun rakennetta on muokattu hieman."
+      ]
+    },
+    {
+      "title": "Yhteydenottolomakkeen poisto ja Lanka-Kaisan lisäys",
+      "datetime": "2022-06-08",
+      "items": [
+        "Yhteydenottolomake on nyt poistettu, koska se aiheutti enemmän ongelmia kuin oli hyödyllinen.",
+        "Lisäksi korjattu bugi sivujen linkitykseen liittyen.",
+        "Lisätty Lanka-Kaisa kauppoihin, joista tarkistetaan Lettlopin saatavuus."
+      ]
+    },
+    {
+      "title": "Kaikkien värien saatavuus valituissa kaupoissa",
+      "datetime": "2022-05-28",
+      "items": [
+        "Etusivulla on linkki, jonka kautta voi tarkistaa kaikkien värien saatavuuden valituissa kaupoissa",
+        "Edelleen: Jos haluat jonkin kaupan mukaan listalle, laita viestiä."
+      ]
+    },
+    {
+      "title": "Värien saatavuus valituissa kaupoissa",
+      "datetime": "2022-05-24",
+      "items": [
+        "Etusivulla on linkki, jonka kautta voi tarkistaa valittujen värien saatavuuden valituissa kaupoissa",
+        "Jos haluat jonkin kaupan mukaan listalle, laita viestiä."
+      ]
+    },
+    {
+      "title": "Värien aakkostus",
+      "datetime": "2022-05-16",
+      "items": ["Värit näytetään nyt valikoissa aakkosjärjestyksessä"]
+    },
+    {
+      "title": "Palautelomake ja satunnaisten värien generointi",
+      "datetime": "2022-05-14",
+      "items": [
+        "Sivulle on lisätty palautelomake.",
+        "Lisätty linkki, jonka avulla voi generoida satunnaiset värit",
+        "Muita pienempiä ja käyttäjälle näkymättömiä muutoksia, kuten sivukartan lisääminen."
+      ]
+    },
+    {
+      "title": "Värilista ja hieman parannuksia",
+      "datetime": "2022-05-13",
+      "items": [
+        "Sivulle on lisätty värilista värivalitsimen alle, jotta värejä ei tarvitsisi arvata lankojen värien nimien perusteella.",
+        "Lisäksi muita pieniä parannuksia esimerkiksi tyyleihin."
+      ]
+    },
+    {
+      "title": "Sivu on julkaistu 🎉",
+      "datetime": "2022-05-12",
+      "items": ["Sivu on julkaistu!"]
+    }
+  ]
+}
