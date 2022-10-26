@@ -1,0 +1,34 @@
+---
+  permalink: 'fi/feed.xml'
+  eleventyExcludeFromCollections: true
+  metadata: 
+    title: 'Neule.art - Värivalitsin neuleille'
+    subtitle: 'Värivalitsin erilaisten väriyhdistelmien testaamiseen eri neuleille.'
+    url: 'https://neule.art/fi'
+    feedUrl: 'https://neule.art/fi/feed.xml'
+    author: 
+      name: 'Eevis Panula'
+      email: 'hello@eevis.codes'
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self" />
+  <link href="{{ metadata.url }}" />
+  <updated>{{ updates.en[0].datetime | toISOString }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for update in updates.fi %} {% set absolutePostUrl %}{{ "fi/about/" | url | absoluteUrl(metadata.url)}}{% endset
+  %}
+  <entry>
+    <title>{{ update.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ update.datetime | toISOString }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+  </entry>
+  {%- endfor %}
+</feed>

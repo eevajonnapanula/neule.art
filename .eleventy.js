@@ -1,5 +1,6 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
@@ -22,6 +23,8 @@ module.exports = function (eleventyConfig) {
       'helpers/adjustColor.js'
     ]
   })
+
+  eleventyConfig.addPlugin(pluginRss)
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
     return adjustColor(colorCode)
@@ -177,6 +180,26 @@ module.exports = function (eleventyConfig) {
       </ol>
     </nav>
     `
+  })
+
+  eleventyConfig.addShortcode('update', function (update) {
+    const [year, month, day] = update.datetime.split('-')
+
+    return `<h3><time datetime="${update.datetime}">${day}.${month}.${year}</time> - ${update.title}</h3>
+
+    <ul>
+      ${update.items.map(item => `<li>${item}</li>`).join('')}
+    </ul>
+    `
+  })
+
+  eleventyConfig.addFilter('getNewestUpdate', function (updates) {
+    return updates[0]
+  })
+
+  eleventyConfig.addFilter('toISOString', function (value) {
+    const date = !!value ? new Date(value) : new Date()
+    return new Date(date).toISOString()
   })
 
   return {
