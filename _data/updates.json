@@ -1,6 +1,13 @@
 {
   "en": [
     {
+      "title": "RSS-feed for updates added",
+      "datetime": "2022-10-26",
+      "items": [
+        "Added RSS feed for both Finnish and English updates. You can subscribe to them from the 'RSS'-link under the title 'Changelog'"
+      ]
+    },
+    {
       "title": "Some colors got new color codes to resemble real colors better",
       "datetime": "2022-10-01",
       "items": [
@@ -70,6 +77,13 @@
     }
   ],
   "fi": [
+    {
+      "title": "Lisätty RSS-feed sivun muutoksista",
+      "datetime": "2022-10-26",
+      "items": [
+        "Lisätty RSS-feed suomen- ja englanninkielisistä sivuston muutoksista. Pääset feediin 'Muutokset sivulla'-otsikon alla olevasta 'RSS'-linkistä."
+      ]
+    },
     {
       "title": "Muutamien värien muuttaminen lähemmäs oikeaa langan väriä",
       "datetime": "2022-10-01",
