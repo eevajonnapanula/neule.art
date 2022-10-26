@@ -426,7 +426,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1416 Moor",
@@ -445,7 +445,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1417 Frost bite",
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-25T01:25:23.295Z"
+  "updated": "2022-10-26T01:09:47.371Z"
 }

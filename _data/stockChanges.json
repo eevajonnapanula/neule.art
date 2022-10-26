@@ -1558,5 +1558,17 @@
     "store": "lankakaisa",
     "date": "2022-10-25T01:25:23.295Z",
     "change": "added"
+  },
+  {
+    "code": "1416",
+    "store": "lankakaisa",
+    "date": "2022-10-26T01:09:47.370Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1417",
+    "store": "lankakaisa",
+    "date": "2022-10-26T01:09:47.370Z",
+    "change": "deleted"
   }
 ]
