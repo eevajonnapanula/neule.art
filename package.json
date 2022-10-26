@@ -29,6 +29,7 @@
     "@11ty/eleventy": "^1.0.1"
   },
   "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "axe-core": "^4.4.2",
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.11",

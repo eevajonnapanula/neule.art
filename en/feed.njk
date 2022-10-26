@@ -1,0 +1,34 @@
+---
+  permalink: 'en/feed.xml'
+  eleventyExcludeFromCollections: true
+  metadata: 
+    title: 'Neule.art - Color Picker for Knitting Patterns'
+    subtitle: 'A color picker for testing different color combinations for different knitting patterns.'
+    url: 'https://neule.art/en'
+    feedUrl: 'https://neule.art/en/feed.xml'
+    author: 
+      name: 'Eevis Panula'
+      email: 'hello@eevis.codes'
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self" />
+  <link href="{{ metadata.url }}" />
+  <updated>{{ updates.en[0].datetime | toISOString }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for update in updates.en %} {% set absolutePostUrl %}{{ "en/about/" | url | absoluteUrl(metadata.url)}}{% endset
+  %}
+  <entry>
+    <title>{{ update.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ update.datetime | toISOString }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+  </entry>
+  {%- endfor %}
+</feed>
