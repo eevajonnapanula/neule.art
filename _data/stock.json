@@ -480,7 +480,7 @@
       "availability": {
         "snurre": false,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true
@@ -578,7 +578,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": false
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -726,7 +726,7 @@
       "code": "9421",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-27T01:09:28.940Z"
+  "updated": "2022-10-28T01:15:22.959Z"
 }

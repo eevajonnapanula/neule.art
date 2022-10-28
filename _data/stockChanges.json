@@ -1582,5 +1582,23 @@
     "store": "titityy",
     "date": "2022-10-27T01:09:28.940Z",
     "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "titityy",
+    "date": "2022-10-28T01:15:22.958Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "lankakaisa",
+    "date": "2022-10-28T01:15:22.958Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9421",
+    "store": "menita",
+    "date": "2022-10-28T01:15:22.959Z",
+    "change": "deleted"
   }
 ]
