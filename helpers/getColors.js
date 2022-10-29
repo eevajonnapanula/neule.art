@@ -131,6 +131,32 @@ const getColorsLankakaisa = () => {
   })
 }
 
+const getColorsPaapo = () => {
+  return axios.get('https://paapo.fi/p37677/istex-lettlopi').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = $('.ddownlistitem.radio_wrapper > div > div:nth-child(2)')
+      .toArray()
+      .map(val => val.children)
+      .map(([yarnName, availability]) => {
+        return {
+          name: yarnName.children[0].data,
+          availability: availability.children[0].children[0].data
+        }
+      })
+      .map(({ name, availability }) => {
+        const code = name.substring(0, 4)
+        return {
+          title: name,
+          code,
+          available: availability === 'Varastossa'
+        }
+      })
+
+    return json
+  })
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -146,6 +172,10 @@ const compareChanges = (prev, curr) => {
   return changes.length ? changes : undefined
 }
 
+const findOrEmpty = (arr, code) => {
+  return arr.find(item => item.code === code) || { title: '', available: false, code }
+}
+
 const writeStockFile = async () => {
   const titityy = await getColorsTitityy()
   const snurre = await getColorsSnurre()
@@ -153,18 +183,20 @@ const writeStockFile = async () => {
   const lankapuutarha = await getColorsLankapuutarha()
   const lankaidea = await getColorsLankaidea()
   const lankakaisa = await getColorsLankakaisa()
+  const paapo = await getColorsPaapo()
 
   const codes = Array.from(
-    new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea].map(item => item.code))
+    new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo].map(item => item.code))
   )
 
   const stock = codes.map(code => {
-    const snurreStock = snurre.find(item => item.code === code) || { title: '', available: false, code }
-    const menitaStock = menita.find(item => item.code === code) || { title: '', available: false, code }
-    const titityyStock = titityy.find(item => item.code === code) || { title: '', available: false, code }
-    const lankapuutarhaStock = lankapuutarha.find(item => item.code === code) || { title: '', available: false, code }
-    const lankaideaStock = lankaidea.find(item => item.code === code) || { title: '', available: false, code }
-    const lankakaisaStock = lankakaisa.find(item => item.code === code) || { title: '', available: false, code }
+    const snurreStock = findOrEmpty(snurre, code)
+    const menitaStock = findOrEmpty(menita, code)
+    const titityyStock = findOrEmpty(titityy, code)
+    const lankapuutarhaStock = findOrEmpty(lankapuutarha, code)
+    const lankaideaStock = findOrEmpty(lankaidea, code)
+    const lankakaisaStock = findOrEmpty(lankakaisa, code)
+    const paapoStock = findOrEmpty(paapo, code)
 
     return {
       code,
@@ -174,7 +206,8 @@ const writeStockFile = async () => {
         titityy: titityyStock.available || false,
         lankapuutarha: lankapuutarhaStock.available || false,
         lankaidea: lankaideaStock.available || false,
-        lankakaisa: lankakaisaStock.available || false
+        lankakaisa: lankakaisaStock.available || false,
+        paapo: paapoStock.available || false
       },
       titles: {
         snurre: snurreStock.title || '',
@@ -182,7 +215,8 @@ const writeStockFile = async () => {
         titityy: titityyStock.title || '',
         lankapuutarha: lankapuutarhaStock.title || '',
         lankaidea: lankaideaStock.title || '',
-        lankakaisa: lankakaisaStock.title
+        lankakaisa: lankakaisaStock.title,
+        paapo: paapoStock.title
       }
     }
   })
