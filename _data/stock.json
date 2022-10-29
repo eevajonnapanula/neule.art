@@ -440,9 +440,9 @@
     {
       "code": "1417",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false
@@ -482,7 +482,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true
       },
       "titles": {
@@ -516,7 +516,7 @@
     {
       "code": "1700",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -856,5 +856,5 @@
       }
     }
   ],
-  "updated": "2022-10-28T01:15:22.959Z"
+  "updated": "2022-10-29T01:01:57.835Z"
 }
