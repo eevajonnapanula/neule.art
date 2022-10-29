@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Add Paapo",
+      "datetime": "2022-10-29",
+      "items": ["Added Paapo to the list of store where Lettlopi-color availability is checked from."]
+    },
+    {
       "title": "RSS-feed for updates added",
       "datetime": "2022-10-26",
       "items": [
@@ -77,6 +82,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Paapon lisäys",
+      "datetime": "2022-10-29",
+      "items": ["Lisätty Paapo kauppoihin, joista tarkistetaan Lettlopin saatavuus."]
+    },
     {
       "title": "Lisätty RSS-feed sivun muutoksista",
       "datetime": "2022-10-26",
