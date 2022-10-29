@@ -178,6 +178,10 @@ header li {
   margin: 1rem;
 }
 
+.breadcrumbs > li {
+  padding-right: 1rem;
+}
+
 header li:first-child {
   margin-left: 0;
 }
@@ -331,10 +335,6 @@ section {
   flex-direction: row;
   padding: 0;
   list-style: none;
-}
-
-.breadcrumbs > li {
-  padding-right: 1rem;
 }
 
 .breadcrumbs > li:not(:last-child)::after {
