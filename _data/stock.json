@@ -8,7 +8,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -16,7 +17,8 @@
         "titityy": "0005 Black heather",
         "lankapuutarha": "Maleerattu musta ",
         "lankaidea": "Black Heather",
-        "lankakaisa": "Black heather"
+        "lankakaisa": "Black heather",
+        "paapo": "0005 meleerattu musta"
       }
     },
     {
@@ -27,7 +29,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "0051 White",
@@ -35,7 +38,8 @@
         "titityy": "0051 White",
         "lankapuutarha": "Valkoinen ",
         "lankaidea": "White",
-        "lankakaisa": "White"
+        "lankakaisa": "White",
+        "paapo": "0051 valkoinen"
       }
     },
     {
@@ -46,7 +50,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
@@ -54,7 +59,8 @@
         "titityy": "0052 Black sheep heather",
         "lankapuutarha": "Mustalammas ",
         "lankaidea": "Black Sheep Heather",
-        "lankakaisa": "Black sheep"
+        "lankakaisa": "Black sheep",
+        "paapo": "0052 musta lammas"
       }
     },
     {
@@ -65,7 +71,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -73,7 +80,8 @@
         "titityy": "0053 Acorn heather",
         "lankapuutarha": "Ruskea",
         "lankaidea": "Acorn Heather",
-        "lankakaisa": "Acorn heather"
+        "lankakaisa": "Acorn heather",
+        "paapo": "0053 ruskea"
       }
     },
     {
@@ -84,7 +92,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": false
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -92,7 +101,8 @@
         "titityy": "0054 Light ash heather",
         "lankapuutarha": "Vaalea tuhkanharmaa ",
         "lankaidea": "Ash Heather",
-        "lankakaisa": "Light ash heather"
+        "lankakaisa": "Light ash heather",
+        "paapo": "0054 vaalea tuhkanharmaa"
       }
     },
     {
@@ -103,7 +113,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
@@ -111,7 +122,8 @@
         "titityy": "0056 Ash heather",
         "lankapuutarha": "Tuhkanharmaa ",
         "lankaidea": "Light Grey Heather",
-        "lankakaisa": "Ash heather"
+        "lankakaisa": "Ash heather",
+        "paapo": "0056 tuhkanharmaa"
       }
     },
     {
@@ -122,7 +134,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "0057 Grey heather",
@@ -130,7 +143,8 @@
         "titityy": "0057 Grey heather",
         "lankapuutarha": "Harmaa ",
         "lankaidea": "Grey Heather",
-        "lankakaisa": "Grey heather"
+        "lankakaisa": "Grey heather",
+        "paapo": "0057 harmaa"
       }
     },
     {
@@ -141,7 +155,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "0058 dark grey heather",
@@ -149,7 +164,8 @@
         "titityy": "0058 Dark grey heather",
         "lankapuutarha": "Tummanharmaa ",
         "lankaidea": "Dark Grey Heather",
-        "lankakaisa": "Dark grey heather"
+        "lankakaisa": "Dark grey heather",
+        "paapo": "0058 tummanharmaa"
       }
     },
     {
@@ -160,7 +176,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "0059 Black",
@@ -168,7 +185,8 @@
         "titityy": "0059 Black",
         "lankapuutarha": "Musta ",
         "lankaidea": "Black",
-        "lankakaisa": "Black"
+        "lankakaisa": "Black",
+        "paapo": "0059 musta"
       }
     },
     {
@@ -179,7 +197,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "0085 Oatmeal Heather",
@@ -187,7 +206,8 @@
         "titityy": "0085 Oatmeal heather",
         "lankapuutarha": "Vaalea luonnonruskea ",
         "lankaidea": "Oatmeal Heather",
-        "lankakaisa": "Oatmeal heather"
+        "lankakaisa": "Oatmeal heather",
+        "paapo": "0085 vaalea luonnon ruskea"
       }
     },
     {
@@ -198,7 +218,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -206,7 +227,8 @@
         "titityy": "0086 Light beige heather",
         "lankapuutarha": "Vaalea luonnonbeige ",
         "lankaidea": "Light Beige Heather",
-        "lankakaisa": "Light beige heather"
+        "lankakaisa": "Light beige heather",
+        "paapo": "0086 vaalea luonnonbeige"
       }
     },
     {
@@ -217,7 +239,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "0867 Chocolate heather",
@@ -225,7 +248,8 @@
         "titityy": "0867 Chocolate heather",
         "lankapuutarha": "Suklaanruskea ",
         "lankaidea": "Chocolate",
-        "lankakaisa": "Chocolate heather"
+        "lankakaisa": "Chocolate heather",
+        "paapo": "0867 suklaanruskea"
       }
     },
     {
@@ -236,7 +260,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1402 Heaven Blue heather",
@@ -244,7 +269,8 @@
         "titityy": "1402 Heaven blue",
         "lankapuutarha": "Taivaansininen ",
         "lankaidea": "Heaven Blue Heather",
-        "lankakaisa": "Heaven blue heather"
+        "lankakaisa": "Heaven blue heather",
+        "paapo": "1402 taivaansininen"
       }
     },
     {
@@ -255,7 +281,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1403 Lapis Blue Heather",
@@ -263,7 +290,8 @@
         "titityy": "1403 Lapis blue heather",
         "lankapuutarha": "Tummansininen ",
         "lankaidea": "Lapis Blue Heather",
-        "lankakaisa": "Lapis blue heather"
+        "lankakaisa": "Lapis blue heather",
+        "paapo": "1403 tummansininen"
       }
     },
     {
@@ -274,7 +302,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1404 Glacier Blue heather",
@@ -282,7 +311,8 @@
         "titityy": "1404 Glacier blue heather",
         "lankapuutarha": "Vaalea sinivihreä ",
         "lankaidea": "Glacier Blue Heather",
-        "lankakaisa": "Glacier blue heather"
+        "lankakaisa": "Glacier blue heather",
+        "paapo": "1404 vaalea sinivihreä"
       }
     },
     {
@@ -293,7 +323,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1405 botlte green heather",
@@ -301,7 +332,8 @@
         "titityy": "1405 Bottle green heather",
         "lankapuutarha": "Pullonvihreä ",
         "lankaidea": "Bottle Green Heather",
-        "lankakaisa": "Bottle green heather"
+        "lankakaisa": "Bottle green heather",
+        "paapo": "1405 pullonvihreä"
       }
     },
     {
@@ -312,7 +344,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1406 Spring Green Heather",
@@ -320,7 +353,8 @@
         "titityy": "1406 Spring green heather",
         "lankapuutarha": "Keväänvihreä ",
         "lankaidea": "Spring Green Heather",
-        "lankakaisa": "Spring green heather"
+        "lankakaisa": "Spring green heather",
+        "paapo": "1406 keväänvihreä"
       }
     },
     {
@@ -331,7 +365,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -339,7 +374,8 @@
         "titityy": "1407 Pine green heather",
         "lankapuutarha": "Männynvihreä ",
         "lankaidea": "Pine Green Heather",
-        "lankakaisa": "Pine green heather"
+        "lankakaisa": "Pine green heather",
+        "paapo": "1407 männynvihreä"
       }
     },
     {
@@ -350,7 +386,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": false
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
@@ -358,7 +395,8 @@
         "titityy": "1409 Garnet heather",
         "lankapuutarha": "Granaattiomena ",
         "lankaidea": "Garnet Red Heather",
-        "lankakaisa": "Garnet red heather"
+        "lankakaisa": "Garnet red heather",
+        "paapo": "1409 granaattiomena"
       }
     },
     {
@@ -369,7 +407,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1412 pink heather",
@@ -377,7 +416,8 @@
         "titityy": "1412 Pink heather",
         "lankapuutarha": "Roosa ",
         "lankaidea": "Pink Heather",
-        "lankakaisa": "Pink heather"
+        "lankakaisa": "Pink heather",
+        "paapo": "1412 roosa"
       }
     },
     {
@@ -388,7 +428,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1414 Viol heather",
@@ -396,7 +437,8 @@
         "titityy": "1414 Violet heather",
         "lankapuutarha": "Violetti ",
         "lankaidea": "Viol Heather",
-        "lankakaisa": "Violet heather"
+        "lankakaisa": "Violet heather",
+        "paapo": "1414 violetti"
       }
     },
     {
@@ -407,7 +449,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "1415 Rough sea",
@@ -415,7 +458,8 @@
         "titityy": "1415 Rough sea",
         "lankapuutarha": "Tumma vihertävänharmaa ",
         "lankaidea": "Rough Sea",
-        "lankakaisa": "Rough sea"
+        "lankakaisa": "Rough sea",
+        "paapo": "1415 tumma vihertävänharmaa"
       }
     },
     {
@@ -426,7 +470,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1416 Moor",
@@ -434,7 +479,8 @@
         "titityy": "1416 Moor",
         "lankapuutarha": "Sammalenvihreä ",
         "lankaidea": "Moor",
-        "lankakaisa": "Moor"
+        "lankakaisa": "Moor",
+        "paapo": "1416 sammalenvihreä"
       }
     },
     {
@@ -445,7 +491,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1417 Frost bite",
@@ -453,7 +500,8 @@
         "titityy": "1417 Frostbite",
         "lankapuutarha": "Harmaanvihreä ",
         "lankaidea": "Frostbite",
-        "lankakaisa": "Frostbite"
+        "lankakaisa": "Frostbite",
+        "paapo": "1417 harmaanvihreä"
       }
     },
     {
@@ -464,7 +512,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1418 Straw",
@@ -472,7 +521,8 @@
         "titityy": "1418 Straw",
         "lankapuutarha": "Vaalea beige ",
         "lankaidea": "Straw",
-        "lankakaisa": "Straw"
+        "lankakaisa": "Straw",
+        "paapo": "1418 vaaleabeige"
       }
     },
     {
@@ -483,7 +533,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1419 Barley",
@@ -491,7 +542,8 @@
         "titityy": "1419 Barley",
         "lankapuutarha": "Vaalea Ohranruskea ",
         "lankaidea": "Barley",
-        "lankakaisa": "Barley"
+        "lankakaisa": "Barley",
+        "paapo": "1419 vaalea ohranruskea"
       }
     },
     {
@@ -502,7 +554,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "1420 Murky",
@@ -510,7 +563,8 @@
         "titityy": "1420 Bark",
         "lankapuutarha": "Harmaanruskea ",
         "lankaidea": "Murky",
-        "lankakaisa": "Murkey"
+        "lankakaisa": "Murkey",
+        "paapo": "1420 harmaanruskea"
       }
     },
     {
@@ -521,7 +575,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1700 Air blue",
@@ -529,7 +584,8 @@
         "titityy": "1700 Air blue",
         "lankapuutarha": "Harmaansininen ",
         "lankaidea": "Air Blue",
-        "lankakaisa": "Airblue"
+        "lankakaisa": "Airblue",
+        "paapo": "1700 harmaansininen"
       }
     },
     {
@@ -540,7 +596,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1701 Fjord Blue",
@@ -548,7 +605,8 @@
         "titityy": "1701 Fjord blue",
         "lankapuutarha": "Vuononsininen ",
         "lankaidea": "Fjord Blue Heather",
-        "lankakaisa": "Fjord blue"
+        "lankakaisa": "Fjord blue",
+        "paapo": "1701 vuononsininen"
       }
     },
     {
@@ -559,7 +617,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1702 Milkyway",
@@ -567,7 +626,8 @@
         "titityy": "1702 Milkyway",
         "lankapuutarha": "Milkyway ",
         "lankaidea": "Milkyway",
-        "lankakaisa": "Milkyway"
+        "lankakaisa": "Milkyway",
+        "paapo": "1702 milkyway"
       }
     },
     {
@@ -578,7 +638,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": true
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -586,7 +647,8 @@
         "titityy": "1703 Mimosa",
         "lankapuutarha": "Mimosa ",
         "lankaidea": "Mimosa",
-        "lankakaisa": "Mimosa"
+        "lankakaisa": "Mimosa",
+        "paapo": "1703 mimosa"
       }
     },
     {
@@ -597,7 +659,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1704 Apricot",
@@ -605,7 +668,8 @@
         "titityy": "1704 Apricot",
         "lankapuutarha": "Aprikoosi ",
         "lankaidea": "Apricot Heather",
-        "lankakaisa": "Apricot"
+        "lankakaisa": "Apricot",
+        "paapo": "1704 aprikoosi"
       }
     },
     {
@@ -616,7 +680,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1705 Royal fuchsia",
@@ -624,7 +689,8 @@
         "titityy": "1705 Royal fuchia",
         "lankapuutarha": "Fuksia ",
         "lankaidea": "Royal Fuchsia",
-        "lankakaisa": "Royal fuchsia"
+        "lankakaisa": "Royal fuchsia",
+        "paapo": "1705 fuksia"
       }
     },
     {
@@ -635,7 +701,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1706 Lyme Grass",
@@ -643,7 +710,8 @@
         "titityy": "1706 Lyme grass",
         "lankapuutarha": "Merivehnä ",
         "lankaidea": "Lyme Grass Heather",
-        "lankakaisa": "Lyme grass"
+        "lankakaisa": "Lyme grass",
+        "paapo": "1706 merivehnä"
       }
     },
     {
@@ -654,7 +722,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "1707 Galaxy",
@@ -662,7 +731,8 @@
         "titityy": "1707 Galaxy",
         "lankapuutarha": "Galaksi ",
         "lankaidea": "Galaxy",
-        "lankakaisa": "Galaxy"
+        "lankakaisa": "Galaxy",
+        "paapo": "1707 galaksi"
       }
     },
     {
@@ -673,7 +743,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "9418 Stoneblue heather",
@@ -681,7 +752,8 @@
         "titityy": "9418 Stone blue heather",
         "lankapuutarha": "Tumma harmaansininen ",
         "lankaidea": "Stone Blue Heather",
-        "lankakaisa": "Stone blue heather"
+        "lankakaisa": "Stone blue heather",
+        "paapo": "9418 tumma harmaansininen"
       }
     },
     {
@@ -692,7 +764,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "9419 Ocean blue",
@@ -700,7 +773,8 @@
         "titityy": "9419 Ocean blue",
         "lankapuutarha": "Merensinen ",
         "lankaidea": "Ocean Blue",
-        "lankakaisa": "Ocean blue"
+        "lankakaisa": "Ocean blue",
+        "paapo": "9419 merensininen"
       }
     },
     {
@@ -711,7 +785,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "9420 Navy blue",
@@ -719,7 +794,8 @@
         "titityy": "9420 Navy blue",
         "lankapuutarha": "Laivastonsininen ",
         "lankaidea": "Navy Blue",
-        "lankakaisa": "Navy blue"
+        "lankakaisa": "Navy blue",
+        "paapo": "9420 laivastonsininen"
       }
     },
     {
@@ -730,7 +806,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "9421 Celery Green heather",
@@ -738,7 +815,8 @@
         "titityy": "9421 Celery green heather",
         "lankapuutarha": "Sellerinvihreä ",
         "lankaidea": "Celery Green Heather",
-        "lankakaisa": "Celery green heather"
+        "lankakaisa": "Celery green heather",
+        "paapo": "9421 sellerinvihreä"
       }
     },
     {
@@ -749,7 +827,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": false
       },
       "titles": {
         "snurre": "9423 Lagoon heather",
@@ -757,7 +836,8 @@
         "titityy": "9423 Lagoon heather",
         "lankapuutarha": "Tumma Sinivihreä ",
         "lankaidea": "Lagoon Heather",
-        "lankakaisa": "Lagoon heather"
+        "lankakaisa": "Lagoon heather",
+        "paapo": "9423 tumma sinivihreä"
       }
     },
     {
@@ -768,7 +848,8 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "9426 Gold",
@@ -776,7 +857,8 @@
         "titityy": "9426 Golden heather",
         "lankapuutarha": "Kellanvihreä ",
         "lankaidea": "Golden Heather",
-        "lankakaisa": "Golden heather"
+        "lankakaisa": "Golden heather",
+        "paapo": "9426 kellanvihreä"
       }
     },
     {
@@ -787,7 +869,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -795,7 +878,8 @@
         "titityy": "9427 Rust heather",
         "lankapuutarha": "Ruosteenruskea ",
         "lankaidea": "Rust Heather",
-        "lankakaisa": "Rust heather"
+        "lankakaisa": "Rust heather",
+        "paapo": "9427 ruosteenruskea"
       }
     },
     {
@@ -806,7 +890,8 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "9431 Brick Heather",
@@ -814,7 +899,8 @@
         "titityy": "9431 Brick heather",
         "lankapuutarha": "Tiili ",
         "lankaidea": "Brick Heather",
-        "lankakaisa": "Brick heather"
+        "lankakaisa": "Brick heather",
+        "paapo": "9431 tummanpunainen"
       }
     },
     {
@@ -825,7 +911,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "9432 Grape Heather",
@@ -833,7 +920,8 @@
         "titityy": "9432 Grape heather",
         "lankapuutarha": "Violetin sininen ",
         "lankaidea": "Grape Heather",
-        "lankakaisa": "Grape heather"
+        "lankakaisa": "Grape heather",
+        "paapo": "9432 violetinsininen"
       }
     },
     {
@@ -844,7 +932,8 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false
+        "lankakaisa": false,
+        "paapo": false
       },
       "titles": {
         "snurre": "9434 Crimson red",
@@ -852,9 +941,10 @@
         "titityy": "9434 Crimson red",
         "lankapuutarha": "Punainen ",
         "lankaidea": "Crimson Red",
-        "lankakaisa": "Crimson red"
+        "lankakaisa": "Crimson red",
+        "paapo": "9434 punainen"
       }
     }
   ],
-  "updated": "2022-10-29T01:01:57.835Z"
+  "updated": "2022-10-29T06:12:15.305Z"
 }

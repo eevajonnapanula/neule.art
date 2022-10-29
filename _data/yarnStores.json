@@ -29,5 +29,10 @@
     "key": "lankakaisa",
     "linkToStock": "https://www.lanka-kaisa.fi/product/31/lettlopi-50g"
   },
-  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea", "lankakaisa"]
+  "paapo": {
+    "name": "Paapo",
+    "key": "paapo",
+    "linkToStock": "https://paapo.fi/p37677/istex-lettlopi"
+  },
+  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea", "lankakaisa", "paapo"]
 }
