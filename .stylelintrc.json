@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
-  "plugins": ["stylelint-a11y", "stylelint-prettier"],
+  "plugins": ["@double-great/stylelint-a11y", "stylelint-prettier"],
   "rules": {
     "prettier/prettier": true
   }
