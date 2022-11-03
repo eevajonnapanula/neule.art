@@ -1648,5 +1648,17 @@
     "store": "menita",
     "date": "2022-11-01T01:20:28.720Z",
     "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "snurre",
+    "date": "2022-11-03T01:08:30.954Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9431",
+    "store": "lankapuutarha",
+    "date": "2022-11-03T01:08:30.954Z",
+    "change": "deleted"
   }
 ]
