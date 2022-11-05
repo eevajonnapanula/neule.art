@@ -1678,5 +1678,29 @@
     "store": "lankakaisa",
     "date": "2022-11-04T01:09:28.017Z",
     "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankaidea",
+    "date": "2022-11-05T01:07:12.997Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2022-11-05T01:07:12.997Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9419",
+    "store": "menita",
+    "date": "2022-11-05T01:07:12.997Z",
+    "change": "added"
+  },
+  {
+    "code": "9420",
+    "store": "menita",
+    "date": "2022-11-05T01:07:12.997Z",
+    "change": "added"
   }
 ]
