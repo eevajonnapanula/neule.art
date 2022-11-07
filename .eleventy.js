@@ -8,6 +8,7 @@ const { parseColors, parseAllColors } = require('./helpers/getAvailableColors')
 const { adjustColor } = require('./helpers/adjustColor')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
+const stock = require('./_data/stock.json')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
@@ -200,6 +201,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('toISOString', function (value) {
     const date = !!value ? new Date(value) : new Date()
     return new Date(date).toISOString()
+  })
+
+  eleventyConfig.addShortcode('stock', function () {
+    console.log(stock)
+    return JSON.stringify(stock)
   })
 
   return {
