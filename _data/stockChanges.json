@@ -1702,5 +1702,17 @@
     "store": "menita",
     "date": "2022-11-05T01:07:12.997Z",
     "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "paapo",
+    "date": "2022-11-07T04:04:57.964Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "paapo",
+    "date": "2022-11-07T04:04:57.964Z",
+    "change": "deleted"
   }
 ]
