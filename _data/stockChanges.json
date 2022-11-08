@@ -1714,5 +1714,35 @@
     "store": "paapo",
     "date": "2022-11-07T04:04:57.964Z",
     "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2022-11-08T01:04:00.984Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "snurre",
+    "date": "2022-11-08T01:04:00.984Z",
+    "change": "added"
+  },
+  {
+    "code": "1409",
+    "store": "titityy",
+    "date": "2022-11-08T01:04:00.984Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "menita",
+    "date": "2022-11-08T01:04:00.984Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "menita",
+    "date": "2022-11-08T01:04:00.984Z",
+    "change": "deleted"
   }
 ]
