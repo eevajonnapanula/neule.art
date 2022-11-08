@@ -204,8 +204,21 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('stock', function () {
-    console.log(stock)
-    return JSON.stringify(stock)
+    const res = yarnColors.map(yarnColor => {
+      const yarnAvailability = stock.stock.find(stockItem => stockItem.code == yarnColor.code).availability
+      const availability = Object.entries(yarnAvailability)
+        .flatMap(([key, value]) => (value ? key : undefined))
+        .filter(item => item != undefined)
+      console.log(availability)
+      return {
+        ...yarnColor,
+        availability
+      }
+    })
+    return JSON.stringify({
+      updated: stock.updated,
+      stock: res
+    })
   })
 
   return {
