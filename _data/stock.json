@@ -50,7 +50,7 @@
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -595,7 +595,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
       },
@@ -888,7 +888,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-11-09T01:04:55.338Z"
+  "updated": "2022-11-10T01:05:44.331Z"
 }
