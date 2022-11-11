@@ -1810,5 +1810,29 @@
     "store": "lankapuutarha",
     "date": "2022-11-10T01:05:44.331Z",
     "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "lankapuutarha",
+    "date": "2022-11-11T01:08:12.813Z",
+    "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2022-11-11T01:08:12.813Z",
+    "change": "added"
+  },
+  {
+    "code": "1415",
+    "store": "paapo",
+    "date": "2022-11-11T01:08:12.813Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9431",
+    "store": "lankapuutarha",
+    "date": "2022-11-11T01:08:12.813Z",
+    "change": "deleted"
   }
 ]
