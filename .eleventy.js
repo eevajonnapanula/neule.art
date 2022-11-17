@@ -9,6 +9,7 @@ const { adjustColor } = require('./helpers/adjustColor')
 const yarnColors = require('./_data/yarnColors.json')
 const translations = require('./_data/translations.json')
 const stock = require('./_data/stock.json')
+const stockChanges = require('./_data/stockChanges.json')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
@@ -219,6 +220,10 @@ module.exports = function (eleventyConfig) {
       updated: stock.updated,
       stock: res
     })
+  })
+
+  eleventyConfig.addShortcode('stockChanges', function () {
+    return JSON.stringify(stockChanges)
   })
 
   return {
