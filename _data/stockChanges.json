@@ -2002,5 +2002,23 @@
     "store": "titityy",
     "date": "2022-11-19T01:02:39.219Z",
     "change": "deleted"
+  },
+  {
+    "code": "1702",
+    "store": "titityy",
+    "date": "2022-11-20T01:05:09.777Z",
+    "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "titityy",
+    "date": "2022-11-20T01:05:09.777Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "lankakaisa",
+    "date": "2022-11-20T01:05:09.777Z",
+    "change": "deleted"
   }
 ]
