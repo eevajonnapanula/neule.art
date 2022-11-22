@@ -2020,5 +2020,41 @@
     "store": "lankakaisa",
     "date": "2022-11-20T01:05:09.777Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "snurre",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "paapo",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "snurre",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "menita",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "titityy",
+    "date": "2022-11-22T01:04:49.587Z",
+    "change": "deleted"
   }
 ]
