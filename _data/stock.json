@@ -30,7 +30,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0051 White",
@@ -151,11 +151,11 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -384,7 +384,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": true,
         "paapo": true
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-11-24T01:02:15.794Z"
+  "updated": "2022-11-25T00:56:54.438Z"
 }
