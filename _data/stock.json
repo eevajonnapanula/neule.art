@@ -30,7 +30,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0051 White",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-11-26T00:53:01.270Z"
+  "updated": "2022-11-27T01:00:34.274Z"
 }
