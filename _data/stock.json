@@ -30,7 +30,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0051 White",
@@ -51,7 +51,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
@@ -72,7 +72,7 @@
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -93,7 +93,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -114,7 +114,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
@@ -156,7 +156,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0058 dark grey heather",
@@ -219,7 +219,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-11-29T00:57:07.648Z"
+  "updated": "2022-11-30T00:57:55.221Z"
 }
