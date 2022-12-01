@@ -2188,5 +2188,23 @@
     "store": "paapo",
     "date": "2022-11-30T00:57:55.220Z",
     "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "lankakaisa",
+    "date": "2022-12-01T01:02:53.837Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "menita",
+    "date": "2022-12-01T01:02:53.837Z",
+    "change": "added"
+  },
+  {
+    "code": "1703",
+    "store": "lankapuutarha",
+    "date": "2022-12-01T01:02:53.837Z",
+    "change": "added"
   }
 ]
