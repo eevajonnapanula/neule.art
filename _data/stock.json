@@ -112,7 +112,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -807,7 +807,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "9421 Celery Green heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-01T01:02:53.837Z"
+  "updated": "2022-12-02T00:53:40.946Z"
 }
