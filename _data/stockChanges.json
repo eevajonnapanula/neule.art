@@ -2230,5 +2230,17 @@
     "store": "lankakaisa",
     "date": "2022-12-04T00:53:57.666Z",
     "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2022-12-06T00:52:18.579Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "menita",
+    "date": "2022-12-06T00:52:18.579Z",
+    "change": "deleted"
   }
 ]

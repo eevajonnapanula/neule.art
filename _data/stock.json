@@ -153,7 +153,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
@@ -823,7 +823,7 @@
       "code": "9423",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-05T00:52:57.621Z"
+  "updated": "2022-12-06T00:52:18.579Z"
 }
