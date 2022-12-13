@@ -2254,5 +2254,17 @@
     "store": "snurre",
     "date": "2022-12-11T00:58:16.926Z",
     "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankakaisa",
+    "date": "2022-12-13T00:57:55.071Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "snurre",
+    "date": "2022-12-13T00:57:55.071Z",
+    "change": "added"
   }
 ]

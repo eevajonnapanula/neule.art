@@ -155,7 +155,7 @@
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -549,7 +549,7 @@
     {
       "code": "1420",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-12T00:55:49.080Z"
+  "updated": "2022-12-13T00:57:55.072Z"
 }
