@@ -210,7 +210,6 @@ module.exports = function (eleventyConfig) {
       const availability = Object.entries(yarnAvailability)
         .flatMap(([key, value]) => (value ? key : undefined))
         .filter(item => item != undefined)
-      console.log(availability)
       return {
         ...yarnColor,
         availability
