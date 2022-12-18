@@ -2,6 +2,9 @@ const { default: axios } = require('axios')
 const cheerio = require('cheerio')
 const fs = require('fs')
 const prevStock = require('../_data/stock.json')
+const colors = require('../_data/yarnColors.json')
+
+const colorCodes = colors.map(color => color.code)
 
 const getColorsSnurre = () => {
   return axios
@@ -31,7 +34,7 @@ const getColorsMenita = () => {
       return {
         code: item.slice(0, 4),
         available: item.includes('(Varastossa)'),
-        title: item.split(' (')[0]
+        title: item.split(' (')[0].split(',')[0]
       }
     })
 
@@ -189,42 +192,44 @@ const writeStockFile = async () => {
     new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo].map(item => item.code))
   )
 
-  const stock = codes.map(code => {
-    const snurreStock = findOrEmpty(snurre, code)
-    const menitaStock = findOrEmpty(menita, code)
-    const titityyStock = findOrEmpty(titityy, code)
-    const lankapuutarhaStock = findOrEmpty(lankapuutarha, code)
-    const lankaideaStock = findOrEmpty(lankaidea, code)
-    const lankakaisaStock = findOrEmpty(lankakaisa, code)
-    const paapoStock = findOrEmpty(paapo, code)
+  const stock = codes
+    .map(code => {
+      const snurreStock = findOrEmpty(snurre, code)
+      const menitaStock = findOrEmpty(menita, code)
+      const titityyStock = findOrEmpty(titityy, code)
+      const lankapuutarhaStock = findOrEmpty(lankapuutarha, code)
+      const lankaideaStock = findOrEmpty(lankaidea, code)
+      const lankakaisaStock = findOrEmpty(lankakaisa, code)
+      const paapoStock = findOrEmpty(paapo, code)
 
-    return {
-      code,
-      availability: {
-        snurre: snurreStock.available || false,
-        menita: menitaStock.available || false,
-        titityy: titityyStock.available || false,
-        lankapuutarha: lankapuutarhaStock.available || false,
-        lankaidea: lankaideaStock.available || false,
-        lankakaisa: lankakaisaStock.available || false,
-        paapo: paapoStock.available || false
-      },
-      titles: {
-        snurre: snurreStock.title || '',
-        menita: menitaStock.title || '',
-        titityy: titityyStock.title || '',
-        lankapuutarha: lankapuutarhaStock.title || '',
-        lankaidea: lankaideaStock.title || '',
-        lankakaisa: lankakaisaStock.title,
-        paapo: paapoStock.title
+      return {
+        code,
+        availability: {
+          snurre: snurreStock.available || false,
+          menita: menitaStock.available || false,
+          titityy: titityyStock.available || false,
+          lankapuutarha: lankapuutarhaStock.available || false,
+          lankaidea: lankaideaStock.available || false,
+          lankakaisa: lankakaisaStock.available || false,
+          paapo: paapoStock.available || false
+        },
+        titles: {
+          snurre: snurreStock.title || '',
+          menita: menitaStock.title || '',
+          titityy: titityyStock.title || '',
+          lankapuutarha: lankapuutarhaStock.title || '',
+          lankaidea: lankaideaStock.title || '',
+          lankakaisa: lankakaisaStock.title,
+          paapo: paapoStock.title
+        }
       }
-    }
-  })
+    })
+    .filter(item => colorCodes.includes(item.code))
 
   const changes = stock
     .flatMap(item => {
       const prev = prevStock.stock.find(prevStockItem => item.code === prevStockItem.code)
-      const change = compareChanges(prev, item)
+      const change = item != null && prev != null ? compareChanges(prev, item) : undefined
       return change
     })
     .filter(Boolean)

@@ -2266,5 +2266,35 @@
     "store": "snurre",
     "date": "2022-12-13T00:57:55.071Z",
     "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "lankapuutarha",
+    "date": "2022-12-17T03:41:03.349Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "menita",
+    "date": "2022-12-17T03:41:03.361Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "lankapuutarha",
+    "date": "2022-12-17T03:41:03.361Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "lankapuutarha",
+    "date": "2022-12-17T03:41:03.364Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "paapo",
+    "date": "2022-12-18T04:00:40.501Z",
+    "change": "deleted"
   }
 ]

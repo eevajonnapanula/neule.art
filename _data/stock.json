@@ -48,7 +48,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
@@ -151,7 +151,7 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
@@ -216,7 +216,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
@@ -552,7 +552,7 @@
         "snurre": true,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
@@ -639,7 +639,7 @@
         "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-14T00:53:48.458Z"
+  "updated": "2022-12-18T04:14:33.620Z"
 }
