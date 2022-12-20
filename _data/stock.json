@@ -3,7 +3,7 @@
     {
       "code": "0005",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
@@ -87,7 +87,7 @@
     {
       "code": "0054",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -108,7 +108,7 @@
     {
       "code": "0056",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -129,7 +129,7 @@
     {
       "code": "0057",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -192,7 +192,7 @@
     {
       "code": "0085",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
@@ -282,7 +282,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1403 Lapis Blue Heather",
@@ -386,7 +386,7 @@
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -549,7 +549,7 @@
     {
       "code": "1420",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
@@ -780,7 +780,7 @@
     {
       "code": "9420",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-18T04:20:24.267Z"
+  "updated": "2022-12-20T03:56:31.510Z"
 }

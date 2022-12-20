@@ -2296,5 +2296,59 @@
     "store": "paapo",
     "date": "2022-12-18T04:00:40.501Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0057",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "paapo",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "lankakaisa",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "snurre",
+    "date": "2022-12-20T03:56:31.509Z",
+    "change": "deleted"
   }
 ]

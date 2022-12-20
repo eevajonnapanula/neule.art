@@ -6,25 +6,28 @@ const colors = require('../_data/yarnColors.json')
 
 const colorCodes = colors.map(color => color.code)
 
+const axiosWithHeaders = url => axios.get(url, { headers: { 'Accept-Encoding': 'gzip,deflate,compress' } })
+
 const getColorsSnurre = () => {
-  return axios
-    .get('https://www.snurre.fi/collections/neulelangat/products/istex-lettlopi?variant=37574036881560')
-    .then(data => {
-      const $ = cheerio.load(data.data)
-      const string = $('#ProductJson-product-template').contents()[0].data
-      const json = JSON.parse(string)
+  return axiosWithHeaders('https://www.snurre.fi/products/istex-lettlopi?variant=37574035669144', {
+    headers: { 'Accept-Encoding': 'gzip,deflate,compress' }
+  }).then(data => {
+    const $ = cheerio.load(data.data)
+    const string = $('#ProductJson-product-template').contents()[0].data
+    const json = JSON.parse(string)
 
-      const stock = json.variants.map(variant => {
-        return { available: variant.available, title: variant.title, code: variant.title.slice(0, 4) }
-      })
-
-      return stock
+    const stock = json.variants.map(variant => {
+      return { available: variant.available, title: variant.title, code: variant.title.slice(0, 4) }
     })
+
+    return stock
+  })
 }
 
 const getColorsMenita = () => {
-  return axios.get('https://www.menita.fi/product/185/istex-lettlopi').then(data => {
+  return axiosWithHeaders('https://www.menita.fi/product/185/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
+
     const string = $('.FormItem.BuyFormVariationSelect > select')
       .find('option')
       .toArray()
@@ -43,7 +46,7 @@ const getColorsMenita = () => {
 }
 
 const getColorsTitityy = () => {
-  return axios.get('https://titityy.fi/fi/product/istex-lettlopi/10037').then(data => {
+  return axiosWithHeaders('https://titityy.fi/fi/product/istex-lettlopi/10037').then(data => {
     const $ = cheerio.load(data.data)
     const string = $('.product_picture_extra.variation_image.col-lg-2.col-xs-4.padd2')
       .toArray()
@@ -64,30 +67,32 @@ const getColorsTitityy = () => {
 }
 
 const getColorsLankapuutarha = () => {
-  return axios.get('https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi').then(data => {
-    const $ = cheerio.load(data.data)
+  return axiosWithHeaders('https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi').then(
+    data => {
+      const $ = cheerio.load(data.data)
 
-    const json = JSON.parse(
-      $('#back-in-stock-helper')
-        .text()
-        .split('\n')
-        .find(item => item.includes('_BISConfig.product'))
-        .trim()
-        .slice(21, -1)
-    )
+      const json = JSON.parse(
+        $('#back-in-stock-helper')
+          .text()
+          .split('\n')
+          .find(item => item.includes('_BISConfig.product'))
+          .trim()
+          .slice(21, -1)
+      )
 
-    return json.variants.map(variant => {
-      return {
-        code: variant.title.match(/\d+/)[0],
-        title: variant.title.match(/\D+/)[0].trim().replace('(', ''),
-        available: variant.available
-      }
-    })
-  })
+      return json.variants.map(variant => {
+        return {
+          code: variant.title.match(/\d+/)[0],
+          title: variant.title.match(/\D+/)[0].trim().replace('(', ''),
+          available: variant.available
+        }
+      })
+    }
+  )
 }
 
 const getColorsLankaidea = () => {
-  return axios.get('https://www.lankaidea.fi/product/731/istex-lettlopi').then(data => {
+  return axiosWithHeaders('https://www.lankaidea.fi/product/731/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
     const json = $('.ProductColors')
@@ -112,7 +117,7 @@ const getColorsLankaidea = () => {
 }
 
 const getColorsLankakaisa = () => {
-  return axios.get('https://www.lanka-kaisa.fi/product/31/lettlopi-50g').then(data => {
+  return axiosWithHeaders('https://www.lanka-kaisa.fi/product/31/lettlopi-50g').then(data => {
     const $ = cheerio.load(data.data)
 
     const json = $('#variationscont')
@@ -135,7 +140,7 @@ const getColorsLankakaisa = () => {
 }
 
 const getColorsPaapo = () => {
-  return axios.get('https://paapo.fi/p37677/istex-lettlopi').then(data => {
+  return axiosWithHeaders('https://paapo.fi/p37677/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
     const json = $('.ddownlistitem.radio_wrapper > div > div:nth-child(2)')
