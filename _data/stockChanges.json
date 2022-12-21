@@ -2350,5 +2350,17 @@
     "store": "snurre",
     "date": "2022-12-20T03:56:31.509Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-12-21T00:48:23.953Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "lankaidea",
+    "date": "2022-12-21T00:48:23.953Z",
+    "change": "deleted"
   }
 ]
