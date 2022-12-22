@@ -5,8 +5,8 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
-        "lankapuutarha": false,
+        "titityy": true,
+        "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
@@ -153,7 +153,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
@@ -281,7 +281,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": false
       },
       "titles": {
@@ -616,7 +616,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-21T00:48:23.953Z"
+  "updated": "2022-12-22T02:44:11.074Z"
 }
