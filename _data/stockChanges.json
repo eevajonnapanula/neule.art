@@ -2392,5 +2392,17 @@
     "store": "lankaidea",
     "date": "2022-12-22T02:44:11.074Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "menita",
+    "date": "2022-12-23T00:50:05.605Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "snurre",
+    "date": "2022-12-23T00:50:05.605Z",
+    "change": "added"
   }
 ]
