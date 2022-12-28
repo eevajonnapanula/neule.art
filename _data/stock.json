@@ -133,7 +133,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
       },
@@ -219,7 +219,7 @@
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-27T00:52:14.184Z"
+  "updated": "2022-12-28T00:50:55.790Z"
 }
