@@ -2512,5 +2512,53 @@
     "store": "snurre",
     "date": "2022-12-31T00:51:04.765Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1419",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1701",
+    "store": "lankapuutarha",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
   }
 ]
