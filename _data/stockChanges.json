@@ -2560,5 +2560,17 @@
     "store": "lankakaisa",
     "date": "2023-01-01T00:59:19.255Z",
     "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "lankaidea",
+    "date": "2023-01-02T00:52:13.625Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "lankapuutarha",
+    "date": "2023-01-02T00:52:13.625Z",
+    "change": "deleted"
   }
 ]
