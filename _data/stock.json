@@ -90,7 +90,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
@@ -133,7 +133,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
       },
@@ -424,7 +424,7 @@
       "code": "1414",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
@@ -490,7 +490,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
       },
@@ -781,7 +781,7 @@
       "code": "9420",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -844,7 +844,7 @@
       "code": "9426",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-02T00:52:13.626Z"
+  "updated": "2023-01-03T00:51:14.783Z"
 }
