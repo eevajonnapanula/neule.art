@@ -42,7 +42,8 @@
       "yoke10": "Kaarroke 10",
       "yoke11": "Kaarroke 11",
       "yoke12": "Kaarroke 12"
-    }
+    },
+    "riddariInfo": "Riddari on kaunis islantilaisneule, jonka on suunnitellut Védís Jónsdóttir."
   },
   "en": {
     "footer": {
@@ -87,6 +88,7 @@
       "yoke10": "Yoke 10",
       "yoke11": "Yoke 11",
       "yoke12": "Yoke 12"
-    }
+    },
+    "riddariInfo": "Riddari is a beautiful Icelandic sweater pattern, designed by Védís Jónsdóttir."
   }
 }
