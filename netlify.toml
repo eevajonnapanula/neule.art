@@ -1,32 +1,4 @@
 [[redirects]]
-from = "/fi/patterns/riddari/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/fi/patterns/riddari-multiple/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/en/patterns/riddari/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/en/patterns/riddari-multiple/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
 from = "/"
 to = "/fi/"
 status = 200
@@ -53,5 +25,17 @@ force = true
 [[redirects]]
 from = "/en/colors/*"
 to = "/en/patterns/riddari/colors/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/*"
+to = "/en/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/patterns/*"
+to = "/fi/"
 status = 301
 force = true
