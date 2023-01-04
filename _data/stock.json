@@ -7,7 +7,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -92,7 +92,7 @@
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -259,7 +259,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-03T00:51:14.783Z"
+  "updated": "2023-01-04T00:53:01.080Z"
 }
