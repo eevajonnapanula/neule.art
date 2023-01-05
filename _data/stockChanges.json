@@ -2626,5 +2626,23 @@
     "store": "lankaidea",
     "date": "2023-01-04T00:53:01.080Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "paapo",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "lankapuutarha",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "paapo",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "added"
   }
 ]

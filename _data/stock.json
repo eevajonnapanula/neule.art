@@ -9,7 +9,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -111,7 +111,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
@@ -324,7 +324,7 @@
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1405 botlte green heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-04T00:53:01.080Z"
+  "updated": "2023-01-05T00:54:12.938Z"
 }
