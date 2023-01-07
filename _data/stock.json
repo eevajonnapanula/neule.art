@@ -387,7 +387,7 @@
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
@@ -738,7 +738,7 @@
     {
       "code": "9418",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-06T00:53:57.901Z"
+  "updated": "2023-01-07T00:51:37.601Z"
 }
