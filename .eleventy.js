@@ -221,6 +221,10 @@ module.exports = function (eleventyConfig) {
     })
   })
 
+  eleventyConfig.addShortcode('riddariInfo', function (locale) {
+    return translations[locale].riddariInfo
+  })
+
   eleventyConfig.addShortcode('stockChanges', function () {
     return JSON.stringify(stockChanges)
   })
