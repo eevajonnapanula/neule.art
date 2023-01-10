@@ -2758,5 +2758,29 @@
     "store": "titityy",
     "date": "2023-01-09T00:52:43.143Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "paapo",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "snurre",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1404",
+    "store": "menita",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "added"
   }
 ]
