@@ -2782,5 +2782,11 @@
     "store": "menita",
     "date": "2023-01-10T00:55:50.086Z",
     "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "snurre",
+    "date": "2023-01-11T00:53:57.578Z",
+    "change": "deleted"
   }
 ]
