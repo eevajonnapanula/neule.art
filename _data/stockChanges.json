@@ -2434,5 +2434,383 @@
     "store": "paapo",
     "date": "2022-12-28T00:50:55.790Z",
     "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "lankapuutarha",
+    "date": "2022-12-29T00:53:09.994Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "lankaidea",
+    "date": "2022-12-29T00:53:09.994Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "snurre",
+    "date": "2022-12-30T00:52:47.379Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-12-30T00:52:47.379Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1702",
+    "store": "lankakaisa",
+    "date": "2022-12-30T00:52:47.379Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "lankakaisa",
+    "date": "2022-12-30T00:52:47.379Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9421",
+    "store": "lankapuutarha",
+    "date": "2022-12-30T00:52:47.379Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "snurre",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "snurre",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "menita",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1406",
+    "store": "snurre",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9419",
+    "store": "snurre",
+    "date": "2022-12-31T00:51:04.765Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1419",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1701",
+    "store": "lankapuutarha",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "lankakaisa",
+    "date": "2023-01-01T00:59:19.255Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "lankaidea",
+    "date": "2023-01-02T00:52:13.625Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "lankapuutarha",
+    "date": "2023-01-02T00:52:13.625Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0057",
+    "store": "lankaidea",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1414",
+    "store": "menita",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "added"
+  },
+  {
+    "code": "1417",
+    "store": "lankaidea",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "menita",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "added"
+  },
+  {
+    "code": "9426",
+    "store": "menita",
+    "date": "2023-01-03T00:51:14.783Z",
+    "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankaidea",
+    "date": "2023-01-04T00:53:01.079Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankakaisa",
+    "date": "2023-01-04T00:53:01.080Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "lankaidea",
+    "date": "2023-01-04T00:53:01.080Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "paapo",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "lankapuutarha",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "paapo",
+    "date": "2023-01-05T00:54:12.937Z",
+    "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "lankakaisa",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "lankapuutarha",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "lankakaisa",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "lankapuutarha",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "lankapuutarha",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "lankakaisa",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "1404",
+    "store": "paapo",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "lankapuutarha",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "1405",
+    "store": "lankakaisa",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "snurre",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "added"
+  },
+  {
+    "code": "1702",
+    "store": "titityy",
+    "date": "2023-01-06T00:53:57.901Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "paapo",
+    "date": "2023-01-07T00:51:37.600Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9418",
+    "store": "snurre",
+    "date": "2023-01-07T00:51:37.600Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2023-01-08T00:56:21.992Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "snurre",
+    "date": "2023-01-08T00:56:21.992Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "paapo",
+    "date": "2023-01-09T00:52:43.143Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1402",
+    "store": "titityy",
+    "date": "2023-01-09T00:52:43.143Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9426",
+    "store": "titityy",
+    "date": "2023-01-09T00:52:43.143Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "paapo",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "snurre",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1404",
+    "store": "menita",
+    "date": "2023-01-10T00:55:50.086Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "snurre",
+    "date": "2023-01-11T00:53:57.578Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "menita",
+    "date": "2023-01-12T00:54:20.111Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1414",
+    "store": "menita",
+    "date": "2023-01-12T00:54:20.111Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "paapo",
+    "date": "2023-01-13T00:54:29.365Z",
+    "change": "added"
+  },
+  {
+    "code": "0057",
+    "store": "menita",
+    "date": "2023-01-13T00:54:29.365Z",
+    "change": "added"
   }
 ]

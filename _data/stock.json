@@ -7,9 +7,9 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
-        "lankakaisa": false,
-        "paapo": false
+        "lankaidea": true,
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -45,12 +45,12 @@
     {
       "code": "0052",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -72,7 +72,7 @@
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -108,7 +108,7 @@
     {
       "code": "0056",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -130,10 +130,10 @@
       "code": "0057",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
       },
@@ -155,7 +155,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -192,12 +192,12 @@
     {
       "code": "0085",
       "availability": {
-        "snurre": true,
-        "menita": true,
+        "snurre": false,
+        "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -256,11 +256,11 @@
       "code": "1402",
       "availability": {
         "snurre": true,
-        "menita": true,
-        "titityy": true,
+        "menita": false,
+        "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
-        "lankakaisa": true,
+        "lankaidea": false,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -298,12 +298,12 @@
       "code": "1404",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1404 Glacier Blue heather",
@@ -321,10 +321,10 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
-        "paapo": false
+        "lankakaisa": true,
+        "paapo": true
       },
       "titles": {
         "snurre": "1405 botlte green heather",
@@ -381,13 +381,13 @@
     {
       "code": "1409",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
@@ -490,7 +490,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
       },
@@ -511,7 +511,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true
       },
@@ -533,7 +533,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -553,7 +553,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
       },
@@ -594,7 +594,7 @@
         "snurre": true,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": true
@@ -614,10 +614,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -680,7 +680,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -738,7 +738,7 @@
     {
       "code": "9418",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -759,7 +759,7 @@
     {
       "code": "9419",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
@@ -781,11 +781,11 @@
       "code": "9420",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -804,7 +804,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
@@ -825,9 +825,9 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": false
       },
       "titles": {
@@ -844,8 +844,8 @@
       "code": "9426",
       "availability": {
         "snurre": false,
-        "menita": false,
-        "titityy": true,
+        "menita": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2022-12-28T00:50:55.790Z"
+  "updated": "2023-01-14T00:50:41.858Z"
 }
