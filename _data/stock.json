@@ -130,7 +130,7 @@
       "code": "0057",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -154,7 +154,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": false
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-15T00:57:17.174Z"
+  "updated": "2023-01-16T00:53:00.953Z"
 }
