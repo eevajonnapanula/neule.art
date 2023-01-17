@@ -197,7 +197,7 @@
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-16T00:53:00.953Z"
+  "updated": "2023-01-17T00:53:04.395Z"
 }
