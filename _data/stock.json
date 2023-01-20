@@ -51,7 +51,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
@@ -508,7 +508,7 @@
       "code": "1418",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-19T00:55:18.195Z"
+  "updated": "2023-01-20T00:54:34.362Z"
 }
