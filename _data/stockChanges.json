@@ -2896,5 +2896,11 @@
     "store": "menita",
     "date": "2023-01-20T00:54:34.362Z",
     "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "menita",
+    "date": "2023-01-21T00:54:23.357Z",
+    "change": "added"
   }
 ]
