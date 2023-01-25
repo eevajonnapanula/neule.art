@@ -114,7 +114,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
@@ -154,8 +154,8 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
-        "lankakaisa": true,
+        "lankaidea": true,
+        "lankakaisa": false,
         "paapo": false
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-24T00:55:39.755Z"
+  "updated": "2023-01-25T00:52:13.458Z"
 }
