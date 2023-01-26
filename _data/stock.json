@@ -155,7 +155,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -238,7 +238,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -318,11 +318,11 @@
     {
       "code": "1405",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
       },
@@ -360,11 +360,11 @@
     {
       "code": "1407",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -465,11 +465,11 @@
     {
       "code": "1416",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -696,11 +696,11 @@
     {
       "code": "1706",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -906,11 +906,11 @@
     {
       "code": "9432",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -927,11 +927,11 @@
     {
       "code": "9434",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-25T00:52:13.458Z"
+  "updated": "2023-01-26T00:52:44.961Z"
 }
