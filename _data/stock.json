@@ -132,7 +132,7 @@
         "snurre": false,
         "menita": false,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
         "paapo": false
@@ -534,7 +534,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1419 Barley",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-01-30T00:50:10.054Z"
+  "updated": "2023-01-31T00:56:30.362Z"
 }
