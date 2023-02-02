@@ -575,7 +575,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -591,13 +591,13 @@
     {
       "code": "1701",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": false,
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1701 Fjord Blue",
@@ -743,7 +743,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-02-01T01:00:30.514Z"
+  "updated": "2023-02-02T00:54:43.567Z"
 }
