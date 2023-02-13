@@ -3,7 +3,7 @@
     {
       "code": "0005",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -529,7 +529,7 @@
       "code": "1419",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -870,7 +870,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-02-12T00:58:20.086Z"
+  "updated": "2023-02-13T00:56:38.078Z"
 }
