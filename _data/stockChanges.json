@@ -3550,5 +3550,113 @@
     "store": "paapo",
     "date": "2023-02-13T00:56:38.077Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0057",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "0057",
+    "store": "lankapuutarha",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "0867",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "snurre",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1416",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1704",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "1706",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "9431",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "9432",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
+  },
+  {
+    "code": "9434",
+    "store": "menita",
+    "date": "2023-02-14T00:56:25.362Z",
+    "change": "added"
   }
 ]
