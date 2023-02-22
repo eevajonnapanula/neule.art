@@ -3706,5 +3706,29 @@
     "store": "titityy",
     "date": "2023-02-19T00:56:51.683Z",
     "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "titityy",
+    "date": "2023-02-22T00:54:21.633Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "paapo",
+    "date": "2023-02-22T00:54:21.633Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "snurre",
+    "date": "2023-02-22T00:54:21.633Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1702",
+    "store": "titityy",
+    "date": "2023-02-22T00:54:21.633Z",
+    "change": "added"
   }
 ]
