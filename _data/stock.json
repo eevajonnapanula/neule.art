@@ -87,13 +87,13 @@
     {
       "code": "0054",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -198,7 +198,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0085 Oatmeal Heather",
@@ -744,7 +744,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "9418 Stoneblue heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-02-23T00:54:00.872Z"
+  "updated": "2023-02-24T00:55:33.025Z"
 }

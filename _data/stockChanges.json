@@ -3748,5 +3748,29 @@
     "store": "paapo",
     "date": "2023-02-23T00:54:00.871Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2023-02-24T00:55:33.025Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2023-02-24T00:55:33.025Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "paapo",
+    "date": "2023-02-24T00:55:33.025Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9418",
+    "store": "paapo",
+    "date": "2023-02-24T00:55:33.025Z",
+    "change": "deleted"
   }
 ]
