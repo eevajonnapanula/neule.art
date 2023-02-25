@@ -3772,5 +3772,23 @@
     "store": "paapo",
     "date": "2023-02-24T00:55:33.025Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2023-02-25T00:56:38.121Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "paapo",
+    "date": "2023-02-25T00:56:38.121Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "paapo",
+    "date": "2023-02-25T00:56:38.121Z",
+    "change": "added"
   }
 ]
