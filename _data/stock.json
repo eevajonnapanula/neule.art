@@ -91,7 +91,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -111,7 +111,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": true,
         "paapo": false
@@ -301,7 +301,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -529,7 +529,7 @@
       "code": "1419",
       "availability": {
         "snurre": false,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -576,7 +576,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1700 Air blue",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-02-28T00:56:28.689Z"
+  "updated": "2023-03-01T01:01:33.569Z"
 }
