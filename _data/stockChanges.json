@@ -3844,5 +3844,11 @@
     "store": "paapo",
     "date": "2023-03-01T01:01:33.568Z",
     "change": "deleted"
+  },
+  {
+    "code": "1704",
+    "store": "lankakaisa",
+    "date": "2023-03-02T01:00:24.333Z",
+    "change": "deleted"
   }
 ]
