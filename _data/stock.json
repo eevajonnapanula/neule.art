@@ -362,7 +362,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -508,7 +508,7 @@
       "code": "1418",
       "availability": {
         "snurre": false,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -765,7 +765,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "9419 Ocean blue",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-03-04T00:54:19.332Z"
+  "updated": "2023-03-05T01:02:37.242Z"
 }
