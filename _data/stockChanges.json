@@ -3904,5 +3904,23 @@
     "store": "titityy",
     "date": "2023-03-07T01:00:10.451Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "lankakaisa",
+    "date": "2023-03-08T00:59:15.383Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "paapo",
+    "date": "2023-03-08T00:59:15.383Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "lankaidea",
+    "date": "2023-03-08T00:59:15.384Z",
+    "change": "deleted"
   }
 ]
