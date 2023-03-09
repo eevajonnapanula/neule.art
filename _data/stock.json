@@ -68,10 +68,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -509,10 +509,10 @@
       "availability": {
         "snurre": false,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -530,10 +530,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -551,10 +551,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -659,7 +659,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -740,10 +740,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -761,10 +761,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -782,10 +782,10 @@
       "availability": {
         "snurre": false,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -803,7 +803,7 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": false,
@@ -824,10 +824,10 @@
       "availability": {
         "snurre": false,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-03-08T00:59:15.384Z"
+  "updated": "2023-03-09T00:58:47.926Z"
 }
