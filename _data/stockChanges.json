@@ -4138,5 +4138,125 @@
     "store": "paapo",
     "date": "2023-03-13T00:54:15.963Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "titityy",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0059",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "titityy",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1415",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1417",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1417",
+    "store": "titityy",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1420",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1420",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1707",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9420",
+    "store": "snurre",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "menita",
+    "date": "2023-03-15T00:55:03.992Z",
+    "change": "added"
   }
 ]
