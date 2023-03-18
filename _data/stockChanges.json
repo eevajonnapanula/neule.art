@@ -4294,5 +4294,65 @@
     "store": "snurre",
     "date": "2023-03-17T00:54:43.130Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "0053",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "1420",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "paapo",
+    "date": "2023-03-18T00:53:26.596Z",
+    "change": "added"
   }
 ]
