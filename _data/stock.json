@@ -255,7 +255,7 @@
     {
       "code": "1402",
       "availability": {
-        "snurre": true,
+        "snurre": false,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-03-29T00:58:45.801Z"
+  "updated": "2023-03-30T00:53:14.827Z"
 }
