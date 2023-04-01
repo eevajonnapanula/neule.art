@@ -4558,5 +4558,17 @@
     "store": "lankapuutarha",
     "date": "2023-03-31T00:53:02.296Z",
     "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "titityy",
+    "date": "2023-04-01T00:52:08.002Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "snurre",
+    "date": "2023-04-01T00:52:08.002Z",
+    "change": "deleted"
   }
 ]
