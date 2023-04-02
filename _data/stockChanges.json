@@ -4570,5 +4570,11 @@
     "store": "snurre",
     "date": "2023-04-01T00:52:08.002Z",
     "change": "deleted"
+  },
+  {
+    "code": "1402",
+    "store": "snurre",
+    "date": "2023-04-02T00:53:39.936Z",
+    "change": "added"
   }
 ]
