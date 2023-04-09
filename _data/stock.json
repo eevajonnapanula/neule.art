@@ -30,7 +30,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0051 White",
@@ -660,7 +660,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1704 Apricot",
@@ -697,7 +697,7 @@
       "code": "1706",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -870,7 +870,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-04-08T00:47:05.312Z"
+  "updated": "2023-04-09T00:51:21.320Z"
 }

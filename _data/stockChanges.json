@@ -4600,5 +4600,29 @@
     "store": "paapo",
     "date": "2023-04-07T00:43:27.455Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2023-04-09T00:51:21.320Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1704",
+    "store": "paapo",
+    "date": "2023-04-09T00:51:21.320Z",
+    "change": "added"
+  },
+  {
+    "code": "1706",
+    "store": "menita",
+    "date": "2023-04-09T00:51:21.320Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9427",
+    "store": "paapo",
+    "date": "2023-04-09T00:51:21.320Z",
+    "change": "added"
   }
 ]
