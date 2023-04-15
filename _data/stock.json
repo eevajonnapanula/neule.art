@@ -3,7 +3,7 @@
     {
       "code": "0005",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -192,7 +192,7 @@
     {
       "code": "0085",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -276,7 +276,7 @@
     {
       "code": "1403",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
@@ -364,7 +364,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true
       },
@@ -381,7 +381,7 @@
     {
       "code": "1409",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": false,
         "titityy": true,
         "lankapuutarha": false,
@@ -864,13 +864,13 @@
     {
       "code": "9427",
       "availability": {
-        "snurre": false,
+        "snurre": true,
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-04-14T00:48:11.228Z"
+  "updated": "2023-04-15T00:52:15.417Z"
 }
