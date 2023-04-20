@@ -4768,5 +4768,71 @@
     "store": "titityy",
     "date": "2023-04-19T00:51:51.178Z",
     "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1406",
+    "store": "titityy",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "lankapuutarha",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1409",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "lankapuutarha",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "lankapuutarha",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "1705",
+    "store": "lankakaisa",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "menita",
+    "date": "2023-04-20T00:48:53.927Z",
+    "change": "deleted"
   }
 ]

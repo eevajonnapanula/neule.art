@@ -197,7 +197,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -281,7 +281,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -341,7 +341,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -384,9 +384,9 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -405,9 +405,9 @@
         "snurre": false,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -426,9 +426,9 @@
         "snurre": false,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false
       },
       "titles": {
@@ -680,7 +680,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -865,7 +865,7 @@
       "code": "9427",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-04-19T00:51:51.178Z"
+  "updated": "2023-04-20T00:48:53.927Z"
 }
