@@ -4834,5 +4834,11 @@
     "store": "menita",
     "date": "2023-04-20T00:48:53.927Z",
     "change": "deleted"
+  },
+  {
+    "code": "1415",
+    "store": "lankapuutarha",
+    "date": "2023-04-21T00:49:07.007Z",
+    "change": "added"
   }
 ]
