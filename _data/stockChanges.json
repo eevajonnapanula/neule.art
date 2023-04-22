@@ -4840,5 +4840,23 @@
     "store": "lankapuutarha",
     "date": "2023-04-21T00:49:07.007Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2023-04-22T00:50:09.701Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "paapo",
+    "date": "2023-04-22T00:50:09.701Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1704",
+    "store": "paapo",
+    "date": "2023-04-22T00:50:09.701Z",
+    "change": "deleted"
   }
 ]
