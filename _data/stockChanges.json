@@ -4960,5 +4960,11 @@
     "store": "menita",
     "date": "2023-05-03T00:50:47.644Z",
     "change": "added"
+  },
+  {
+    "code": "0057",
+    "store": "paapo",
+    "date": "2023-05-05T00:46:03.405Z",
+    "change": "deleted"
   }
 ]
