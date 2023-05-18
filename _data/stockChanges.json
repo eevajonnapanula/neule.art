@@ -5062,5 +5062,11 @@
     "store": "menita",
     "date": "2023-05-17T00:53:23.411Z",
     "change": "added"
+  },
+  {
+    "code": "1706",
+    "store": "lankakaisa",
+    "date": "2023-05-18T00:50:37.303Z",
+    "change": "deleted"
   }
 ]
