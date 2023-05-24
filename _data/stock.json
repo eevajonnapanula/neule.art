@@ -655,7 +655,7 @@
       "code": "1704",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -869,7 +869,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-05-23T00:51:28.399Z"
+  "updated": "2023-05-24T00:53:30.150Z"
 }
