@@ -5116,5 +5116,95 @@
     "store": "snurre",
     "date": "2023-06-04T01:05:14.842Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1702",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "1705",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
+  },
+  {
+    "code": "9426",
+    "store": "snurre",
+    "date": "2023-06-17T05:25:38.004Z",
+    "change": "added"
   }
 ]

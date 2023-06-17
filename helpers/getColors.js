@@ -13,11 +13,21 @@ const getColorsSnurre = () => {
     headers: { 'Accept-Encoding': 'gzip,deflate,compress' }
   }).then(data => {
     const $ = cheerio.load(data.data)
-    const string = $('#ProductJson-product-template').contents()[0].data
-    const json = JSON.parse(string)
+    const inputsAndLabels = $('.option-selector__btns')
 
-    const stock = json.variants.map(variant => {
-      return { available: variant.available, title: variant.title, code: variant.title.slice(0, 4) }
+    const vals = inputsAndLabels
+      .find('input')
+      .toArray()
+      .map(val => {
+        const value = $(val)
+        return {
+          isAvailable: !value.hasClass('is-unavailable'),
+          name: value.attr('value')
+        }
+      })
+
+    const stock = vals.map(variant => {
+      return { available: variant.isAvailable, title: variant.name, code: variant.name.slice(0, 4) }
     })
 
     return stock
