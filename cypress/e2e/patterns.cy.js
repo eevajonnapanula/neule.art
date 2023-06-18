@@ -60,13 +60,13 @@ describe('Riddari Simple', () => {
   })
 
   it('has correct values when language is switched', () => {
-    cy.visit('/fi/patterns/riddari/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
     cy.get('a').contains('EN').click()
-    cy.url().should('include', '/en/patterns/riddari/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.url().should('include', '/en/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
   })
 
   it('adjusts colors correctly if link contains old color code', () => {
-    cy.visit('/fi/patterns/riddari/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
     cy.get(`select[id="colorA"]`)
       .then($select => {
         $select.children().find('[selected]')
