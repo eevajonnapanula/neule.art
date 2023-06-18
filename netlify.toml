@@ -34,25 +34,25 @@ force = true
 
 [[redirects]]
 from = "/fi/colors/availability/*"
-to = "/fi/patterns/sweater/simple/colors/:splat"
+to = "/fi/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/availability/*"
-to = "/en/patterns/sweater/simple/colors/:splat"
+to = "/en/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/fi/colors/*"
-to = "/fi/patterns/sweater/simple/colors/:splat"
+to = "/fi/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/*"
-to = "/en/patterns/sweater/simple/colors/:splat"
+to = "/en/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
