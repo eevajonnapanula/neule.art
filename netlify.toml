@@ -57,18 +57,6 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/en/patterns/*"
-to = "/en/"
-status = 301
-force = true
-
-[[redirects]]
-from = "/fi/patterns/*"
-to = "/fi/"
-status = 301
-force = true
-
-[[redirects]]
 from = "/fi/patterns/riddari/*"
 to = "/fi/patterns/sweaters/simple/:splat"
 status = 301
