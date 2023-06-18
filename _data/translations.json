@@ -4,7 +4,7 @@
       "text": "Tämän sivun taustalla häärää (ja neuloo) "
     },
     "header": { "siteTitle": "Etusivulle", "languages": "kielet", "main": "päävalikko", "about": "Tietoja" },
-    "visuallyHiddenText": "Kuva Riddari-neuleesta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
+    "visuallyHiddenText": "Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
     "colors": "Värit",
     "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.",
     "stockAvailability": "Katso saatavilla olevat värit",
@@ -43,14 +43,14 @@
       "yoke11": "Kaarroke 11",
       "yoke12": "Kaarroke 12"
     },
-    "riddariInfo": "Riddari on kaunis islantilaisneule, jonka on suunnitellut Védís Jónsdóttir."
+    "riddariInfo": "Kuvan pohjana on käytetty Riddaria, joka on kaunis islantilaisneule, jonka on suunnitellut Védís Jónsdóttir."
   },
   "en": {
     "footer": {
       "text": "Made with 🧶 by "
     },
     "header": { "siteTitle": "Home", "languages": "languages", "main": "main navigation", "about": "About" },
-    "visuallyHiddenText": "Image of Riddari-sweater with the following colors (first main color)",
+    "visuallyHiddenText": "Image of a sweater with the following colors (first main color)",
     "colors": "Colors",
     "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed.",
     "stockAvailability": "Check all colors' availability",
@@ -89,6 +89,6 @@
       "yoke11": "Yoke 11",
       "yoke12": "Yoke 12"
     },
-    "riddariInfo": "Riddari is a beautiful Icelandic sweater pattern, designed by Védís Jónsdóttir."
+    "riddariInfo": "The picture is based on a Riddari-sweater, which is a beautiful Icelandic sweater pattern, designed by Védís Jónsdóttir."
   }
 }

@@ -1,17 +1,17 @@
 ---
 layout: layouts/base.njk
 changeFreq: daily
-title: 'Color Picker for Riddari - '
+title: 'Color Picker for Sweater - '
 tags: 'sitemap'
 language: 'en'
 permalink:
-  build: '/en/patterns/riddari/'
-  colors: '/en/patterns/riddari/colors/'
+  build: '/en/patterns/sweaters/simple/'
+  colors: '/en/patterns/sweaters/simple/colors/'
 breadcrumbs:
   - title: 'Home'
     url: '/en/'
-  - title: 'Riddari (simple, four colors)'
-    url: '/en/patterns/riddari/'
+  - title: 'Sweater (simple, four colors)'
+    url: '/en/patterns/sweaters/simple/'
     serverless: true
     current: true
 ---
@@ -19,7 +19,7 @@ breadcrumbs:
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
 metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
 <section>
-  <h1>Pick your colors for Riddari</h1>
+  <h1>Pick your colors for a sweater</h1>
   <p>{% riddariInfo locale %}</p>
 
   <div class="color-picker-wrapper switcher">
@@ -40,7 +40,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
           >All colors
         </a>
       </div>
-      <form method="get" action="/en/patterns/riddari/colors/" class="colors-form">
+      <form method="get" action="/en/patterns/sweaters/simple/colors/" class="colors-form">
         {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
         translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
         color.defaultColor %} {% endfor -%}

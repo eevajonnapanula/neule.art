@@ -1,4 +1,32 @@
 [[redirects]]
+from = "/fi/patterns/sweaters/simple/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
+from = "/fi/patterns/sweaters/multicolor/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
+from = "/en/patterns/sweaters/simple/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
+from = "/en/patterns/sweaters/multicolor/colors/"
+to = "/.netlify/functions/colors"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "colors"
+
+[[redirects]]
 from = "/"
 to = "/fi/"
 status = 200
@@ -6,36 +34,48 @@ force = true
 
 [[redirects]]
 from = "/fi/colors/availability/*"
-to = "/fi/patterns/riddari/colors/:splat"
+to = "/fi/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/availability/*"
-to = "/en/patterns/riddari/colors/:splat"
+to = "/en/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/fi/colors/*"
-to = "/fi/patterns/riddari/colors/:splat"
+to = "/fi/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/*"
-to = "/en/patterns/riddari/colors/:splat"
+to = "/en/patterns/sweaters/simple/colors/:splat"
 status = 301
 force = true
 
 [[redirects]]
-from = "/en/patterns/*"
-to = "/en/"
+from = "/fi/patterns/riddari/*"
+to = "/fi/patterns/sweaters/simple/:splat"
 status = 301
 force = true
 
 [[redirects]]
-from = "/fi/patterns/*"
-to = "/fi/"
+from = "/en/patterns/riddari/*"
+to = "/en/patterns/sweaters/simple/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/patterns/riddari-multiple/*"
+to = "/fi/patterns/sweaters/multicolor/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/riddari-multiple/*"
+to = "/en/patterns/sweaters/multicolor/:splat"
 status = 301
 force = true

@@ -102,7 +102,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('urlBuilder', function (query, path, pathToServerless, locale) {
-    const queryString = query ? `?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
+    const queryString = query ? getQueryString(query) : ''
     const restOfTheUrl = query ? `${pathToServerless}${queryString}` : path
     return `/${locale}/${restOfTheUrl}`
   })
@@ -121,10 +121,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
-    return `<div class="cta-link"><a href="/${locale}/patterns/riddari/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a href="/${locale}/patterns/sweaters/simple/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
-  eleventyConfig.addShortcode('randomColorsLinkRiddariMultiple', function (locale) {
+  eleventyConfig.addShortcode('randomColorsLinkSweaterMulticolor', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [], 15)
     const keys = [
       'main',
@@ -144,7 +144,7 @@ module.exports = function (eleventyConfig) {
       'yoke12'
     ]
     const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index].colorValue}`).join('&')}`
-    return `<div class="cta-link"><a href="/${locale}/patterns/riddari-multiple/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a href="/${locale}/patterns/sweaters/multicolor/colors/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
   eleventyConfig.addShortcode('colorAvailability', function (locale, ...colors) {
@@ -162,7 +162,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('breadcrumbs', function (breadcrumbsObj, locale, query) {
-    const queryString = query ? `colors/?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
+    const queryString = query ? `colors/${getQueryString(query)}` : ''
 
     return `
     <nav aria-label="${translations[locale].breadcrumbs}">
@@ -183,6 +183,14 @@ module.exports = function (eleventyConfig) {
     </nav>
     `
   })
+
+  function getQueryString(query) {
+    const queryString = Object.entries(query)
+      .map(item => `${item[0]}=${item[1]}`)
+      .join('&')
+
+    return `?${queryString}`
+  }
 
   eleventyConfig.addShortcode('update', function (update) {
     const [year, month, day] = update.datetime.split('-')

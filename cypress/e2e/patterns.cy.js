@@ -1,13 +1,13 @@
 const colorOptions = require('../../_data/colorOptions.json')
 const translations = require('../../_data/translations.json')
 
-describe('Riddari Simple', () => {
+describe('Sweater Simple', () => {
   beforeEach(() => {
-    cy.visit('/fi/patterns/riddari')
+    cy.visit('/fi/patterns/sweaters/simple')
   })
 
   it('loads with default values', () => {
-    cy.get('h1').contains('Valitse värit Riddariin')
+    cy.get('h1').contains('Valitse värit villapaitaan')
     cy.get('select').should('have.length', 4)
     colorOptions.fourColors.forEach(color => {
       cy.get('label').contains(`${translations.fi.fourColorTexts[color.labelKey]}:`)
@@ -60,13 +60,13 @@ describe('Riddari Simple', () => {
   })
 
   it('has correct values when language is switched', () => {
-    cy.visit('/fi/patterns/riddari/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
     cy.get('a').contains('EN').click()
-    cy.url().should('include', '/en/patterns/riddari/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.url().should('include', '/en/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
   })
 
   it('adjusts colors correctly if link contains old color code', () => {
-    cy.visit('/fi/patterns/riddari/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
     cy.get(`select[id="colorA"]`)
       .then($select => {
         $select.children().find('[selected]')
@@ -81,13 +81,13 @@ describe('Riddari Simple', () => {
   })
 })
 
-describe('Riddari Multicolor', () => {
+describe('Sweater Multicolor', () => {
   beforeEach(() => {
-    cy.visit('/fi/patterns/riddari-multiple')
+    cy.visit('/fi/patterns/sweaters/multicolor')
   })
 
   it('loads with default values', () => {
-    cy.get('h1').contains('Valitse värit Riddariin')
+    cy.get('h1').contains('Valitse värit villapaitaan')
     cy.get('select').should('have.length', 15)
     colorOptions.multipleColors.forEach(color => {
       cy.get('label').contains(`${translations.fi.multipleColorTexts[color.labelKey]}:`)
@@ -106,9 +106,20 @@ describe('Riddari Multicolor', () => {
     cy.selectsMatchParams('multipleColors')
   })
 
+  it('has correct values when language is switched', () => {
+    cy.visit(
+      '/fi/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+    )
+    cy.get('a').contains('EN').click()
+    cy.url().should(
+      'include',
+      '/en/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+    )
+  })
+
   it('adjusts colors correctly if link contains old color code', () => {
     cy.visit(
-      '/fi/patterns/riddari-multiple/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+      '/fi/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
     )
     cy.get(`select[id="main-color"]`)
       .then($select => {

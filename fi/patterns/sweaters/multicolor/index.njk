@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 changeFreq: daily
 tags: 'sitemap'
-title: 'Color Picker for Riddari (multiple colors) -'
+title: 'Värivalitsin Villapaidalle (moniväri) -'
 permalink:
-  build: '/en/patterns/riddari-multiple/'
-  colors: '/en/patterns/riddari-multiple/colors/'
+  build: '/fi/patterns/sweaters/multicolor/'
+  colors: '/fi/patterns/sweaters/multicolor/colors/'
 breadcrumbs:
   - title: 'Etusivu'
-    url: '/en/'
-  - title: 'Riddari (monivärinen)'
-    url: '/en/patterns/riddari-multiple/'
+    url: '/fi/'
+  - title: 'Villapaita (monivärinen)'
+    url: '/fi/patterns/sweaters/multicolor/'
     serverless: true
     current: true
 ---
@@ -18,12 +18,12 @@ breadcrumbs:
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
 metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
 <section>
-  <h1>Pick your colors for Riddari</h1>
+  <h1>Valitse värit villapaitaan (enemmän värejä)</h1>
   <p>{% riddariInfo locale %}</p>
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %} 
+      {% if eleventy.serverless.query %}
         {% set main %}{% adjustColor eleventy.serverless.query.main %}{% endset %}
         {% set sleevePrimary %}{% adjustColor eleventy.serverless.query.sleevePrimary %}{% endset %} 
         {% set sleeveSecondary %}{% adjustColor eleventy.serverless.query.sleeveSecondary %}{% endset %} 
@@ -49,42 +49,40 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
     </div>
     <div>
       <div class="cta-link">
-        <a href="/en/yarns/lettlopi/">All colors </a>
+        <a
+          href="/fi/yarns/lettlopi/"
+          >Kaikki värit
+        </a>
       </div>
-      <form method="get" action="/en/patterns/riddari-multiple/colors/" class="colors-form">
+      <form method="get" action="/fi/patterns/sweaters/multicolor/colors/" class="colors-form">
         <div id="multiple-colors-form">
           {%- for color in colorOptions.multipleColors %} {% colorSelect color.labelKey, color.identifier,
           translations[locale].multipleColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
           color.defaultColor %} {% endfor -%}
         </div>
-        <button type="submit">Check the result</button>
+        <button type="submit">Katso tulos</button>
       </form>
 
-      {% randomColorsLinkRiddariMultiple locale %}
+      {% randomColorsLinkSweaterMulticolor locale %}
 
     </div>
   </div>
 </section>
-  <section>
-    <h2>Color Availability</h2>
+ <section> <h2>Värien saatavuus</h2>
+  <div class="color-picker-wrapper">
+    {% colorAvailability locale, main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
+      yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %}</div>
     
-  
-    <div class="color-picker-wrapper switcher">
-      {% colorAvailability locale, main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
-        yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %}</div>
-
-    <div>
-  
-      <div>Data fetched: {% time stock.updated %}</div></div>
-  
-      <div>{% set comma = joiner() %}
-        <p>Stores, that the data is currently fetched from: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
-        <p>If you have a store, that should be here, in mind, send me a message. You can find the contact information from <a href="/en/about/">About-page.</a></p>
-      </section>
-  <section>
-  <h2>Links</h2>
+  <div>
+    <div>Viimeisin päivitys: {% time stock.updated %}</div>
+    {% set comma = joiner() %}
+    <p>Tällä hetkellä tiedot haetaan seuraavista kaupoista: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
+    <p>Jos haluat jonkin muun kaupan mukaan, laita viestiä. Yhteystiedot löytyvät <a href="/fi/about/">Tietoja-sivulta.</a></p>
+  </section>
+<section>
+  <h2>Linkkejä</h2>
   <ul>
-    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopi color chart</a></li>
-    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddari's knitting pattern</a></li>
+    <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopin värikartta</a></li>
+    <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddarin ohje</a></li>
   </ul>
 </section>
