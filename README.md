@@ -1,8 +1,8 @@
 # Neule.art
 
-Neule.art is a small tool for visualising colors for Riddari Icelandic sweater. It's built with Eleventy.
-![View from Neule.art's front page showing a drawn Riddari-sweater in the following colors: black, lagoon, apricot and heaven blue. Next to the shirt there are select-fields for each color, and under them a button with text "Check the result."](https://user-images.githubusercontent.com/28345294/168206375-61d14250-f4dd-46c2-8475-37ae3ab51e1e.png)
+Neule.art is a small tool for visualising colors for knitting patterns. It's built with Eleventy.
 
+![View from Neule.art's front page showing a drawn sweater in the following colors: black, lagoon, apricot and heaven blue. Next to the shirt there are select-fields for each color, and under them a button with text "Check the result."](https://github.com/eevajonnapanula/neule.art/assets/28345294/e64e7cf7-833d-4aef-a413-5d077b2ec4c9)
 
 
 ## Development
