@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Neule.art back in business",
+      "datetime": "2023-06-18",
+      "items": ["The site is back in business!", "I did some navigational changes to support future updates."]
+    },
+    {
       "title": "Add Paapo",
       "datetime": "2022-10-29",
       "items": ["Added Paapo to the list of store where Lettlopi-color availability is checked from."]
@@ -82,6 +87,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Sivusto takaisin käytössä",
+      "datetime": "2023-06-18",
+      "items": ["Sivusto on takaisin käytössä!", "Sivuston linkkirakennetta on muutettu tukemaan tulevia muutoksia."]
+    },
     {
       "title": "Paapon lisäys",
       "datetime": "2022-10-29",
