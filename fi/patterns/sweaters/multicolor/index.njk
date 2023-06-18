@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 changeFreq: daily
 tags: 'sitemap'
-title: 'Värivalitsin Riddarille (moniväri) -'
+title: 'Värivalitsin Villapaidalle (moniväri) -'
 permalink:
-  build: '/fi/patterns/riddari-multiple/'
-  colors: '/fi/patterns/riddari-multiple/colors/'
+  build: '/fi/patterns/sweaters/multicolor/'
+  colors: '/fi/patterns/sweaters/multicolor/colors/'
 breadcrumbs:
   - title: 'Etusivu'
     url: '/fi/'
-  - title: 'Riddari (monivärinen)'
-    url: '/fi/patterns/riddari-multiple/'
+  - title: 'Villapaita (monivärinen)'
+    url: '/fi/patterns/sweaters/multicolor/'
     serverless: true
     current: true
 ---
@@ -18,7 +18,7 @@ breadcrumbs:
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
 metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
 <section>
-  <h1>Valitse värit Riddariin</h1>
+  <h1>Valitse värit villapaitaan (enemmän värejä)</h1>
   <p>{% riddariInfo locale %}</p>
 
   <div class="color-picker-wrapper switcher">
@@ -54,7 +54,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
           >Kaikki värit
         </a>
       </div>
-      <form method="get" action="/fi/patterns/riddari-multiple/colors/" class="colors-form">
+      <form method="get" action="/fi/patterns/sweaters/multicolor/colors/" class="colors-form">
         <div id="multiple-colors-form">
           {%- for color in colorOptions.multipleColors %} {% colorSelect color.labelKey, color.identifier,
           translations[locale].multipleColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],

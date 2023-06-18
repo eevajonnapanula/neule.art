@@ -162,7 +162,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('breadcrumbs', function (breadcrumbsObj, locale, query) {
-    const queryString = query ? `colors/?a=${query.a}&b=${query.b}&c=${query.c}&d=${query.d}` : ''
+    const queryString = query ? getQueryString(query) : ''
 
     return `
     <nav aria-label="${translations[locale].breadcrumbs}">
@@ -183,6 +183,14 @@ module.exports = function (eleventyConfig) {
     </nav>
     `
   })
+
+  function getQueryString(query) {
+    const queryString = Object.entries(query)
+      .map(item => `${item[0]}=${item[1]}`)
+      .join('&')
+
+    return `colors/?${queryString}`
+  }
 
   eleventyConfig.addShortcode('update', function (update) {
     const [year, month, day] = update.datetime.split('-')
