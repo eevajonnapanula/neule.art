@@ -5206,5 +5206,11 @@
     "store": "snurre",
     "date": "2023-06-17T05:25:38.004Z",
     "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "lankakaisa",
+    "date": "2023-06-19T00:56:32.694Z",
+    "change": "deleted"
   }
 ]
