@@ -17,7 +17,11 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
-
+      - name: Secret to File
+        uses: MobileDevOps/secret-to-file-action@v1.0.0
+        with:
+          base64-encoded-secret: ${{ secrets.FILE_CONTENT }}
+          filename: "service-account.json"
       - name: Update stock
         run: npm run updateStock
 
