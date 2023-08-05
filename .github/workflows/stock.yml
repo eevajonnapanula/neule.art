@@ -20,7 +20,10 @@ jobs:
 
       - name: Update stock
         run: npm run updateStock
-
+        env: 
+          FC_CLIENT_EMAIL: ${{ secrets.FC_CLIENT_EMAIL }}
+          FC_PROJECT_ID: ${{ secrets.FC_PROJECT_ID }}
+          FC_PRIVATE_KEY: ${{ secrets.FC_PRIVATE_KEY }}
       - name: Commit changes
         run: |
           git config --global user.email "updater-bot"

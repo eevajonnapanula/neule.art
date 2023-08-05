@@ -3,6 +3,7 @@ const cheerio = require('cheerio')
 const fs = require('fs')
 const prevStock = require('../_data/stock.json')
 const colors = require('../_data/yarnColors.json')
+const { sendPushNotification } = require('./sendNotification')
 
 const colorCodes = colors.map(color => color.code)
 
@@ -248,6 +249,12 @@ const writeStockFile = async () => {
       return change
     })
     .filter(Boolean)
+
+  const topics = changes.filter(change => change.availability).map(change => change.code)
+
+  if (topics.length > 0) {
+    sendPushNotification(topics, 'Lankavahti', 'Uusia lankoja saatavilla!')
+  }
 
   fs.readFile('./_data/stockChanges.json', 'utf8', (err, data) => {
     if (err) {

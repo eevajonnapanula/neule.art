@@ -2,3 +2,5 @@ _site/
 node_modules/
 netlify/functions/colors/**
 !netlify/functions/colors/index.js
+service-account.json
+.env
