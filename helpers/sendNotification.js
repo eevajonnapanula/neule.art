@@ -1,9 +1,12 @@
 const admin = require('firebase-admin')
-
-const serviceAccount = require('../service-account.json')
+require('dotenv').config()
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert({
+    projectId: `${process.env.FC_PROJECT_ID}`,
+    clientEmail: `${process.env.FC_CLIENT_EMAIL}`,
+    privateKey: `${process.env.FC_PRIVATE_KEY.replace(/\\n/g, '\n')}`
+  })
 })
 
 const sendPushNotification = (topics, title, body) => {
@@ -23,4 +26,6 @@ const sendPushNotification = (topics, title, body) => {
     .catch(e => console.log(`error: ${e}`))
 }
 
-sendPushNotification(['0059', '0051'], 'Lankavahti', 'Uusia lankoja saatavilla!')
+module.exports = {
+  sendPushNotification
+}

@@ -17,14 +17,13 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
-      - name: Secret to File
-        uses: MobileDevOps/secret-to-file-action@v1.0.0
-        with:
-          base64-encoded-secret: ${{ secrets.FILE_CONTENT }}
-          filename: "service-account.json"
+
       - name: Update stock
         run: npm run updateStock
-
+        env: 
+          FC_CLIENT_EMAIL: ${{ secrets.FC_CLIENT_EMAIL }}
+          FC_PROJECT_ID: ${{ secrets.FC_PROJECT_ID }}
+          FC_PRIVATE_KEY: ${{ secrets.FC_PRIVATE_KEY }}
       - name: Commit changes
         run: |
           git config --global user.email "updater-bot"
