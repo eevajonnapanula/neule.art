@@ -9,13 +9,9 @@ admin.initializeApp({
   })
 })
 
-const sendPushNotification = (topics, title, body) => {
+const sendPushNotification = topics => {
   const condition = topics.map(topic => `'${topic}' in topics`).join(' || ')
   const message = {
-    notification: {
-      title,
-      body
-    },
     condition,
     data: { yarns: topics.join(', ') }
   }

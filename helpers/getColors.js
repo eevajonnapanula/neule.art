@@ -253,7 +253,7 @@ const writeStockFile = async () => {
   const topics = changes.filter(change => change.availability).map(change => change.code)
 
   if (topics.length > 0) {
-    sendPushNotification(topics, 'Lankavahti', 'Uusia lankoja saatavilla!')
+    sendPushNotification(topics)
   }
 
   fs.readFile('./_data/stockChanges.json', 'utf8', (err, data) => {
