@@ -250,7 +250,7 @@ const writeStockFile = async () => {
     })
     .filter(Boolean)
 
-  const topics = changes.filter(change => change.change == 'added').map(change => change.code)
+  const topics = changes.filter(change => change.change === 'added').map(change => change.code)
 
   if (topics.length > 0) {
     sendPushNotification(topics)
