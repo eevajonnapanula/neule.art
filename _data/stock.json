@@ -28,7 +28,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true
       },
@@ -49,7 +49,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -58,7 +58,7 @@
         "menita": "0052 mustanruskea",
         "titityy": "0052 Black sheep heather",
         "lankapuutarha": "Mustalammas ",
-        "lankaidea": "",
+        "lankaidea": "Black Sheep Heather",
         "lankakaisa": "Black sheep",
         "paapo": "0052 musta lammas"
       }
@@ -217,7 +217,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-09-05T00:41:22.107Z"
+  "updated": "2023-09-06T00:41:48.049Z"
 }

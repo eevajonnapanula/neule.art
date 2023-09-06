@@ -5392,5 +5392,23 @@
     "store": "lankaidea",
     "date": "2023-08-31T00:41:57.644Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "lankaidea",
+    "date": "2023-09-06T00:41:48.044Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "lankaidea",
+    "date": "2023-09-06T00:41:48.044Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "lankaidea",
+    "date": "2023-09-06T00:41:48.044Z",
+    "change": "added"
   }
 ]
