@@ -88,12 +88,12 @@
       "code": "0054",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-09-08T00:41:43.701Z"
+  "updated": "2023-09-09T00:40:50.263Z"
 }
