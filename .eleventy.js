@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
+    redirects: 'netlify-toml-functions',
     copy: [
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
