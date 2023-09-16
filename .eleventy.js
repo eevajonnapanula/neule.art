@@ -22,7 +22,10 @@ module.exports = function (eleventyConfig) {
       'helpers/getRandomColors.js',
       'helpers/getAvailableColors.js',
       'helpers/adjustColor.js'
-    ]
+    ],
+    config: function (config) {
+      config.addGlobalData()
+    }
   })
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
