@@ -5,13 +5,15 @@ const { EleventyServerless } = require('@11ty/eleventy')
 require('./eleventy-bundler-modules.js')
 
 async function handler(event, context) {
+  let elev
+  
+  try {
   const pathName = new URL(event.rawUrl).pathname
-  let elev = new EleventyServerless('colors', {
+  elev = new EleventyServerless('colors', {
     path: pathName,
     query: event.queryStringParameters,
     functionsDir: './netlify/functions/'
   })
-  try {
   console.log('called with the following query string parameters: ', event.queryStringParameters)
   console.log('called with the following path: ', pathName)
   if (event.headers) {
@@ -33,8 +35,10 @@ async function handler(event, context) {
   } catch (error) {
     // Only console log for matching serverless paths
     // (otherwise you’ll see a bunch of BrowserSync 404s for non-dynamic URLs during --serve)
-    if (elev.isServerlessUrl(event.path)) {
-      console.log('Serverless Error:', error)
+    if (elev != null) {
+      if (elev.isServerlessUrl(event.path)) {
+        console.log('Serverless Error:', error)
+      }
     }
 
     return {
