@@ -5,14 +5,13 @@ const { EleventyServerless } = require('@11ty/eleventy')
 require('./eleventy-bundler-modules.js')
 
 async function handler(event, context) {
-
-  try {
   const pathName = new URL(event.rawUrl).pathname
   let elev = new EleventyServerless('colors', {
     path: pathName,
     query: event.queryStringParameters,
     functionsDir: './netlify/functions/'
   })
+  try {
   console.log('called with the following query string parameters: ', event.queryStringParameters)
   console.log('called with the following path: ', pathName)
   if (event.headers) {
