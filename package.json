@@ -9,6 +9,7 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy",
+    "buid-prod": "npm run build",
     "eslint": "eslint",
     "stylelint": "stylelint **/**.css",
     "lint": "npm run eslint && npm run stylelint",

@@ -5,6 +5,8 @@ const { EleventyServerless } = require('@11ty/eleventy')
 require('./eleventy-bundler-modules.js')
 
 async function handler(event, context) {
+
+  try {
   const pathName = new URL(event.rawUrl).pathname
   let elev = new EleventyServerless('colors', {
     path: pathName,
@@ -17,7 +19,6 @@ async function handler(event, context) {
     console.log('user agent:', event.headers['user-agent'])
     console.log('x-country:', event.headers['x-country'])
   }
-  try {
     let [page] = await elev.getOutput()
 
     // If you want some of the data cascade available in `page.data`, use `eleventyConfig.dataFilterSelectors`.
