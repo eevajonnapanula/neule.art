@@ -13,7 +13,8 @@
     "eslint": "eslint",
     "stylelint": "stylelint **/**.css",
     "lint": "npm run eslint && npm run stylelint",
-    "updateStock": "node ./helpers/getColors.js"
+    "updateStock": "node ./helpers/getColors.js",
+    "clean": "rm -rf .netlify && npm run build-prod"
   },
   "repository": {
     "type": "git",
