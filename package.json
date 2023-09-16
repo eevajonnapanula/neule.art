@@ -27,7 +27,6 @@
   "homepage": "https://neule.art",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@double-great/stylelint-a11y": "^2.0.2",
     "axe-core": "^4.7.2",
     "axios": "^1.4.0",
