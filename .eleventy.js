@@ -17,17 +17,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: 'colors',
     functionsDir: './netlify/functions/',
-    redirects: 'netlify-toml-functions',
+    redirects: "netlify-toml",
     copy: [
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
       'helpers/getAvailableColors.js',
       'helpers/adjustColor.js',
-      '_data'
     ],
-    config: function (config) {
-      config.addGlobalData()
-    }
   })
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
