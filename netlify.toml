@@ -79,3 +79,27 @@ from = "/en/patterns/riddari-multiple/*"
 to = "/en/patterns/sweaters/multicolor/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "/fi/patterns/sweaters/simple/colors/*"
+to = "/unavailable"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/sweaters/simple/colors/*"
+to = "/unavailable"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/patterns/sweaters/multicolor/colors/*"
+to = "/unavailable"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/sweaters/multicolor/colors/*"
+to = "/unavailable"
+status = 301
+force = true

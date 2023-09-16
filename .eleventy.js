@@ -1,6 +1,5 @@
 const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
@@ -22,11 +21,10 @@ module.exports = function (eleventyConfig) {
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
       'helpers/getAvailableColors.js',
-      'helpers/adjustColor.js'
+      'helpers/adjustColor.js',
+      ''
     ]
   })
-
-  eleventyConfig.addPlugin(pluginRss)
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
     return adjustColor(colorCode)
@@ -235,6 +233,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('stockChanges', function () {
     return JSON.stringify(stockChanges)
+  })
+
+  eleventyConfig.addNunjucksFilter('absoluteUrl', function(url, base) {
+    try {
+      return (new URL(url, base)).toString()
+    } catch(e) {
+      console.error("Failing to convert absolute url, returning url")
+      return url;
+    }
   })
 
   return {
