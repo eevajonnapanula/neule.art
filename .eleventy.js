@@ -18,12 +18,16 @@ module.exports = function (eleventyConfig) {
     name: 'colors',
     functionsDir: './netlify/functions/',
     redirects: "netlify-toml",
-    copy: [
+    copy: {
+      from: '.cache',
+      to: 'tmp/cache'
+    }
+    /* [
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
       'helpers/getAvailableColors.js',
       'helpers/adjustColor.js',
-    ],
+    ], */
   })
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
