@@ -29,6 +29,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@double-great/stylelint-a11y": "^2.0.2",
+    "@netlify/functions": "^2.0.2",
     "axe-core": "^4.7.2",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
