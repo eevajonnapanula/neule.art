@@ -18,7 +18,6 @@ module.exports = function (eleventyConfig) {
     name: 'colors',
     functionsDir: './netlify/functions/',
     redirects: "netlify-toml",
-    copyEnabled: false,
     copy: [
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
