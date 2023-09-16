@@ -22,7 +22,8 @@ module.exports = function (eleventyConfig) {
       'helpers/getShirt.js',
       'helpers/getRandomColors.js',
       'helpers/getAvailableColors.js',
-      'helpers/adjustColor.js'
+      'helpers/adjustColor.js',
+      '_data'
     ],
     config: function (config) {
       config.addGlobalData()
