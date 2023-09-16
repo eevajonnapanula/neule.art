@@ -1,3 +1,6 @@
+[functions]
+directory = "netlify/functions"
+
 [[redirects]]
 from = "/fi/patterns/sweaters/simple/colors/"
 to = "/.netlify/functions/colors"
