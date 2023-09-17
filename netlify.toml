@@ -1,3 +1,6 @@
+node_bundler = "esbuild"
+external_node_modules = [ "date-fns" ]
+
 [[redirects]]
 from = "/fi/patterns/sweaters/simple/colors/"
 to = "/.netlify/functions/colors"
