@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css')
 
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    singleTemplateScope: false,
     name: 'colors',
     functionsDir: './netlify/functions/',
     redirects: "netlify-toml",
