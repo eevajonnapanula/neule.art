@@ -11,6 +11,7 @@ const stock = require('./_data/stock.json')
 const stockChanges = require('./_data/stockChanges.json')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('css')
 

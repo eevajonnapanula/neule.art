@@ -4,3 +4,11 @@ README.md
 .netlify/plugins
 cypress
 /unpublished/
+_site/
+netlify/functions/colors/_data
+netlify/functions/colors/_includes
+netlify/functions/colors/.netlify
+netlify/functions/colors/en
+netlify/functions/colors/fi
+service-account.json
+.env
