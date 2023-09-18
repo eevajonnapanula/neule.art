@@ -101,6 +101,23 @@ const generateRandomLinkHref = (locale, keys, path) => {
   return `/${locale}/patterns/sweaters/${path}/${colors}`
 }
 
+const buildUrl = (locale, url) => {
+  const localeFromPath = url.pathname.substring(1,3)
+  return url.pathname.replace(localeFromPath, locale) + url.search
+}
+
+const setupNavigation = (url) => {
+  const navUrlFi = buildUrl("fi", url)
+  const navUrlEn = buildUrl("en", url)
+
+  const fiNav = document.getElementById("switch-locale-fi")
+
+  const enNav = document.getElementById("switch-locale-en")
+  
+  fiNav.setAttribute("href", navUrlFi)
+  enNav.setAttribute("href", navUrlEn)
+}
+
 addEventListener("load", () => {
   const url = new URL(window.location.href)
 if (url.pathname === "/fi/patterns/sweaters/simple/" || url.pathname === "/en/patterns/sweaters/simple/") {
@@ -132,6 +149,7 @@ if (url.pathname === "/fi/patterns/sweaters/simple/" || url.pathname === "/en/pa
   const randomLinkHref = generateRandomLinkHref(locale, keys, 'simple')
   const randomLink = document.getElementById("cta-link")
   randomLink.setAttribute("href", randomLinkHref)
+  setupNavigation(url)
 
   const shirt = document.getElementsByClassName('shirt')[0]
 
@@ -200,6 +218,7 @@ if (url.pathname === "/fi/patterns/sweaters/simple/" || url.pathname === "/en/pa
   const randomLink = document.getElementById("cta-link")
   randomLink.setAttribute("href", randomLinkHref)
 
+  setupNavigation(url)
 
   shirt.replaceWith(newShirt.body.firstChild)
 }
