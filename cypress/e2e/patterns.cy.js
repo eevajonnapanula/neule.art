@@ -21,7 +21,6 @@ describe('Sweater Simple', () => {
 
   it('generates random colors', () => {
     cy.get('a').contains('Näytä satunnaiset värit').click()
-    cy.url().should('include', '/colors/')
 
     cy.selectsMatchParams('fourColors')
   })
@@ -32,7 +31,6 @@ describe('Sweater Simple', () => {
     cy.get('select[name="c"]').select('094D6D')
     cy.get('select[name="d"]').select('4A235A')
     cy.get('button').contains('Katso tulos').click()
-    cy.url().should('include', '/colors/')
 
     cy.get(`select[id="colorA"]`)
       .then($select => {
@@ -60,13 +58,13 @@ describe('Sweater Simple', () => {
   })
 
   it('has correct values when language is switched', () => {
-    cy.visit('/fi/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
     cy.get('a').contains('EN').click()
-    cy.url().should('include', '/en/patterns/sweaters/simple/colors/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
+    cy.url().should('include', '/en/patterns/sweaters/simple/?a=2E6592&b=B3752E&c=703F03&d=FAE5D3')
   })
 
   it('adjusts colors correctly if link contains old color code', () => {
-    cy.visit('/fi/patterns/sweaters/simple/colors/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
+    cy.visit('/fi/patterns/sweaters/simple/?a=FFFFFF&b=B3752E&c=703F03&d=FAE5D3')
     cy.get(`select[id="colorA"]`)
       .then($select => {
         $select.children().find('[selected]')
@@ -101,25 +99,24 @@ describe('Sweater Multicolor', () => {
 
   it('generates random colors', () => {
     cy.get('a').contains('Näytä satunnaiset värit').click()
-    cy.url().should('include', '/colors/')
 
     cy.selectsMatchParams('multipleColors')
   })
 
   it('has correct values when language is switched', () => {
     cy.visit(
-      '/fi/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+      '/fi/patterns/sweaters/multicolor/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
     )
     cy.get('a').contains('EN').click()
     cy.url().should(
       'include',
-      '/en/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+      '/en/patterns/sweaters/multicolor/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
     )
   })
 
   it('adjusts colors correctly if link contains old color code', () => {
     cy.visit(
-      '/fi/patterns/sweaters/multicolor/colors/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
+      '/fi/patterns/sweaters/multicolor/?main=ffffff&sleevePrimary=56595F&sleeveSecondary=0B0B45&yoke1=07587E&yoke2=98B1C5&yoke3=037C79&yoke4=943126&yoke5=B9770E&yoke6=2D1901&yoke7=604978&yoke8=9D845F&yoke9=5D6D7E&yoke10=9DDB13&yoke11=EE1313&yoke12=023F3D'
     )
     cy.get(`select[id="main-color"]`)
       .then($select => {

@@ -1,4 +1,3 @@
-const { EleventyServerlessBundlerPlugin } = require('@11ty/eleventy')
 const format = require('date-fns/format')
 
 const { getRiddari } = require('./helpers/getShirt')
@@ -14,25 +13,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('css')
 
-  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-    name: 'colors',
-    functionsDir: './netlify/functions/',
-    copy: [
-      'helpers/getShirt.js',
-      'helpers/getRandomColors.js',
-      'helpers/getAvailableColors.js',
-      'helpers/adjustColor.js'
-    ],
-    config: function (config) {
-      config.addGlobalData()
-    }
-  })
+  eleventyConfig.addPassthroughCopy('js')
 
   eleventyConfig.addShortcode('adjustColor', function (colorCode) {
     return adjustColor(colorCode)
   })
 
   eleventyConfig.addShortcode('riddari', function (a, b, c, d) {
+    console.log(a, b, c, d)
     return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
 
@@ -93,7 +81,7 @@ module.exports = function (eleventyConfig) {
         <select id="${id}" name="${name}">
           ${sortedColors.map(
             item =>
-              `<option value="${item.colorValue}" ${adjustedValue === item.colorValue ? 'selected' : ''}>${
+              `<option value="${item.colorValue}">${
                 item.value
               } (${item.code})</option>`
           )}
@@ -117,11 +105,11 @@ module.exports = function (eleventyConfig) {
 
     return `<div class="visually-hidden">${text}: ${colorNames.map(item => item.value).join(', ')}</div>`
   })
-
+  
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
-    return `<div class="cta-link"><a href="/${locale}/patterns/sweaters/simple/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a id="cta-link" href="/${locale}/patterns/sweaters/simple/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
   eleventyConfig.addShortcode('randomColorsLinkSweaterMulticolor', function (locale) {
@@ -144,11 +132,11 @@ module.exports = function (eleventyConfig) {
       'yoke12'
     ]
     const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index].colorValue}`).join('&')}`
-    return `<div class="cta-link"><a href="/${locale}/patterns/sweaters/multicolor/colors/${colors}">${translations[locale].randomColors} </a></div>`
+    return `<div class="cta-link"><a id="cta-link" href="/${locale}/patterns/sweaters/multicolor/${colors}">${translations[locale].randomColors} </a></div>`
   })
 
-  eleventyConfig.addShortcode('colorAvailability', function (locale, ...colors) {
-    return parseColors(colors, yarnColors, locale)
+  eleventyConfig.addShortcode('colorAvailability', function (locale) {
+    return parseColors(yarnColors, locale)
   })
 
   eleventyConfig.addShortcode('allColorAvailability', function (locale) {

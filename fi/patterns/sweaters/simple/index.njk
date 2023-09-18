@@ -5,7 +5,6 @@ tags: 'sitemap'
 title: 'Värivalitsin Villapaidalle -'
 permalink:
   build: '/fi/patterns/sweaters/simple/'
-  colors: '/fi/patterns/sweaters/simple/colors/'
 breadcrumbs:
   - title: 'Etusivu'
     url: '/fi/'
@@ -23,13 +22,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %} 
-        {% set colorA %}{% adjustColor eleventy.serverless.query.a %}{% endset %}
-        {% set colorB %}{% adjustColor eleventy.serverless.query.b %}{% endset %} 
-        {% set colorC %}{% adjustColor eleventy.serverless.query.c %}{% endset %} 
-        {% set colorD %}{% adjustColor eleventy.serverless.query.d %}{% endset %} 
-      {% else %} {% set colorA = '000000' %} {% set colorB = '037C79' %} {% set colorC =
-      'DC7633' %} {% set colorD = 'AED6F1' %} {% endif %} {% riddari colorA, colorB, colorC, colorD %} {%
+      {% riddari 'transparent', 'transparent', 'transparent', 'transparent' %} {%
       visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
@@ -39,7 +32,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
           >Kaikki värit
         </a>
       </div>
-      <form method="get" action="/fi/patterns/sweaters/simple/colors/" class="colors-form">
+      <form method="get" action="/fi/patterns/sweaters/simple/" class="colors-form">
         <div id="four-colors-form">
           {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
           translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
@@ -54,10 +47,11 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
   </div>
 </section>
   <section class="color-availability"> <h2>Värien saatavuus</h2>
-    <div class="color-picker-wrapper">
-      {% colorAvailability locale, colorA, colorB, colorC, colorD %}</div>
+    <div class="color-picker-wrapper switcher">
+            {% colorAvailability locale %}</div>
       
-    <div>
+          <div>
+
       <div>Viimeisin päivitys: {% time stock.updated %}</div>
       {% set comma = joiner() %}
       <p>Tällä hetkellä tiedot haetaan seuraavista kaupoista: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
