@@ -89,7 +89,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
@@ -656,7 +656,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-09-28T00:42:27.816Z"
+  "updated": "2023-09-29T00:42:44.831Z"
 }
