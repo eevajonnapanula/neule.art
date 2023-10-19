@@ -408,7 +408,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1412 pink heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-10-18T00:43:08.715Z"
+  "updated": "2023-10-19T00:42:49.103Z"
 }
