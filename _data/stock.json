@@ -196,7 +196,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -364,7 +364,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -373,7 +373,7 @@
         "menita": "1407 metsänvihreä",
         "titityy": "1407 Pine green heather",
         "lankapuutarha": "Männynvihreä ",
-        "lankaidea": "",
+        "lankaidea": "Pine Green Heather",
         "lankakaisa": "Pine green heather",
         "paapo": "1407 männynvihreä"
       }
@@ -408,7 +408,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1412 pink heather",
@@ -532,7 +532,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -541,7 +541,7 @@
         "menita": "1419 vaaleanruskea",
         "titityy": "1419 Barley",
         "lankapuutarha": "Vaalea Ohranruskea ",
-        "lankaidea": "",
+        "lankaidea": "Barley",
         "lankakaisa": "Barley",
         "paapo": "1419 vaalea ohranruskea"
       }
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-10-25T00:42:47.417Z"
+  "updated": "2023-10-26T00:41:46.375Z"
 }
