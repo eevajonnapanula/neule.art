@@ -4,7 +4,7 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -492,7 +492,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1417 Frost bite",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-10-27T00:41:59.469Z"
+  "updated": "2023-10-28T00:41:24.884Z"
 }
