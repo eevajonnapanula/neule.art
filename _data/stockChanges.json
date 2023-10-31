@@ -5722,5 +5722,11 @@
     "store": "paapo",
     "date": "2023-10-28T00:41:24.884Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "menita",
+    "date": "2023-10-31T00:43:19.638Z",
+    "change": "added"
   }
 ]
