@@ -5,7 +5,6 @@ tags: 'sitemap'
 title: 'Värivalitsin Villapaidalle (moniväri) -'
 permalink:
   build: '/fi/patterns/sweaters/multicolor/'
-  colors: '/fi/patterns/sweaters/multicolor/colors/'
 breadcrumbs:
   - title: 'Etusivu'
     url: '/fi/'
@@ -23,28 +22,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% if eleventy.serverless.query %}
-        {% set main %}{% adjustColor eleventy.serverless.query.main %}{% endset %}
-        {% set sleevePrimary %}{% adjustColor eleventy.serverless.query.sleevePrimary %}{% endset %} 
-        {% set sleeveSecondary %}{% adjustColor eleventy.serverless.query.sleeveSecondary %}{% endset %} 
-        {% set yoke1 %}{% adjustColor eleventy.serverless.query.yoke1 %}{% endset %} 
-        {% set yoke2 %}{% adjustColor eleventy.serverless.query.yoke2 %}{% endset %} 
-        {% set yoke3 %}{% adjustColor eleventy.serverless.query.yoke3 %}{% endset %} 
-        {% set yoke4 %}{% adjustColor eleventy.serverless.query.yoke4 %}{% endset %} 
-        {% set yoke5 %}{% adjustColor eleventy.serverless.query.yoke5 %}{% endset %} 
-        {% set yoke6 %}{% adjustColor eleventy.serverless.query.yoke6 %}{% endset %} 
-        {% set yoke7 %}{% adjustColor eleventy.serverless.query.yoke7 %}{% endset %} 
-        {% set yoke8 %}{% adjustColor eleventy.serverless.query.yoke8 %}{% endset %} 
-        {% set yoke9 %}{% adjustColor eleventy.serverless.query.yoke9 %}{% endset %} 
-        {% set yoke10 %}{% adjustColor eleventy.serverless.query.yoke10 %}{% endset %} 
-        {% set yoke11 %}{% adjustColor eleventy.serverless.query.yoke11 %}{% endset %} 
-        {% set yoke12 %}{% adjustColor eleventy.serverless.query.yoke12 %}{% endset %}
-      {% else %} {% set main = '000000' %} {% set sleevePrimary = '037C79' %} 
-      {% set sleeveSecondary = 'DC7633' %} {% set yoke1 = 'AED6F1' %} {% set yoke2 = "961060" %} {% set yoke3 = "604978" %} {%
-      set yoke4 = "F1C40F" %} {% set yoke5 = "9DDB13" %} {% set yoke6 = "943126" %} {% set yoke7 = "2E6592" %} {% set
-      yoke8 = "0E6655" %} {% set yoke9 = "EE1313" %} {% set yoke10 = "873600" %} {% set yoke11 = "094D6D" %} {% set
-      yoke11 = "094D6D" %} {% set yoke12 = "4A235A" %} {% endif %} {% riddariMultiple main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
-      yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %} {% visuallyHiddenText
+     {% riddariMultiple 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent' %} {% visuallyHiddenText
       translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
     </div>
     <div>
@@ -54,7 +32,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
           >Kaikki värit
         </a>
       </div>
-      <form method="get" action="/fi/patterns/sweaters/multicolor/colors/" class="colors-form">
+      <form method="get" action="/fi/patterns/sweaters/multicolor/" class="colors-form">
         <div id="multiple-colors-form">
           {%- for color in colorOptions.multipleColors %} {% colorSelect color.labelKey, color.identifier,
           translations[locale].multipleColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
@@ -69,9 +47,10 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
   </div>
 </section>
  <section> <h2>Värien saatavuus</h2>
-  <div class="color-picker-wrapper">
-    {% colorAvailability locale, main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3,
-      yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12 %}</div>
+  <div class="color-picker-wrapper switcher">
+    {% colorAvailability locale %}</div>
+
+  <div>
     
   <div>
     <div>Viimeisin päivitys: {% time stock.updated %}</div>

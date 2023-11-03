@@ -3,8 +3,8 @@ const shops = require('../_data/yarnStores.json')
 const translations = require('../_data/translations.json')
 const { adjustColor } = require('./adjustColor')
 
-const parseColors = (colorsArr, allColors, locale) => {
-  const colors = colorsArr.map(item => {
+const parseColors = (allColors, locale) => {
+  const colors = allColors.map(item => item.colorValue).map(item => {
     const adjustedColor = adjustColor(item)
     const color = allColors.find(colorObj => colorObj.colorValue === adjustedColor)
     const stock = data.stock.find(stockObj => stockObj.code === color.code)
@@ -14,16 +14,16 @@ const parseColors = (colorsArr, allColors, locale) => {
 
   return `
     <ul class="yarn-availability-list">
-      ${colors.map(item => listItem(item.value, item.code, item.colorValue, item.availability, locale)).join('')}
+      ${colors.map(item => listItem(item.value, item.code, item.colorValue, item.availability, locale, true)).join('')}
     </ul>`
 }
 
-const listItem = (yarnName, yarnCode, color, availability, locale) => {
+const listItem = (yarnName, yarnCode, color, availability, locale, hideInitially = false) => {
   const shopAvailability = Object.entries(availability)
     .filter(([, available]) => available)
     .map(([shop]) => shop)
 
-  return `<li class="yarn-availability ${shopAvailability.length > 0 ? 'available' : 'not-available'}">
+  return `<li id="${color}" class="yarn-availability ${shopAvailability.length > 0 ? 'available' : 'not-available'}" ${hideInitially ? 'style="display: none;"' : ''} >
             <div class="color-swatch yarn-available-swatch" style="background-color: #${color}"></div>
             <h2>${yarnName} (${yarnCode})</h2>
             <div class="yarn-availability-shops">

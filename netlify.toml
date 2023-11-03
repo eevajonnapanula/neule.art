@@ -1,32 +1,4 @@
 [[redirects]]
-from = "/fi/patterns/sweaters/simple/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/fi/patterns/sweaters/multicolor/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/en/patterns/sweaters/simple/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
-from = "/en/patterns/sweaters/multicolor/colors/"
-to = "/.netlify/functions/colors"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "colors"
-
-[[redirects]]
 from = "/"
 to = "/fi/"
 status = 200
@@ -34,25 +6,25 @@ force = true
 
 [[redirects]]
 from = "/fi/colors/availability/*"
-to = "/fi/patterns/sweaters/simple/colors/:splat"
+to = "/fi/patterns/sweaters/simple/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/availability/*"
-to = "/en/patterns/sweaters/simple/colors/:splat"
+to = "/en/patterns/sweaters/simple/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/fi/colors/*"
-to = "/fi/patterns/sweaters/simple/colors/:splat"
+to = "/fi/patterns/sweaters/simple/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "/en/colors/*"
-to = "/en/patterns/sweaters/simple/colors/:splat"
+to = "/en/patterns/sweaters/simple/:splat"
 status = 301
 force = true
 
@@ -76,6 +48,30 @@ force = true
 
 [[redirects]]
 from = "/en/patterns/riddari-multiple/*"
+to = "/en/patterns/sweaters/multicolor/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/patterns/sweaters/simple/colors/*"
+to = "/fi/patterns/sweaters/simple/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/sweaters/simple/colors/*"
+to = "/en/patterns/sweaters/simple/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fi/patterns/sweaters/multicolor/colors/*"
+to = "/fi/patterns/sweaters/multicolor/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/en/patterns/sweaters/multicolor/colors/*"
 to = "/en/patterns/sweaters/multicolor/:splat"
 status = 301
 force = true
