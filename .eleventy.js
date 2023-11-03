@@ -79,12 +79,7 @@ module.exports = function (eleventyConfig) {
       <fieldset>
         <label for="${id}">${label}:</label>
         <select id="${id}" name="${name}">
-          ${sortedColors.map(
-            item =>
-              `<option value="${item.colorValue}">${
-                item.value
-              } (${item.code})</option>`
-          )}
+          ${sortedColors.map(item => `<option value="${item.colorValue}">${item.value} (${item.code})</option>`)}
         </select>
       </fieldset>`
   })
@@ -105,7 +100,7 @@ module.exports = function (eleventyConfig) {
 
     return `<div class="visually-hidden">${text}: ${colorNames.map(item => item.value).join(', ')}</div>`
   })
-  
+
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
@@ -225,12 +220,12 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(stockChanges)
   })
 
-  eleventyConfig.addNunjucksFilter('absoluteUrl', function(url, base) {
+  eleventyConfig.addNunjucksFilter('absoluteUrl', function (url, base) {
     try {
-      return (new URL(url, base)).toString()
-    } catch(e) {
-      console.error("Failing to convert absolute url, returning url")
-      return url;
+      return new URL(url, base).toString()
+    } catch (e) {
+      console.error('Failing to convert absolute url, returning url')
+      return url
     }
   })
 
