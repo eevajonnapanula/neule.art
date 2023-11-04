@@ -4,10 +4,10 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
       },
@@ -172,7 +172,7 @@
       "code": "0059",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -403,10 +403,10 @@
       "code": "1412",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
       },
@@ -415,7 +415,7 @@
         "menita": "1412 roosa",
         "titityy": "1412 Pink heather",
         "lankapuutarha": "Roosa ",
-        "lankaidea": "",
+        "lankaidea": "Pink Heather",
         "lankakaisa": "Pink heather",
         "paapo": "1412 roosa"
       }
@@ -637,7 +637,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -655,10 +655,10 @@
       "code": "1704",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
       },
@@ -679,7 +679,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -688,7 +688,7 @@
         "menita": "1705 kirkas fuksia",
         "titityy": "1705 Royal fuchia",
         "lankapuutarha": "Fuksia ",
-        "lankaidea": "",
+        "lankaidea": "Royal Fuchsia",
         "lankakaisa": "Royal fuchsia",
         "paapo": "1705 fuksia"
       }
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-03T05:30:10.918Z"
+  "updated": "2023-11-04T00:42:31.508Z"
 }
