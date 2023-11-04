@@ -82,16 +82,18 @@ const getColorsLankapuutarha = () => {
     data => {
       const $ = cheerio.load(data.data)
 
-      const json = JSON.parse(
-        $('#back-in-stock-helper')
-          .text()
-          .split('\n')
-          .find(item => item.includes('_BISConfig.product'))
-          .trim()
-          .slice(21, -1)
-      )
+      const json = $('.variant-input > input')
+        .toArray()
+        .map(val => {
+          const value = $(val)
 
-      return json.variants.map(variant => {
+          return {
+            title: value.attr('value'),
+            available: !value.hasClass('disabled')
+          }
+        })
+
+      return json.map(variant => {
         return {
           code: variant.title.match(/\d+/)[0],
           title: variant.title.match(/\D+/)[0].trim().replace('(', ''),
