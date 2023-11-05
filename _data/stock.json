@@ -513,7 +513,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1418 Straw",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-04T00:42:31.508Z"
+  "updated": "2023-11-05T00:47:17.719Z"
 }
