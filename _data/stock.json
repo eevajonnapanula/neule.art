@@ -90,7 +90,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
@@ -156,7 +156,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0058 dark grey heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-06T00:44:38.275Z"
+  "updated": "2023-11-07T00:44:03.554Z"
 }
