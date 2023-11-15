@@ -5884,5 +5884,11 @@
     "store": "menita",
     "date": "2023-11-12T00:47:31.693Z",
     "change": "deleted"
+  },
+  {
+    "code": "0867",
+    "store": "paapo",
+    "date": "2023-11-15T00:44:37.643Z",
+    "change": "added"
   }
 ]
