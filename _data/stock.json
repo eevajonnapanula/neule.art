@@ -240,7 +240,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "0867 Chocolate heather",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-15T00:44:37.647Z"
+  "updated": "2023-11-16T00:45:48.096Z"
 }
