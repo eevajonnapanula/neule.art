@@ -639,7 +639,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true
+        "paapo": false
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-17T00:45:39.450Z"
+  "updated": "2023-11-18T00:44:16.383Z"
 }
