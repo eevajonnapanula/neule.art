@@ -217,7 +217,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": false
       },
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-11-22T00:48:09.558Z"
+  "updated": "2023-11-23T00:45:05.629Z"
 }
