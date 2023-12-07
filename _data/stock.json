@@ -88,7 +88,7 @@
       "code": "0054",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-12-06T00:46:26.365Z"
+  "updated": "2023-12-07T00:45:57.635Z"
 }
