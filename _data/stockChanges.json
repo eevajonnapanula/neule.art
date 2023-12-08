@@ -6040,5 +6040,35 @@
     "store": "menita",
     "date": "2023-12-07T00:45:57.635Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "menita",
+    "date": "2023-12-08T00:46:13.775Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "lankaidea",
+    "date": "2023-12-08T00:46:13.775Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "titityy",
+    "date": "2023-12-08T00:46:13.775Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "lankaidea",
+    "date": "2023-12-08T00:46:13.775Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "lankaidea",
+    "date": "2023-12-08T00:46:13.775Z",
+    "change": "added"
   }
 ]
