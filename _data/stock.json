@@ -5,7 +5,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -25,8 +25,8 @@
       "code": "0051",
       "availability": {
         "snurre": true,
-        "menita": false,
-        "titityy": false,
+        "menita": true,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -89,7 +89,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -173,7 +173,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -215,7 +215,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -278,7 +278,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": false,
@@ -510,7 +510,7 @@
         "snurre": true,
         "menita": true,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": false,
         "lankakaisa": true,
         "paapo": false
@@ -635,7 +635,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -677,7 +677,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -761,7 +761,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-12-11T00:46:55.645Z"
+  "updated": "2023-12-12T00:46:41.781Z"
 }
