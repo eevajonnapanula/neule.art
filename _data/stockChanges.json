@@ -6160,5 +6160,23 @@
     "store": "menita",
     "date": "2023-12-13T00:45:57.449Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2023-12-14T00:45:04.560Z",
+    "change": "added"
+  },
+  {
+    "code": "1412",
+    "store": "paapo",
+    "date": "2023-12-14T00:45:04.560Z",
+    "change": "added"
+  },
+  {
+    "code": "1704",
+    "store": "paapo",
+    "date": "2023-12-14T00:45:04.560Z",
+    "change": "added"
   }
 ]

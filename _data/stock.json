@@ -93,7 +93,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -408,7 +408,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1412 pink heather",
@@ -660,7 +660,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1704 Apricot",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-12-13T00:45:57.449Z"
+  "updated": "2023-12-14T00:45:04.565Z"
 }
