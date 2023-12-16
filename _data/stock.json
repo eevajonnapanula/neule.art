@@ -48,7 +48,7 @@
         "snurre": true,
         "menita": true,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
@@ -407,7 +407,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -659,7 +659,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": true
       },
       "titles": {
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-12-15T00:46:41.354Z"
+  "updated": "2023-12-16T00:44:59.028Z"
 }
