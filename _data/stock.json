@@ -28,7 +28,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": false
       },
@@ -111,7 +111,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
@@ -219,7 +219,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -240,7 +240,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "0867 Chocolate heather",
@@ -574,7 +574,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -583,7 +583,7 @@
         "menita": "1700 vaalea taivaansininen",
         "titityy": "1700 Air blue",
         "lankapuutarha": "Harmaansininen ",
-        "lankaidea": "",
+        "lankaidea": "Air Blue",
         "lankakaisa": "Airblue",
         "paapo": "1700 harmaansininen"
       }
@@ -639,7 +639,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false
+        "paapo": true
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2023-12-18T00:46:55.621Z"
+  "updated": "2023-12-19T00:45:50.723Z"
 }
