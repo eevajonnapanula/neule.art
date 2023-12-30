@@ -6298,5 +6298,29 @@
     "store": "titityy",
     "date": "2023-12-29T00:36:56.109Z",
     "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "lankakaisa",
+    "date": "2023-12-30T00:43:35.746Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "titityy",
+    "date": "2023-12-30T00:43:35.746Z",
+    "change": "added"
+  },
+  {
+    "code": "9421",
+    "store": "titityy",
+    "date": "2023-12-30T00:43:35.746Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9434",
+    "store": "titityy",
+    "date": "2023-12-30T00:43:35.746Z",
+    "change": "added"
   }
 ]
