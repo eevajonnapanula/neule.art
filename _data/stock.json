@@ -172,7 +172,7 @@
       "code": "0059",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2024-01-07T00:51:10.911Z"
+  "updated": "2024-01-08T00:47:17.973Z"
 }
