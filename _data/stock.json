@@ -7,7 +7,7 @@
         "menita": false,
         "titityy": true,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": false
       },
@@ -469,7 +469,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": false,
         "paapo": true
       },
@@ -511,7 +511,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": false,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": false
       },
@@ -520,7 +520,7 @@
         "menita": "1418 meleerattu beige",
         "titityy": "1418 Straw",
         "lankapuutarha": "Vaalea beige ",
-        "lankaidea": "",
+        "lankaidea": "Straw",
         "lankakaisa": "Straw",
         "paapo": "1418 vaaleabeige"
       }
@@ -721,7 +721,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true
       },
@@ -730,7 +730,7 @@
         "menita": "1707 galaksi",
         "titityy": "1707 Galaxy",
         "lankapuutarha": "Galaksi ",
-        "lankaidea": "",
+        "lankaidea": "Galaxy",
         "lankakaisa": "Galaxy",
         "paapo": "1707 galaksi"
       }
@@ -946,5 +946,5 @@
       }
     }
   ],
-  "updated": "2024-01-12T00:47:40.356Z"
+  "updated": "2024-01-13T00:46:09.148Z"
 }
