@@ -39,5 +39,20 @@
     "key": "linnanrouva",
     "linkToStock": "https://linnanrouva.myshopify.com/products/istex-lettlopi-50-g"
   },
-  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea", "lankakaisa", "paapo", "linnanrouva"]
+  "piipashop": {
+    "name": "PiipaShop",
+    "key": "piipashop",
+    "linkToStock": "https://www.piipashop.fi/epages/piipashop.sf/fi_FI/?ViewAction=View&ObjectPath=/Shops/2014032407/Categories/Istex/Lettlopi_50_g&PageSize=60&Page=1"
+  },
+  "stores": [
+    "snurre",
+    "titityy",
+    "lankapuutarha",
+    "menita",
+    "lankaidea",
+    "lankakaisa",
+    "paapo",
+    "linnanrouva",
+    "piipashop"
+  ]
 }

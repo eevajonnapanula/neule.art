@@ -1,4 +1,5 @@
 const { default: axios } = require('axios')
+const fetch = require('node-fetch')
 const cheerio = require('cheerio')
 const fs = require('fs')
 const prevStock = require('../_data/stock.json')
@@ -7,7 +8,10 @@ const { sendPushNotification } = require('./sendNotification')
 
 const colorCodes = colors.map(color => color.code)
 
-const axiosWithHeaders = url => axios.get(url, { headers: { 'Accept-Encoding': 'gzip,deflate,compress' } })
+const axiosWithHeaders = url =>
+  axios.get(url, { headers: { 'Accept-Encoding': 'gzip,deflate,compress' } }).catch(function (error) {
+    console.log(error.toJSON())
+  })
 
 const getColorsSnurre = () => {
   return axiosWithHeaders('https://www.snurre.fi/products/istex-lettlopi?variant=37574035669144', {
@@ -196,6 +200,35 @@ const getColorsLinnanrouva = () => {
   })
 }
 
+const getColorsPiipashop = async () => {
+  const url =
+    'https://www.piipashop.fi/epages/piipashop.sf/fi_FI/?ViewAction=View&ObjectPath=%2FShops%2F2014032407%2FCategories%2FIstex%2FLettlopi_50_g&PageSize=60&Page=1'
+
+  const options = {
+    method: 'GET'
+  }
+  // Use node-fetch because for some reason, this didn't work with axios
+  const res = await fetch(url, options)
+  const data = await res.text()
+
+  const $ = cheerio.load(data)
+
+  const json = $('td')
+    .toArray()
+    .filter(val => $(val).find('a').text().trim() != '')
+    .map(val => {
+      const title = $(val).find('a').text().trim().split(', ')[1]
+      const availability = $(val).find('.FontSmaller').text().trim()
+      return {
+        title,
+        code: title.slice(title.length - 4),
+        available: availability != ''
+      }
+    })
+
+  return json
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -224,10 +257,11 @@ const writeStockFile = async () => {
   const lankakaisa = await getColorsLankakaisa()
   const paapo = await getColorsPaapo()
   const linnanrouva = await getColorsLinnanrouva()
+  const piipashop = await getColorsPiipashop()
 
   const codes = Array.from(
     new Set(
-      [...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo, ...linnanrouva].map(
+      [...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo, ...linnanrouva, ...piipashop].map(
         item => item.code
       )
     )
@@ -243,6 +277,7 @@ const writeStockFile = async () => {
       const lankakaisaStock = findOrEmpty(lankakaisa, code)
       const paapoStock = findOrEmpty(paapo, code)
       const linnanrouvaStock = findOrEmpty(linnanrouva, code)
+      const piipashopStock = findOrEmpty(piipashop, code)
 
       return {
         code,
@@ -254,7 +289,8 @@ const writeStockFile = async () => {
           lankaidea: lankaideaStock.available || false,
           lankakaisa: lankakaisaStock.available || false,
           paapo: paapoStock.available || false,
-          linnanrouva: linnanrouvaStock.available || false
+          linnanrouva: linnanrouvaStock.available || false,
+          piipashop: piipashopStock.available || false
         },
         titles: {
           snurre: snurreStock.title || '',
@@ -264,7 +300,8 @@ const writeStockFile = async () => {
           lankaidea: lankaideaStock.title || '',
           lankakaisa: lankakaisaStock.title,
           paapo: paapoStock.title,
-          linnanrouva: linnanrouvaStock.title
+          linnanrouva: linnanrouvaStock.title,
+          piipashop: piipashopStock.title
         }
       }
     })
