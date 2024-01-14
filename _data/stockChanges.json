@@ -6508,5 +6508,17 @@
     "store": "lankaidea",
     "date": "2024-01-13T00:46:09.144Z",
     "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "lankakaisa",
+    "date": "2024-01-14T00:51:31.749Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1417",
+    "store": "menita",
+    "date": "2024-01-14T00:51:31.749Z",
+    "change": "deleted"
   }
 ]
