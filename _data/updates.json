@@ -1,6 +1,13 @@
 {
   "en": [
     {
+      "title": "New stores added!",
+      "datetime": "2024-01-14",
+      "items": [
+        "Added two stores to list of stores where Lettlopi-color availability is checked from: Lasimäen Linnanrouva and PiipaShop"
+      ]
+    },
+    {
       "title": "Neule.art back in business",
       "datetime": "2023-06-18",
       "items": ["The site is back in business!", "I did some navigational changes to support future updates."]
@@ -87,6 +94,13 @@
     }
   ],
   "fi": [
+    {
+      "title": "Uusia kauppoja lisätty!",
+      "datetime": "2024-01-14",
+      "items": [
+        "Lisätty kaksi uutta kauppaa, joista tarkistetaan Lettlopin saatavuus: Lasimäen Linnanrouva and PiipaShop"
+      ]
+    },
     {
       "title": "Sivusto takaisin käytössä",
       "datetime": "2023-06-18",
