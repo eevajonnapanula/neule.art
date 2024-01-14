@@ -178,6 +178,24 @@ const getColorsPaapo = () => {
   })
 }
 
+const getColorsLinnanrouva = () => {
+  return axiosWithHeaders('https://linnanrouva.myshopify.com/products/istex-lettlopi-50-g').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = $('select')
+      .children()
+      .toArray()
+      .map(val => $(val).text().split(' - ')[0])
+      .map(val => ({
+        code: val.slice(0, 4),
+        available: true,
+        title: val
+      }))
+
+    return json
+  })
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -205,9 +223,14 @@ const writeStockFile = async () => {
   const lankaidea = await getColorsLankaidea()
   const lankakaisa = await getColorsLankakaisa()
   const paapo = await getColorsPaapo()
+  const linnanrouva = await getColorsLinnanrouva()
 
   const codes = Array.from(
-    new Set([...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo].map(item => item.code))
+    new Set(
+      [...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo, ...linnanrouva].map(
+        item => item.code
+      )
+    )
   )
 
   const stock = codes
@@ -219,6 +242,7 @@ const writeStockFile = async () => {
       const lankaideaStock = findOrEmpty(lankaidea, code)
       const lankakaisaStock = findOrEmpty(lankakaisa, code)
       const paapoStock = findOrEmpty(paapo, code)
+      const linnanrouvaStock = findOrEmpty(linnanrouva, code)
 
       return {
         code,
@@ -229,7 +253,8 @@ const writeStockFile = async () => {
           lankapuutarha: lankapuutarhaStock.available || false,
           lankaidea: lankaideaStock.available || false,
           lankakaisa: lankakaisaStock.available || false,
-          paapo: paapoStock.available || false
+          paapo: paapoStock.available || false,
+          linnanrouva: linnanrouvaStock.available || false
         },
         titles: {
           snurre: snurreStock.title || '',
@@ -238,7 +263,8 @@ const writeStockFile = async () => {
           lankapuutarha: lankapuutarhaStock.title || '',
           lankaidea: lankaideaStock.title || '',
           lankakaisa: lankakaisaStock.title,
-          paapo: paapoStock.title
+          paapo: paapoStock.title,
+          linnanrouva: linnanrouvaStock.title
         }
       }
     })

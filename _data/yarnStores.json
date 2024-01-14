@@ -34,5 +34,10 @@
     "key": "paapo",
     "linkToStock": "https://paapo.fi/p37677/istex-lettlopi"
   },
-  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea", "lankakaisa", "paapo"]
+  "linnanrouva": {
+    "name": "Lasimäen Linnanrouva",
+    "key": "linnanrouva",
+    "linkToStock": "https://linnanrouva.myshopify.com/products/istex-lettlopi-50-g"
+  },
+  "stores": ["snurre", "titityy", "lankapuutarha", "menita", "lankaidea", "lankakaisa", "paapo", "linnanrouva"]
 }
