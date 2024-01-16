@@ -34,7 +34,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true
       },
@@ -184,7 +184,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true
       },
@@ -380,7 +380,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -434,8 +434,8 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
-        "linnanrouva": true,
+        "paapo": true,
+        "linnanrouva": false,
         "piipashop": true
       },
       "titles": {
@@ -446,7 +446,7 @@
         "lankaidea": "Pine Green Heather",
         "lankakaisa": "Pine green heather",
         "paapo": "1407 männynvihreä",
-        "linnanrouva": "1407 Pine Green",
+        "linnanrouva": "",
         "piipashop": "Männynvihreä 1407"
       }
     },
@@ -555,7 +555,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
@@ -584,7 +584,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true
       },
@@ -605,7 +605,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
@@ -1126,5 +1126,5 @@
       }
     }
   ],
-  "updated": "2024-01-15T00:49:25.796Z"
+  "updated": "2024-01-16T00:46:42.956Z"
 }
