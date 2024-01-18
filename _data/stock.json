@@ -368,7 +368,7 @@
         "menita": "1404 vedenvihreä",
         "titityy": "1404 Glacier blue heather",
         "lankapuutarha": "Vaalea sinivihreä ",
-        "lankaidea": "Glacier Blue Heather",
+        "lankaidea": "",
         "lankakaisa": "Glacier blue heather",
         "paapo": "1404 vaalea sinivihreä",
         "linnanrouva": "1404 Glacier Blue",
@@ -907,7 +907,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -1018,7 +1018,7 @@
         "menita": "9426 kullanruskea",
         "titityy": "9426 Golden heather",
         "lankapuutarha": "Kellanvihreä ",
-        "lankaidea": "Golden Heather",
+        "lankaidea": "",
         "lankakaisa": "Golden heather",
         "paapo": "9426 kellanvihreä",
         "linnanrouva": "9426 Golden heather",
@@ -1126,5 +1126,5 @@
       }
     }
   ],
-  "updated": "2024-01-17T00:47:25.058Z"
+  "updated": "2024-01-18T00:46:27.230Z"
 }
