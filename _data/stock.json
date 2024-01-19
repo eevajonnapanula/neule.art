@@ -30,7 +30,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
@@ -610,7 +610,7 @@
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": false,
-        "linnanrouva": true,
+        "linnanrouva": false,
         "piipashop": true
       },
       "titles": {
@@ -621,7 +621,7 @@
         "lankaidea": "Straw",
         "lankakaisa": "Straw",
         "paapo": "1418 vaaleabeige",
-        "linnanrouva": "1418 Straw",
+        "linnanrouva": "",
         "piipashop": "Vaalea beige 1418"
       }
     },
@@ -1126,5 +1126,5 @@
       }
     }
   ],
-  "updated": "2024-01-18T00:46:27.230Z"
+  "updated": "2024-01-19T00:47:31.192Z"
 }
