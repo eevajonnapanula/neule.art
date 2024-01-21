@@ -6520,5 +6520,83 @@
     "store": "menita",
     "date": "2024-01-14T00:51:31.749Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2024-01-16T00:46:42.950Z",
+    "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "paapo",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "1405",
+    "store": "titityy",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "paapo",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "linnanrouva",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1416",
+    "store": "titityy",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "1417",
+    "store": "paapo",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "titityy",
+    "date": "2024-01-16T00:46:42.951Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "titityy",
+    "date": "2024-01-17T00:47:25.058Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1404",
+    "store": "lankaidea",
+    "date": "2024-01-17T00:47:25.058Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9419",
+    "store": "lankaidea",
+    "date": "2024-01-18T00:46:27.230Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "titityy",
+    "date": "2024-01-19T00:47:31.192Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "linnanrouva",
+    "date": "2024-01-19T00:47:31.192Z",
+    "change": "deleted"
   }
 ]
