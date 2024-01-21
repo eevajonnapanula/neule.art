@@ -1,4 +1,4 @@
-const format = require('date-fns/format')
+const { format } = require('date-fns')
 
 const { getRiddari } = require('./helpers/getShirt')
 const { getRandomColors } = require('./helpers/getRandomColors')
