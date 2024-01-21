@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }} Neule.art</title>
 
+    <script defer src="https://eu.umami.is/script.js" data-website-id="fe704048-076a-4e4d-aded-b2fe5904a03b"></script>
+
     <meta name="title" content="{{ metadata[locale].metaTitle }}" />
     <meta name="description" content="{{ metadata[locale].metaDescription }}" />
     <meta name="author" content="Eevis Panula" />
@@ -34,7 +36,10 @@
     <meta name="robots" content="noindex" />
     {% endif %}
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧶</text></svg>">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧶</text></svg>"
+    />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
   </head>
   <body class="center">
@@ -43,13 +48,6 @@
       {{ content | safe }}
     </main>
     {% include "partials/footer.njk" %}
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "5cb502a6a9b54e1b8f7e162ec3748823"}'
-    ></script>
-    <!-- End Cloudflare Web Analytics -->
     <script src="{{ '/js/index.js' | url }}"></script>
   </body>
 </html>
