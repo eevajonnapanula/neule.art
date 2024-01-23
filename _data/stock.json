@@ -30,7 +30,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
@@ -57,7 +57,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
@@ -185,7 +185,7 @@
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true,
-        "linnanrouva": true,
+        "linnanrouva": false,
         "piipashop": true
       },
       "titles": {
@@ -196,7 +196,7 @@
         "lankaidea": "Dark Grey Heather",
         "lankakaisa": "Dark grey heather",
         "paapo": "0058 tummanharmaa",
-        "linnanrouva": "0058 Dark Grey",
+        "linnanrouva": "",
         "piipashop": "Tummanharmaa 0058"
       }
     },
@@ -205,7 +205,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": false,
@@ -255,7 +255,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -1126,5 +1126,5 @@
       }
     }
   ],
-  "updated": "2024-01-22T00:50:03.335Z"
+  "updated": "2024-01-23T00:48:29.347Z"
 }
