@@ -6628,5 +6628,23 @@
     "store": "titityy",
     "date": "2024-01-23T00:48:29.342Z",
     "change": "added"
+  },
+  {
+    "code": "0051",
+    "store": "lankakaisa",
+    "date": "2024-01-24T00:47:59.424Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "titityy",
+    "date": "2024-01-24T00:47:59.424Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "lankakaisa",
+    "date": "2024-01-24T00:47:59.424Z",
+    "change": "added"
   }
 ]
