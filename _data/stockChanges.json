@@ -6646,5 +6646,29 @@
     "store": "lankakaisa",
     "date": "2024-01-24T00:47:59.424Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "linnanrouva",
+    "date": "2024-01-25T00:48:12.583Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2024-01-25T00:48:12.583Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "lankapuutarha",
+    "date": "2024-01-25T00:48:12.583Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1419",
+    "store": "menita",
+    "date": "2024-01-25T00:48:12.583Z",
+    "change": "deleted"
   }
 ]

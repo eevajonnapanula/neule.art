@@ -10,7 +10,7 @@
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": false,
-        "linnanrouva": true,
+        "linnanrouva": false,
         "piipashop": true
       },
       "titles": {
@@ -21,7 +21,7 @@
         "lankaidea": "Black Heather",
         "lankakaisa": "Black heather",
         "paapo": "0005 meleerattu musta",
-        "linnanrouva": "0005 Black Heather",
+        "linnanrouva": "",
         "piipashop": "Meleerattu musta 0005"
       }
     },
@@ -254,7 +254,7 @@
       "code": "0086",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -331,7 +331,7 @@
         "snurre": true,
         "menita": false,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": false,
         "paapo": true,
@@ -629,7 +629,7 @@
       "code": "1419",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1126,5 +1126,5 @@
       }
     }
   ],
-  "updated": "2024-01-24T00:47:59.430Z"
+  "updated": "2024-01-25T00:48:12.583Z"
 }
