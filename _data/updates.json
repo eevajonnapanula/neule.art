@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Added Käsityöliike Somikki",
+      "datetime": "2024-01-26",
+      "items": ["Added Käsityöliike Somikki to the list of store where Lettlopi-color availability is checked from."]
+    },
+    {
       "title": "New stores added!",
       "datetime": "2024-01-14",
       "items": [
@@ -94,6 +99,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Käsityöliike Somikki lisätty",
+      "datetime": "2024-01-26",
+      "items": ["Lisätty Käsityöliike Somikki kauppoihin, joista tarkistetaan Lettlopin saatavuus."]
+    },
     {
       "title": "Uusia kauppoja lisätty!",
       "datetime": "2024-01-14",

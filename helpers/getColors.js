@@ -229,6 +229,31 @@ const getColorsPiipashop = async () => {
   return json
 }
 
+const getColorsSomikki = async () => {
+  return axiosWithHeaders('https://www.somikki.fi/tuote/istex-lttlopi').then(data => {
+    const $ = cheerio.load(data.data)
+
+    const json = $('.product-variant .radio label')
+      .toArray()
+      .map(val =>
+        val.children[0].data
+          .trim()
+          .split('\n')
+          .map(item => item.trim())
+          .filter(item => item.length)
+      )
+      .map(val => {
+        return {
+          title: val[0],
+          code: val[0].slice(0, 4),
+          available: val[1] != '(Loppu)'
+        }
+      })
+
+    return json
+  })
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -258,6 +283,7 @@ const writeStockFile = async () => {
   const paapo = await getColorsPaapo()
   const linnanrouva = await getColorsLinnanrouva()
   const piipashop = await getColorsPiipashop()
+  const somikki = await getColorsSomikki()
 
   const codes = Array.from(
     new Set(
@@ -278,6 +304,7 @@ const writeStockFile = async () => {
       const paapoStock = findOrEmpty(paapo, code)
       const linnanrouvaStock = findOrEmpty(linnanrouva, code)
       const piipashopStock = findOrEmpty(piipashop, code)
+      const somikkiStock = findOrEmpty(somikki, code)
 
       return {
         code,
@@ -290,7 +317,8 @@ const writeStockFile = async () => {
           lankakaisa: lankakaisaStock.available || false,
           paapo: paapoStock.available || false,
           linnanrouva: linnanrouvaStock.available || false,
-          piipashop: piipashopStock.available || false
+          piipashop: piipashopStock.available || false,
+          somikki: somikkiStock.available || false
         },
         titles: {
           snurre: snurreStock.title || '',
@@ -301,7 +329,8 @@ const writeStockFile = async () => {
           lankakaisa: lankakaisaStock.title,
           paapo: paapoStock.title,
           linnanrouva: linnanrouvaStock.title,
-          piipashop: piipashopStock.title
+          piipashop: piipashopStock.title,
+          somikki: somikkiStock.title
         }
       }
     })
