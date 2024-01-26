@@ -44,6 +44,11 @@
     "key": "piipashop",
     "linkToStock": "https://www.piipashop.fi/epages/piipashop.sf/fi_FI/?ViewAction=View&ObjectPath=/Shops/2014032407/Categories/Istex/Lettlopi_50_g&PageSize=60&Page=1"
   },
+  "somikki": {
+    "name": "Käsityöliike Somikki",
+    "key": "somikki",
+    "linkToStock": "https://www.somikki.fi/tuote/istex-lttlopi"
+  },
   "stores": [
     "snurre",
     "titityy",
@@ -53,6 +58,7 @@
     "lankakaisa",
     "paapo",
     "linnanrouva",
-    "piipashop"
+    "piipashop",
+    "somikki"
   ]
 }

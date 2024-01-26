@@ -11,7 +11,8 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": false,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -22,7 +23,8 @@
         "lankakaisa": "Black heather",
         "paapo": "0005 meleerattu musta",
         "linnanrouva": "",
-        "piipashop": "Meleerattu musta 0005"
+        "piipashop": "Meleerattu musta 0005",
+        "somikki": "0005 Meleerattu musta"
       }
     },
     {
@@ -36,7 +38,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0051 White",
@@ -47,7 +50,8 @@
         "lankakaisa": "White",
         "paapo": "0051 valkoinen",
         "linnanrouva": "0051 White",
-        "piipashop": "Valkoinen 0051"
+        "piipashop": "Valkoinen 0051",
+        "somikki": "0051 Valkoinen"
       }
     },
     {
@@ -61,7 +65,8 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
@@ -72,7 +77,8 @@
         "lankakaisa": "Black sheep",
         "paapo": "0052 musta lammas",
         "linnanrouva": "0052 Black Sheep",
-        "piipashop": "Musta lammas 0052"
+        "piipashop": "Musta lammas 0052",
+        "somikki": ""
       }
     },
     {
@@ -86,7 +92,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -97,7 +104,8 @@
         "lankakaisa": "Acorn heather",
         "paapo": "0053 ruskea",
         "linnanrouva": "0053 Acorn",
-        "piipashop": "Ruskea 0053"
+        "piipashop": "Ruskea 0053",
+        "somikki": "0053 Ruskea"
       }
     },
     {
@@ -111,7 +119,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -122,7 +131,8 @@
         "lankakaisa": "Light ash heather",
         "paapo": "0054 vaalea tuhkanharmaa",
         "linnanrouva": "0054 Light Ash Grey",
-        "piipashop": "Vaaleanharmaa 0054"
+        "piipashop": "Vaaleanharmaa 0054",
+        "somikki": "0054 Vaalea tuhkanharmaa"
       }
     },
     {
@@ -136,7 +146,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
@@ -147,7 +158,8 @@
         "lankakaisa": "Ash heather",
         "paapo": "0056 tuhkanharmaa",
         "linnanrouva": "0056 Ash Grey",
-        "piipashop": "Tuhkanharmaa 0056"
+        "piipashop": "Tuhkanharmaa 0056",
+        "somikki": "0056 Tuhkanharmaa"
       }
     },
     {
@@ -161,7 +173,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0057 Grey heather",
@@ -172,7 +185,8 @@
         "lankakaisa": "Grey heather",
         "paapo": "0057 harmaa",
         "linnanrouva": "0057 Grey",
-        "piipashop": "Harmaa 0057"
+        "piipashop": "Harmaa 0057",
+        "somikki": "0057 Harmaa"
       }
     },
     {
@@ -186,7 +200,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": false,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0058 dark grey heather",
@@ -197,7 +212,8 @@
         "lankakaisa": "Dark grey heather",
         "paapo": "0058 tummanharmaa",
         "linnanrouva": "",
-        "piipashop": "Tummanharmaa 0058"
+        "piipashop": "Tummanharmaa 0058",
+        "somikki": "0058 Tummanharmaa"
       }
     },
     {
@@ -211,7 +227,8 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "0059 Black",
@@ -222,7 +239,8 @@
         "lankakaisa": "Black",
         "paapo": "0059 musta",
         "linnanrouva": "0059 Black",
-        "piipashop": "Musta 0059"
+        "piipashop": "Musta 0059",
+        "somikki": "0059 musta"
       }
     },
     {
@@ -236,7 +254,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0085 Oatmeal Heather",
@@ -247,7 +266,8 @@
         "lankakaisa": "Oatmeal heather",
         "paapo": "0085 vaalea luonnon ruskea",
         "linnanrouva": "0085 Oatmeal",
-        "piipashop": "Vaalea luonnonruskea 0085"
+        "piipashop": "Vaalea luonnonruskea 0085",
+        "somikki": "0085 vaalea luonnonruskea"
       }
     },
     {
@@ -261,7 +281,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0086 light beige heather",
@@ -272,7 +293,8 @@
         "lankakaisa": "Light beige heather",
         "paapo": "0086 vaalea luonnonbeige",
         "linnanrouva": "0086 Light Beige",
-        "piipashop": "Vaalea luonnonbeige 0086"
+        "piipashop": "Vaalea luonnonbeige 0086",
+        "somikki": "0086 vaalea luonnonbeige"
       }
     },
     {
@@ -286,7 +308,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "0867 Chocolate heather",
@@ -297,7 +320,8 @@
         "lankakaisa": "Chocolate heather",
         "paapo": "0867 suklaanruskea",
         "linnanrouva": "0867 Chocolate",
-        "piipashop": "Suklaanruskea 0867"
+        "piipashop": "Suklaanruskea 0867",
+        "somikki": "0867 suklaanruskea"
       }
     },
     {
@@ -311,7 +335,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1402 Heaven Blue heather",
@@ -322,7 +347,8 @@
         "lankakaisa": "Heaven blue heather",
         "paapo": "1402 taivaansininen",
         "linnanrouva": "1402 Heaven Blue",
-        "piipashop": "Taivaansininen 1402"
+        "piipashop": "Taivaansininen 1402",
+        "somikki": "1402 Vaaleansininen"
       }
     },
     {
@@ -336,7 +362,8 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1403 Lapis Blue Heather",
@@ -347,7 +374,8 @@
         "lankakaisa": "Lapis blue heather",
         "paapo": "1403 tummansininen",
         "linnanrouva": "1403 Lapis Blue",
-        "piipashop": "Tummansininen 1403"
+        "piipashop": "Tummansininen 1403",
+        "somikki": "1403 Tummansininen"
       }
     },
     {
@@ -361,7 +389,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1404 Glacier Blue heather",
@@ -372,7 +401,8 @@
         "lankakaisa": "Glacier blue heather",
         "paapo": "1404 vaalea sinivihreä",
         "linnanrouva": "1404 Glacier Blue",
-        "piipashop": "Vaalea sinivihreä 1404"
+        "piipashop": "Vaalea sinivihreä 1404",
+        "somikki": "1404 vaalea sinivihreä"
       }
     },
     {
@@ -386,7 +416,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1405 botlte green heather",
@@ -397,7 +428,8 @@
         "lankakaisa": "Bottle green heather",
         "paapo": "1405 pullonvihreä",
         "linnanrouva": "1405 Bottle Green",
-        "piipashop": "Pullonvihreä 1405"
+        "piipashop": "Pullonvihreä 1405",
+        "somikki": "1405 Pullonvihreä"
       }
     },
     {
@@ -411,7 +443,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1406 Spring Green Heather",
@@ -422,7 +455,8 @@
         "lankakaisa": "Spring green heather",
         "paapo": "1406 keväänvihreä",
         "linnanrouva": "1406 Spring Green",
-        "piipashop": "Kevään vihreä 1406"
+        "piipashop": "Kevään vihreä 1406",
+        "somikki": "1406 keväänvihreä"
       }
     },
     {
@@ -436,7 +470,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": false,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1407 Pine green heather",
@@ -447,7 +482,8 @@
         "lankakaisa": "Pine green heather",
         "paapo": "1407 männynvihreä",
         "linnanrouva": "",
-        "piipashop": "Männynvihreä 1407"
+        "piipashop": "Männynvihreä 1407",
+        "somikki": "1407 Männynvihreä"
       }
     },
     {
@@ -461,7 +497,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
@@ -472,7 +509,8 @@
         "lankakaisa": "Garnet red heather",
         "paapo": "1409 granaattiomena",
         "linnanrouva": "1409 Garnet Red",
-        "piipashop": "Granaattiomena 1409"
+        "piipashop": "Granaattiomena 1409",
+        "somikki": "1409 Granaattiomena"
       }
     },
     {
@@ -486,7 +524,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1412 pink heather",
@@ -497,7 +536,8 @@
         "lankakaisa": "Pink heather",
         "paapo": "1412 roosa",
         "linnanrouva": "1412 Pink",
-        "piipashop": "Roosa 1412"
+        "piipashop": "Roosa 1412",
+        "somikki": "1412 Roosa"
       }
     },
     {
@@ -511,7 +551,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1414 Viol heather",
@@ -522,7 +563,8 @@
         "lankakaisa": "Violet heather",
         "paapo": "1414 violetti",
         "linnanrouva": "1414 Violet",
-        "piipashop": "Violetti 1414"
+        "piipashop": "Violetti 1414",
+        "somikki": "1414 violetti"
       }
     },
     {
@@ -536,7 +578,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "1415 Rough sea",
@@ -547,7 +590,8 @@
         "lankakaisa": "Rough sea",
         "paapo": "1415 tumma vihertävänharmaa",
         "linnanrouva": "1415 Rough Sea",
-        "piipashop": "Tumma vihertävänharmaa 1415"
+        "piipashop": "Tumma vihertävänharmaa 1415",
+        "somikki": "1415 tumma vihertävänharmaa"
       }
     },
     {
@@ -561,7 +605,8 @@
         "lankakaisa": false,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "1416 Moor",
@@ -572,7 +617,8 @@
         "lankakaisa": "Moor",
         "paapo": "1416 sammalenvihreä",
         "linnanrouva": "1416 Moor",
-        "piipashop": "Sammalenvihreä 1416"
+        "piipashop": "Sammalenvihreä 1416",
+        "somikki": "1416 Sammaleenvihreä"
       }
     },
     {
@@ -586,7 +632,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1417 Frost bite",
@@ -597,7 +644,8 @@
         "lankakaisa": "Frostbite",
         "paapo": "1417 harmaanvihreä",
         "linnanrouva": "1417 Frostbite",
-        "piipashop": "Harmaanvihreä 1417"
+        "piipashop": "Harmaanvihreä 1417",
+        "somikki": "1417 Harmaanvihreä"
       }
     },
     {
@@ -611,7 +659,8 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": false,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "1418 Straw",
@@ -622,7 +671,8 @@
         "lankakaisa": "Straw",
         "paapo": "1418 vaaleabeige",
         "linnanrouva": "",
-        "piipashop": "Vaalea beige 1418"
+        "piipashop": "Vaalea beige 1418",
+        "somikki": "1418 vaalea beige"
       }
     },
     {
@@ -636,7 +686,8 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1419 Barley",
@@ -647,7 +698,8 @@
         "lankakaisa": "Barley",
         "paapo": "1419 vaalea ohranruskea",
         "linnanrouva": "1419 Barley",
-        "piipashop": "Barley 1419"
+        "piipashop": "Barley 1419",
+        "somikki": "1419 vaalea ohranruskea"
       }
     },
     {
@@ -661,7 +713,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1420 Murky",
@@ -672,7 +725,8 @@
         "lankakaisa": "Murkey",
         "paapo": "1420 harmaanruskea",
         "linnanrouva": "1420 Murkey",
-        "piipashop": "Harmaanruskea 1420"
+        "piipashop": "Harmaanruskea 1420",
+        "somikki": "1420 Harmaanruskea"
       }
     },
     {
@@ -686,7 +740,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1700 Air blue",
@@ -697,7 +752,8 @@
         "lankakaisa": "Airblue",
         "paapo": "1700 harmaansininen",
         "linnanrouva": "1700 Air Blue",
-        "piipashop": "Harmaansininen 1700"
+        "piipashop": "Harmaansininen 1700",
+        "somikki": "1700 Harmaansininen"
       }
     },
     {
@@ -711,7 +767,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1701 Fjord Blue",
@@ -722,7 +779,8 @@
         "lankakaisa": "Fjord blue",
         "paapo": "1701 vuononsininen",
         "linnanrouva": "1701 Fjord Blue",
-        "piipashop": "Vuononsininen 1701"
+        "piipashop": "Vuononsininen 1701",
+        "somikki": "1701 vuononsininen"
       }
     },
     {
@@ -736,7 +794,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "1702 Milkyway",
@@ -747,7 +806,8 @@
         "lankakaisa": "Milkyway",
         "paapo": "1702 milkyway",
         "linnanrouva": "1702 Milkyway",
-        "piipashop": "Milkyway 1702"
+        "piipashop": "Milkyway 1702",
+        "somikki": "1702 Milkyway"
       }
     },
     {
@@ -761,7 +821,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1703 Mimosa",
@@ -772,7 +833,8 @@
         "lankakaisa": "Mimosa",
         "paapo": "1703 mimosa",
         "linnanrouva": "1703 Mimosa",
-        "piipashop": "Mimosa 1703"
+        "piipashop": "Mimosa 1703",
+        "somikki": "1703 mimosa"
       }
     },
     {
@@ -786,7 +848,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1704 Apricot",
@@ -797,7 +860,8 @@
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
         "linnanrouva": "1704 Apricot",
-        "piipashop": "Aprikoosi 1704"
+        "piipashop": "Aprikoosi 1704",
+        "somikki": "1704 Aprikoosi"
       }
     },
     {
@@ -811,7 +875,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1705 Royal fuchsia",
@@ -822,7 +887,8 @@
         "lankakaisa": "Royal fuchsia",
         "paapo": "1705 fuksia",
         "linnanrouva": "1705 Royal Fuchsia",
-        "piipashop": "Fuksia 1705"
+        "piipashop": "Fuksia 1705",
+        "somikki": "1705 Fuksia"
       }
     },
     {
@@ -836,7 +902,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "1706 Lyme Grass",
@@ -847,7 +914,8 @@
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
         "linnanrouva": "1706 Lyme Grass",
-        "piipashop": "Merivehnä 1706"
+        "piipashop": "Merivehnä 1706",
+        "somikki": "1706 Merivehnä"
       }
     },
     {
@@ -861,7 +929,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": false
       },
       "titles": {
         "snurre": "1707 Galaxy",
@@ -872,7 +941,8 @@
         "lankakaisa": "Galaxy",
         "paapo": "1707 galaksi",
         "linnanrouva": "1707 Galaxy",
-        "piipashop": "Galaksi 1707"
+        "piipashop": "Galaksi 1707",
+        "somikki": ""
       }
     },
     {
@@ -886,7 +956,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9418 Stoneblue heather",
@@ -897,7 +968,8 @@
         "lankakaisa": "Stone blue heather",
         "paapo": "9418 tumma harmaansininen",
         "linnanrouva": "9418 Stone Blue",
-        "piipashop": "Tumma harmaansininen 9418"
+        "piipashop": "Tumma harmaansininen 9418",
+        "somikki": "9418 harmaansininen"
       }
     },
     {
@@ -911,7 +983,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9419 Ocean blue",
@@ -922,7 +995,8 @@
         "lankakaisa": "Ocean blue",
         "paapo": "9419 merensininen",
         "linnanrouva": "9419 Ocean Blue",
-        "piipashop": "Merensininen 9419"
+        "piipashop": "Merensininen 9419",
+        "somikki": "9419 Merensininen"
       }
     },
     {
@@ -936,7 +1010,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9420 Navy blue",
@@ -947,7 +1022,8 @@
         "lankakaisa": "Navy blue",
         "paapo": "9420 laivastonsininen",
         "linnanrouva": "9420 Navy Blue",
-        "piipashop": "Laivastonsininen 9420"
+        "piipashop": "Laivastonsininen 9420",
+        "somikki": "9420 Laivastonsininen"
       }
     },
     {
@@ -961,7 +1037,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9421 Celery Green heather",
@@ -972,7 +1049,8 @@
         "lankakaisa": "Celery green heather",
         "paapo": "9421 sellerinvihreä",
         "linnanrouva": "9421 Celery Green",
-        "piipashop": "Sellerinvihreä 9421"
+        "piipashop": "Sellerinvihreä 9421",
+        "somikki": "9421 Sellerinvihreä"
       }
     },
     {
@@ -986,7 +1064,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": false
+        "piipashop": false,
+        "somikki": true
       },
       "titles": {
         "snurre": "9423 Lagoon heather",
@@ -997,7 +1076,8 @@
         "lankakaisa": "Lagoon heather",
         "paapo": "9423 tumma sinivihreä",
         "linnanrouva": "9423 Lagoon",
-        "piipashop": "Tumma sinivihreä 9423"
+        "piipashop": "Tumma sinivihreä 9423",
+        "somikki": "9423 tumma sinivihreä"
       }
     },
     {
@@ -1011,7 +1091,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9426 Gold",
@@ -1022,7 +1103,8 @@
         "lankakaisa": "Golden heather",
         "paapo": "9426 kellanvihreä",
         "linnanrouva": "9426 Golden heather",
-        "piipashop": "Kellanvihreä 9426"
+        "piipashop": "Kellanvihreä 9426",
+        "somikki": "9426 Kellanvihreä"
       }
     },
     {
@@ -1036,7 +1118,8 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9427 Rust heather",
@@ -1047,7 +1130,8 @@
         "lankakaisa": "Rust heather",
         "paapo": "9427 ruosteenruskea",
         "linnanrouva": "9427 Rust",
-        "piipashop": "Ruosteenruskea 9427"
+        "piipashop": "Ruosteenruskea 9427",
+        "somikki": "9427 Ruosteenruskea"
       }
     },
     {
@@ -1061,7 +1145,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9431 Brick Heather",
@@ -1072,7 +1157,8 @@
         "lankakaisa": "Brick heather",
         "paapo": "9431 tummanpunainen",
         "linnanrouva": "9431 Brick",
-        "piipashop": "Tiili 9431"
+        "piipashop": "Tiili 9431",
+        "somikki": "9431 Tiili"
       }
     },
     {
@@ -1086,7 +1172,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9432 Grape Heather",
@@ -1097,7 +1184,8 @@
         "lankakaisa": "Grape heather",
         "paapo": "9432 violetinsininen",
         "linnanrouva": "9432 Grape",
-        "piipashop": "Violetinsininen 9432"
+        "piipashop": "Violetinsininen 9432",
+        "somikki": "9432 Violetinsininen"
       }
     },
     {
@@ -1111,7 +1199,8 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true
+        "piipashop": true,
+        "somikki": true
       },
       "titles": {
         "snurre": "9434 Crimson red",
@@ -1122,9 +1211,10 @@
         "lankakaisa": "Crimson red",
         "paapo": "9434 punainen",
         "linnanrouva": "9434 Crimson Red",
-        "piipashop": "Punainen 9434"
+        "piipashop": "Punainen 9434",
+        "somikki": "9434 punainen"
       }
     }
   ],
-  "updated": "2024-01-26T00:43:31.197Z"
+  "updated": "2024-01-26T04:15:05.511Z"
 }
