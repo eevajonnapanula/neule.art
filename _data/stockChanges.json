@@ -6676,5 +6676,23 @@
     "store": "paapo",
     "date": "2024-01-26T00:43:31.197Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "linnanrouva",
+    "date": "2024-01-27T00:43:18.896Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "menita",
+    "date": "2024-01-27T00:43:18.896Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "linnanrouva",
+    "date": "2024-01-27T00:43:18.897Z",
+    "change": "added"
   }
 ]
