@@ -223,7 +223,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
@@ -279,7 +279,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -355,7 +355,7 @@
       "code": "1403",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
@@ -656,7 +656,7 @@
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-01-29T00:43:39.277Z"
+  "updated": "2024-01-30T00:43:10.971Z"
 }
