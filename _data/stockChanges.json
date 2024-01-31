@@ -6718,5 +6718,23 @@
     "store": "lankakaisa",
     "date": "2024-01-30T00:43:10.966Z",
     "change": "deleted"
+  },
+  {
+    "code": "0059",
+    "store": "lankapuutarha",
+    "date": "2024-01-31T00:43:18.686Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "titityy",
+    "date": "2024-01-31T00:43:18.686Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1417",
+    "store": "menita",
+    "date": "2024-01-31T00:43:18.686Z",
+    "change": "added"
   }
 ]
