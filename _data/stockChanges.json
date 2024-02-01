@@ -6736,5 +6736,17 @@
     "store": "menita",
     "date": "2024-01-31T00:43:18.686Z",
     "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "lankaidea",
+    "date": "2024-02-01T00:45:42.108Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "menita",
+    "date": "2024-02-01T00:45:42.108Z",
+    "change": "deleted"
   }
 ]
