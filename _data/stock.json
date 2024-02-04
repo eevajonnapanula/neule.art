@@ -336,7 +336,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "1402 Heaven Blue heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-02-03T00:42:36.674Z"
+  "updated": "2024-02-04T00:47:03.981Z"
 }
