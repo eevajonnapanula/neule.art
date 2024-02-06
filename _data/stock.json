@@ -12,7 +12,7 @@
         "paapo": false,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "0005 Black heather",
@@ -221,21 +221,21 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": false,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "0059 Black",
         "menita": "0059 musta",
         "titityy": "0059 Black",
         "lankapuutarha": "Musta ",
-        "lankaidea": "Black",
+        "lankaidea": "",
         "lankakaisa": "Black",
         "paapo": "0059 musta",
         "linnanrouva": "",
@@ -606,7 +606,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "1416 Moor",
@@ -660,7 +660,7 @@
         "paapo": false,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "1418 Straw",
@@ -795,7 +795,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "1702 Milkyway",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-02-05T00:44:30.658Z"
+  "updated": "2024-02-06T00:42:36.337Z"
 }
