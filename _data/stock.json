@@ -4,7 +4,7 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -63,7 +63,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": false
@@ -139,7 +139,7 @@
       "code": "0056",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -220,12 +220,12 @@
       "code": "0059",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -274,12 +274,12 @@
       "code": "0086",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -336,7 +336,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "1402 Heaven Blue heather",
@@ -360,7 +360,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -598,7 +598,7 @@
       "code": "1416",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -625,7 +625,7 @@
       "code": "1417",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -679,7 +679,7 @@
       "code": "1419",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -895,7 +895,7 @@
       "code": "1706",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1111,12 +1111,12 @@
       "code": "9427",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-02-14T00:43:40.660Z"
+  "updated": "2024-02-15T00:43:26.535Z"
 }

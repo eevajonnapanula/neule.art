@@ -7186,5 +7186,95 @@
     "store": "menita",
     "date": "2024-02-14T00:43:40.660Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0052",
+    "store": "paapo",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "paapo",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "paapo",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "somikki",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "paapo",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1416",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1417",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "1706",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "menita",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "paapo",
+    "date": "2024-02-15T00:43:26.530Z",
+    "change": "added"
   }
 ]
