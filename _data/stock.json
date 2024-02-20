@@ -355,7 +355,7 @@
       "code": "1403",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -694,7 +694,7 @@
         "menita": "1419 vaaleanruskea",
         "titityy": "1419 Barley",
         "lankapuutarha": "Vaalea Ohranruskea ",
-        "lankaidea": "Barley",
+        "lankaidea": "",
         "lankakaisa": "Barley",
         "paapo": "1419 vaalea ohranruskea",
         "linnanrouva": "",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-02-19T00:44:01.203Z"
+  "updated": "2024-02-20T00:42:22.904Z"
 }
