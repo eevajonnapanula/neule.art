@@ -119,7 +119,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": false,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-02-22T00:42:42.030Z"
+  "updated": "2024-02-23T00:42:21.340Z"
 }
