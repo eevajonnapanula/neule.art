@@ -7348,5 +7348,23 @@
     "store": "lankaidea",
     "date": "2024-03-01T00:47:50.526Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "menita",
+    "date": "2024-03-05T00:42:48.188Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "piipashop",
+    "date": "2024-03-05T00:42:48.188Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "piipashop",
+    "date": "2024-03-05T00:42:48.188Z",
+    "change": "added"
   }
 ]
