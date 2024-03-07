@@ -7366,5 +7366,23 @@
     "store": "piipashop",
     "date": "2024-03-05T00:42:48.188Z",
     "change": "added"
+  },
+  {
+    "code": "0057",
+    "store": "lankaidea",
+    "date": "2024-03-07T00:35:24.176Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "lankaidea",
+    "date": "2024-03-07T00:35:24.176Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9434",
+    "store": "lankaidea",
+    "date": "2024-03-07T00:35:24.176Z",
+    "change": "deleted"
   }
 ]
