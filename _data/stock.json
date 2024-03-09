@@ -9,7 +9,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -552,7 +552,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "1414 Viol heather",
@@ -657,7 +657,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -684,7 +684,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -1008,7 +1008,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-08T00:42:56.920Z"
+  "updated": "2024-03-09T00:41:20.523Z"
 }
