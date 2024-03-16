@@ -7462,5 +7462,17 @@
     "store": "lankaidea",
     "date": "2024-03-14T00:42:56.389Z",
     "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "lankapuutarha",
+    "date": "2024-03-16T00:42:09.304Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "lankaidea",
+    "date": "2024-03-16T00:42:09.304Z",
+    "change": "added"
   }
 ]
