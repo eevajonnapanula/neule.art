@@ -895,7 +895,7 @@
       "code": "1706",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-16T00:42:09.309Z"
+  "updated": "2024-03-17T00:46:27.777Z"
 }
