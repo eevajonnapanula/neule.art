@@ -224,7 +224,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
-        "lankakaisa": true,
+        "lankakaisa": false,
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
@@ -250,7 +250,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-19T00:43:06.759Z"
+  "updated": "2024-03-20T00:42:55.252Z"
 }
