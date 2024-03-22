@@ -7504,5 +7504,17 @@
     "store": "menita",
     "date": "2024-03-21T00:44:31.177Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2024-03-22T00:42:59.605Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "menita",
+    "date": "2024-03-22T00:42:59.605Z",
+    "change": "added"
   }
 ]
