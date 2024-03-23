@@ -277,7 +277,7 @@
         "menita": true,
         "titityy": true,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": false,
@@ -1173,7 +1173,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "9432 Grape Heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-22T00:42:59.609Z"
+  "updated": "2024-03-23T00:42:11.526Z"
 }
