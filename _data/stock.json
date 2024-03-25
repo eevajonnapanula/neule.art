@@ -120,7 +120,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-24T00:49:15.892Z"
+  "updated": "2024-03-25T00:44:44.038Z"
 }
