@@ -33,7 +33,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-03-30T00:42:08.451Z"
+  "updated": "2024-03-31T00:49:00.600Z"
 }
