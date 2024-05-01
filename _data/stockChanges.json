@@ -7738,5 +7738,17 @@
     "store": "lankapuutarha",
     "date": "2024-04-30T00:44:56.388Z",
     "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "lankapuutarha",
+    "date": "2024-05-01T00:50:07.059Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "somikki",
+    "date": "2024-05-01T00:50:07.059Z",
+    "change": "added"
   }
 ]

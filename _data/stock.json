@@ -276,7 +276,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1065,7 +1065,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "9423 Lagoon heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-04-30T00:44:56.388Z"
+  "updated": "2024-05-01T00:50:07.064Z"
 }
