@@ -120,7 +120,7 @@
         "paapo": false,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -951,7 +951,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1173,7 +1173,7 @@
         "paapo": true,
         "linnanrouva": false,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "9432 Grape Heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-05-02T00:44:58.404Z"
+  "updated": "2024-05-03T00:49:06.152Z"
 }
