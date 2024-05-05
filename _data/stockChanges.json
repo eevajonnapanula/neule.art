@@ -7780,5 +7780,17 @@
     "store": "lankapuutarha",
     "date": "2024-05-04T00:45:03.037Z",
     "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2024-05-05T00:49:51.228Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1700",
+    "store": "menita",
+    "date": "2024-05-05T00:49:51.228Z",
+    "change": "deleted"
   }
 ]
