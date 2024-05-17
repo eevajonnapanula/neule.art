@@ -35,7 +35,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
-        "lankakaisa": false,
+        "lankakaisa": true,
         "paapo": false,
         "linnanrouva": false,
         "piipashop": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-05-16T00:09:01.971Z"
+  "updated": "2024-05-17T00:09:24.858Z"
 }
