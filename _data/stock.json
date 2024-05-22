@@ -1111,7 +1111,7 @@
       "code": "9427",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-05-21T00:09:11.608Z"
+  "updated": "2024-05-22T00:08:59.071Z"
 }
