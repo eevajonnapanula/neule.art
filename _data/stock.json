@@ -4,7 +4,7 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -16,7 +16,7 @@
       },
       "titles": {
         "snurre": "0005 Black heather",
-        "menita": "0005 meleerattu musta",
+        "menita": "",
         "titityy": "0005 Black heather",
         "lankapuutarha": "Maleerattu musta ",
         "lankaidea": "Black Heather",
@@ -31,7 +31,7 @@
       "code": "0051",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -43,7 +43,7 @@
       },
       "titles": {
         "snurre": "0051 White",
-        "menita": "0051 valkoinen",
+        "menita": "",
         "titityy": "0051 White",
         "lankapuutarha": "Valkoinen ",
         "lankaidea": "White",
@@ -58,7 +58,7 @@
       "code": "0052",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -70,7 +70,7 @@
       },
       "titles": {
         "snurre": "0052 Black sheep heather",
-        "menita": "0052 mustanruskea",
+        "menita": "",
         "titityy": "0052 Black sheep heather",
         "lankapuutarha": "Mustalammas ",
         "lankaidea": "Black Sheep",
@@ -85,7 +85,7 @@
       "code": "0053",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -97,7 +97,7 @@
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
-        "menita": "0053 ruskea",
+        "menita": "",
         "titityy": "0053 Acorn heather",
         "lankapuutarha": "Ruskea",
         "lankaidea": "",
@@ -112,7 +112,7 @@
       "code": "0054",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -124,7 +124,7 @@
       },
       "titles": {
         "snurre": "0054 Ash heather",
-        "menita": "0054 vaalea tuhkanharmaa",
+        "menita": "",
         "titityy": "0054 Light ash heather",
         "lankapuutarha": "Vaalea tuhkanharmaa ",
         "lankaidea": "Ash Heather",
@@ -139,7 +139,7 @@
       "code": "0056",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -151,7 +151,7 @@
       },
       "titles": {
         "snurre": "0056 Light Grey Heather",
-        "menita": "0056 tuhkanharmaa",
+        "menita": "",
         "titityy": "0056 Ash heather",
         "lankapuutarha": "Tuhkanharmaa ",
         "lankaidea": "Light Grey Heather",
@@ -166,7 +166,7 @@
       "code": "0057",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -178,7 +178,7 @@
       },
       "titles": {
         "snurre": "0057 Grey heather",
-        "menita": "0057 harmaa",
+        "menita": "",
         "titityy": "0057 Grey heather",
         "lankapuutarha": "Harmaa ",
         "lankaidea": "Grey Heather",
@@ -193,7 +193,7 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -205,7 +205,7 @@
       },
       "titles": {
         "snurre": "0058 dark grey heather",
-        "menita": "0058 tummanharmaa",
+        "menita": "",
         "titityy": "0058 Dark grey heather",
         "lankapuutarha": "Tummanharmaa ",
         "lankaidea": "Dark Grey Heather",
@@ -220,7 +220,7 @@
       "code": "0059",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -232,7 +232,7 @@
       },
       "titles": {
         "snurre": "0059 Black",
-        "menita": "0059 musta",
+        "menita": "",
         "titityy": "0059 Black",
         "lankapuutarha": "Musta ",
         "lankaidea": "",
@@ -247,7 +247,7 @@
       "code": "0085",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -259,7 +259,7 @@
       },
       "titles": {
         "snurre": "0085 Oatmeal Heather",
-        "menita": "0085 vaalea luonnonruskea",
+        "menita": "",
         "titityy": "0085 Oatmeal heather",
         "lankapuutarha": "Vaalea luonnonruskea ",
         "lankaidea": "Oatmeal Heather",
@@ -274,7 +274,7 @@
       "code": "0086",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -286,7 +286,7 @@
       },
       "titles": {
         "snurre": "0086 light beige heather",
-        "menita": "0086 vaalea beige",
+        "menita": "",
         "titityy": "0086 Light beige heather",
         "lankapuutarha": "Vaalea luonnonbeige ",
         "lankaidea": "Light Beige Heather",
@@ -301,7 +301,7 @@
       "code": "0867",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -313,7 +313,7 @@
       },
       "titles": {
         "snurre": "0867 Chocolate heather",
-        "menita": "0867 tummanruskea",
+        "menita": "",
         "titityy": "0867 Chocolate heather",
         "lankapuutarha": "Suklaanruskea ",
         "lankaidea": "Chocolate",
@@ -328,7 +328,7 @@
       "code": "1402",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -340,7 +340,7 @@
       },
       "titles": {
         "snurre": "1402 Heaven Blue heather",
-        "menita": "1402 taivaansininen",
+        "menita": "",
         "titityy": "1402 Heaven blue",
         "lankapuutarha": "Taivaansininen ",
         "lankaidea": "Heaven Blue Heather",
@@ -355,7 +355,7 @@
       "code": "1403",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -367,7 +367,7 @@
       },
       "titles": {
         "snurre": "1403 Lapis Blue Heather",
-        "menita": "1403 tummansininen",
+        "menita": "",
         "titityy": "1403 Lapis blue heather",
         "lankapuutarha": "Tummansininen ",
         "lankaidea": "Lapis Blue Heather",
@@ -382,7 +382,7 @@
       "code": "1404",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -394,7 +394,7 @@
       },
       "titles": {
         "snurre": "1404 Glacier Blue heather",
-        "menita": "1404 vedenvihreä",
+        "menita": "",
         "titityy": "1404 Glacier blue heather",
         "lankapuutarha": "Vaalea sinivihreä ",
         "lankaidea": "Glacier Blue Heather",
@@ -409,7 +409,7 @@
       "code": "1405",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -421,7 +421,7 @@
       },
       "titles": {
         "snurre": "1405 botlte green heather",
-        "menita": "1405 meleerattu tummanvihreä",
+        "menita": "",
         "titityy": "1405 Bottle green heather",
         "lankapuutarha": "Pullonvihreä ",
         "lankaidea": "Bottle Green Heather",
@@ -436,7 +436,7 @@
       "code": "1406",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -448,7 +448,7 @@
       },
       "titles": {
         "snurre": "1406 Spring Green Heather",
-        "menita": "1406 lime",
+        "menita": "",
         "titityy": "1406 Spring green heather",
         "lankapuutarha": "Keväänvihreä ",
         "lankaidea": "Spring Green Heather",
@@ -463,7 +463,7 @@
       "code": "1407",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -475,7 +475,7 @@
       },
       "titles": {
         "snurre": "1407 Pine green heather",
-        "menita": "1407 metsänvihreä",
+        "menita": "",
         "titityy": "1407 Pine green heather",
         "lankapuutarha": "Männynvihreä ",
         "lankaidea": "Pine Green Heather",
@@ -490,7 +490,7 @@
       "code": "1409",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -502,7 +502,7 @@
       },
       "titles": {
         "snurre": "1409 Garnet Red Heather",
-        "menita": "1409 viininpunainen",
+        "menita": "",
         "titityy": "1409 Garnet heather",
         "lankapuutarha": "Granaattiomena ",
         "lankaidea": "Garnet Red Heather",
@@ -517,7 +517,7 @@
       "code": "1412",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -529,7 +529,7 @@
       },
       "titles": {
         "snurre": "1412 pink heather",
-        "menita": "1412 roosa",
+        "menita": "",
         "titityy": "1412 Pink heather",
         "lankapuutarha": "Roosa ",
         "lankaidea": "Pink Heather",
@@ -544,7 +544,7 @@
       "code": "1414",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -556,7 +556,7 @@
       },
       "titles": {
         "snurre": "1414 Viol heather",
-        "menita": "1414 violetti",
+        "menita": "",
         "titityy": "1414 Violet heather",
         "lankapuutarha": "Violetti ",
         "lankaidea": "",
@@ -571,7 +571,7 @@
       "code": "1415",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -583,7 +583,7 @@
       },
       "titles": {
         "snurre": "1415 Rough sea",
-        "menita": "1415 tumma vihertävänharmaa",
+        "menita": "",
         "titityy": "1415 Rough sea",
         "lankapuutarha": "Tumma vihertävänharmaa ",
         "lankaidea": "Rough Sea",
@@ -598,7 +598,7 @@
       "code": "1416",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -610,7 +610,7 @@
       },
       "titles": {
         "snurre": "1416 Moor",
-        "menita": "1416 sammaleenvihreä",
+        "menita": "",
         "titityy": "1416 Moor",
         "lankapuutarha": "Sammalenvihreä ",
         "lankaidea": "Moor",
@@ -625,7 +625,7 @@
       "code": "1417",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -637,7 +637,7 @@
       },
       "titles": {
         "snurre": "1417 Frost bite",
-        "menita": "1417 oliivinvihreä",
+        "menita": "",
         "titityy": "1417 Frostbite",
         "lankapuutarha": "Harmaanvihreä ",
         "lankaidea": "Frostbite",
@@ -652,7 +652,7 @@
       "code": "1418",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -664,7 +664,7 @@
       },
       "titles": {
         "snurre": "1418 Straw",
-        "menita": "1418 meleerattu beige",
+        "menita": "",
         "titityy": "1418 Straw",
         "lankapuutarha": "Vaalea beige ",
         "lankaidea": "Straw",
@@ -679,7 +679,7 @@
       "code": "1419",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -691,7 +691,7 @@
       },
       "titles": {
         "snurre": "1419 Barley",
-        "menita": "1419 vaaleanruskea",
+        "menita": "",
         "titityy": "1419 Barley",
         "lankapuutarha": "Vaalea Ohranruskea ",
         "lankaidea": "Barley",
@@ -706,7 +706,7 @@
       "code": "1420",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -718,7 +718,7 @@
       },
       "titles": {
         "snurre": "1420 Murky",
-        "menita": "1420 meleerattu ruskea",
+        "menita": "",
         "titityy": "1420 Bark",
         "lankapuutarha": "Harmaanruskea ",
         "lankaidea": "Murky",
@@ -733,7 +733,7 @@
       "code": "1700",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -745,7 +745,7 @@
       },
       "titles": {
         "snurre": "1700 Air blue",
-        "menita": "1700 vaalea taivaansininen",
+        "menita": "",
         "titityy": "1700 Air blue",
         "lankapuutarha": "Harmaansininen ",
         "lankaidea": "Air Blue",
@@ -760,7 +760,7 @@
       "code": "1701",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -772,7 +772,7 @@
       },
       "titles": {
         "snurre": "1701 Fjord Blue",
-        "menita": "1701 vuononsininen",
+        "menita": "",
         "titityy": "1701 Fjord blue",
         "lankapuutarha": "Vuononsininen ",
         "lankaidea": "Fjord Blue Heather",
@@ -787,7 +787,7 @@
       "code": "1702",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -799,7 +799,7 @@
       },
       "titles": {
         "snurre": "1702 Milkyway",
-        "menita": "1702 linnunrata",
+        "menita": "",
         "titityy": "1702 Milkyway",
         "lankapuutarha": "Milkyway ",
         "lankaidea": "",
@@ -814,7 +814,7 @@
       "code": "1703",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -826,7 +826,7 @@
       },
       "titles": {
         "snurre": "1703 Mimosa",
-        "menita": "1703 mimosa",
+        "menita": "",
         "titityy": "1703 Mimosa",
         "lankapuutarha": "Mimosa ",
         "lankaidea": "Mimosa",
@@ -841,7 +841,7 @@
       "code": "1704",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -853,7 +853,7 @@
       },
       "titles": {
         "snurre": "1704 Apricot",
-        "menita": "1704 aprikoosi",
+        "menita": "",
         "titityy": "1704 Apricot",
         "lankapuutarha": "Aprikoosi ",
         "lankaidea": "Apricot Heather",
@@ -868,7 +868,7 @@
       "code": "1705",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -880,7 +880,7 @@
       },
       "titles": {
         "snurre": "1705 Royal fuchsia",
-        "menita": "1705 kirkas fuksia",
+        "menita": "",
         "titityy": "1705 Royal fuchia",
         "lankapuutarha": "Fuksia ",
         "lankaidea": "Royal Fuchsia",
@@ -895,7 +895,7 @@
       "code": "1706",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -907,7 +907,7 @@
       },
       "titles": {
         "snurre": "1706 Lyme Grass",
-        "menita": "1706 sitruunaruoho",
+        "menita": "",
         "titityy": "1706 Lyme grass",
         "lankapuutarha": "Merivehnä ",
         "lankaidea": "Lyme Grass Heather",
@@ -922,7 +922,7 @@
       "code": "1707",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": false,
         "lankaidea": true,
@@ -934,7 +934,7 @@
       },
       "titles": {
         "snurre": "1707 Galaxy",
-        "menita": "1707 galaksi",
+        "menita": "",
         "titityy": "1707 Galaxy",
         "lankapuutarha": "Galaksi ",
         "lankaidea": "Galaxy",
@@ -949,7 +949,7 @@
       "code": "9418",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -961,7 +961,7 @@
       },
       "titles": {
         "snurre": "9418 Stoneblue heather",
-        "menita": "9418 harmaansininen",
+        "menita": "",
         "titityy": "9418 Stone blue heather",
         "lankapuutarha": "Tumma harmaansininen ",
         "lankaidea": "Stone Blue Heather",
@@ -976,7 +976,7 @@
       "code": "9419",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -988,7 +988,7 @@
       },
       "titles": {
         "snurre": "9419 Ocean blue",
-        "menita": "9419 sininen",
+        "menita": "",
         "titityy": "9419 Ocean blue",
         "lankapuutarha": "Merensinen ",
         "lankaidea": "",
@@ -1003,7 +1003,7 @@
       "code": "9420",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1015,7 +1015,7 @@
       },
       "titles": {
         "snurre": "9420 Navy blue",
-        "menita": "9420 laivastonsininen",
+        "menita": "",
         "titityy": "9420 Navy blue",
         "lankapuutarha": "Laivastonsininen ",
         "lankaidea": "Navy Blue",
@@ -1030,7 +1030,7 @@
       "code": "9421",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1042,7 +1042,7 @@
       },
       "titles": {
         "snurre": "9421 Celery Green heather",
-        "menita": "9421 sellerinvihreä",
+        "menita": "",
         "titityy": "9421 Celery green heather",
         "lankapuutarha": "Sellerinvihreä ",
         "lankaidea": "Celery Green Heather",
@@ -1057,7 +1057,7 @@
       "code": "9423",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1069,7 +1069,7 @@
       },
       "titles": {
         "snurre": "9423 Lagoon heather",
-        "menita": "9423 tumma sinivihreä",
+        "menita": "",
         "titityy": "9423 Lagoon heather",
         "lankapuutarha": "Tumma Sinivihreä ",
         "lankaidea": "Lagoon Heather",
@@ -1084,7 +1084,7 @@
       "code": "9426",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1096,7 +1096,7 @@
       },
       "titles": {
         "snurre": "9426 Gold",
-        "menita": "9426 kullanruskea",
+        "menita": "",
         "titityy": "9426 Golden heather",
         "lankapuutarha": "Kellanvihreä ",
         "lankaidea": "",
@@ -1123,7 +1123,7 @@
       },
       "titles": {
         "snurre": "9427 Rust heather",
-        "menita": "9427 ruosteenruskea",
+        "menita": "",
         "titityy": "9427 Rust heather",
         "lankapuutarha": "Ruosteenruskea ",
         "lankaidea": "Rust Heather",
@@ -1138,7 +1138,7 @@
       "code": "9431",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1150,7 +1150,7 @@
       },
       "titles": {
         "snurre": "9431 Brick Heather",
-        "menita": "9431 ruosteenpunainen",
+        "menita": "",
         "titityy": "9431 Brick heather",
         "lankapuutarha": "Tiili ",
         "lankaidea": "",
@@ -1165,7 +1165,7 @@
       "code": "9432",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1177,7 +1177,7 @@
       },
       "titles": {
         "snurre": "9432 Grape Heather",
-        "menita": "9432 violetinsininen",
+        "menita": "",
         "titityy": "9432 Grape heather",
         "lankapuutarha": "Violetin sininen ",
         "lankaidea": "Grape Heather",
@@ -1192,7 +1192,7 @@
       "code": "9434",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1204,7 +1204,7 @@
       },
       "titles": {
         "snurre": "9434 Crimson red",
-        "menita": "9434 punainen",
+        "menita": "",
         "titityy": "9434 Crimson red",
         "lankapuutarha": "Punainen ",
         "lankaidea": "Crimson Red",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-05-28T00:09:31.092Z"
+  "updated": "2024-05-29T00:10:07.895Z"
 }
