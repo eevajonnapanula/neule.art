@@ -8392,5 +8392,275 @@
     "store": "paapo",
     "date": "2024-06-07T00:09:20.848Z",
     "change": "deleted"
+  },
+  {
+    "code": "0005",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0052",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0057",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0059",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0085",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0867",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1402",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1404",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1406",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1412",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1414",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1415",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1416",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1417",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1418",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1419",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1420",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1700",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1701",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1702",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1704",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1706",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1707",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9418",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9419",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9421",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9426",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9427",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9431",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9432",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9434",
+    "store": "piipashop",
+    "date": "2024-06-20T00:09:16.951Z",
+    "change": "deleted"
   }
 ]
