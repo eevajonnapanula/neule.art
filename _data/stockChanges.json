@@ -8746,5 +8746,17 @@
     "store": "titityy",
     "date": "2024-07-11T00:10:18.411Z",
     "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "lankapuutarha",
+    "date": "2024-07-12T00:09:38.610Z",
+    "change": "added"
+  },
+  {
+    "code": "1703",
+    "store": "titityy",
+    "date": "2024-07-12T00:09:38.610Z",
+    "change": "deleted"
   }
 ]
