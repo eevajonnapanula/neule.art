@@ -230,7 +230,7 @@ const getColorsPiipashop = async () => {
 }
 
 const getColorsSomikki = async () => {
-  return axiosWithHeaders('https://www.somikki.fi/tuote/istex-lttlopi').then(data => {
+  return axiosWithHeaders('https://www.somikki.fi/tuote/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
     const json = $('.product-variant .radio label')
