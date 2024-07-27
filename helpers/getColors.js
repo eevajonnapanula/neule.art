@@ -43,16 +43,24 @@ const getColorsMenita = () => {
   return axiosWithHeaders('https://www.menita.fi/product/185/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
-    const string = $('.FormItem.BuyFormVariationSelect > select')
-      .find('option')
+    const stockItems = $('.ProductForms')
+      .find('.Checks')
+      .children()
       .toArray()
       .map(val => $(val).text())
 
-    const stock = string.map(item => {
+    let items = []
+    const chunkSize = 2
+
+    for (let i = 0; i < stockItems.length; i += chunkSize) {
+      items.push(stockItems.slice(i, i + chunkSize))
+    }
+
+    const stock = items.map(item => {
       return {
-        code: item.slice(0, 4),
-        available: item.includes('(Varastossa)'),
-        title: item.split(' (')[0].split(',')[0]
+        code: item[0].slice(0, 4),
+        available: item[1] == 'Varastossa',
+        title: item[0].slice(5)
       }
     })
 
@@ -137,21 +145,23 @@ const getColorsLankakaisa = () => {
   return axiosWithHeaders('https://www.lanka-kaisa.fi/product/31/lettlopi-50g').then(data => {
     const $ = cheerio.load(data.data)
 
-    const json = $('#variationscont')
-      .children()
+    const json = $('.ListProductInfo')
       .toArray()
       .map(val => {
-        const splitted = $(val).text().split('\n')
-        const [title, code] = splitted[5].trim().split(', ')
-        const availableCount = parseInt(splitted[7].trim().match(/\d+/)[0])
+        const value = $(val)
+        const title = value.find('h3').text().trim()
+        const titleText = title.match(/(\D)/g)
+        const availability = value.find('dt').text().trim()
+        const code = title.match(/\d{5}/)
 
         return {
-          title,
-          code: code && code.slice(1),
-          available: availableCount > 0
+          title: titleText && titleText.join('').replaceAll(',', '').replace('€', '').trim(),
+          code: code && code[0].slice(1),
+          available: availability && availability.includes('Varastossa')
         }
       })
       .filter(item => item.code)
+
     return json
   })
 }
@@ -189,20 +199,21 @@ const getColorsLinnanrouva = () => {
     const json = $('select')
       .children()
       .toArray()
-      .map(val => $(val).text().split(' - ')[0])
-      .map(val => ({
-        code: val.slice(0, 4),
-        available: true,
-        title: val
-      }))
+      .map(val => $(val).text().trim().split(' - ')[0])
+      .map(val => {
+        return {
+          code: val.slice(0, 4),
+          available: true,
+          title: val.slice(5)
+        }
+      })
 
     return json
   })
 }
 
 const getColorsPiipashop = async () => {
-  const url =
-    'https://www.piipashop.fi/epages/piipashop.sf/fi_FI/?ViewAction=View&ObjectPath=%2FShops%2F2014032407%2FCategories%2FIstex%2FLettlopi_50_g&PageSize=60&Page=1'
+  const url = 'https://piipashop.fi/category/91/lettlopi-50-g'
 
   const options = {
     method: 'GET'
@@ -213,16 +224,18 @@ const getColorsPiipashop = async () => {
 
   const $ = cheerio.load(data)
 
-  const json = $('td')
+  const json = $('.ProductList')
+    .children()
     .toArray()
-    .filter(val => $(val).find('a').text().trim() != '')
     .map(val => {
-      const title = $(val).find('a').text().trim().split(', ')[1]
-      const availability = $(val).find('.FontSmaller').text().trim()
+      const available = val.attribs.class.includes('Available')
+      const title = $(val).find('a').text().split(',')[1].trim()
+      const code = title.match(/\d{4}/)[0]
+
       return {
-        title,
-        code: title.slice(title.length - 4),
-        available: availability != ''
+        title: title.match(/(\D)/g).join('').trim(),
+        available,
+        code
       }
     })
 
@@ -287,9 +300,17 @@ const writeStockFile = async () => {
 
   const codes = Array.from(
     new Set(
-      [...titityy, ...snurre, ...menita, ...lankapuutarha, ...lankaidea, ...paapo, ...linnanrouva, ...piipashop].map(
-        item => item.code
-      )
+      [
+        ...titityy,
+        ...snurre,
+        ...menita,
+        ...lankapuutarha,
+        ...lankaidea,
+        ...paapo,
+        ...linnanrouva,
+        ...piipashop,
+        ...somikki
+      ].map(item => item.code)
     )
   )
 
@@ -346,9 +367,9 @@ const writeStockFile = async () => {
 
   const topics = changes.filter(change => change.change === 'added').map(change => change.code)
 
-  if (topics.length > 0) {
+  /* if (topics.length > 0) {
     sendPushNotification(topics)
-  }
+  } */
 
   fs.readFile('./_data/stockChanges.json', 'utf8', (err, data) => {
     if (err) {
@@ -366,6 +387,7 @@ const writeStockFile = async () => {
   })
 
   const stringifiedStock = JSON.stringify({ stock, updated: new Date() }, null, 2)
+
   fs.writeFile('./_data/stock.json', stringifiedStock, err => {
     if (err) throw err
     console.log('Stock update written to file')
