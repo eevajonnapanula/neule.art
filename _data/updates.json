@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Fixed issues with several yarn stores",
+      "datetime": "2024-07-27",
+      "items": ["Fixed issues with several yarn stores not getting correct data."]
+    },
+    {
       "title": "Added Käsityöliike Somikki",
       "datetime": "2024-01-26",
       "items": ["Added Käsityöliike Somikki to the list of store where Lettlopi-color availability is checked from."]
@@ -99,6 +104,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Ongelmat useamman lankakaupan osalta korjattu",
+      "datetime": "2024-07-27",
+      "items": ["Ongelmat useamman lankakaupan osalta korjattu, ja data on taas ajantasalla."]
+    },
     {
       "title": "Käsityöliike Somikki lisätty",
       "datetime": "2024-01-26",
