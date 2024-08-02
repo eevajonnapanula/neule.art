@@ -49,7 +49,7 @@
         "lankaidea": "White",
         "lankakaisa": "White",
         "paapo": "0051 valkoinen",
-        "linnanrouva": "White – Tilapäisesti loppunut",
+        "linnanrouva": "White",
         "piipashop": "Valkoinen",
         "somikki": "0051 Valkoinen"
       }
@@ -1048,7 +1048,7 @@
         "lankaidea": "Celery Green Heather",
         "lankakaisa": "Celery green heather",
         "paapo": "9421 sellerinvihreä",
-        "linnanrouva": "Celery Green – Tilapäisesti loppunut",
+        "linnanrouva": "Celery Green",
         "piipashop": "Sellerinvihreä",
         "somikki": "9421 Sellerinvihreä"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-01T00:10:57.428Z"
+  "updated": "2024-08-02T00:09:44.220Z"
 }
