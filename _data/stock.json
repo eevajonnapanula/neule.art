@@ -130,7 +130,7 @@
         "lankaidea": "Ash Heather",
         "lankakaisa": "Light ash heather",
         "paapo": "0054 vaalea tuhkanharmaa",
-        "linnanrouva": "Light Ash Grey",
+        "linnanrouva": "Light Ash Grey – Tilapäisesti loppunut",
         "piipashop": "Vaaleanharmaa",
         "somikki": "0054 Vaalea tuhkanharmaa"
       }
@@ -950,7 +950,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-03T00:09:57.593Z"
+  "updated": "2024-08-04T00:10:27.527Z"
 }
