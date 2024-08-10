@@ -117,7 +117,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -976,7 +976,7 @@
       "code": "9419",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-09T00:10:31.262Z"
+  "updated": "2024-08-10T00:09:46.682Z"
 }
