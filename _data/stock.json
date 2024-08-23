@@ -355,7 +355,7 @@
       "code": "1403",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -490,7 +490,7 @@
       "code": "1409",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1207,7 +1207,7 @@
         "menita": "punainen",
         "titityy": "",
         "lankapuutarha": "Punainen ",
-        "lankaidea": "Crimson Red",
+        "lankaidea": "",
         "lankakaisa": "Crimson red",
         "paapo": "9434 punainen",
         "linnanrouva": "Crimson Red",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-22T00:10:07.226Z"
+  "updated": "2024-08-23T00:10:00.510Z"
 }
