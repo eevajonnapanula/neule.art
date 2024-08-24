@@ -157,7 +157,7 @@
         "lankaidea": "Light Grey Heather",
         "lankakaisa": "Ash heather",
         "paapo": "0056 tuhkanharmaa",
-        "linnanrouva": "Ash Grey – Tilapäisesti loppunut",
+        "linnanrouva": "Ash Grey",
         "piipashop": "Tuhkanharmaa",
         "somikki": "0056 Tuhkanharmaa"
       }
@@ -778,7 +778,7 @@
         "lankaidea": "Fjord Blue Heather",
         "lankakaisa": "Fjord blue",
         "paapo": "1701 vuononsininen",
-        "linnanrouva": "Fjord Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Fjord Blue",
         "piipashop": "Vuononsininen",
         "somikki": "1701 vuononsininen"
       }
@@ -949,7 +949,7 @@
       "code": "9418",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1075,7 +1075,7 @@
         "lankaidea": "Lagoon Heather",
         "lankakaisa": "Lagoon heather",
         "paapo": "9423 tumma sinivihreä",
-        "linnanrouva": "Lagoon – Tilapäisesti loppunut",
+        "linnanrouva": "Lagoon",
         "piipashop": "Tumma sinivihreä",
         "somikki": "9423 tumma sinivihreä"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-23T00:10:00.510Z"
+  "updated": "2024-08-24T00:09:33.553Z"
 }
