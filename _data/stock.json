@@ -4,7 +4,7 @@
       "code": "0051",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -670,7 +670,7 @@
         "lankaidea": "Straw",
         "lankakaisa": "Straw",
         "paapo": "1418 vaaleabeige",
-        "linnanrouva": "Straw – Tilapäisesti loppunut",
+        "linnanrouva": "Straw",
         "piipashop": "Vaalea beige",
         "somikki": "1418 vaalea beige"
       }
@@ -859,7 +859,7 @@
         "lankaidea": "Apricot Heather",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot",
+        "linnanrouva": "Apricot – Tilapäisesti loppunut",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-08-28T00:09:57.729Z"
+  "updated": "2024-08-29T00:10:19.359Z"
 }
