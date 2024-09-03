@@ -913,7 +913,7 @@
         "lankaidea": "Lyme Grass Heather",
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
-        "linnanrouva": "Lyme Grass",
+        "linnanrouva": "Lyme Grass – Tilapäisesti loppunut",
         "piipashop": "Merivehnä",
         "somikki": "1706 Merivehnä"
       }
@@ -952,7 +952,7 @@
         "menita": false,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-09-02T00:10:46.008Z"
+  "updated": "2024-09-03T00:10:15.346Z"
 }
