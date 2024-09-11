@@ -36,7 +36,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -49,7 +49,7 @@
         "lankaidea": "Black Heather",
         "lankakaisa": "Black heather",
         "paapo": "0005 meleerattu musta",
-        "linnanrouva": "Black Heather – Tilapäisesti loppunut",
+        "linnanrouva": "Black Heather",
         "piipashop": "Meleerattu musta",
         "somikki": "0005 Meleerattu musta"
       }
@@ -832,7 +832,7 @@
         "lankaidea": "Mimosa",
         "lankakaisa": "Mimosa",
         "paapo": "1703 mimosa",
-        "linnanrouva": "Mimosa – Tilapäisesti loppunut",
+        "linnanrouva": "Mimosa",
         "piipashop": "Mimosa",
         "somikki": "1703 mimosa"
       }
@@ -859,7 +859,7 @@
         "lankaidea": "Apricot Heather",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot – Tilapäisesti loppunut",
+        "linnanrouva": "Apricot",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi"
       }
@@ -913,7 +913,7 @@
         "lankaidea": "Lyme Grass Heather",
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
-        "linnanrouva": "Lyme Grass – Tilapäisesti loppunut",
+        "linnanrouva": "Lyme Grass",
         "piipashop": "Merivehnä",
         "somikki": "1706 Merivehnä"
       }
@@ -949,7 +949,7 @@
       "code": "9418",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-09-10T00:10:25.754Z"
+  "updated": "2024-09-11T00:10:20.741Z"
 }
