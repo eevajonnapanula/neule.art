@@ -724,7 +724,7 @@
         "lankaidea": "Murky",
         "lankakaisa": "Murkey",
         "paapo": "1420 harmaanruskea",
-        "linnanrouva": "Murkey – Tilapäisesti loppunut",
+        "linnanrouva": "Murkey",
         "piipashop": "Harmaanruskea",
         "somikki": "1420 Harmaanruskea"
       }
@@ -1116,7 +1116,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-09-22T00:11:54.627Z"
+  "updated": "2024-09-23T00:10:59.460Z"
 }
