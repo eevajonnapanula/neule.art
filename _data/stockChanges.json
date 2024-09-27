@@ -10438,5 +10438,23 @@
     "store": "lankaidea",
     "date": "2024-09-25T00:11:07.599Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2024-09-27T00:11:03.050Z",
+    "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "paapo",
+    "date": "2024-09-27T00:11:03.050Z",
+    "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "lankaidea",
+    "date": "2024-09-27T00:11:03.050Z",
+    "change": "deleted"
   }
 ]
