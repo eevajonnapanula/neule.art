@@ -49,7 +49,7 @@
         "lankaidea": "Black Heather",
         "lankakaisa": "Black heather",
         "paapo": "0005 meleerattu musta",
-        "linnanrouva": "Black Heather",
+        "linnanrouva": "Black Heather – Tilapäisesti loppunut",
         "piipashop": "Meleerattu musta",
         "somikki": "0005 Meleerattu musta"
       }
@@ -157,7 +157,7 @@
         "lankaidea": "Light Grey Heather",
         "lankakaisa": "Ash heather",
         "paapo": "0056 tuhkanharmaa",
-        "linnanrouva": "Ash Grey",
+        "linnanrouva": "Ash Grey – Tilapäisesti loppunut",
         "piipashop": "Tuhkanharmaa",
         "somikki": "0056 Tuhkanharmaa"
       }
@@ -454,7 +454,7 @@
         "lankaidea": "Spring Green Heather",
         "lankakaisa": "Spring green heather",
         "paapo": "1406 keväänvihreä",
-        "linnanrouva": "Spring Green",
+        "linnanrouva": "Spring Green – Tilapäisesti loppunut",
         "piipashop": "Kevään vihreä",
         "somikki": "1406 keväänvihreä"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-10-01T00:12:29.713Z"
+  "updated": "2024-10-02T00:11:19.569Z"
 }
