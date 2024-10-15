@@ -360,7 +360,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -562,7 +562,7 @@
         "lankaidea": "Viol Heather",
         "lankakaisa": "Violet heather",
         "paapo": "1414 violetti",
-        "linnanrouva": "Violet",
+        "linnanrouva": "Violet – Tilapäisesti loppunut",
         "piipashop": "Violetti",
         "somikki": "1414 violetti"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-10-14T00:11:48.851Z"
+  "updated": "2024-10-15T00:11:09.212Z"
 }
