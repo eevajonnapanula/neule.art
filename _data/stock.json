@@ -767,7 +767,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true
       },
       "titles": {
@@ -779,7 +779,7 @@
         "lankakaisa": "Fjord blue",
         "paapo": "1701 vuononsininen",
         "linnanrouva": "Fjord Blue",
-        "piipashop": "Vuononsininen",
+        "piipashop": "Vuononsininen Tilapäisesti loppunut",
         "somikki": "1701 vuononsininen"
       }
     },
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-10-15T00:11:09.212Z"
+  "updated": "2024-10-16T00:11:06.608Z"
 }
