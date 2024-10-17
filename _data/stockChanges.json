@@ -10504,5 +10504,11 @@
     "store": "piipashop",
     "date": "2024-10-16T00:11:06.608Z",
     "change": "deleted"
+  },
+  {
+    "code": "1701",
+    "store": "piipashop",
+    "date": "2024-10-17T00:11:03.235Z",
+    "change": "added"
   }
 ]
