@@ -120,7 +120,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "0054 Ash heather",
@@ -814,7 +814,7 @@
       "code": "1703",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1111,7 +1111,7 @@
       "code": "9427",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-10-19T00:10:59.073Z"
+  "updated": "2024-10-20T00:12:06.396Z"
 }

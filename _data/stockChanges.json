@@ -10510,5 +10510,23 @@
     "store": "piipashop",
     "date": "2024-10-17T00:11:03.235Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "somikki",
+    "date": "2024-10-20T00:12:06.395Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "menita",
+    "date": "2024-10-20T00:12:06.395Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9427",
+    "store": "menita",
+    "date": "2024-10-20T00:12:06.395Z",
+    "change": "deleted"
   }
 ]
