@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Neule.art is now on Instagram",
+      "datetime": "2024-10-22",
+      "items": ["Neule.art has now an Instagram-account. You can find the link from footer of the site."]
+    },
+    {
       "title": "Fixed issues with several yarn stores",
       "datetime": "2024-07-27",
       "items": ["Fixed issues with several yarn stores not getting correct data."]
@@ -104,6 +109,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Neule.art on Instagramissa",
+      "datetime": "2024-10-22",
+      "items": ["Neule.artilla on nyt Insta-tili. Linkki tilille löytyy sivun alalaidasta."]
+    },
     {
       "title": "Ongelmat useamman lankakaupan osalta korjattu",
       "datetime": "2024-07-27",

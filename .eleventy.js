@@ -20,7 +20,6 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('riddari', function (a, b, c, d) {
-    console.log(a, b, c, d)
     return getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a)
   })
 

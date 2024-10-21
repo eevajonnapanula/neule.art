@@ -1,7 +1,9 @@
 {
   "fi": {
     "footer": {
-      "text": "Tämän sivun taustalla häärää (ja neuloo) "
+      "text": "Tämän sivun taustalla häärää (ja neuloo) ",
+      "instagramText": "Neule.art on myös ",
+      "instagramLinkText": "Instagramissa"
     },
     "header": { "siteTitle": "Etusivulle", "languages": "kielet", "main": "päävalikko", "about": "Tietoja" },
     "visuallyHiddenText": "Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
@@ -47,7 +49,9 @@
   },
   "en": {
     "footer": {
-      "text": "Made with 🧶 by "
+      "text": "Made with 🧶 by ",
+      "instagramText": "Find Neule.art on ",
+      "instagramLinkText": "Instagram"
     },
     "header": { "siteTitle": "Home", "languages": "languages", "main": "main navigation", "about": "About" },
     "visuallyHiddenText": "Image of a sweater with the following colors (first main color)",
