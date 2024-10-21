@@ -29,7 +29,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@double-great/stylelint-a11y": "^2.0.2",
     "axe-core": "^4.8.3",
-    "axios": "^1.4.0",
+    "axios": "^1.7.4",
     "cheerio": "^1.0.0-rc.12",
     "cypress": "^13.6.3",
     "cypress-axe": "^1.4.0",
