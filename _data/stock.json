@@ -454,7 +454,7 @@
         "lankaidea": "Spring Green Heather",
         "lankakaisa": "Spring green heather",
         "paapo": "1406 keväänvihreä",
-        "linnanrouva": "Spring Green – Tilapäisesti loppunut",
+        "linnanrouva": "Spring Green",
         "piipashop": "Kevään vihreä",
         "somikki": "1406 keväänvihreä"
       }
@@ -562,7 +562,7 @@
         "lankaidea": "Viol Heather",
         "lankakaisa": "Violet heather",
         "paapo": "1414 violetti",
-        "linnanrouva": "Violet – Tilapäisesti loppunut",
+        "linnanrouva": "Violet",
         "piipashop": "Violetti",
         "somikki": "1414 violetti"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-10-21T00:11:33.515Z"
+  "updated": "2024-10-22T00:11:05.714Z"
 }
