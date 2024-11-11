@@ -227,7 +227,7 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": false,
+        "piipashop": true,
         "somikki": true
       },
       "titles": {
@@ -239,7 +239,7 @@
         "lankakaisa": "Black",
         "paapo": "0059 musta",
         "linnanrouva": "Black",
-        "piipashop": "Musta Tilapäisesti loppunut",
+        "piipashop": "Musta",
         "somikki": "0059 musta"
       }
     },
@@ -279,7 +279,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-11-10T00:11:41.858Z"
+  "updated": "2024-11-11T00:11:32.807Z"
 }
