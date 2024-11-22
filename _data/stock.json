@@ -9,7 +9,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -63,7 +63,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": false
@@ -198,7 +198,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -225,7 +225,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -279,7 +279,7 @@
         "lankapuutarha": true,
         "lankaidea": false,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -387,7 +387,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1062,7 +1062,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-11-21T00:11:40.559Z"
+  "updated": "2024-11-22T00:12:01.907Z"
 }
