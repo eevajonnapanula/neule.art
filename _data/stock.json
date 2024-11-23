@@ -11,7 +11,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true
       },
       "titles": {
@@ -23,7 +23,7 @@
         "lankakaisa": "White",
         "paapo": "0051 valkoinen",
         "linnanrouva": "White",
-        "piipashop": "Valkoinen",
+        "piipashop": "Valkoinen Tilapäisesti loppunut",
         "somikki": "0051 Valkoinen"
       }
     },
@@ -227,7 +227,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true
       },
       "titles": {
@@ -239,7 +239,7 @@
         "lankakaisa": "Black",
         "paapo": "0059 musta",
         "linnanrouva": "Black",
-        "piipashop": "Musta",
+        "piipashop": "Musta Tilapäisesti loppunut",
         "somikki": "0059 musta"
       }
     },
@@ -277,7 +277,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -952,7 +952,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-11-22T00:12:01.907Z"
+  "updated": "2024-11-23T00:11:34.283Z"
 }
