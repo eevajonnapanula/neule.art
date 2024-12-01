@@ -93,7 +93,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true
+        "somikki": false
       },
       "titles": {
         "snurre": "0053 Acorn Heather",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-11-30T00:11:41.443Z"
+  "updated": "2024-12-01T00:14:15.612Z"
 }
