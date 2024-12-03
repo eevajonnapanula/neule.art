@@ -292,7 +292,7 @@
         "lankaidea": "Light Beige Heather",
         "lankakaisa": "Light beige heather",
         "paapo": "0086 vaalea luonnonbeige",
-        "linnanrouva": "Light Beige",
+        "linnanrouva": "Light Beige – Tilapäisesti loppunut",
         "piipashop": "Vaalea luonnonbeige Tilapäisesti loppunut",
         "somikki": "0086 vaalea luonnonbeige"
       }
@@ -873,7 +873,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-12-02T00:12:32.998Z"
+  "updated": "2024-12-03T00:13:04.229Z"
 }
