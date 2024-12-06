@@ -345,3 +345,21 @@ section {
 .breadcrumbs > li > a[aria-current='page'] {
   border-bottom: none;
 }
+
+.google-play-link {
+  border: none;
+}
+
+.google-play-link > img {
+  max-height: 3rem;
+  height: 100%;
+}
+
+.footer-pictures {
+  margin-top: 2rem;
+}
+
+.google-play-wrapper {
+  align-content: center;
+  margin-top: 2rem;
+}
