@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Android application is available",
+      "datetime": "2024-12-06",
+      "items": ["Neule.art Android application has been published!", "Link to Play Store is in the footer of the page."]
+    },
+    {
       "title": "Neule.art is now on Instagram",
       "datetime": "2024-10-22",
       "items": ["Neule.art has now an Instagram-account. You can find the link from footer of the site."]
@@ -109,6 +114,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Android-sovellus julkaistu",
+      "datetime": "2024-12-06",
+      "items": ["Neule.art Android-sovellus on julkaistu!", "Linkki sovellukseen löytyy sivun alareunasta."]
+    },
     {
       "title": "Neule.art on Instagramissa",
       "datetime": "2024-10-22",
