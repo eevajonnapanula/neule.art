@@ -89,17 +89,6 @@ module.exports = function (eleventyConfig) {
     return `/${locale}/${restOfTheUrl}`
   })
 
-  eleventyConfig.addShortcode('visuallyHiddenText', function (text, query, locale) {
-    const colors = query ? [query.a, query.b, query.c, query.d] : ['000000', '037C79', 'DC7633', 'AED6F1']
-
-    const colorNames = colors.map(
-      color =>
-        yarnColors.find(yarnColor => yarnColor.colorValue === color) || { value: translations[locale].undefinedColor }
-    )
-
-    return `<div class="visually-hidden">${text}: ${colorNames.map(item => item.value).join(', ')}</div>`
-  })
-
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`

@@ -22,8 +22,8 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
 
   <div class="color-picker-wrapper switcher">
     <div>
-      {% riddari 'transparent', 'transparent', 'transparent', 'transparent' %} {%
-      visuallyHiddenText translations[locale].visuallyHiddenText, eleventy.serverless.query, locale %}
+      {% riddari 'transparent', 'transparent', 'transparent', 'transparent', locale %}
+      <div id="shirt-visually-hidden-text" class="visually-hidden"></div>
     </div>
     <div>
       <div class="cta-link">
