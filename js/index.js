@@ -43,6 +43,54 @@ const getRiddari = (
 </svg>`
 }
 
+const colors = {
+  '000000': 'black',
+  'FEFEFE': 'white',
+  'E6E9EF': 'ash',
+  'DAD3D7': 'light grey',
+  '56595F': 'grey',
+  '3D383B': 'dark grey',
+  '111111': 'black heather',
+  '1C2833': 'rough sea',
+  'FAD7A0': 'straw',
+  'EDBB99': 'barley',
+  'B3752E': 'murky',
+  '603505': 'chocolate',
+  '2D1901': 'black sheep',
+  '653C00': 'acorn',
+  '9D845F': 'oatmeal',
+  'E0DEE3': 'light beige',
+  '5D6D7E': 'stone blue',
+  '98B1C5': 'air blue',
+  '2E6592': 'fjord blue',
+  '094D6D': 'ocean blue',
+  '0B0B45': 'navy blue',
+  '07587E': 'lapis blue',
+  'AED6F1': 'heaven blue',
+  'BCA2D6': 'milkyway',
+  '604978': 'grape',
+  '943126': 'brick',
+  '873600': 'rust',
+  'B9770E': 'golden',
+  'F1C40F': 'mimosa',
+  'DC7633': 'apricot',
+  '961060': 'royal fuchsia',
+  'FA98D2': 'pink',
+  'EE1313': 'crimson red',
+  '890808': 'garnet red',
+  '4A235A': 'violet',
+  'A2905C': 'frostbite',
+  '703F03': 'moor',
+  'C5CC7B': 'celery green',
+  '0E6655': 'lyme grass',
+  '144703': 'pine green',
+  '9DDB13': 'spring green',
+  '13DBD6': 'glacier blue',
+  '037C79': 'lagoon',
+  '023F3D': 'bottle green',
+  '013130': 'galaxy'
+}
+
 const adjustColor = colorCode => {
   switch (colorCode.toUpperCase()) {
     // Light Beige
@@ -59,23 +107,39 @@ const adjustColor = colorCode => {
   }
 }
 
-const setSelectedValuesAndColorVisibility =(valueMapping) => {
+const setSelectedValuesAndColorVisibility = (valueMapping, locale) => {
   const selects = document.querySelectorAll('form select')
-  
+
   selects.forEach(select => {
-    const selectId = select.id 
- 
+    const selectId = select.id
+
     const option = select.querySelector(`option[value="${valueMapping[selectId]}"]`)
 
     option.selected = true
-
   })
 
-  Object.values(valueMapping).map(item => {
+  const values = Object.values(valueMapping)
+
+  values.map(item => {
     const li = document.getElementById(item)
-    li.style = "display: block;"
-   
+    li.style = 'display: block;'
   })
+
+  let beginning
+
+  if (locale == 'fi') {
+    beginning = 'Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)'
+  } else {
+    beginning = 'Image of a sweater with the following colors (first main color)'
+  }
+
+  const colorNames = values.map(color => colors[color]).join(', ')
+
+  const visuallyHiddenText = `${beginning}: ${colorNames}`
+
+  const visuallyHiddenTextElement = document.getElementById('shirt-visually-hidden-text')
+
+  visuallyHiddenTextElement.innerText = visuallyHiddenText
 }
 
 const getRandomColors = (allColors, colors, numOfColors = 4) => {
@@ -89,12 +153,15 @@ const getRandomColors = (allColors, colors, numOfColors = 4) => {
   }
 }
 
-const getValueOrDefault = (value, defaultValue) => value ? adjustColor(value) : defaultValue
+const getValueOrDefault = (value, defaultValue) => (value ? adjustColor(value) : defaultValue)
 
 const generateRandomLinkHref = (locale, keys, path) => {
   let yarnColors = []
-  document.querySelector('form select').querySelectorAll('option').forEach(item => yarnColors.push(item.value))
-  
+  document
+    .querySelector('form select')
+    .querySelectorAll('option')
+    .forEach(item => yarnColors.push(item.value))
+
   const colorsArr = getRandomColors(yarnColors, [], 15)
 
   const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index]}`).join('&')}`
@@ -102,124 +169,145 @@ const generateRandomLinkHref = (locale, keys, path) => {
 }
 
 const buildUrl = (locale, url) => {
-  const localeFromPath = url.pathname.substring(1,3)
+  const localeFromPath = url.pathname.substring(1, 3)
   return url.pathname.replace(localeFromPath, locale) + url.search
 }
 
-const setupNavigation = (url) => {
-  const navUrlFi = buildUrl("fi", url)
-  const navUrlEn = buildUrl("en", url)
+const setupNavigation = url => {
+  const navUrlFi = buildUrl('fi', url)
+  const navUrlEn = buildUrl('en', url)
 
-  const fiNav = document.getElementById("switch-locale-fi")
+  const fiNav = document.getElementById('switch-locale-fi')
 
-  const enNav = document.getElementById("switch-locale-en")
-  
-  fiNav.setAttribute("href", navUrlFi)
-  enNav.setAttribute("href", navUrlEn)
+  const enNav = document.getElementById('switch-locale-en')
+
+  fiNav.setAttribute('href', navUrlFi)
+  enNav.setAttribute('href', navUrlEn)
 }
 
-addEventListener("load", () => {
+addEventListener('load', () => {
   const url = new URL(window.location.href)
-if (url.pathname === "/fi/patterns/sweaters/simple/" || url.pathname === "/en/patterns/sweaters/simple/") {
-  const a = getValueOrDefault(url.searchParams.get("a"), "000000")
-  const b = getValueOrDefault(url.searchParams.get("b"), "037C79")
-  const c = getValueOrDefault(url.searchParams.get("c"), "DC7633")
-  const d = getValueOrDefault(url.searchParams.get("d"), "AED6F1")
-  
-  const newShirt = new DOMParser().parseFromString(getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a), 'text/html')
 
-  const valueMapping = {
-    "colorA": a,
-    "colorB": b,
-    "colorC": c,
-    "colorD": d 
+  if (url.pathname === '/fi/patterns/sweaters/simple/' || url.pathname === '/en/patterns/sweaters/simple/') {
+    const a = getValueOrDefault(url.searchParams.get('a'), '000000')
+    const b = getValueOrDefault(url.searchParams.get('b'), '037C79')
+    const c = getValueOrDefault(url.searchParams.get('c'), 'DC7633')
+    const d = getValueOrDefault(url.searchParams.get('d'), 'AED6F1')
+
+    const newShirt = new DOMParser().parseFromString(
+      getRiddari(a, b, c, b, b, c, b, d, b, c, b, d, b, c, a),
+      'text/html'
+    )
+
+    const valueMapping = {
+      'colorA': a,
+      'colorB': b,
+      'colorC': c,
+      'colorD': d
+    }
+
+    const keys = ['a', 'b', 'c', 'd']
+
+    const locale = url.pathname.substring(1, 3)
+
+    setSelectedValuesAndColorVisibility(valueMapping, locale)
+
+    const randomLinkHref = generateRandomLinkHref(locale, keys, 'simple')
+    const randomLink = document.getElementById('cta-link')
+    randomLink.setAttribute('href', randomLinkHref)
+    setupNavigation(url)
+
+    const shirt = document.getElementsByClassName('shirt')[0]
+
+    shirt.replaceWith(newShirt.body.firstChild)
+  } else if (
+    url.pathname === '/fi/patterns/sweaters/multicolor/' ||
+    url.pathname === '/en/patterns/sweaters/multicolor/'
+  ) {
+    const main = getValueOrDefault(url.searchParams.get('main'), '5D6D7E')
+    const sleevePrimary = getValueOrDefault(url.searchParams.get('sleevePrimary'), '2D1901')
+    const sleeveSecondary = getValueOrDefault(url.searchParams.get('sleeveSecondary'), '0B0B45')
+    const yoke1 = getValueOrDefault(url.searchParams.get('yoke1'), 'B9770E')
+    const yoke2 = getValueOrDefault(url.searchParams.get('yoke2'), '890808')
+    const yoke3 = getValueOrDefault(url.searchParams.get('yoke3'), '037C79')
+    const yoke4 = getValueOrDefault(url.searchParams.get('yoke4'), '873600')
+    const yoke5 = getValueOrDefault(url.searchParams.get('yoke5'), 'BCA2D6')
+    const yoke6 = getValueOrDefault(url.searchParams.get('yoke6'), '56595F')
+    const yoke7 = getValueOrDefault(url.searchParams.get('yoke7'), 'FEFEFE')
+    const yoke8 = getValueOrDefault(url.searchParams.get('yoke8'), '144703')
+    const yoke9 = getValueOrDefault(url.searchParams.get('yoke9'), 'FAD7A0')
+    const yoke10 = getValueOrDefault(url.searchParams.get('yoke10'), '943126')
+    const yoke11 = getValueOrDefault(url.searchParams.get('yoke11'), '4A235A')
+    const yoke12 = getValueOrDefault(url.searchParams.get('yoke12'), '9D845F')
+
+    const newShirt = new DOMParser().parseFromString(
+      getRiddari(
+        main,
+        sleevePrimary,
+        sleeveSecondary,
+        yoke1,
+        yoke2,
+        yoke3,
+        yoke4,
+        yoke5,
+        yoke6,
+        yoke7,
+        yoke8,
+        yoke9,
+        yoke10,
+        yoke11,
+        yoke12
+      ),
+      'text/html'
+    )
+    const shirt = document.getElementsByClassName('shirt')[0]
+
+    const valueMapping = {
+      'main-color': main,
+      'sleeve-primary': sleevePrimary,
+      'sleeve-secondary': sleeveSecondary,
+      'yoke1': yoke1,
+      'yoke2': yoke2,
+      'yoke3': yoke3,
+      'yoke4': yoke4,
+      'yoke5': yoke5,
+      'yoke6': yoke6,
+      'yoke7': yoke7,
+      'yoke8': yoke8,
+      'yoke9': yoke9,
+      'yoke10': yoke10,
+      'yoke11': yoke11,
+      'yoke12': yoke12
+    }
+
+    const keys = [
+      'main',
+      'sleevePrimary',
+      'sleeveSecondary',
+      'yoke1',
+      'yoke2',
+      'yoke3',
+      'yoke4',
+      'yoke5',
+      'yoke6',
+      'yoke7',
+      'yoke8',
+      'yoke9',
+      'yoke10',
+      'yoke11',
+      'yoke12'
+    ]
+
+    const locale = url.pathname.substring(1, 3)
+
+    setSelectedValuesAndColorVisibility(valueMapping, locale)
+
+    const randomLinkHref = generateRandomLinkHref(locale, keys, 'multicolor')
+    const randomLink = document.getElementById('cta-link')
+    randomLink.setAttribute('href', randomLinkHref)
+
+    setupNavigation(url)
+
+    shirt.replaceWith(newShirt.body.firstChild)
   }
-
-  const keys = [
-    'a',
-    'b',
-    'c',
-    'd'
-  ]
-
-  setSelectedValuesAndColorVisibility(valueMapping)
-
-  const locale = url.pathname.substring(1, 3)
-
-  const randomLinkHref = generateRandomLinkHref(locale, keys, 'simple')
-  const randomLink = document.getElementById("cta-link")
-  randomLink.setAttribute("href", randomLinkHref)
-  setupNavigation(url)
-
-  const shirt = document.getElementsByClassName('shirt')[0]
-
-  shirt.replaceWith(newShirt.body.firstChild)
-} else if (url.pathname === "/fi/patterns/sweaters/multicolor/" || url.pathname === "/en/patterns/sweaters/multicolor/") {
-  const main = getValueOrDefault(url.searchParams.get("main"), "5D6D7E")
-  const sleevePrimary = getValueOrDefault(url.searchParams.get("sleevePrimary"), "2D1901")
-  const sleeveSecondary =  getValueOrDefault(url.searchParams.get("sleeveSecondary"), "0B0B45")
-  const yoke1 = getValueOrDefault(url.searchParams.get("yoke1"), "B9770E")
-  const yoke2 = getValueOrDefault(url.searchParams.get("yoke2"), "890808")
-  const yoke3 = getValueOrDefault(url.searchParams.get("yoke3"), "037C79")
-  const yoke4 = getValueOrDefault(url.searchParams.get("yoke4"), "873600")
-  const yoke5 = getValueOrDefault(url.searchParams.get("yoke5"), "BCA2D6")
-  const yoke6 = getValueOrDefault(url.searchParams.get("yoke6"), "56595F")
-  const yoke7 = getValueOrDefault(url.searchParams.get("yoke7"), "FEFEFE")
-  const yoke8 = getValueOrDefault(url.searchParams.get("yoke8"), "144703")
-  const yoke9 = getValueOrDefault(url.searchParams.get("yoke9"), "FAD7A0")
-  const yoke10 = getValueOrDefault(url.searchParams.get("yoke10"), "943126")
-  const yoke11 = getValueOrDefault(url.searchParams.get("yoke11"), "4A235A")
-  const yoke12 = getValueOrDefault(url.searchParams.get("yoke12"), "9D845F")
-  
-  const newShirt = new DOMParser().parseFromString(getRiddari(main, sleevePrimary, sleeveSecondary, yoke1, yoke2, yoke3, yoke4, yoke5, yoke6, yoke7, yoke8, yoke9, yoke10, yoke11, yoke12), 'text/html')
-  const shirt = document.getElementsByClassName('shirt')[0]
-
-  const valueMapping = {
-    "main-color": main,
-    "sleeve-primary": sleevePrimary,
-    "sleeve-secondary": sleeveSecondary,
-    "yoke1": yoke1,
-    "yoke2": yoke2,
-    "yoke3": yoke3,
-    "yoke4": yoke4,
-    "yoke5": yoke5,
-    "yoke6": yoke6,
-    "yoke7": yoke7,
-    "yoke8": yoke8,
-    "yoke9": yoke9,
-    "yoke10": yoke10,
-    "yoke11": yoke11,
-    "yoke12": yoke12
-  }
-
-  const keys = [
-    'main',
-    'sleevePrimary',
-    'sleeveSecondary',
-    'yoke1',
-    'yoke2',
-    'yoke3',
-    'yoke4',
-    'yoke5',
-    'yoke6',
-    'yoke7',
-    'yoke8',
-    'yoke9',
-    'yoke10',
-    'yoke11',
-    'yoke12'
-  ]
-
-  setSelectedValuesAndColorVisibility(valueMapping)
-
-  const locale = url.pathname.substring(1, 3)
-
-  const randomLinkHref = generateRandomLinkHref(locale, keys, 'multicolor')
-  const randomLink = document.getElementById("cta-link")
-  randomLink.setAttribute("href", randomLinkHref)
-
-  setupNavigation(url)
-
-  shirt.replaceWith(newShirt.body.firstChild)
-}
 })

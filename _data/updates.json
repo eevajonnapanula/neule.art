@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Accessibility Fix",
+      "datetime": "2024-12-11",
+      "items": ["Fixed an issue with text alternative for shirt not working correctly."]
+    },
+    {
       "title": "Android application is available",
       "datetime": "2024-12-06",
       "items": ["Neule.art Android application has been published!", "Link to Play Store is in the footer of the page."]
@@ -114,6 +119,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Saavutettavuuskorjaus",
+      "datetime": "2024-12-11",
+      "items": ["Paidan vaihtoehtoinen teksti ei toiminut oikein, ja on nyt korjattu."]
+    },
     {
       "title": "Android-sovellus julkaistu",
       "datetime": "2024-12-06",
