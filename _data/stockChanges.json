@@ -10930,5 +10930,11 @@
     "store": "paapo",
     "date": "2024-12-20T00:11:15.488Z",
     "change": "added"
+  },
+  {
+    "code": "1415",
+    "store": "piipashop",
+    "date": "2024-12-25T00:11:01.302Z",
+    "change": "deleted"
   }
 ]
