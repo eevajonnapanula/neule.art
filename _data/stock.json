@@ -578,7 +578,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": false,
+        "piipashop": true,
         "somikki": false
       },
       "titles": {
@@ -590,7 +590,7 @@
         "lankakaisa": "Rough sea",
         "paapo": "1415 tumma vihertävänharmaa",
         "linnanrouva": "Rough Sea",
-        "piipashop": "Tumma vihertävänharmaa Tilapäisesti loppunut",
+        "piipashop": "Tumma vihertävänharmaa",
         "somikki": "1415 tumma vihertävänharmaa"
       }
     },
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2024-12-27T00:11:10.407Z"
+  "updated": "2024-12-28T00:11:06.156Z"
 }
