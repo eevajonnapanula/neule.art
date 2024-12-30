@@ -1,6 +1,15 @@
 {
   "en": [
     {
+      "title": "Android app updated with new features",
+      "datetime": "2024-12-30",
+      "items": [
+        "Neule.art-app got a refreshed UI",
+        "You can now select colors from three different yarns: Léttlopi, Álafosslopi, and Fjallalopi",
+        "The theme of the app can also be toggled from dark to light and back."
+      ]
+    },
+    {
       "title": "Accessibility Fix",
       "datetime": "2024-12-11",
       "items": ["Fixed an issue with text alternative for shirt not working correctly."]
@@ -119,6 +128,15 @@
     }
   ],
   "fi": [
+    {
+      "title": "Android-sovellus on saanut uusia ominaisuuksia",
+      "datetime": "2024-12-30",
+      "items": [
+        "Neule.art-sovellus sai päivitetyn ulkoasun.",
+        "Voit nyt valita paidan värit kolmesta langasta: Léttlopi, Álafosslopi, sekä Fjallalopi.",
+        "Sovelluksen voi myös nyt vaihtaa tumman ja vaalean teeman välillä."
+      ]
+    },
     {
       "title": "Saavutettavuuskorjaus",
       "datetime": "2024-12-11",
