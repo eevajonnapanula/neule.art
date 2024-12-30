@@ -92,7 +92,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('randomColorsLink', function (locale) {
     const colorsArr = getRandomColors(yarnColors, [])
     const colors = `?a=${colorsArr[0].colorValue}&b=${colorsArr[1].colorValue}&c=${colorsArr[2].colorValue}&d=${colorsArr[3].colorValue}`
-    return `<div class="cta-link"><a id="cta-link" href="/${locale}/patterns/sweaters/simple/${colors}">${translations[locale].randomColors} </a></div>`
+    return `
+    <div class="cta-link">
+        <a id="cta-link" data-umami-event="Random colors link" data-umami-event-type="simple" data-umami-event-language="${locale}" href="/${locale}/patterns/sweaters/simple/${colors}">
+            ${translations[locale].randomColors} 
+        </a>
+    </div>`
   })
 
   eleventyConfig.addShortcode('randomColorsLinkSweaterMulticolor', function (locale) {
@@ -115,7 +120,12 @@ module.exports = function (eleventyConfig) {
       'yoke12'
     ]
     const colors = `?${keys.map((key, index) => `${key}=${colorsArr[index].colorValue}`).join('&')}`
-    return `<div class="cta-link"><a id="cta-link" href="/${locale}/patterns/sweaters/multicolor/${colors}">${translations[locale].randomColors} </a></div>`
+    return `
+    <div class="cta-link">
+        <a id="cta-link" data-umami-event="Random colors link" data-umami-event-type="multicolor" data-umami-event-language="${locale}" href="/${locale}/patterns/sweaters/multicolor/${colors}">
+            ${translations[locale].randomColors}
+        </a>
+    </div>`
   })
 
   eleventyConfig.addShortcode('colorAvailability', function (locale) {
