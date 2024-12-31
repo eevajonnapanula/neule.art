@@ -10942,5 +10942,17 @@
     "store": "piipashop",
     "date": "2024-12-28T00:11:06.155Z",
     "change": "added"
+  },
+  {
+    "code": "0051",
+    "store": "paapo",
+    "date": "2024-12-31T00:11:05.080Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1704",
+    "store": "menita",
+    "date": "2024-12-31T00:11:05.080Z",
+    "change": "deleted"
   }
 ]
