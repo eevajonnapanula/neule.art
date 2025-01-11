@@ -7,7 +7,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
@@ -1113,7 +1113,7 @@
         "snurre": true,
         "menita": true,
         "titityy": false,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-10T00:11:20.415Z"
+  "updated": "2025-01-11T00:11:23.206Z"
 }
