@@ -11014,5 +11014,11 @@
     "store": "lankapuutarha",
     "date": "2025-01-11T00:11:23.206Z",
     "change": "added"
+  },
+  {
+    "code": "9427",
+    "store": "somikki",
+    "date": "2025-01-13T00:11:51.579Z",
+    "change": "deleted"
   }
 ]
