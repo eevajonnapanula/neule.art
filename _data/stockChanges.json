@@ -11020,5 +11020,23 @@
     "store": "somikki",
     "date": "2025-01-13T00:11:51.579Z",
     "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "somikki",
+    "date": "2025-01-14T03:42:05.447Z",
+    "change": "added"
+  },
+  {
+    "code": "0867",
+    "store": "somikki",
+    "date": "2025-01-14T03:42:05.447Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9427",
+    "store": "somikki",
+    "date": "2025-01-14T03:42:05.447Z",
+    "change": "added"
   }
 ]
