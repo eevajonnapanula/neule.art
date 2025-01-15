@@ -7,9 +7,9 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": false,
+        "lankaidea": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": false,
         "somikki": true
@@ -574,7 +574,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -586,7 +586,7 @@
         "menita": "tumma vihertävänharmaa",
         "titityy": "",
         "lankapuutarha": "Tumma vihertävänharmaa ",
-        "lankaidea": "Rough Sea",
+        "lankaidea": "",
         "lankakaisa": "Rough sea",
         "paapo": "1415 tumma vihertävänharmaa",
         "linnanrouva": "Rough Sea",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-14T03:42:05.447Z"
+  "updated": "2025-01-15T00:11:05.251Z"
 }
