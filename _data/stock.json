@@ -319,7 +319,7 @@
         "lankaidea": "Chocolate",
         "lankakaisa": "Chocolate heather",
         "paapo": "0867 suklaanruskea",
-        "linnanrouva": "Chocolate",
+        "linnanrouva": "Chocolate – Tilapäisesti loppunut",
         "piipashop": "Suklaanruskea",
         "somikki": "0867 suklaanruskea"
       }
@@ -463,7 +463,7 @@
       "code": "1407",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1057,7 +1057,7 @@
       "code": "9423",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-18T00:10:35.399Z"
+  "updated": "2025-01-19T00:12:06.890Z"
 }
