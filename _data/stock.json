@@ -193,7 +193,7 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -208,7 +208,7 @@
         "menita": "tummanharmaa",
         "titityy": "",
         "lankapuutarha": "Tummanharmaa ",
-        "lankaidea": "Dark Grey Heather",
+        "lankaidea": "",
         "lankakaisa": "Dark grey heather",
         "paapo": "0058 tummanharmaa",
         "linnanrouva": "Dark Grey",
@@ -814,7 +814,7 @@
       "code": "1703",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-21T00:10:52.946Z"
+  "updated": "2025-01-22T00:11:10.118Z"
 }
