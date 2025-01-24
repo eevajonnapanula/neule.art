@@ -34,7 +34,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
@@ -46,7 +46,7 @@
         "menita": "meleerattu musta",
         "titityy": "",
         "lankapuutarha": "Maleerattu musta ",
-        "lankaidea": "Black Heather",
+        "lankaidea": "",
         "lankakaisa": "Black heather",
         "paapo": "0005 meleerattu musta",
         "linnanrouva": "Black Heather",
@@ -279,7 +279,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": false,
         "somikki": true
@@ -832,7 +832,7 @@
         "lankaidea": "Mimosa",
         "lankakaisa": "Mimosa",
         "paapo": "1703 mimosa",
-        "linnanrouva": "Mimosa",
+        "linnanrouva": "Mimosa – Tilapäisesti loppunut",
         "piipashop": "Mimosa",
         "somikki": "1703 mimosa"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-23T00:10:51.341Z"
+  "updated": "2025-01-24T00:11:02.785Z"
 }
