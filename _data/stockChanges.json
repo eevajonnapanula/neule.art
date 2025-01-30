@@ -11158,5 +11158,17 @@
     "store": "piipashop",
     "date": "2025-01-29T00:11:09.225Z",
     "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "paapo",
+    "date": "2025-01-30T00:10:48.758Z",
+    "change": "added"
+  },
+  {
+    "code": "9419",
+    "store": "paapo",
+    "date": "2025-01-30T00:10:48.758Z",
+    "change": "deleted"
   }
 ]
