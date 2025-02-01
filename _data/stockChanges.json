@@ -11170,5 +11170,23 @@
     "store": "paapo",
     "date": "2025-01-30T00:10:48.758Z",
     "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "lankapuutarha",
+    "date": "2025-02-01T00:11:49.100Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1409",
+    "store": "paapo",
+    "date": "2025-02-01T00:11:49.100Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9432",
+    "store": "lankaidea",
+    "date": "2025-02-01T00:11:49.100Z",
+    "change": "deleted"
   }
 ]

@@ -276,7 +276,7 @@
         "snurre": true,
         "menita": true,
         "titityy": false,
-        "lankapuutarha": true,
+        "lankapuutarha": false,
         "lankaidea": true,
         "lankakaisa": true,
         "paapo": true,
@@ -495,7 +495,7 @@
         "lankapuutarha": true,
         "lankaidea": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true
@@ -1168,7 +1168,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -1180,7 +1180,7 @@
         "menita": "violetinsininen",
         "titityy": "",
         "lankapuutarha": "Violetin sininen ",
-        "lankaidea": "Grape Heather",
+        "lankaidea": "",
         "lankakaisa": "Grape heather",
         "paapo": "9432 violetinsininen",
         "linnanrouva": "Grape",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-01-31T00:10:58.482Z"
+  "updated": "2025-02-01T00:11:49.100Z"
 }
