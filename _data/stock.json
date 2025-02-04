@@ -4,10 +4,10 @@
       "code": "0051",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -19,7 +19,7 @@
         "menita": "valkoinen",
         "titityy": "",
         "lankapuutarha": "Valkoinen ",
-        "lankaidea": "White",
+        "lankaidea": "",
         "lankakaisa": "White",
         "paapo": "0051 valkoinen",
         "linnanrouva": "White",
@@ -112,10 +112,10 @@
       "code": "0054",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -127,7 +127,7 @@
         "menita": "vaalea tuhkanharmaa",
         "titityy": "",
         "lankapuutarha": "Vaalea tuhkanharmaa ",
-        "lankaidea": "Ash Heather",
+        "lankaidea": "",
         "lankakaisa": "Light ash heather",
         "paapo": "0054 vaalea tuhkanharmaa",
         "linnanrouva": "Light Ash Grey",
@@ -193,7 +193,7 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": false,
@@ -358,7 +358,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -370,7 +370,7 @@
         "menita": "tummansininen",
         "titityy": "",
         "lankapuutarha": "Tummansininen ",
-        "lankaidea": "Lapis Blue Heather",
+        "lankaidea": "",
         "lankakaisa": "Lapis blue heather",
         "paapo": "1403 tummansininen",
         "linnanrouva": "Lapis Blue",
@@ -814,7 +814,7 @@
       "code": "1703",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1057,7 +1057,7 @@
       "code": "9423",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankaidea": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-02-03T00:11:27.139Z"
+  "updated": "2025-02-04T00:10:57.494Z"
 }

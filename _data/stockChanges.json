@@ -11188,5 +11188,53 @@
     "store": "lankaidea",
     "date": "2025-02-01T00:11:49.100Z",
     "change": "deleted"
+  },
+  {
+    "code": "0051",
+    "store": "menita",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "added"
+  },
+  {
+    "code": "0051",
+    "store": "lankaidea",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0054",
+    "store": "menita",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "lankaidea",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0058",
+    "store": "menita",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "added"
+  },
+  {
+    "code": "1403",
+    "store": "lankaidea",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1703",
+    "store": "menita",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "menita",
+    "date": "2025-02-04T00:10:57.494Z",
+    "change": "added"
   }
 ]
