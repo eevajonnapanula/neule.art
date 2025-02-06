@@ -11236,5 +11236,11 @@
     "store": "menita",
     "date": "2025-02-04T00:10:57.494Z",
     "change": "added"
+  },
+  {
+    "code": "1707",
+    "store": "piipashop",
+    "date": "2025-02-06T00:11:19.221Z",
+    "change": "deleted"
   }
 ]

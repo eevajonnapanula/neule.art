@@ -929,7 +929,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": false
       },
       "titles": {
@@ -941,7 +941,7 @@
         "lankakaisa": "Galaxy",
         "paapo": "1707 galaksi",
         "linnanrouva": "Galaxy",
-        "piipashop": "Galaksi",
+        "piipashop": "Galaksi Tilapäisesti loppunut",
         "somikki": ""
       }
     },
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-02-05T00:11:20.808Z"
+  "updated": "2025-02-06T00:11:19.221Z"
 }
