@@ -11242,5 +11242,11 @@
     "store": "piipashop",
     "date": "2025-02-06T00:11:19.221Z",
     "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "lankapuutarha",
+    "date": "2025-02-07T00:11:09.738Z",
+    "change": "added"
   }
 ]
