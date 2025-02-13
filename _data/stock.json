@@ -228,7 +228,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": false
+        "somikki": true
       },
       "titles": {
         "snurre": "0059 Black",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-02-12T00:11:23.739Z"
+  "updated": "2025-02-13T00:11:12.497Z"
 }
