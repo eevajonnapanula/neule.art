@@ -331,7 +331,7 @@
         "menita": true,
         "titityy": false,
         "lankapuutarha": true,
-        "lankaidea": true,
+        "lankaidea": false,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -397,7 +397,7 @@
         "menita": "vedenvihreä",
         "titityy": "",
         "lankapuutarha": "Vaalea sinivihreä ",
-        "lankaidea": "Glacier Blue Heather",
+        "lankaidea": "",
         "lankakaisa": "Glacier blue heather",
         "paapo": "1404 vaalea sinivihreä",
         "linnanrouva": "Glacier Blue",
@@ -856,7 +856,7 @@
         "menita": "aprikoosi",
         "titityy": "",
         "lankapuutarha": "Aprikoosi ",
-        "lankaidea": "Apricot Heather",
+        "lankaidea": "",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
         "linnanrouva": "Apricot",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-02-23T00:12:20.469Z"
+  "updated": "2025-02-24T00:11:48.545Z"
 }
