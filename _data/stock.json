@@ -343,7 +343,7 @@
         "menita": "taivaansininen",
         "titityy": "",
         "lankapuutarha": "Taivaansininen ",
-        "lankaidea": "Heaven Blue Heather",
+        "lankaidea": "",
         "lankakaisa": "Heaven blue heather",
         "paapo": "1402 taivaansininen",
         "linnanrouva": "Heaven Blue",
@@ -640,7 +640,7 @@
         "menita": "oliivinvihreä",
         "titityy": "",
         "lankapuutarha": "Harmaanvihreä ",
-        "lankaidea": "Frostbite",
+        "lankaidea": "",
         "lankakaisa": "Frostbite",
         "paapo": "1417 harmaanvihreä",
         "linnanrouva": "Frostbite",
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-02-24T00:11:48.545Z"
+  "updated": "2025-02-25T00:11:15.695Z"
 }
