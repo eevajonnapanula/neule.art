@@ -1,16 +1,19 @@
 const data = require('../_data/stock.json')
 const shops = require('../_data/yarnStores.json')
 const translations = require('../_data/translations.json')
+const countries = require('../_data/countries.json')
 const { adjustColor } = require('./adjustColor')
 
 const parseColors = (allColors, locale) => {
-  const colors = allColors.map(item => item.colorValue).map(item => {
-    const adjustedColor = adjustColor(item)
-    const color = allColors.find(colorObj => colorObj.colorValue === adjustedColor)
-    const stock = data.stock.find(stockObj => stockObj.code === color.code)
+  const colors = allColors
+    .map(item => item.colorValue)
+    .map(item => {
+      const adjustedColor = adjustColor(item)
+      const color = allColors.find(colorObj => colorObj.colorValue === adjustedColor)
+      const stock = data.stock.find(stockObj => stockObj.code === color.code)
 
-    return Object.assign(color, stock)
-  })
+      return Object.assign(color, stock)
+    })
 
   return `
     <ul class="yarn-availability-list">
@@ -23,15 +26,40 @@ const listItem = (yarnName, yarnCode, color, availability, locale, hideInitially
     .filter(([, available]) => available)
     .map(([shop]) => shop)
 
-  return `<li id="${color}" class="yarn-availability ${shopAvailability.length > 0 ? 'available' : 'not-available'}" ${hideInitially ? 'style="display: none;"' : ''} >
+  const shopsPerCountry = Object.keys(countries)
+    .map(country => country)
+    .map(country => {
+      return {
+        country: country,
+        stores: shopAvailability.filter(shop => shops[shop].country == country)
+      }
+    })
+    .reduce((acc, curr) => {
+      return {
+        ...acc,
+        [curr.country]: curr.stores
+      }
+    }, {})
+
+  const countryList = Object.entries(shopsPerCountry)
+    .map(([country, stores]) => {
+      return stores.length > 0
+        ? `<li>${translations[locale].countries[country]}:<ul>
+        ${stores.map(store => `<li><a href="${shops[store].linkToStock}">${shops[store].name}</a></li>`).join('')}
+      </ul></li>`
+        : ``
+    })
+    .join('')
+
+  return `<li id="${color}" class="yarn-availability ${shopAvailability.length > 0 ? 'available' : 'not-available'}" ${
+    hideInitially ? 'style="display: none;"' : ''
+  } >
             <div class="color-swatch yarn-available-swatch" style="background-color: #${color}"></div>
             <h2>${yarnName} (${yarnCode})</h2>
             <div class="yarn-availability-shops">
              ${
                shopAvailability.length > 0
-                 ? `${translations[locale].yarnAvailability.availableIn} <ul>${shopAvailability
-                     .map(item => `<li><a href="${shops[item].linkToStock}">${shops[item].name}</a></li>`)
-                     .join('')}</ul>`
+                 ? `${translations[locale].yarnAvailability.availableIn} <ul>${countryList}</ul>`
                  : `${translations[locale].yarnAvailability.notAvailable} ${shops.stores
                      .map(shop => shops[shop].name)
                      .join(', ')}`

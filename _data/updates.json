@@ -1,6 +1,14 @@
 {
   "en": [
     {
+      "title": "Added Den lykkelige sau",
+      "datetime": "2025-02-25",
+      "items": [
+        "Added Den lykkelige sau to the list of store where Lettlopi-color availability is checked from.",
+        "Neule.art also supports now showing yarn stores from different countries."
+      ]
+    },
+    {
       "title": "Android app updated with new features",
       "datetime": "2024-12-30",
       "items": [
@@ -128,6 +136,14 @@
     }
   ],
   "fi": [
+    {
+      "title": "Den lykkelige sau lisätty",
+      "datetime": "2025-02-25",
+      "items": [
+        "Lisätty Den lykkelige sau kauppoihin, joista tarkistetaan Lettlopin saatavuus.",
+        "Lisäksi lisätty tuki eri maiden lankakauppojen näyttämiselle."
+      ]
+    },
     {
       "title": "Android-sovellus on saanut uusia ominaisuuksia",
       "datetime": "2024-12-30",
