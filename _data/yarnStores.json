@@ -1,51 +1,61 @@
 {
   "snurre": {
     "name": "Snurre",
+    "country": "FIN",
     "key": "snurre",
     "linkToStock": "https://www.snurre.fi/collections/neulelangat/products/istex-lettlopi"
   },
   "titityy": {
     "name": "Titityy",
+    "country": "FIN",
     "key": "titityy",
     "linkToStock": "https://titityy.fi/fi/product/istex-lettlopi/10037"
   },
   "menita": {
     "name": "Menita",
+    "country": "FIN",
     "key": "menita",
     "linkToStock": "https://www.menita.fi/product/185/istex-lettlopi"
   },
   "lankapuutarha": {
     "name": "Lankapuutarha",
+    "country": "FIN",
     "key": "lankapuutarha",
     "linkToStock": "https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi"
   },
   "lankaidea": {
     "name": "Lankaidea",
+    "country": "FIN",
     "key": "lankaidea",
     "linkToStock": "https://www.lankaidea.fi/product/731/istex-lettlopi"
   },
   "lankakaisa": {
     "name": "Lanka-Kaisa",
+    "country": "FIN",
     "key": "lankakaisa",
     "linkToStock": "https://www.lanka-kaisa.fi/product/31/lettlopi-50g"
   },
   "paapo": {
     "name": "Paapo",
+    "country": "FIN",
     "key": "paapo",
     "linkToStock": "https://paapo.fi/p37677/istex-lettlopi"
   },
   "linnanrouva": {
     "name": "Lasimäen Linnanrouva",
+    "country": "FIN",
     "key": "linnanrouva",
     "linkToStock": "https://linnanrouva.myshopify.com/products/istex-lettlopi-50-g"
   },
   "piipashop": {
     "name": "PiipaShop",
+    "country": "FIN",
     "key": "piipashop",
     "linkToStock": "https://piipashop.fi/category/91/lettlopi-50-g"
   },
   "somikki": {
     "name": "Käsityöliike Somikki",
+    "country": "FIN",
     "key": "somikki",
     "linkToStock": "https://www.somikki.fi/tuote/istex-lettlopi"
   },
