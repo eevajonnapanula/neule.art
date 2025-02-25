@@ -59,6 +59,12 @@
     "key": "somikki",
     "linkToStock": "https://www.somikki.fi/tuote/istex-lettlopi"
   },
+  "denlykkeligesau": {
+    "name": "Den lykkelige sau",
+    "country": "NOR",
+    "key": "denlykkeligesau",
+    "linkToStock": "https://denlykkeligesau.no/categories/lettlopi"
+  },
   "stores": [
     "snurre",
     "titityy",
@@ -69,6 +75,7 @@
     "paapo",
     "linnanrouva",
     "piipashop",
-    "somikki"
+    "somikki",
+    "denlykkeligesau"
   ]
 }

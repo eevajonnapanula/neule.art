@@ -267,6 +267,25 @@ const getColorsSomikki = async () => {
   })
 }
 
+const getColorsDenLykkeligeSau = async () => {
+  return axiosWithHeaders('https://denlykkeligesau.no/categories/lettlopi').then(data => {
+    const $ = cheerio.load(data.data)
+
+    return $('.product-box-wrapper .product_box_title_row.text-center')
+      .toArray()
+      .map(val => {
+        const text = $(val).text().trim().slice(9)
+        const code = text.match(/\d{4}/)[0]
+
+        return {
+          title: text.slice(0, text.length - 5).trim(),
+          code: code,
+          available: true
+        }
+      })
+  })
+}
+
 const compareChanges = (prev, curr) => {
   const changes = []
   Object.keys(prev.availability).forEach(key => {
@@ -297,6 +316,7 @@ const writeStockFile = async () => {
   const linnanrouva = await getColorsLinnanrouva()
   const piipashop = await getColorsPiipashop()
   const somikki = await getColorsSomikki()
+  const denlykkeligesau = await getColorsDenLykkeligeSau()
 
   const codes = Array.from(
     new Set(
@@ -309,7 +329,8 @@ const writeStockFile = async () => {
         ...paapo,
         ...linnanrouva,
         ...piipashop,
-        ...somikki
+        ...somikki,
+        ...denlykkeligesau
       ].map(item => item.code)
     )
   )
@@ -326,6 +347,7 @@ const writeStockFile = async () => {
       const linnanrouvaStock = findOrEmpty(linnanrouva, code)
       const piipashopStock = findOrEmpty(piipashop, code)
       const somikkiStock = findOrEmpty(somikki, code)
+      const denlykkeligesauStock = findOrEmpty(denlykkeligesau, code)
 
       return {
         code,
@@ -339,7 +361,8 @@ const writeStockFile = async () => {
           paapo: paapoStock.available || false,
           linnanrouva: linnanrouvaStock.available || false,
           piipashop: piipashopStock.available || false,
-          somikki: somikkiStock.available || false
+          somikki: somikkiStock.available || false,
+          denlykkeligesau: denlykkeligesauStock.available || false
         },
         titles: {
           snurre: snurreStock.title || '',
@@ -351,7 +374,8 @@ const writeStockFile = async () => {
           paapo: paapoStock.title,
           linnanrouva: linnanrouvaStock.title,
           piipashop: piipashopStock.title,
-          somikki: somikkiStock.title
+          somikki: somikkiStock.title,
+          denlykkeligesau: denlykkeligesauStock.title
         }
       }
     })
@@ -364,12 +388,6 @@ const writeStockFile = async () => {
       return change
     })
     .filter(Boolean)
-
-  const topics = changes.filter(change => change.change === 'added').map(change => change.code)
-
-  /* if (topics.length > 0) {
-    sendPushNotification(topics)
-  } */
 
   fs.readFile('./_data/stockChanges.json', 'utf8', (err, data) => {
     if (err) {
