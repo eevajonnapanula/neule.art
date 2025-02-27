@@ -116,31 +116,6 @@ const getColorsLankapuutarha = () => {
   )
 }
 
-const getColorsLankaidea = () => {
-  return axiosWithHeaders('https://www.lankaidea.fi/product/731/istex-lettlopi').then(data => {
-    const $ = cheerio.load(data.data)
-
-    const json = $('.ProductColors')
-      .children()
-      .toArray()
-      .map(val => {
-        const text = $(val).find('.VariationName').text()
-        const title = text.split('\n')[0].slice(4).trim()
-        const available = val.attribs.class.includes('Available')
-
-        const code = text.match(/\d+/)[0]
-
-        return {
-          title,
-          code: code.length === 4 ? code : `0${code}`,
-          available
-        }
-      })
-
-    return json
-  })
-}
-
 const getColorsLankakaisa = () => {
   return axiosWithHeaders('https://www.lanka-kaisa.fi/product/31/lettlopi-50g').then(data => {
     const $ = cheerio.load(data.data)
@@ -310,7 +285,6 @@ const writeStockFile = async () => {
   const snurre = await getColorsSnurre()
   const menita = await getColorsMenita()
   const lankapuutarha = await getColorsLankapuutarha()
-  const lankaidea = await getColorsLankaidea()
   const lankakaisa = await getColorsLankakaisa()
   const paapo = await getColorsPaapo()
   const linnanrouva = await getColorsLinnanrouva()
@@ -325,7 +299,6 @@ const writeStockFile = async () => {
         ...snurre,
         ...menita,
         ...lankapuutarha,
-        ...lankaidea,
         ...paapo,
         ...linnanrouva,
         ...piipashop,
@@ -341,7 +314,6 @@ const writeStockFile = async () => {
       const menitaStock = findOrEmpty(menita, code)
       const titityyStock = findOrEmpty(titityy, code)
       const lankapuutarhaStock = findOrEmpty(lankapuutarha, code)
-      const lankaideaStock = findOrEmpty(lankaidea, code)
       const lankakaisaStock = findOrEmpty(lankakaisa, code)
       const paapoStock = findOrEmpty(paapo, code)
       const linnanrouvaStock = findOrEmpty(linnanrouva, code)
@@ -356,7 +328,6 @@ const writeStockFile = async () => {
           menita: menitaStock.available || false,
           titityy: titityyStock.available || false,
           lankapuutarha: lankapuutarhaStock.available || false,
-          lankaidea: lankaideaStock.available || false,
           lankakaisa: lankakaisaStock.available || false,
           paapo: paapoStock.available || false,
           linnanrouva: linnanrouvaStock.available || false,
@@ -369,7 +340,6 @@ const writeStockFile = async () => {
           menita: menitaStock.title || '',
           titityy: titityyStock.title || '',
           lankapuutarha: lankapuutarhaStock.title || '',
-          lankaidea: lankaideaStock.title || '',
           lankakaisa: lankakaisaStock.title,
           paapo: paapoStock.title,
           linnanrouva: linnanrouvaStock.title,

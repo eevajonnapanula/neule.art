@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Remove Lankaidea",
+      "datetime": "2025-02-27",
+      "items": ["Removed Lankaidea as it's closing."]
+    },
+    {
       "title": "Added Den lykkelige sau",
       "datetime": "2025-02-25",
       "items": [
@@ -136,6 +141,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Lankaidean poisto",
+      "datetime": "2025-02-27",
+      "items": ["Koska Lankaideassa on loppuunmyynti, se on poistettu."]
+    },
     {
       "title": "Den lykkelige sau lisätty",
       "datetime": "2025-02-25",
