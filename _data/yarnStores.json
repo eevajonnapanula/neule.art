@@ -23,12 +23,6 @@
     "key": "lankapuutarha",
     "linkToStock": "https://lankapuutarha.fi/collections/istex-villalangat/products/istex-lettlopi"
   },
-  "lankaidea": {
-    "name": "Lankaidea",
-    "country": "FIN",
-    "key": "lankaidea",
-    "linkToStock": "https://www.lankaidea.fi/product/731/istex-lettlopi"
-  },
   "lankakaisa": {
     "name": "Lanka-Kaisa",
     "country": "FIN",
@@ -70,7 +64,6 @@
     "titityy",
     "lankapuutarha",
     "menita",
-    "lankaidea",
     "lankakaisa",
     "paapo",
     "linnanrouva",
