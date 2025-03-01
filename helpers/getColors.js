@@ -4,7 +4,6 @@ const cheerio = require('cheerio')
 const fs = require('fs')
 const prevStock = require('../_data/stock.json')
 const colors = require('../_data/yarnColors.json')
-const { sendPushNotification } = require('./sendNotification')
 
 const colorCodes = colors.map(color => color.code)
 
@@ -68,25 +67,33 @@ const getColorsMenita = () => {
   })
 }
 
-const getColorsTitityy = () => {
-  return axiosWithHeaders('https://titityy.fi/fi/product/istex-lettlopi/10037').then(data => {
-    const $ = cheerio.load(data.data)
-    const string = $('.product_picture_extra.variation_image.col-lg-2.col-xs-4.padd2')
-      .toArray()
-      .map(val => $(val).text())
+const getColorsTitityy = async () => {
+  const options = {
+    method: 'GET'
+  }
+  // Use node-fetch because for some reason, this didn't work with axios
+  const res = await fetch('https://titityy.fi/fi/product/istex-lettlopi/10037', options)
+  const data = await res.text()
 
-    const stock = string.map(item => {
-      const stockItem = item.trim().split('\n')
+  const $ = cheerio.load(data)
 
-      return {
-        code: stockItem[0].slice(0, 4),
-        available: !stockItem[1].includes('(Tilapäisesti loppu)') || false,
-        title: stockItem[0]
-      }
-    })
-
-    return stock
+  const productJsonString = $('script[type="application/ld+json"]').text()
+  const yarns = JSON.parse(productJsonString)[0].hasVariant.map(yarn => {
+    return {
+      name: yarn.name.slice(15),
+      availability: yarn.offers.availability
+    }
   })
+
+  const stock = yarns.map(item => {
+    return {
+      code: item.name.slice(0, 4),
+      available: item.availability == 'https://schema.org/InStock',
+      title: item.name.slice(5)
+    }
+  })
+
+  return stock
 }
 
 const getColorsLankapuutarha = () => {
@@ -336,16 +343,16 @@ const writeStockFile = async () => {
           denlykkeligesau: denlykkeligesauStock.available || false
         },
         titles: {
-          snurre: snurreStock.title || '',
-          menita: menitaStock.title || '',
-          titityy: titityyStock.title || '',
-          lankapuutarha: lankapuutarhaStock.title || '',
-          lankakaisa: lankakaisaStock.title,
-          paapo: paapoStock.title,
-          linnanrouva: linnanrouvaStock.title,
-          piipashop: piipashopStock.title,
-          somikki: somikkiStock.title,
-          denlykkeligesau: denlykkeligesauStock.title
+          snurre: snurreStock.title.trim() || '',
+          menita: menitaStock.title.trim() || '',
+          titityy: titityyStock.title.trim() || '',
+          lankapuutarha: lankapuutarhaStock.title.trim() || '',
+          lankakaisa: lankakaisaStock.title.trim(),
+          paapo: paapoStock.title.trim(),
+          linnanrouva: linnanrouvaStock.title.trim(),
+          piipashop: piipashopStock.title.trim(),
+          somikki: somikkiStock.title.trim(),
+          denlykkeligesau: denlykkeligesauStock.title.trim()
         }
       }
     })
