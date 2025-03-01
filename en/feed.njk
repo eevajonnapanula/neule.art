@@ -22,13 +22,18 @@
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for update in updates.en %} {% set absolutePostUrl %}{{ "en/about/" | url | absoluteUrl(metadata.url)}}{% endset
-  %}
+  {%- for update in updates.en | reverse %} {% set absolutePostUrl %}{{ "en/about/" | url | absoluteUrl(metadata.url)
+  }}{% endset %}
   <entry>
     <title>{{ update.title }}</title>
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ update.datetime | toISOString }}</updated>
     <id>{{ absolutePostUrl }}</id>
+    <content type="html">
+      {%- for item in update.items %}
+      <p>{{ item }}</p>
+      {%- endfor %}
+    </content>
   </entry>
   {%- endfor %}
 </feed>
