@@ -1,6 +1,11 @@
 {
   "en": [
     {
+      "title": "Bugfixes",
+      "datetime": "2025-03-01",
+      "items": ["Bugfixes to RSS feed and fetching data from yarn stores."]
+    },
+    {
       "title": "Remove Lankaidea",
       "datetime": "2025-02-27",
       "items": ["Removed Lankaidea as it's closing."]
@@ -141,6 +146,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Bugikorjauksia",
+      "datetime": "2025-03-01",
+      "items": ["Bugikorjauksia RSS-feediin sekä lankojen tietojen hakemiseen."]
+    },
     {
       "title": "Lankaidean poisto",
       "datetime": "2025-02-27",

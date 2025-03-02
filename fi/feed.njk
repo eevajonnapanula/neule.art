@@ -16,19 +16,24 @@
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ metadata.feedUrl }}" rel="self" />
   <link href="{{ metadata.url }}" />
-  <updated>{{ updates.en[0].datetime | toISOString }}</updated>
+  <updated>{{ updates.fi[0].datetime | toISOString }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for update in updates.fi %} {% set absolutePostUrl %}{{ "fi/about/" | url | absoluteUrl(metadata.url)}}{% endset
-  %}
+  {%- for update in updates.fi | reverse %} {% set absolutePostUrl %}{{ "fi/about/" | url | absoluteUrl(metadata.url)
+  }}{% endset %}
   <entry>
     <title>{{ update.title }}</title>
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ update.datetime | toISOString }}</updated>
-    <id>{{ absolutePostUrl }}</id>
+    <id>{{ update.datetime }}</id>
+    <content type="html">
+      {%- for item in update.items %}
+      <p>{{ item }}</p>
+      {%- endfor %}
+    </content>
   </entry>
   {%- endfor %}
 </feed>
