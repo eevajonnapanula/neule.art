@@ -11962,5 +11962,41 @@
     "store": "menita",
     "date": "2025-03-05T00:11:33.708Z",
     "change": "deleted"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1407",
+    "store": "menita",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "menita",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "added"
+  },
+  {
+    "code": "1703",
+    "store": "paapo",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1405",
+    "store": "menita",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "menita",
+    "date": "2025-03-12T00:11:26.992Z",
+    "change": "added"
   }
 ]
