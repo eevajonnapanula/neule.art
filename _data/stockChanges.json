@@ -12004,5 +12004,11 @@
     "store": "paapo",
     "date": "2025-03-26T00:11:59.533Z",
     "change": "added"
+  },
+  {
+    "code": "0054",
+    "store": "paapo",
+    "date": "2025-03-29T00:11:38.335Z",
+    "change": "deleted"
   }
 ]
