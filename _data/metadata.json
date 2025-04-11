@@ -18,5 +18,11 @@
     "metaDescription": "Värivalitsin erilaisten väriyhdistelmien testaamiseen eri neuleille.",
     "imagePath": "/img/image-fi.png",
     "altText": "Neule.art - Värivalitsin neuleille"
+  },
+  "no": {
+    "metaTitle": "Neule.art - Fargevelger for Mønster",
+    "metaDescription": "En fargevelger for å teste ulike fargekombinasjoner for forskjellige strikkemønstre.",
+    "imagePath": "/img/image-en.png",
+    "altText": "Neule.art - Fargevelger for Mønster"
   }
 }

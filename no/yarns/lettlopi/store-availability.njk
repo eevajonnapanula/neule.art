@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+tags: 'sitemap'
+title: 'Garn Farge Tilgjengelighet -'
+language: 'no'
+permalink:
+  build: '/no/yarns/lettlopi/'
+breadcrumbs:
+  - title: Hjem
+    url: '/no/'
+  - title: 'Léttlopi farger'
+    url: '/no/yarns/lettlopi'
+    currnot: true
+---
+
+{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
+metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale %} {% allColorAvailability locale %}
