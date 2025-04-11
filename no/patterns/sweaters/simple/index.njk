@@ -1,0 +1,65 @@
+---
+layout: layouts/base.njk
+changeFreq: daily
+title: 'Fargevelger for Genser - '
+tags: 'sitemap'
+language: 'no'
+permalink:
+  build: '/no/patterns/sweaters/simple/'
+breadcrumbs:
+  - title: 'Home'
+    url: '/no/'
+  - title: 'Sweater (simple, four colors)'
+    url: '/no/patterns/sweaters/simple/'
+    serverless: true
+    current: true
+---
+
+{% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
+metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
+<section>
+  <h1>Velg dine farger for en genser</h1>
+  <p>{% riddariInfo locale %}</p>
+
+  <div class="color-picker-wrapper switcher">
+    <div>
+      {% riddari 'transparent', 'transparent', 'transparent', 'transparent', locale %}
+      <div id="shirt-visually-hidden-text" class="visually-hidden"></div>
+    </div>
+    <div>
+      <div class="cta-link">
+        <a href="/no/yarns/lettlopi/">Alle farger</a>
+      </div>
+      <form method="get" action="/no/patterns/sweaters/simple/" class="colors-form">
+        {%- for color in colorOptions.fourColors %} {% colorSelect color.labelKey, color.identifier,
+        translations[locale].fourColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
+        color.defaultColor %} {% endfor -%}
+
+        <button type="submit">Se resultatet</button>
+      </form>
+      {% randomColorsLink locale %}
+    </div>
+  </div>
+  </section>
+  <section>
+    <h2>Garn Farge Tilgjengelighet</h2>
+    
+    <div class="color-picker-wrapper switcher">
+      {% colorAvailability locale %}</div>
+
+    <div>
+  
+      <div>Data hentet: {% time stock.updated %}</div></div>
+  
+      <div>{% set comma = joiner() %}
+        <p>Lagrer at dataene for øyeblikket er hentet fra:: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
+        <p>Hvis du har en butikk, bør den være her, i tankene, send meg en melding. Du finner kontaktinformasjon fra <a href="/no/about/">Om-side.</a></p>
+      </section>
+  <section>
+    <h2>Lenker</h2>
+    <ul>
+      <li><a href="https://istex.is/en/vorur/lettlopi/">Léttlopi fargekart</a></li>
+      <li><a href="https://lopidesign.is/en/shop/adults/sweaters/riddari/">Riddari strikkemønster</a></li>
+    </ul>
+</section>
+
