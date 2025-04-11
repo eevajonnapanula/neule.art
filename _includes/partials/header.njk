@@ -1,8 +1,8 @@
 <header>
   <nav aria-label="{{translations[locale].header.main}}">
     <ul>
-  <li><a href="/{{locale}}/" {% if page.url === '/en/' or page.url === '/fi/' %} aria-current="page" {%endif%}>{{ translations[locale].header.siteTitle }}</a></li>
-      <li><a href="/{{locale}}/about" {% if page.url === '/en/about/' or page.url === '/fi/about/' %} aria-current="page" {%endif%}>{{translations[locale].header.about}}</a></li>
+  <li><a href="/{{locale}}/" {% if page.url === '/en/' or page.url === '/fi/' or page.url === '/no/' %} aria-current="page" {%endif%}>{{ translations[locale].header.siteTitle }}</a></li>
+      <li><a href="/{{locale}}/about" {% if page.url === '/en/about/' or page.url === '/fi/about/' or page.url === '/no/about/' %} aria-current="page" {%endif%}>{{translations[locale].header.about}}</a></li>
     </ul>
   </nav>
 {% if page.url !== '/404.html' %}  
@@ -11,6 +11,7 @@
     <ul>
       <li><a id="switch-locale-en" href="{% urlBuilder eleventy.serverless.query, page.url.slice(4), serverlessPath, 'en' %}" {% if locale === 'en' %} aria-current="page" {%endif%}>EN</a></li>
       <li><a id="switch-locale-fi" href="{% urlBuilder eleventy.serverless.query, page.url.slice(4), serverlessPath, 'fi' %}" {% if locale === 'fi' %} aria-current="page" {%endif%}>FI</a></li>
+      <li><a id="switch-locale-no" href="{% urlBuilder eleventy.serverless.query, page.url.slice(4), serverlessPath, 'no' %}" {% if locale === 'no' %} aria-current="page" {%endif%}>NO</a></li>
     </ul>
   </nav>
 {% endif %}
