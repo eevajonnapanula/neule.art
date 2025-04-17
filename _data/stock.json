@@ -469,7 +469,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": true
       },
@@ -481,7 +481,7 @@
         "lankakaisa": "Rust heather",
         "paapo": "9427 ruosteenruskea",
         "linnanrouva": "Rust",
-        "piipashop": "Ruosteenruskea",
+        "piipashop": "Ruosteenruskea Tilapäisesti loppunut",
         "somikki": "9427 Ruosteenruskea",
         "denlykkeligesau": "Rust heather"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-04-16T00:12:25.894Z"
+  "updated": "2025-04-17T00:12:17.240Z"
 }
