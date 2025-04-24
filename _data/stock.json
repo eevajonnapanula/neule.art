@@ -86,7 +86,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -278,7 +278,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -548,7 +548,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-04-23T00:12:25.897Z"
+  "updated": "2025-04-24T00:12:22.048Z"
 }
