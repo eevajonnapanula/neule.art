@@ -18,7 +18,7 @@ breadcrumbs:
 {% set metaTitle = metadata[locale].metaTitle %} {% set metaDescription = metadata[locale].metaDescription %} {% set
 metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, eleventy.serverless.query %}
 <section>
-  <h1>Velg dine farger for en genser</h1>
+  <h1>Velg dine egne farger til genseren</h1>
   <p>{% riddariInfo locale %}</p>
 
   <div class="color-picker-wrapper switcher">
@@ -56,7 +56,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
   
       <div>{% set comma = joiner() %}
         <p>Lagrer at dataene for øyeblikket er hentet fra:: {% for store in yarnStores.stores -%}{{comma()}} {{yarnStores[store].name}} {%- endfor %}</p>
-        <p>Hvis du har en butikk, bør den være her, i tankene, send meg en melding. Du finner kontaktinformasjon fra <a href="/no/about/">Om-side.</a></p>
+        <p>Hvis du har en butikk og du ønsker at jeg legger den til her, send meg gjerne en melding. Du finner kontaktinformasjon på <a href="/no/about/">Om-side.</a></p>
       </section>
   <section>
   <h2>Lenker</h2>
