@@ -1,6 +1,14 @@
 {
   "en": [
     {
+      "title": "Neule.art has now Norwegian translations!",
+      "datetime": "2025-04-29",
+      "items": [
+        "Neule.art has been translated to Norwegian with the help of team at Den Lykkelige Sau.",
+        "Thank you so much!"
+      ]
+    },
+    {
       "title": "Bugfixes",
       "datetime": "2025-03-01",
       "items": ["Bugfixes to RSS feed and fetching data from yarn stores."]
@@ -146,6 +154,11 @@
     }
   ],
   "fi": [
+    {
+      "title": "Neule.art on nyt käännetty myös norjaksi!",
+      "datetime": "2025-04-29",
+      "items": ["Neule.art on käännetty norjaksi Den Lykkelige Saun tiimin avustuksella.", "Kiitos todella paljon!"]
+    },
     {
       "title": "Bugikorjauksia",
       "datetime": "2025-03-01",
