@@ -127,10 +127,15 @@ const setSelectedValuesAndColorVisibility = (valueMapping, locale) => {
 
   let beginning
 
-  if (locale == 'fi') {
-    beginning = 'Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)'
-  } else {
-    beginning = 'Image of a sweater with the following colors (first main color)'
+  switch (locale) {
+    case 'fi':
+      beginning = 'Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)'
+      break
+    case 'no':
+      beginning = 'Bilde av en genser med følgende farger (første hovedfarge)'
+      break
+    default:
+      beginning = 'Image of a sweater with the following colors (first main color)'
   }
 
   const colorNames = values.map(color => colors[color]).join(', ')
@@ -176,19 +181,27 @@ const buildUrl = (locale, url) => {
 const setupNavigation = url => {
   const navUrlFi = buildUrl('fi', url)
   const navUrlEn = buildUrl('en', url)
+  const navUrlNo = buildUrl('no', url)
 
   const fiNav = document.getElementById('switch-locale-fi')
 
   const enNav = document.getElementById('switch-locale-en')
 
+  const noNav = document.getElementById('switch-locale-no')
+
   fiNav.setAttribute('href', navUrlFi)
   enNav.setAttribute('href', navUrlEn)
+  noNav.setAttribute('href', navUrlNo)
 }
 
 addEventListener('load', () => {
   const url = new URL(window.location.href)
 
-  if (url.pathname === '/fi/patterns/sweaters/simple/' || url.pathname === '/en/patterns/sweaters/simple/') {
+  if (
+    url.pathname === '/fi/patterns/sweaters/simple/' ||
+    url.pathname === '/en/patterns/sweaters/simple/' ||
+    url.pathname === '/no/patterns/sweaters/simple/'
+  ) {
     const a = getValueOrDefault(url.searchParams.get('a'), '000000')
     const b = getValueOrDefault(url.searchParams.get('b'), '037C79')
     const c = getValueOrDefault(url.searchParams.get('c'), 'DC7633')
@@ -222,7 +235,8 @@ addEventListener('load', () => {
     shirt.replaceWith(newShirt.body.firstChild)
   } else if (
     url.pathname === '/fi/patterns/sweaters/multicolor/' ||
-    url.pathname === '/en/patterns/sweaters/multicolor/'
+    url.pathname === '/en/patterns/sweaters/multicolor/' ||
+    url.pathname === '/no/patterns/sweaters/multicolor/'
   ) {
     const main = getValueOrDefault(url.searchParams.get('main'), '5D6D7E')
     const sleevePrimary = getValueOrDefault(url.searchParams.get('sleevePrimary'), '2D1901')

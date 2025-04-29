@@ -7,12 +7,7 @@
     },
     "header": { "siteTitle": "Etusivulle", "languages": "kielet", "main": "päävalikko", "about": "Tietoja" },
     "visuallyHiddenText": "Kuva villapaidasta seuraavilla lankaväreillä (ensimmäisenä pääväri)",
-    "colors": "Värit",
-    "colorText": "Huom! Värit ovat suuntaa-antavia, ja voivat vaihdella näytön värisävyjen mukaan.",
-    "stockAvailability": "Katso saatavilla olevat värit",
-
     "randomColors": "Näytä satunnaiset värit",
-    "undefinedColor": "tunnistamaton väri",
     "yarnAvailability": {
       "availableIn": "Saatavilla",
       "notAvailable": "Ei saatavilla kaupoissa "
@@ -59,12 +54,7 @@
     },
     "header": { "siteTitle": "Home", "languages": "languages", "main": "main navigation", "about": "About" },
     "visuallyHiddenText": "Image of a sweater with the following colors (first main color)",
-    "colors": "Colors",
-    "colorText": "Colors are only examples, and do not represent the actual colors in the color chart. It's also possible that screen's color settings affec how the colors are displayed.",
-    "stockAvailability": "Check all colors' availability",
-
     "randomColors": "Show random colors",
-    "undefinedColor": "unknown color",
     "yarnAvailability": {
       "availableIn": "Available in",
       "notAvailable": "Not available in "
@@ -101,6 +91,53 @@
     "countries": {
       "FIN": "Finland",
       "NOR": "Norway"
+    }
+  },
+  "no": {
+    "footer": {
+      "text": "Laget med 🧶 av ",
+      "instagramText": "Følg Neule.art på ",
+      "instagramLinkText": "Instagram"
+    },
+    "header": { "siteTitle": "Hjem", "languages": "språk", "main": "Hoved navigering", "about": "Om" },
+    "visuallyHiddenText": "Bilde av genser med følgende farger ( første er bunnfarge)",
+    "randomColors": "Vis tilfeldige farger",
+    "yarnAvailability": {
+      "availableIn": "Tilgjengelig i ",
+      "notAvailable": "Ikke tilgjengelig i "
+    },
+    "colorAvailability": {
+      "title": "Léttlopi farger",
+      "showOnlyAvailable": "Vis kun farger som er tilgjengelig i utvalgte butikker"
+    },
+    "breadcrumbs": "Brødsmuler",
+    "fourColorTexts": {
+      "a": "A (Bunnfarge)",
+      "b": "B",
+      "c": "C",
+      "d": "D"
+    },
+    "multipleColorTexts": {
+      "main": "Bunnfarge",
+      "sleevePrimary": "Arm primær",
+      "sleeveSecondary": "Arm Sekundær",
+      "yoke1": "Farge 1 (nederst på bærestykke)",
+      "yoke2": "Farge 2",
+      "yoke3": "Farge 3",
+      "yoke4": "Farge 4",
+      "yoke5": "Farge 5",
+      "yoke6": "Farge 6",
+      "yoke7": "Farge 7",
+      "yoke8": "Farge 8",
+      "yoke9": "Farge 9",
+      "yoke10": "Farge 10",
+      "yoke11": "Farge 11",
+      "yoke12": "Farge 12"
+    },
+    "riddariInfo": "Bildet er basert på en Riddari genser, et vakkert Islansk mønster som er designet av Vedis Jonsdottir",
+    "countries": {
+      "FIN": "Finland",
+      "NOR": "Norge"
     }
   }
 }
