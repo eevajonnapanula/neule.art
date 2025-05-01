@@ -12664,5 +12664,17 @@
     "store": "piipashop",
     "date": "2025-04-30T00:12:27.711Z",
     "change": "deleted"
+  },
+  {
+    "code": "1407",
+    "store": "paapo",
+    "date": "2025-05-01T00:14:02.182Z",
+    "change": "added"
+  },
+  {
+    "code": "0085",
+    "store": "titityy",
+    "date": "2025-05-01T00:14:02.182Z",
+    "change": "deleted"
   }
 ]
