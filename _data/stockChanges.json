@@ -12706,5 +12706,23 @@
     "store": "titityy",
     "date": "2025-05-11T00:13:37.925Z",
     "change": "deleted"
+  },
+  {
+    "code": "0867",
+    "store": "somikki",
+    "date": "2025-05-20T00:13:17.915Z",
+    "change": "added"
+  },
+  {
+    "code": "9420",
+    "store": "somikki",
+    "date": "2025-05-20T00:13:17.915Z",
+    "change": "deleted"
+  },
+  {
+    "code": "0057",
+    "store": "somikki",
+    "date": "2025-05-20T00:13:17.915Z",
+    "change": "added"
   }
 ]

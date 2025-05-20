@@ -227,7 +227,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": false,
+        "somikki": true,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1037,7 +1037,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1064,7 +1064,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": false,
+        "somikki": true,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-05-19T00:13:44.343Z"
+  "updated": "2025-05-20T00:13:17.915Z"
 }
