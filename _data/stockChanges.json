@@ -12724,5 +12724,11 @@
     "store": "somikki",
     "date": "2025-05-20T00:13:17.915Z",
     "change": "added"
+  },
+  {
+    "code": "0056",
+    "store": "piipashop",
+    "date": "2025-05-22T00:12:47.881Z",
+    "change": "deleted"
   }
 ]

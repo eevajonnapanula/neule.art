@@ -118,7 +118,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": true
       },
@@ -130,7 +130,7 @@
         "lankakaisa": "Ash heather",
         "paapo": "0056 tuhkanharmaa",
         "linnanrouva": "Ash Grey",
-        "piipashop": "Tuhkanharmaa",
+        "piipashop": "Tuhkanharmaa Tilapäisesti loppunut",
         "somikki": "0056 Tuhkanharmaa",
         "denlykkeligesau": "Ash heather"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-05-21T00:13:06.871Z"
+  "updated": "2025-05-22T00:12:47.881Z"
 }
