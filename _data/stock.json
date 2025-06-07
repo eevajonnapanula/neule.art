@@ -683,10 +683,10 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1003,7 +1003,7 @@
       "code": "1414",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1037,7 +1037,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": false,
+        "somikki": true,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-06-06T00:13:03.317Z"
+  "updated": "2025-06-07T00:12:51.102Z"
 }

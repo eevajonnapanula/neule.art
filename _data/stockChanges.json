@@ -12760,5 +12760,29 @@
     "store": "paapo",
     "date": "2025-06-01T00:16:06.037Z",
     "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "paapo",
+    "date": "2025-06-07T00:12:51.102Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9423",
+    "store": "somikki",
+    "date": "2025-06-07T00:12:51.102Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1414",
+    "store": "menita",
+    "date": "2025-06-07T00:12:51.102Z",
+    "change": "deleted"
+  },
+  {
+    "code": "9420",
+    "store": "somikki",
+    "date": "2025-06-07T00:12:51.102Z",
+    "change": "added"
   }
 ]
