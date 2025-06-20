@@ -12814,5 +12814,11 @@
     "store": "menita",
     "date": "2025-06-12T00:13:04.531Z",
     "change": "added"
+  },
+  {
+    "code": "0086",
+    "store": "menita",
+    "date": "2025-06-20T03:15:48.951Z",
+    "change": "deleted"
   }
 ]
