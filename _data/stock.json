@@ -399,7 +399,7 @@
         "lankapuutarha": "Vaalea sinivihreä",
         "lankakaisa": "Glacier blue heather",
         "paapo": "1404 vaalea sinivihreä",
-        "linnanrouva": "Glacier Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Glacier Blue",
         "piipashop": "Vaalea sinivihreä",
         "somikki": "1404 vaalea sinivihreä",
         "denlykkeligesau": "Glacier blue heather"
@@ -615,7 +615,7 @@
         "lankapuutarha": "Sellerinvihreä",
         "lankakaisa": "Celery green heather",
         "paapo": "9421 sellerinvihreä",
-        "linnanrouva": "Celery Green – Tilapäisesti loppunut",
+        "linnanrouva": "Celery Green",
         "piipashop": "Sellerinvihreä",
         "somikki": "9421 Sellerinvihreä",
         "denlykkeligesau": "Celery green heather"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-07-08T00:13:10.533Z"
+  "updated": "2025-07-09T00:13:32.714Z"
 }
