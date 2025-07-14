@@ -480,7 +480,7 @@
         "lankapuutarha": "Ruosteenruskea",
         "lankakaisa": "Rust heather",
         "paapo": "9427 ruosteenruskea",
-        "linnanrouva": "Rust",
+        "linnanrouva": "Rust – Tilapäisesti loppunut",
         "piipashop": "Ruosteenruskea Tilapäisesti loppunut",
         "somikki": "9427 Ruosteenruskea",
         "denlykkeligesau": "Rust heather"
@@ -831,7 +831,7 @@
         "lankapuutarha": "Aprikoosi",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot",
+        "linnanrouva": "Apricot – Tilapäisesti loppunut",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi",
         "denlykkeligesau": "Apricot"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-07-13T00:15:06.526Z"
+  "updated": "2025-07-14T00:14:35.620Z"
 }
