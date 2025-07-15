@@ -12904,5 +12904,11 @@
     "store": "paapo",
     "date": "2025-07-12T00:13:13.047Z",
     "change": "added"
+  },
+  {
+    "code": "0057",
+    "store": "lankapuutarha",
+    "date": "2025-07-15T00:14:07.079Z",
+    "change": "deleted"
   }
 ]
