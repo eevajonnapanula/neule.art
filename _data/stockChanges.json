@@ -12910,5 +12910,17 @@
     "store": "lankapuutarha",
     "date": "2025-07-15T00:14:07.079Z",
     "change": "deleted"
+  },
+  {
+    "code": "0056",
+    "store": "piipashop",
+    "date": "2025-07-18T00:13:51.828Z",
+    "change": "added"
+  },
+  {
+    "code": "1707",
+    "store": "paapo",
+    "date": "2025-07-18T00:13:51.828Z",
+    "change": "deleted"
   }
 ]
