@@ -237,7 +237,7 @@
         "lankapuutarha": "Suklaanruskea",
         "lankakaisa": "Chocolate heather",
         "paapo": "0867 suklaanruskea",
-        "linnanrouva": "Chocolate – Tilapäisesti loppunut",
+        "linnanrouva": "Chocolate",
         "piipashop": "Suklaanruskea",
         "somikki": "0867 suklaanruskea",
         "denlykkeligesau": "Chocolate heather"
@@ -426,7 +426,7 @@
         "lankapuutarha": "Keväänvihreä",
         "lankakaisa": "Spring green heather",
         "paapo": "1406 keväänvihreä",
-        "linnanrouva": "Spring Green – Tilapäisesti loppunut",
+        "linnanrouva": "Spring Green",
         "piipashop": "Kevään vihreä",
         "somikki": "1406 keväänvihreä",
         "denlykkeligesau": "Spring green heather"
@@ -480,7 +480,7 @@
         "lankapuutarha": "Ruosteenruskea",
         "lankakaisa": "Rust heather",
         "paapo": "9427 ruosteenruskea",
-        "linnanrouva": "Rust – Tilapäisesti loppunut",
+        "linnanrouva": "Rust",
         "piipashop": "Ruosteenruskea",
         "somikki": "9427 Ruosteenruskea",
         "denlykkeligesau": "Rust heather"
@@ -831,7 +831,7 @@
         "lankapuutarha": "Aprikoosi",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot – Tilapäisesti loppunut",
+        "linnanrouva": "Apricot",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi",
         "denlykkeligesau": "Apricot"
@@ -858,7 +858,7 @@
         "lankapuutarha": "Fuksia",
         "lankakaisa": "Royal fuchsia",
         "paapo": "1705 fuksia",
-        "linnanrouva": "Royal Fuchsia – Tilapäisesti loppunut",
+        "linnanrouva": "Royal Fuchsia",
         "piipashop": "Fuksia",
         "somikki": "1705 Fuksia",
         "denlykkeligesau": "Royal fuchsia"
@@ -1047,7 +1047,7 @@
         "lankapuutarha": "Laivastonsininen",
         "lankakaisa": "Navy blue",
         "paapo": "9420 laivastonsininen",
-        "linnanrouva": "Navy Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Navy Blue",
         "piipashop": "Laivastonsininen",
         "somikki": "9420 Laivastonsininen",
         "denlykkeligesau": "Navy blue"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-08-05T00:14:24.482Z"
+  "updated": "2025-08-06T00:14:28.017Z"
 }
