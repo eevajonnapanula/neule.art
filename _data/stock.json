@@ -4,7 +4,7 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-08-27T00:12:27.605Z"
+  "updated": "2025-08-28T00:12:32.358Z"
 }

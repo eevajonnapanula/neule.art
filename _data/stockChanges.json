@@ -13066,5 +13066,11 @@
     "store": "lankapuutarha",
     "date": "2025-08-26T00:12:43.051Z",
     "change": "added"
+  },
+  {
+    "code": "0005",
+    "store": "menita",
+    "date": "2025-08-28T00:12:32.357Z",
+    "change": "deleted"
   }
 ]
