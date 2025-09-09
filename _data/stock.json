@@ -872,7 +872,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": true,
+        "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-09-08T00:12:58.588Z"
+  "updated": "2025-09-09T00:12:13.966Z"
 }
