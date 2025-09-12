@@ -4,7 +4,7 @@
       "code": "0005",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -274,7 +274,7 @@
       "code": "1407",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -507,7 +507,7 @@
         "lankapuutarha": "Merensinen",
         "lankakaisa": "Ocean blue",
         "paapo": "9419 merensininen",
-        "linnanrouva": "Ocean Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Ocean Blue",
         "piipashop": "Merensininen",
         "somikki": "9419 Merensininen",
         "denlykkeligesau": "Ocean blue"
@@ -733,7 +733,7 @@
       "code": "1701",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-09-11T00:11:52.504Z"
+  "updated": "2025-09-12T00:12:03.565Z"
 }
