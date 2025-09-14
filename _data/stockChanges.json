@@ -13120,5 +13120,17 @@
     "store": "menita",
     "date": "2025-09-12T00:12:03.565Z",
     "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "somikki",
+    "date": "2025-09-14T00:12:52.233Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "paapo",
+    "date": "2025-09-14T00:12:52.233Z",
+    "change": "deleted"
   }
 ]
