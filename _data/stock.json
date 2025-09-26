@@ -1,6 +1,33 @@
 {
   "stock": [
     {
+      "code": "0085",
+      "availability": {
+        "snurre": true,
+        "menita": true,
+        "titityy": true,
+        "lankapuutarha": true,
+        "lankakaisa": true,
+        "paapo": true,
+        "linnanrouva": true,
+        "piipashop": true,
+        "somikki": true,
+        "denlykkeligesau": true
+      },
+      "titles": {
+        "snurre": "0085 Oatmeal Heather",
+        "menita": "vaalea luonnonruskea",
+        "titityy": "Oatmeal heather",
+        "lankapuutarha": "Vaalea luonnonruskea",
+        "lankakaisa": "Oatmeal heather",
+        "paapo": "0085 vaalea luonnon ruskea",
+        "linnanrouva": "Oatmeal",
+        "piipashop": "Vaalea luonnonruskea",
+        "somikki": "0085 vaalea luonnonruskea",
+        "denlykkeligesau": "Oatmeal heather"
+      }
+    },
+    {
       "code": "0005",
       "availability": {
         "snurre": true,
@@ -35,7 +62,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -899,7 +926,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": false,
@@ -1003,7 +1030,7 @@
       "code": "1414",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1061,7 +1088,7 @@
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -1187,34 +1214,7 @@
         "somikki": "1405 Pullonvihreä",
         "denlykkeligesau": "Bottle green heather"
       }
-    },
-    {
-      "code": "0085",
-      "availability": {
-        "snurre": true,
-        "menita": true,
-        "titityy": true,
-        "lankapuutarha": true,
-        "lankakaisa": true,
-        "paapo": false,
-        "linnanrouva": true,
-        "piipashop": true,
-        "somikki": true,
-        "denlykkeligesau": true
-      },
-      "titles": {
-        "snurre": "0085 Oatmeal Heather",
-        "menita": "vaalea luonnonruskea",
-        "titityy": "Oatmeal heather",
-        "lankapuutarha": "Vaalea luonnonruskea",
-        "lankakaisa": "Oatmeal heather",
-        "paapo": "0085 vaalea luonnon ruskea",
-        "linnanrouva": "Oatmeal",
-        "piipashop": "Vaalea luonnonruskea",
-        "somikki": "0085 vaalea luonnonruskea",
-        "denlykkeligesau": "Oatmeal heather"
-      }
     }
   ],
-  "updated": "2025-09-23T00:12:08.189Z"
+  "updated": "2025-09-26T04:47:46.018Z"
 }

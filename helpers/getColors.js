@@ -76,19 +76,19 @@ const getColorsTitityy = async () => {
   const data = await res.text()
 
   const $ = cheerio.load(data)
-
-  const productJsonString = $('script[type="application/ld+json"]').text()
-  const yarns = JSON.parse(productJsonString)[0].hasVariant.map(yarn => {
+  const productJsonString = $('#app').attr('data-page')
+  
+  const yarns = JSON.parse(productJsonString).props.variationOptions.map(yarn => {
     return {
-      name: yarn.name.slice(15),
-      availability: yarn.offers.availability
+      name: yarn.variation_name,
+      availability: yarn.isBuyable
     }
   })
 
   const stock = yarns.map(item => {
     return {
       code: item.name.slice(0, 4),
-      available: item.availability == 'https://schema.org/InStock',
+      available: item.availability,
       title: item.name.slice(5)
     }
   })
