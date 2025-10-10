@@ -13612,5 +13612,35 @@
     "store": "menita",
     "date": "2025-10-08T00:12:09.268Z",
     "change": "deleted"
+  },
+  {
+    "code": "1406",
+    "store": "paapo",
+    "date": "2025-10-10T00:12:07.149Z",
+    "change": "added"
+  },
+  {
+    "code": "1700",
+    "store": "titityy",
+    "date": "2025-10-10T00:12:07.149Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "paapo",
+    "date": "2025-10-10T00:12:07.149Z",
+    "change": "added"
+  },
+  {
+    "code": "1706",
+    "store": "paapo",
+    "date": "2025-10-10T00:12:07.149Z",
+    "change": "added"
+  },
+  {
+    "code": "1402",
+    "store": "paapo",
+    "date": "2025-10-10T00:12:07.149Z",
+    "change": "added"
   }
 ]
