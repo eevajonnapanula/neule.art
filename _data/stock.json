@@ -301,7 +301,7 @@
       "code": "1407",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-10-17T00:12:29.634Z"
+  "updated": "2025-10-18T00:11:25.949Z"
 }
