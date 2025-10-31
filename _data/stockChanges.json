@@ -13780,5 +13780,11 @@
     "store": "somikki",
     "date": "2025-10-30T00:13:11.201Z",
     "change": "added"
+  },
+  {
+    "code": "1404",
+    "store": "menita",
+    "date": "2025-10-31T00:12:48.530Z",
+    "change": "deleted"
   }
 ]
