@@ -318,7 +318,7 @@
         "lankapuutarha": "Männynvihreä",
         "lankakaisa": "Pine green heather",
         "paapo": "1407 männynvihreä",
-        "linnanrouva": "Pine Green – Tilapäisesti loppunut",
+        "linnanrouva": "Pine Green",
         "piipashop": "Männynvihreä",
         "somikki": "1407 Männynvihreä",
         "denlykkeligesau": "Pine green heather"
@@ -382,7 +382,7 @@
       "code": "1412",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -453,7 +453,7 @@
         "lankapuutarha": "Keväänvihreä",
         "lankakaisa": "Spring green heather",
         "paapo": "1406 keväänvihreä",
-        "linnanrouva": "Spring Green – Tilapäisesti loppunut",
+        "linnanrouva": "Spring Green",
         "piipashop": "Kevään vihreä",
         "somikki": "1406 keväänvihreä",
         "denlykkeligesau": "Spring green heather"
@@ -507,7 +507,7 @@
         "lankapuutarha": "Ruosteenruskea",
         "lankakaisa": "Rust heather",
         "paapo": "9427 ruosteenruskea",
-        "linnanrouva": "Rust – Tilapäisesti loppunut",
+        "linnanrouva": "Rust",
         "piipashop": "Ruosteenruskea",
         "somikki": "9427 Ruosteenruskea",
         "denlykkeligesau": "Rust heather"
@@ -588,7 +588,7 @@
         "lankapuutarha": "Harmaanvihreä",
         "lankakaisa": "Frostbite",
         "paapo": "1417 harmaanvihreä",
-        "linnanrouva": "Frostbite – Tilapäisesti loppunut",
+        "linnanrouva": "Frostbite",
         "piipashop": "Harmaanvihreä",
         "somikki": "1417 Harmaanvihreä",
         "denlykkeligesau": "Frostbite"
@@ -868,7 +868,7 @@
       "code": "1705",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-11-11T00:13:13.327Z"
+  "updated": "2025-11-12T00:13:17.102Z"
 }
