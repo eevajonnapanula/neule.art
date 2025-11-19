@@ -949,7 +949,7 @@
       "code": "9418",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-11-18T00:13:12.538Z"
+  "updated": "2025-11-19T00:13:14.854Z"
 }
