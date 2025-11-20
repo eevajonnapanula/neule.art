@@ -194,7 +194,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -281,7 +281,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-11-19T00:13:14.854Z"
+  "updated": "2025-11-20T00:13:18.943Z"
 }
