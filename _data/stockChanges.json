@@ -14032,5 +14032,11 @@
     "store": "paapo",
     "date": "2025-11-25T00:12:02.755Z",
     "change": "added"
+  },
+  {
+    "code": "0058",
+    "store": "menita",
+    "date": "2025-11-27T00:12:49.223Z",
+    "change": "deleted"
   }
 ]
