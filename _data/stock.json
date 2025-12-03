@@ -166,7 +166,7 @@
       "code": "0058",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-12-02T00:13:15.278Z"
+  "updated": "2025-12-03T00:13:04.080Z"
 }
