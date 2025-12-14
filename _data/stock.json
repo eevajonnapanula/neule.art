@@ -21,7 +21,7 @@
         "lankapuutarha": "Vaalea luonnonruskea",
         "lankakaisa": "Oatmeal heather",
         "paapo": "0085 vaalea luonnon ruskea",
-        "linnanrouva": "Oatmeal",
+        "linnanrouva": "Oatmeal – Tilapäisesti loppunut",
         "piipashop": "Vaalea luonnonruskea",
         "somikki": "0085 vaalea luonnonruskea",
         "denlykkeligesau": "Oatmeal heather"
@@ -58,7 +58,7 @@
       "code": "0051",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -112,7 +112,7 @@
       "code": "0054",
       "availability": {
         "snurre": true,
-        "menita": false,
+        "menita": true,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-12-13T00:13:28.361Z"
+  "updated": "2025-12-14T00:15:05.342Z"
 }
