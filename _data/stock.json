@@ -220,7 +220,7 @@
       "code": "0086",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2025-12-26T00:13:35.334Z"
+  "updated": "2025-12-27T00:13:39.888Z"
 }
