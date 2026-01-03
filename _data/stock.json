@@ -210,7 +210,7 @@
         "lankapuutarha": "Musta",
         "lankakaisa": "Black",
         "paapo": "0059 musta",
-        "linnanrouva": "Black",
+        "linnanrouva": "Black – Tilapäisesti loppunut",
         "piipashop": "Musta",
         "somikki": "0059 musta",
         "denlykkeligesau": "Black"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-02T00:13:55.160Z"
+  "updated": "2026-01-03T00:13:19.038Z"
 }
