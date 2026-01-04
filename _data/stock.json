@@ -75,7 +75,7 @@
         "lankapuutarha": "Valkoinen",
         "lankakaisa": "White",
         "paapo": "0051 valkoinen",
-        "linnanrouva": "White",
+        "linnanrouva": "White – Tilapäisesti loppunut",
         "piipashop": "Valkoinen",
         "somikki": "0051 Valkoinen",
         "denlykkeligesau": "White"
@@ -139,7 +139,7 @@
       "code": "0056",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-03T00:13:19.038Z"
+  "updated": "2026-01-04T00:15:34.929Z"
 }
