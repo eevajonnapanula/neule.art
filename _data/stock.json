@@ -5,7 +5,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -21,7 +21,7 @@
         "lankapuutarha": "Vaalea luonnonruskea",
         "lankakaisa": "Oatmeal heather",
         "paapo": "0085 vaalea luonnon ruskea",
-        "linnanrouva": "Oatmeal – Tilapäisesti loppunut",
+        "linnanrouva": "Oatmeal",
         "piipashop": "Vaalea luonnonruskea",
         "somikki": "0085 vaalea luonnonruskea",
         "denlykkeligesau": "Oatmeal heather"
@@ -59,7 +59,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -167,7 +167,7 @@
       "availability": {
         "snurre": true,
         "menita": true,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -210,7 +210,7 @@
         "lankapuutarha": "Musta",
         "lankakaisa": "Black",
         "paapo": "0059 musta",
-        "linnanrouva": "Black – Tilapäisesti loppunut",
+        "linnanrouva": "Black",
         "piipashop": "Musta",
         "somikki": "0059 musta",
         "denlykkeligesau": "Black"
@@ -561,7 +561,7 @@
         "lankapuutarha": "Sammalenvihreä",
         "lankakaisa": "Moor",
         "paapo": "1416 sammalenvihreä",
-        "linnanrouva": "Moor – Tilapäisesti loppunut",
+        "linnanrouva": "Moor",
         "piipashop": "Sammalenvihreä",
         "somikki": "1416 Sammaleenvihreä",
         "denlykkeligesau": "Moore"
@@ -1209,12 +1209,12 @@
         "lankapuutarha": "Pullonvihreä",
         "lankakaisa": "Bottle green heather",
         "paapo": "1405 pullonvihreä",
-        "linnanrouva": "Bottle Green – Tilapäisesti loppunut",
+        "linnanrouva": "Bottle Green",
         "piipashop": "Pullonvihreä",
         "somikki": "1405 Pullonvihreä",
         "denlykkeligesau": "Bottle green heather"
       }
     }
   ],
-  "updated": "2026-01-05T00:15:19.595Z"
+  "updated": "2026-01-06T00:14:13.071Z"
 }
