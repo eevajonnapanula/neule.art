@@ -750,7 +750,7 @@
         "lankapuutarha": "Harmaansininen",
         "lankakaisa": "Airblue",
         "paapo": "1700 harmaansininen",
-        "linnanrouva": "Air Blue",
+        "linnanrouva": "Air Blue – Tilapäisesti loppunut",
         "piipashop": "Harmaansininen",
         "somikki": "1700 Harmaansininen",
         "denlykkeligesau": "Air blue"
@@ -912,7 +912,7 @@
         "lankapuutarha": "Merivehnä",
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
-        "linnanrouva": "Lyme Grass",
+        "linnanrouva": "Lyme Grass – Tilapäisesti loppunut",
         "piipashop": "Merivehnä",
         "somikki": "1706 Merivehnä",
         "denlykkeligesau": "Lyme grass"
@@ -1140,7 +1140,7 @@
         "snurre": true,
         "menita": true,
         "titityy": true,
-        "lankapuutarha": false,
+        "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-09T00:14:03.321Z"
+  "updated": "2026-01-10T00:13:46.631Z"
 }
