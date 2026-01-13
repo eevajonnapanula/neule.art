@@ -841,7 +841,7 @@
       "code": "1704",
       "availability": {
         "snurre": true,
-        "menita": true,
+        "menita": false,
         "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-12T00:14:55.248Z"
+  "updated": "2026-01-13T00:11:50.382Z"
 }
