@@ -92,7 +92,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -200,7 +200,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -362,7 +362,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -551,7 +551,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -605,7 +605,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -848,7 +848,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -956,7 +956,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1064,7 +1064,7 @@
         "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-23T00:14:51.863Z"
+  "updated": "2026-01-25T00:16:02.139Z"
 }
