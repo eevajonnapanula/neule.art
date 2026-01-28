@@ -14614,5 +14614,35 @@
     "store": "paapo",
     "date": "2026-01-27T00:15:34.270Z",
     "change": "deleted"
+  },
+  {
+    "code": "0053",
+    "store": "somikki",
+    "date": "2026-01-28T00:14:59.563Z",
+    "change": "added"
+  },
+  {
+    "code": "0059",
+    "store": "somikki",
+    "date": "2026-01-28T00:14:59.563Z",
+    "change": "added"
+  },
+  {
+    "code": "1419",
+    "store": "somikki",
+    "date": "2026-01-28T00:14:59.563Z",
+    "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "somikki",
+    "date": "2026-01-28T00:14:59.563Z",
+    "change": "added"
+  },
+  {
+    "code": "1704",
+    "store": "somikki",
+    "date": "2026-01-28T00:14:59.563Z",
+    "change": "added"
   }
 ]
