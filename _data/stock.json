@@ -129,7 +129,7 @@
         "lankapuutarha": "Vaalea tuhkanharmaa",
         "lankakaisa": "Light ash heather",
         "paapo": "0054 vaalea tuhkanharmaa",
-        "linnanrouva": "Light Ash Grey – Tilapäisesti loppunut",
+        "linnanrouva": "Light Ash Grey",
         "piipashop": "Vaaleanharmaa",
         "somikki": "0054 Vaalea tuhkanharmaa",
         "denlykkeligesau": "Light ash heather"
@@ -237,7 +237,7 @@
         "lankapuutarha": "Vaalea luonnonbeige",
         "lankakaisa": "Light beige heather",
         "paapo": "0086 vaalea luonnonbeige",
-        "linnanrouva": "Light Beige",
+        "linnanrouva": "Light Beige – Tilapäisesti loppunut",
         "piipashop": "Vaalea luonnonbeige",
         "somikki": "0086 vaalea luonnonbeige",
         "denlykkeligesau": "Light beige heather"
@@ -602,7 +602,7 @@
         "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
-        "paapo": false,
+        "paapo": true,
         "linnanrouva": true,
         "piipashop": true,
         "somikki": true,
@@ -707,7 +707,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -750,7 +750,7 @@
         "lankapuutarha": "Harmaansininen",
         "lankakaisa": "Airblue",
         "paapo": "1700 harmaansininen",
-        "linnanrouva": "Air Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Air Blue",
         "piipashop": "Harmaansininen",
         "somikki": "1700 Harmaansininen",
         "denlykkeligesau": "Air blue"
@@ -777,7 +777,7 @@
         "lankapuutarha": "Vuononsininen",
         "lankakaisa": "Fjord blue",
         "paapo": "1701 vuononsininen",
-        "linnanrouva": "Fjord Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Fjord Blue",
         "piipashop": "Vuononsininen",
         "somikki": "1701 vuononsininen",
         "denlykkeligesau": "Fjord blue"
@@ -869,7 +869,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -896,7 +896,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1101,7 +1101,7 @@
         "lankapuutarha": "Harmaa",
         "lankakaisa": "Grey heather",
         "paapo": "0057 harmaa",
-        "linnanrouva": "Grey – Tilapäisesti loppunut",
+        "linnanrouva": "Grey",
         "piipashop": "Harmaa",
         "somikki": "0057 Harmaa",
         "denlykkeligesau": "Grey heather"
@@ -1155,7 +1155,7 @@
         "lankapuutarha": "Harmaanruskea",
         "lankakaisa": "Murkey",
         "paapo": "1420 harmaanruskea",
-        "linnanrouva": "Murkey – Tilapäisesti loppunut",
+        "linnanrouva": "Murkey",
         "piipashop": "Harmaanruskea",
         "somikki": "1420 Harmaanruskea",
         "denlykkeligesau": "Murkey"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-01-29T00:16:47.830Z"
+  "updated": "2026-01-31T00:16:43.710Z"
 }

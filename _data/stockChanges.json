@@ -14644,5 +14644,29 @@
     "store": "somikki",
     "date": "2026-01-28T00:14:59.563Z",
     "change": "added"
+  },
+  {
+    "code": "1418",
+    "store": "paapo",
+    "date": "2026-01-31T00:16:43.710Z",
+    "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "titityy",
+    "date": "2026-01-31T00:16:43.710Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1705",
+    "store": "titityy",
+    "date": "2026-01-31T00:16:43.710Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1706",
+    "store": "titityy",
+    "date": "2026-01-31T00:16:43.710Z",
+    "change": "deleted"
   }
 ]
