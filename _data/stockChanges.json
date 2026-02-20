@@ -14758,5 +14758,17 @@
     "store": "somikki",
     "date": "2026-02-19T00:18:51.583Z",
     "change": "added"
+  },
+  {
+    "code": "9423",
+    "store": "lankapuutarha",
+    "date": "2026-02-20T00:16:46.693Z",
+    "change": "deleted"
+  },
+  {
+    "code": "1700",
+    "store": "titityy",
+    "date": "2026-02-20T00:16:46.693Z",
+    "change": "deleted"
   }
 ]
