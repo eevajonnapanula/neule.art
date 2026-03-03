@@ -777,7 +777,7 @@
         "lankapuutarha": "Vuononsininen",
         "lankakaisa": "Fjord blue",
         "paapo": "1701 vuononsininen",
-        "linnanrouva": "Fjord Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Fjord Blue",
         "piipashop": "Vuononsininen",
         "somikki": "1701 vuononsininen",
         "denlykkeligesau": "Fjord blue"
@@ -966,7 +966,7 @@
         "lankapuutarha": "Tumma harmaansininen",
         "lankakaisa": "Stone blue heather",
         "paapo": "9418 tumma harmaansininen",
-        "linnanrouva": "Stone Blue",
+        "linnanrouva": "Stone Blue – Tilapäisesti loppunut",
         "piipashop": "Tumma harmaansininen",
         "somikki": "9418 harmaansininen",
         "denlykkeligesau": "Stone blue heather"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-03-02T00:17:29.165Z"
+  "updated": "2026-03-03T03:37:13.500Z"
 }
