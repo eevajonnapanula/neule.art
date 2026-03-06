@@ -723,7 +723,7 @@
         "lankapuutarha": "Tumma Sinivihreä",
         "lankakaisa": "Lagoon heather",
         "paapo": "9423 tumma sinivihreä",
-        "linnanrouva": "Lagoon – Tilapäisesti loppunut",
+        "linnanrouva": "Lagoon",
         "piipashop": "Tumma sinivihreä",
         "somikki": "9423 tumma sinivihreä",
         "denlykkeligesau": "Lagoon heather"
@@ -912,7 +912,7 @@
         "lankapuutarha": "Merivehnä",
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
-        "linnanrouva": "Lyme Grass – Tilapäisesti loppunut",
+        "linnanrouva": "Lyme Grass",
         "piipashop": "Merivehnä",
         "somikki": "1706 Merivehnä",
         "denlykkeligesau": "Lyme grass"
@@ -966,7 +966,7 @@
         "lankapuutarha": "Tumma harmaansininen",
         "lankakaisa": "Stone blue heather",
         "paapo": "9418 tumma harmaansininen",
-        "linnanrouva": "Stone Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Stone Blue",
         "piipashop": "Tumma harmaansininen",
         "somikki": "9418 harmaansininen",
         "denlykkeligesau": "Stone blue heather"
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-03-05T00:18:03.925Z"
+  "updated": "2026-03-06T00:22:47.533Z"
 }
