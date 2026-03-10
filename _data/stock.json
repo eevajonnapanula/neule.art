@@ -1117,7 +1117,7 @@
         "lankakaisa": true,
         "paapo": true,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": false,
         "denlykkeligesau": true
       },
@@ -1129,7 +1129,7 @@
         "lankakaisa": "Black sheep",
         "paapo": "0052 musta lammas",
         "linnanrouva": "Black Sheep – Tilapäisesti loppunut",
-        "piipashop": "Musta lammas",
+        "piipashop": "Musta lammas Tilapäisesti loppunut",
         "somikki": "",
         "denlykkeligesau": "Black sheep"
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-03-09T04:08:53.654Z"
+  "updated": "2026-03-10T00:15:47.817Z"
 }
