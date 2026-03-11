@@ -767,7 +767,7 @@
         "paapo": false,
         "linnanrouva": true,
         "piipashop": true,
-        "somikki": true,
+        "somikki": false,
         "denlykkeligesau": true
       },
       "titles": {
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-03-10T00:15:47.817Z"
+  "updated": "2026-03-11T00:15:23.053Z"
 }
