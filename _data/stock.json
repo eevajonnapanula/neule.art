@@ -32,7 +32,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -302,7 +302,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -383,7 +383,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -545,7 +545,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -599,7 +599,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -734,7 +734,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -761,7 +761,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -788,7 +788,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -896,7 +896,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -950,7 +950,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1031,7 +1031,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": true,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-04-10T02:40:39.726Z"
+  "updated": "2026-04-11T00:20:45.392Z"
 }
