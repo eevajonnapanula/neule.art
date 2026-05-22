@@ -426,7 +426,7 @@
         "lankapuutarha": "Vaalea sinivihreä",
         "lankakaisa": "Glacier blue heather",
         "paapo": "1404 vaalea sinivihreä",
-        "linnanrouva": "Glacier Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Glacier Blue",
         "piipashop": "Vaalea sinivihreä",
         "somikki": "1404 vaalea sinivihreä",
         "denlykkeligesau": ""
@@ -858,7 +858,7 @@
         "lankapuutarha": "Aprikoosi",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot – Tilapäisesti loppunut",
+        "linnanrouva": "Apricot",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-05-21T00:38:18.010Z"
+  "updated": "2026-05-22T00:36:36.338Z"
 }
