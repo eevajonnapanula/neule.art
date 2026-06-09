@@ -388,7 +388,7 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": false
       },
@@ -400,7 +400,7 @@
         "lankakaisa": "Pink heather",
         "paapo": "1412 roosa",
         "linnanrouva": "Pink",
-        "piipashop": "Roosa",
+        "piipashop": "Roosa Tilapäisesti loppunut",
         "somikki": "1412 Roosa",
         "denlykkeligesau": ""
       }
@@ -712,7 +712,7 @@
         "lankakaisa": true,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": false,
         "denlykkeligesau": false
       },
@@ -724,7 +724,7 @@
         "lankakaisa": "Lagoon heather",
         "paapo": "9423 tumma sinivihreä",
         "linnanrouva": "Lagoon",
-        "piipashop": "Tumma sinivihreä",
+        "piipashop": "Tumma sinivihreä Tilapäisesti loppunut",
         "somikki": "9423 tumma sinivihreä",
         "denlykkeligesau": ""
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-06-08T00:42:01.527Z"
+  "updated": "2026-06-09T00:36:09.990Z"
 }
