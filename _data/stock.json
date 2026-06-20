@@ -237,7 +237,7 @@
         "lankapuutarha": "Vaalea luonnonbeige",
         "lankakaisa": "Light beige heather",
         "paapo": "0086 vaalea luonnonbeige",
-        "linnanrouva": "Light Beige – Tilapäisesti loppunut",
+        "linnanrouva": "Light Beige",
         "piipashop": "Vaalea luonnonbeige",
         "somikki": "0086 vaalea luonnonbeige",
         "denlykkeligesau": ""
@@ -615,7 +615,7 @@
         "lankapuutarha": "Vaalea beige",
         "lankakaisa": "Straw",
         "paapo": "1418 vaaleabeige",
-        "linnanrouva": "Straw – Tilapäisesti loppunut",
+        "linnanrouva": "Straw",
         "piipashop": "Vaalea beige",
         "somikki": "1418 vaalea beige",
         "denlykkeligesau": ""
@@ -1155,7 +1155,7 @@
         "lankapuutarha": "Harmaanruskea",
         "lankakaisa": "Murkey",
         "paapo": "1420 harmaanruskea",
-        "linnanrouva": "Murkey – Tilapäisesti loppunut",
+        "linnanrouva": "Murkey",
         "piipashop": "Harmaanruskea",
         "somikki": "1420 Harmaanruskea",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-06-18T00:44:36.227Z"
+  "updated": "2026-06-20T00:39:33.493Z"
 }
