@@ -1,6 +1,6 @@
 name: Cypress Tests
 
-on: [repository_dispatch]
+on: [workflow_dispatch]
 
 jobs:
   cypress-run:
