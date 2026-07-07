@@ -21,6 +21,7 @@ describe('Sweater Simple', () => {
 
   it('generates random colors', () => {
     cy.get('a').contains('Näytä satunnaiset värit').click()
+    cy.url().should('include', '?')
 
     cy.selectsMatchParams('fourColors')
   })
@@ -99,6 +100,7 @@ describe('Sweater Multicolor', () => {
 
   it('generates random colors', () => {
     cy.get('a').contains('Näytä satunnaiset värit').click()
+    cy.url().should('include', '?')
 
     cy.selectsMatchParams('multipleColors')
   })

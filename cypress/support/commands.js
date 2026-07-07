@@ -13,6 +13,7 @@ Cypress.Commands.add('selectsHaveCorrectValues', (key, params) => {
 })
 
 Cypress.Commands.add('selectsMatchParams', key => {
+  cy.location('search').should('not.be.empty')
   cy.location('search').then($loc => {
     const params = Object.fromEntries(
       $loc
