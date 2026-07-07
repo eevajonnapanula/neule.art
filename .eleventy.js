@@ -62,8 +62,7 @@ module.exports = function (eleventyConfig) {
     }
   )
 
-  eleventyConfig.addShortcode('colorSelect', function (name, id, label, selectedValue, defaultValue) {
-    const adjustedValue = adjustColor(selectedValue ? selectedValue : defaultValue)
+  eleventyConfig.addShortcode('colorSelect', function (name, id, label) {
     const sortedColors = yarnColors.sort((a, b) => {
       const aValue = a.value.toUpperCase()
       const bValue = b.value.toUpperCase()
@@ -189,7 +188,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addFilter('toISOString', function (value) {
-    const date = !!value ? new Date(value) : new Date()
+    const date = value ? new Date(value) : new Date()
     return new Date(date).toISOString()
   })
 
@@ -222,7 +221,7 @@ module.exports = function (eleventyConfig) {
     try {
       return new URL(url, base).toString()
     } catch (e) {
-      console.error('Failing to convert absolute url, returning url')
+      console.error('Failing to convert absolute url, returning url. Error: ' + e)
       return url
     }
   })

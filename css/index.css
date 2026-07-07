@@ -62,11 +62,7 @@ a::before {
   content: ' ';
   display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
+  inset: 0;
   background: var(--c-tertiary);
   z-index: -1;
   transition: transform 0.75s ease;
@@ -87,7 +83,9 @@ button {
   border-radius: var(--border-radius);
   width: 60%;
   margin-top: 0.5rem;
-  transition: background-color 0.5s, color 0.5s;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
 }
 
 button:active {
@@ -225,12 +223,10 @@ section {
   box-sizing: content-box;
   margin-inline: auto;
   max-inline-size: 60rem;
-  padding-inline-start: 1.5rem;
-  padding-inline-end: 1.5rem;
+  padding-inline: 1.5rem;
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;

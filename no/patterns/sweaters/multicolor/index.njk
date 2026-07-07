@@ -33,8 +33,7 @@ metaImage = metadata[locale].metaImage %} {% breadcrumbs breadcrumbs, locale, el
       <form method="get" action="/no/patterns/sweaters/multicolor/" class="colors-form">
         <div id="multiple-colors-form">
           {%- for color in colorOptions.multipleColors %} {% colorSelect color.labelKey, color.identifier,
-          translations[locale].multipleColorTexts[color.labelKey], eleventy.serverless.query[color.queryKey],
-          color.defaultColor %} {% endfor -%}
+          translations[locale].multipleColorTexts[color.labelKey] %} {% endfor -%}
         </div>
         <button type="submit">Se resultatet</button>
       </form>
