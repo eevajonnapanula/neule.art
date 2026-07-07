@@ -113,7 +113,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -588,7 +588,7 @@
         "lankapuutarha": "Harmaanvihreä",
         "lankakaisa": "Frostbite",
         "paapo": "1417 harmaanvihreä",
-        "linnanrouva": "Frostbite",
+        "linnanrouva": "Frostbite – Tilapäisesti loppunut",
         "piipashop": "Harmaanvihreä",
         "somikki": "1417 Harmaanvihreä",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-07-05T02:31:18.284Z"
+  "updated": "2026-07-07T04:21:25.124Z"
 }
