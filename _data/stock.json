@@ -831,7 +831,7 @@
         "lankapuutarha": "Mimosa",
         "lankakaisa": "Mimosa",
         "paapo": "1703 mimosa",
-        "linnanrouva": "Mimosa",
+        "linnanrouva": "Mimosa – Tilapäisesti loppunut",
         "piipashop": "Mimosa",
         "somikki": "1703 mimosa",
         "denlykkeligesau": ""
@@ -858,7 +858,7 @@
         "lankapuutarha": "Aprikoosi",
         "lankakaisa": "Apricot",
         "paapo": "1704 aprikoosi",
-        "linnanrouva": "Apricot",
+        "linnanrouva": "Apricot – Tilapäisesti loppunut",
         "piipashop": "Aprikoosi",
         "somikki": "1704 Aprikoosi",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-07-24T02:05:02.002Z"
+  "updated": "2026-07-26T02:09:19.909Z"
 }
