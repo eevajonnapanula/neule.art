@@ -275,7 +275,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -885,7 +885,7 @@
         "lankapuutarha": "Fuksia",
         "lankakaisa": "Royal fuchsia",
         "paapo": "1705 fuksia",
-        "linnanrouva": "Royal Fuchsia",
+        "linnanrouva": "Royal Fuchsia – Tilapäisesti loppunut",
         "piipashop": "Fuksia",
         "somikki": "1705 Fuksia",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-07-30T01:51:14.425Z"
+  "updated": "2026-07-31T02:09:29.279Z"
 }
