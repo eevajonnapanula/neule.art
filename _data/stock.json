@@ -140,7 +140,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -221,7 +221,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -275,7 +275,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": true,
         "paapo": false,
@@ -912,7 +912,7 @@
         "lankapuutarha": "Merivehnä",
         "lankakaisa": "Lyme grass",
         "paapo": "1706 merivehnä",
-        "linnanrouva": "Lyme Grass",
+        "linnanrouva": "Lyme Grass – Tilapäisesti loppunut",
         "piipashop": "Merivehnä",
         "somikki": "1706 Merivehnä",
         "denlykkeligesau": ""
@@ -966,7 +966,7 @@
         "lankapuutarha": "Tumma harmaansininen",
         "lankakaisa": "Stone blue heather",
         "paapo": "9418 tumma harmaansininen",
-        "linnanrouva": "Stone Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Stone Blue",
         "piipashop": "Tumma harmaansininen",
         "somikki": "9418 harmaansininen",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-08-03T02:09:56.899Z"
+  "updated": "2026-08-04T01:55:54.021Z"
 }
