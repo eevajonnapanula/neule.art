@@ -15826,5 +15826,35 @@
     "store": "lankakaisa",
     "date": "2026-08-06T01:58:43.693Z",
     "change": "deleted"
+  },
+  {
+    "code": "1403",
+    "store": "somikki",
+    "date": "2026-08-11T01:12:27.765Z",
+    "change": "added"
+  },
+  {
+    "code": "1416",
+    "store": "somikki",
+    "date": "2026-08-11T01:12:27.765Z",
+    "change": "added"
+  },
+  {
+    "code": "9418",
+    "store": "somikki",
+    "date": "2026-08-11T01:12:27.765Z",
+    "change": "added"
+  },
+  {
+    "code": "1414",
+    "store": "somikki",
+    "date": "2026-08-11T01:12:27.765Z",
+    "change": "added"
+  },
+  {
+    "code": "9420",
+    "store": "somikki",
+    "date": "2026-08-11T01:12:27.765Z",
+    "change": "added"
   }
 ]
