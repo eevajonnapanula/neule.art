@@ -318,7 +318,7 @@
         "lankapuutarha": "Männynvihreä",
         "lankakaisa": "",
         "paapo": "1407 männynvihreä",
-        "linnanrouva": "Pine Green – Tilapäisesti loppunut",
+        "linnanrouva": "Pine Green",
         "piipashop": "Männynvihreä",
         "somikki": "1407 Männynvihreä",
         "denlykkeligesau": ""
@@ -766,7 +766,7 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": false
       },
@@ -778,7 +778,7 @@
         "lankakaisa": "",
         "paapo": "1701 vuononsininen",
         "linnanrouva": "Fjord Blue",
-        "piipashop": "Vuononsininen",
+        "piipashop": "Vuononsininen Tilapäisesti loppunut",
         "somikki": "1701 vuononsininen",
         "denlykkeligesau": ""
       }
@@ -966,7 +966,7 @@
         "lankapuutarha": "Tumma harmaansininen",
         "lankakaisa": "",
         "paapo": "9418 tumma harmaansininen",
-        "linnanrouva": "Stone Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Stone Blue",
         "piipashop": "Tumma harmaansininen",
         "somikki": "9418 harmaansininen",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-08-20T00:52:09.304Z"
+  "updated": "2026-08-21T00:56:02.962Z"
 }
