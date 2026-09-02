@@ -21,7 +21,7 @@
         "lankapuutarha": "Vaalea luonnonruskea",
         "lankakaisa": "",
         "paapo": "0085 vaalea luonnon ruskea",
-        "linnanrouva": "Oatmeal – Tilapäisesti loppunut",
+        "linnanrouva": "Oatmeal",
         "piipashop": "Vaalea luonnonruskea",
         "somikki": "0085 vaalea luonnonruskea",
         "denlykkeligesau": ""
@@ -113,7 +113,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -291,7 +291,7 @@
         "lankapuutarha": "Tummansininen",
         "lankakaisa": "",
         "paapo": "1403 tummansininen",
-        "linnanrouva": "Lapis Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Lapis Blue",
         "piipashop": "Tummansininen",
         "somikki": "1403 Tummansininen",
         "denlykkeligesau": ""
@@ -318,7 +318,7 @@
         "lankapuutarha": "Männynvihreä",
         "lankakaisa": "",
         "paapo": "1407 männynvihreä",
-        "linnanrouva": "Pine Green – Tilapäisesti loppunut",
+        "linnanrouva": "Pine Green",
         "piipashop": "Männynvihreä",
         "somikki": "1407 Männynvihreä",
         "denlykkeligesau": ""
@@ -507,7 +507,7 @@
         "lankapuutarha": "Ruosteenruskea",
         "lankakaisa": "",
         "paapo": "9427 ruosteenruskea",
-        "linnanrouva": "Rust – Tilapäisesti loppunut",
+        "linnanrouva": "Rust",
         "piipashop": "Ruosteenruskea",
         "somikki": "9427 Ruosteenruskea",
         "denlykkeligesau": ""
@@ -815,7 +815,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": true,
+        "titityy": false,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -966,7 +966,7 @@
         "lankapuutarha": "Tumma harmaansininen",
         "lankakaisa": "",
         "paapo": "9418 tumma harmaansininen",
-        "linnanrouva": "Stone Blue – Tilapäisesti loppunut",
+        "linnanrouva": "Stone Blue",
         "piipashop": "Tumma harmaansininen",
         "somikki": "9418 harmaansininen",
         "denlykkeligesau": ""
@@ -1101,7 +1101,7 @@
         "lankapuutarha": "Harmaa",
         "lankakaisa": "",
         "paapo": "0057 harmaa",
-        "linnanrouva": "Grey",
+        "linnanrouva": "Grey – Tilapäisesti loppunut",
         "piipashop": "Harmaa",
         "somikki": "0057 Harmaa",
         "denlykkeligesau": ""
@@ -1155,7 +1155,7 @@
         "lankapuutarha": "Harmaanruskea",
         "lankakaisa": "",
         "paapo": "1420 harmaanruskea",
-        "linnanrouva": "Murkey – Tilapäisesti loppunut",
+        "linnanrouva": "Murkey",
         "piipashop": "Harmaanruskea",
         "somikki": "1420 Harmaanruskea",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-08-31T02:56:06.673Z"
+  "updated": "2026-09-02T02:23:25.321Z"
 }
