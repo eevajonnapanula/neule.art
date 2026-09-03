@@ -113,7 +113,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -280,7 +280,7 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": false
       },
@@ -292,7 +292,7 @@
         "lankakaisa": "",
         "paapo": "1403 tummansininen",
         "linnanrouva": "Lapis Blue",
-        "piipashop": "Tummansininen",
+        "piipashop": "Tummansininen Tilapäisesti loppunut",
         "somikki": "1403 Tummansininen",
         "denlykkeligesau": ""
       }
@@ -491,7 +491,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -680,7 +680,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -707,7 +707,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -815,7 +815,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -923,7 +923,7 @@
       "availability": {
         "snurre": true,
         "menita": false,
-        "titityy": false,
+        "titityy": true,
         "lankapuutarha": true,
         "lankakaisa": false,
         "paapo": false,
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-09-02T02:23:25.321Z"
+  "updated": "2026-09-03T02:30:39.102Z"
 }
