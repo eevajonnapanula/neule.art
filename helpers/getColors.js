@@ -10,6 +10,9 @@ const colorCodes = colors.map(color => color.code)
 const axiosWithHeaders = url =>
   axios.get(url, { headers: { 'Accept-Encoding': 'gzip,deflate,compress' } }).catch(function (error) {
     console.log(error.toJSON())
+    return {
+      data: ""
+    }
   })
 
 const getColorsSnurre = () => {
