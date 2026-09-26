@@ -885,7 +885,7 @@
         "lankapuutarha": "Fuksia",
         "lankakaisa": "",
         "paapo": "1705 fuksia",
-        "linnanrouva": "Royal Fuchsia",
+        "linnanrouva": "Royal Fuchsia – Tilapäisesti loppunut",
         "piipashop": "Fuksia",
         "somikki": "1705 Fuksia",
         "denlykkeligesau": ""
@@ -1047,7 +1047,7 @@
         "lankapuutarha": "Violetti",
         "lankakaisa": "",
         "paapo": "1414 violetti",
-        "linnanrouva": "Violet",
+        "linnanrouva": "Violet – Tilapäisesti loppunut",
         "piipashop": "Violetti",
         "somikki": "1414 violetti",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-09-23T02:50:42.894Z"
+  "updated": "2026-09-26T03:00:47.255Z"
 }
