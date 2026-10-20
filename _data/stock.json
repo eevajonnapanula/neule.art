@@ -226,7 +226,7 @@
         "lankakaisa": false,
         "paapo": false,
         "linnanrouva": true,
-        "piipashop": true,
+        "piipashop": false,
         "somikki": true,
         "denlykkeligesau": false
       },
@@ -238,7 +238,7 @@
         "lankakaisa": "",
         "paapo": "0086 vaalea luonnonbeige",
         "linnanrouva": "Light Beige",
-        "piipashop": "Vaalea luonnonbeige",
+        "piipashop": "Vaalea luonnonbeige Tilapäisesti loppunut",
         "somikki": "0086 vaalea luonnonbeige",
         "denlykkeligesau": ""
       }
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-10-19T02:47:51.467Z"
+  "updated": "2026-10-20T02:58:48.319Z"
 }
