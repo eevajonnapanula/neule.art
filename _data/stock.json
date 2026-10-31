@@ -291,7 +291,7 @@
         "lankapuutarha": "Tummansininen",
         "lankakaisa": "",
         "paapo": "1403 tummansininen",
-        "linnanrouva": "Lapis Blue",
+        "linnanrouva": "Lapis Blue – Tilapäisesti loppunut",
         "piipashop": "Tummansininen Tilapäisesti loppunut",
         "somikki": "1403 Tummansininen",
         "denlykkeligesau": ""
@@ -750,7 +750,7 @@
         "lankapuutarha": "Harmaansininen",
         "lankakaisa": "",
         "paapo": "1700 harmaansininen",
-        "linnanrouva": "Air Blue",
+        "linnanrouva": "Air Blue – Tilapäisesti loppunut",
         "piipashop": "Harmaansininen",
         "somikki": "1700 Harmaansininen",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-10-30T03:55:52.933Z"
+  "updated": "2026-10-31T03:40:20.614Z"
 }
