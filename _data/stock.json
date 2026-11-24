@@ -453,7 +453,7 @@
         "lankapuutarha": "",
         "lankakaisa": "",
         "paapo": "",
-        "linnanrouva": "Spring Green",
+        "linnanrouva": "Spring Green – Tilapäisesti loppunut",
         "piipashop": "Kevään vihreä",
         "somikki": "1406 keväänvihreä",
         "denlykkeligesau": ""
@@ -1155,7 +1155,7 @@
         "lankapuutarha": "",
         "lankakaisa": "",
         "paapo": "",
-        "linnanrouva": "Murkey",
+        "linnanrouva": "Murkey – Tilapäisesti loppunut",
         "piipashop": "Harmaanruskea Tilapäisesti loppunut",
         "somikki": "1420 Harmaanruskea",
         "denlykkeligesau": ""
@@ -1216,5 +1216,5 @@
       }
     }
   ],
-  "updated": "2026-11-23T05:11:27.333Z"
+  "updated": "2026-11-24T07:55:44.090Z"
 }
