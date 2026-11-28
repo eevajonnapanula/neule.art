@@ -155,21 +155,18 @@ const getColorsPaapo = () => {
   return axiosWithHeaders('https://paapo.fi/p37677/istex-lettlopi').then(data => {
     const $ = cheerio.load(data.data)
 
-    const json = $('.ddownlistitem.radio_wrapper > div > div:nth-child(2)')
+    const json = $('.select_option')
       .toArray()
-      .map(val => val.children)
-      .map(([yarnName, availability]) => {
+      .map(val => {
+        const value = $(val)
+        const available = !value.hasClass("ddownlistitem_disabled")
+        const name = value.find('.property_value_caption').text()
+        const code = name.slice(0, 4)
+        const title = name.slice(5)
         return {
-          name: yarnName.children[0].data,
-          availability: availability.children[0].children[0].data
-        }
-      })
-      .map(({ name, availability }) => {
-        const code = name.substring(0, 4)
-        return {
-          title: name,
-          code,
-          available: availability === 'Varastossa'
+          title,
+          available,
+          code
         }
       })
 
